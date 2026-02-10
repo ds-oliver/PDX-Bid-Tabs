@@ -1,0 +1,830 @@
+pay_item_id,item_code_raw,item_code_norm,section_code_raw,section_code_norm,item_desc_canonical
+321883785719,D-705,D-705,,,6-Inch Perforated Pipe Underdrains (Item D-705)
+1235656793341,,,344300,344300,Install PF Elevated Taxiway Edge Light with CF Transformer on Existing Light Base (Section 344300)
+1425172876183,P-101,P-101,,,Asphalt Pavement Removal - 20-Inch Depth (Item P-101)
+2564012499294,,,,,3-Inch Gate Valve
+3283662242816,,,012200,012200,D9 Valve Vault (STSVLT 863) Mechanical Rehabilitation (Section 012200)
+4317662190287,,,,,Airfield Fire Water Disconnection
+4569540879737,P-620,P-620,,,Surface Preparation - New Pavement Surfaces (Item P-620)
+4839412669835,L-108,L-108,,,"No. 2/0 AWG, 600-Volt Conductor (Item L-108)"
+5212877114096,L-110,L-110,,,2-Inch PVC Direct Buried in Grass (Item L-110)
+5307428652429,,,312300,312300,Existing Catch Basin Adjustment to Grade (Section 312300)
+5817335598865,D-751,D-751,,,Connect to Existing Catch Basin/Manhole (Item D-751)
+6202716589824,,,,,StructuralConcrete (ItemD-752)
+6223900430930,P-608,P-608,,,Runway Friction Testing (Item P-608)
+6591705617523,,,,,Vehicle Detection Loops
+6593276687246,P-403,P-403,,,Hot Mix Asphalt (HMA) Base Course (Item P-403)
+7135208083859,,,,,Escort (Section012200)
+7216486090860,P-606,P-606,,,Adhesive Compound (Item P-606)
+7474458337479,,,015713,015713,Ditch Protection/Check Dams (Section 015713)
+7545280012093,,,,,Portland Cement Concrete Pavement (10-Inch Thick) (Sections 012200 and 321300)
+7655417503836,,,,,Storm Culvert
+7836023735745,D-705,D-705,,,Perforated Underdrain Pipe (6-inch) (Item D-705)
+7903818972918,L-108,L-108,,,"No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit (Item L-108)"
+8289419498584,,,331116,331116,Underground Fire Hydrant (Section 331116)
+8321661017716,,,,,48-Inch Manhole (Sections 012200 and 334100)
+8461084152738,,,,,Clearing and Grubbing (Sections 012200 and 312000)
+8864533948092,,,024113,024113,Remove Electrical Chargers (Section 024113)
+8916569416083,,,,,Columbia Slough Outfall Structure
+8946941030844,,,,,InstallPFConstantCurrentRegulator (Section260500)
+9153506044265,,,,,24-Inch Storm Sewer (Force Main) Pipe
+9302032691504,,,,,Inlet Protection
+9440896011865,L-110,L-110,,,1-Inch GRSC Encased in P-610 in Existing AC (Item L-110)
+9568747824290,,,012200,012200,Traffic Control (Section 012200)
+9838148763029,C-102,C-102,,,Installation and Removal of Silt Fence (Item C-102)
+9965802720260,,,,,CleanoutStructures (Section330516)
+10253182712388,P-501,P-501,,,Portland Cement Concrete Pavement (Item P-501)
+11627701334822,,,012200,012200,B6 Replacement of Existing Lids and Hatches (Section 012200)
+12131296499930,D-701,D-701,,,8-Inch STS (Item D-701)
+12214514382588,,,,,Stabilized Construction Entrance
+12405108094155,,,,,Trench Excavation
+12787481331889,L-108,L-108,,,Ground Rod for Counterpoise (Item L-108)
+12821939499350,,,260500,260500,Re-feed Loads Inside 480V Power Center (Section 260500)
+12861303136870,,,,,3-Inch DR9 Pex Water Pipe
+13546661626965,,,260500,260500,Install Handholes for Power and Communications (Section 260500)
+14085478538020,P-101,P-101,,,PCC Pavement Removal - 6-Inch Depth (Item P-101)
+14771453430639,,,,,SettlementPlates (Section012200)
+15696585512619,D-701,D-701,,,6-Inch STS Pipe (Item D-701)
+17179575246549,,,012200,012200,"Mobilization, Cleanup, and Demobilization (Section 012200)"
+17210485165943,T-905,T-905,,,"Topsoil (Obtained on Site or Removed from Stockpile) (3"") (Item T-905)"
+17904898420923,,,,,ControlledLow-StrengthMaterial(CLSM) (ItemP-153)
+17999917705029,,,,,Electrical Demo (Existing ORANG)
+18133823352741,,,344301,344301,Adjust Existing Taxiway Centerline Light to New Finish Elevation (Section 344301)
+18306698020987,D-701,D-701,,,12-Inch RCP Pipe (Item D-701)
+18615796893912,,,,,21-Inch Storm Sewer Pipe
+18677693446802,,,312300,312300,Existing Manhole Adjustment - Cleanout (Section 312300)
+18785831193048,,,,,Deck Surface Repair with Cathodic Protection
+18987399892806,P-101,P-101,,,"Asphalt Pavement Removal - 7.5"" Depth (Item P-101)"
+19019233763400,P-101,P-101,,,"PCC Pavement Removal - 6"" Depth (Item P-101)"
+19549423218600,,,,,Ditch Protection
+19696694864163,,,344301,344301,Adjust Existing Taxiway Edge Light to New Finish Elevation (Section 344301)
+19764829499202,,,344300,344300,"Reinstall LED Taxiway Centerline Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)"
+20237506493612,P-608,P-608,,,Asphalt Surface Treatment (Item P-608)
+20443004960814,,,,,"InstallPF12""Diameter,24""DeepBaseCanwithPFCoverinNewACPShoulder (Section344300)"
+20472036339813,,,,,StreambedSediment (Section354000)
+20873304712297,,,012200,012200,"PCC Spall Panel Repair, 5-15 SF (Section 012200)"
+21192614459897,,,,,Area Seeding
+21393516846973,,,,,SurfacePreparation-NewPavementSurface (ItemP-620)
+21875780170313,T-905,T-905,,,Topsoil (Obtained on Site or Removed from Stockpile) (Item T-905)
+22985711329203,,,024113,024113,Building Slab and Foundation Removal (Section 024113)
+23239833391181,P-605,P-605,,,Concrete to Asphalt Joint Seal (Item P-605)
+23290504248931,,,321613,321613,Concrete Utility Hub Pavement - 4-Inch (Section 321613)
+23907873617791,P-101,P-101,,,Cold Milling - 4-Inch Depth (Item P-101)
+24340114288806,D-701,D-701,,,48-Inch STS Pipe (Item D-701)
+24786279564779,D-701,D-701,,,30-Inch Slide Gate (Item D-701)
+25023875411609,,,,,One-Year Landscape Maintenance
+25031673814444,,,260500,260500,Install Underground Power Conductors for Apron Lights and Communications (Section 260500)
+25968644388773,,,312300,312300,Connection to Existing Storm Drainage System (Section 312300)
+26195435495306,P-620,P-620,,,Marking (Item P-620)
+26316509656062,P-620,P-620,,,Surface Preparation - Remarking (Item P-620)
+26340797194731,,,,,Site Demolition
+26358503805870,,,,,"Mobilization, Surveying, Cleanup, and Demobilization"
+26672830090542,,,,,Aggregate Base Course (Sections 012200 and 321123)
+26728557923039,,,344300,344300,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in Existing AC (Section 344300)"
+26822486306019,,,344302,344302,Sign A4-7 (Section 344302)
+27078010728420,,,012200,012200,"PCC Crack Repair, Original (Section 012200)"
+27544875201932,,,,,Security Control Monitoring
+27794328481431,,,344300,344300,Reinstall Taxiway Edge Light on Existing Base Can with Existing Transformer (Section 344300)
+27970808827609,,,344300,344300,Install PF Elevated Runway Guard Light with CF Transformer on Existing Light Base (Section 344300)
+28063566480660,,,,,PVC Conduit (Power) - 4 Inch
+28256372895490,,,312300,312300,Existing Manhole Adjustment to Grade - Minor Adjustment (Section 312300)
+28858699310850,,,,,Mobilization (ItemC-105)
+28919256277801,,,,,"Pavement Removal and Disposal, 6-inch Depth (Sections 012200 and 024113)"
+29076926446432,,,334100,334100,12-Inch Ductile Iron (Force Main) Pipe (Section 334100)
+29645199998463,,,331116,331116,8-Inch Fire Water Line (Section 331116)
+30553559313351,,,,,48-Inch STS (Sections 012200 and 334100)
+30712108866890,,,,,"Demarcation Panel with Receptacles, Heater, and T-Stat"
+30760684784313,,,,,"Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets"
+31000081459043,P-101,P-101,,,Asphalt Pavement Removal (Item P-101)
+31014651573842,P-101,P-101,,,Cold Milling - 12-Inch Depth (Item P-101)
+31525031811134,,,,,Septic Tank and Drain Field Removal
+32395671364134,,,,,Pile Crack Repair
+32772660787212,D-701,D-701,,,30-Inch STS (Item D-701)
+32922512890701,,,,,InletProtection (Section015713)
+33030867104742,,,,,ColdMilling-0.5InchDepth (ItemP-101)
+34006283299722,,,,,"Utility Removal, Relocation, and Backfill"
+34163851576522,,,,,Construction Survey (Item GP-50)
+34994191277693,,,344300,344300,Reinstall Taxiway Edge Light on Existing Base Can with Existing Isolation Transformer (Section 344300)
+35197173115610,,,012200,012200,Erosion and Sediment Control (Section 012200)
+35899812361738,,,344302,344302,Sign V-5 (Section 344302)
+36057843290217,P-620,P-620,,,Surface Preparation - Remove Existing Marking (Item P-620)
+36674736508697,,,,,Joint Repair
+36965298373920,,,,,SurfacePreparation-RemoveExistingMarkings (ItemP-620)
+37167806306144,,,,,AsphaltPavementRemoval-4-InchDepth (ItemP-101)
+37344079534926,P-101,P-101,,,"Asphalt Pavement Removal - 20"" Depth (Item P-101)"
+37519046620513,,,,,16-Inch Reduced Pressure Detector Assembly and Enclosure
+38424214080824,,,012200,012200,Work Zone Traffic Control (Section 012200)
+39136431570526,,,,,Unsuitable Excavation and Disposal (Sections 012200 and 312300)
+39158111116489,,,,,2-Inch Water Meter
+39543271659944,,,344300,344300,Install Elevated Red Stop Bar Light on Existing Base Can with PF Transformer (Section 344300)
+39601508058711,,,,,Sweeper
+39860824781909,,,,,Barge and Access Equipment
+40473809937355,,,344300,344300,Install In-Pavement Runway Guard Light on Existing Base Can with CF Transformer (Section 344300)
+40951825713365,,,,,ReflectiveMedia (ItemP-620)
+41260408641786,D-751,D-751,,,"84-Inch Manhole, Type A (Item D-751)"
+41537936873930,,,344302,344302,Sign A4-6 (Section 344302)
+42013003297658,,,,,RiprapOutfall (Section354000)
+42260295771560,,,344300,344300,"Reinstall Taxiway Centerline Light on Existing Base Can w/ PF Extension, PF Flange Ring, and Existing Transformer in New AC (Section 344300)"
+42349278833926,,,015713,015713,Inlet Protection (Section 015713)
+42742117014708,,,,,GeneralElectricalRemoval (Section260500)
+42905580925146,P-620,P-620,,,Markings (Item P-620)
+43181337096332,,,,,Valley Gutter
+43804158348235,,,,,Geotextile Fabric
+44295426995838,,,,,AsphaltSurfaceCourse (ItemP-401)
+44546045849038,P-501,P-501,,,11-Inch Thick Concrete Pavement (Item P-501)
+45072890654187,P-620,P-620,,,Temporary Pavement Marking (Item P-620)
+45337314597590,,,344302,344302,Sign A6-7 (Section 344302)
+46359910038984,,,,,Deck Surface Repair
+46571742913689,D-701,D-701,,,36-Inch STS (Item D-701)
+46954606307003,D-701,D-701,,,8-Inch STS Pipe (Item D-701)
+47443784353892,,,344301,344301,Adjust Existing Elevated Runway Threshold/Edge Light (Section 344301)
+47855265978491,L-110,L-110,,,1-Inch IMC in Existing AC (Item L-110)
+47904207176961,,,,,"Pavement Marking, Thermoplastic"
+47993636007969,,,344302,344302,Sign EA-15 (Section 344302)
+48037362848777,D-705,D-705,,,Non-Perforated Underdrain Pipe (6-inch) (Item D-705)
+48490790316028,P-101,P-101,,,PCC Pavement Removal - 15-Inch Depth (Item P-101)
+48616638207259,,,,,"No.8AWG,5kV,L-824,TypeCCableInstalledinTrench,DuctBank,orConduit(ItemL-108)"
+49210449290132,,,,,Work Zone Traffic Control
+49399117166567,,,,,Trench Excavation and Select Native Backfill
+49991999332150,,,271000,271000,Data Drop to Each Enclosure and Chargers (Section 271000)
+50359835983867,D-751,D-751,,,Catch Basin (Item D-751)
+50859947957422,,,,,12-inchSTS (ItemD-701)
+51187554186215,,,260500,260500,"New Electrical Panels, 800A (Section 260500)"
+51310582208518,P-620,P-620,,,Permanent Pavement Marking (Item P-620)
+51583055499790,D-751,D-751,,,"48-Inch Manhole, Type A (Item D-751)"
+52359625357476,,,344302,344302,Sign B1-1 (Section 344302)
+52839797030740,,,271000,271000,"Data Equipment Rack & Data Connections 1"" Conduit (Section 271000)"
+53903385706212,,,260500,260500,Temporary Circuit Connection (Section 260500)
+53945656804581,,,344302,344302,Sign UL-2 (Section 344302)
+54150709523073,,,,,Deck Topping Repair
+54150920844769,,,,,Containment
+54218241452597,,,,,Sidewalk
+54916373908107,P-101,P-101,,,Cold Milling Variable to 10-Inch Depth (Item P-101)
+54982502021618,L-110,L-110,,,2-Inch PVC Encased in Concrete in New Structural AC (Item L-110)
+55278809461341,D-751,D-751,,,Manholes (Item D-751)
+55336270158789,P-101,P-101,,,Asphalt Pavement Removal - 11-Inch Depth (Item P-101)
+55352135498390,,,344302,344302,Sign A5-8 (Section 344302)
+55412734601345,,,,,Removal of Existing Lid from Stormwater Treatment Vault
+56127630758734,,,,,108-Inch Manhole
+56340546312186,,,344300,344300,Install Elevated Runway Guard Light on Existing Base Can with PF Transformer (Section 344300)
+56823068770207,,,,,Tree and Plant Protection
+57040059841920,,,012200,012200,D9 Valve Vault (STSVLT 863) Concrete Repair (Section 012200)
+57563162873591,L-110,L-110,,,2-inch PVC in Existing ACP Shoulder (Item L-110)
+57626251284128,,,344300,344300,"Install In-Pavement Runway Guard/Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)"
+58057045640251,,,,,Standard 8-Inch Concrete Curb
+58315275271850,,,,,ContaminatedMaterialExcavationandDisposal(Section026100)
+58715945450468,D-701,D-701,,,12-Inch STS Pipe (Item D-701)
+58930500178287,,,,,ExistingElectricalVaultAdjustmenttoGrade(Section312300)
+59056608115847,,,015713,015713,Trench Drain Protection (Section 015713)
+59940567522636,L-108,L-108,,,Heat Shrink for 5kV L-823 Primary Connector (Item L-108)
+60021014466132,D-751,D-751,,,"72-Inch Manhole, Type A (Item D-751)"
+60265492437548,,,,,ColdMilling-VariableDepth(Transitional)(ItemP-101)
+60744442311915,P-620,P-620,,,Temporary Marking (Item P-620)
+61176376416786,,,344300,344300,Install PF Microwave Sensor with CF Transformer in Existing Base Can (Section 344300)
+61255249130933,,,,,Vault (Comm) - 444-LA
+61855096982965,C-105,C-105,,,Mobilization (Item C-105)
+62168578960174,P-501,P-501,,,19-Inch-Thick Concrete Pavement (Item P-501)
+62884417993235,,,,,Metalizing System at Edge Beams
+63055226398000,,,012200,012200,Sweeper (Section 012200)
+63278049545940,,,344301,344301,Adjust Existing In-Pavement Runway Edge Light (Section 344301)
+63350190892001,,,344302,344302,Sign V-6 (Section 344302)
+63600758392624,,,,,"No.6AWG,Solid,BareCounterpoiseWire,InstalledAbovetheDuctBankorConduit,IncludingConnections/Terminations(ItemL-108)"
+64234219801358,,,344300,344300,"Install PF LED Taxiway Centerline Light with PF Base Can, CF Transformer in New AC (Section 344300)"
+65004813802825,,,024113,024113,Remove Bollard - Embedded (Section 024113)
+65474568890843,,,,,0
+65689990179880,,,,,Connection to Existing Drainage Structure (Sections 012200 and 334100)
+66158455079859,,,344302,344302,Sign B8-1 (Section 344302)
+66347929178927,C-102,C-102,,,Inlet Protection (Item C-102)
+66377468072482,,,,,Pavement Marking
+66944343537142,,,,,Vault (Comm) - 444-LA (Traffic Rated)
+67334715178715,P-101,P-101,,,Cold Milling - 4.5-Inch Maximum Depth (Item P-101)
+67342497917353,P-620,P-620,,,Surface Prep - Marking Removal (Item P-620)
+67402639766198,,,344300,344300,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)"
+67863204324457,P-401,P-401,,,Asphalt Surface Course (Item P-401)
+68022689117257,,,,,H-20 Traffic-Rated Electrical Vaults
+69115506288172,,,,,Remove and Reinstall Catch Basin
+70044586794453,,,263343,263343,Electrical Charging Units (Primary Units) (Section 263343)
+70860044458188,,,,,Asphalt Concrerte Surface Course
+71017652962140,,,,,12-Inch DIP Water Pipe
+71020587346698,,,,,Contaminated Soil Removal and Haul (Sections 012200 and 026100)
+71513947087963,,,012200,012200,Construction Survey (Section 012200)
+72139791033276,,,,,UnclassifiedExcavationforStructures (ItemD-752)
+72324399952771,,,,,Lead Paint Chip Removal
+72521205585794,,,312300,312300,Adjustment of Existing Structures (H-20 Rated Vaults) (Section 312300)
+73727035702612,,,,,H-Frame Support
+74447113317345,P-101,P-101,,,Cold Milling - 2-Inch Maximum Depth (Item P-101)
+74633783582711,,,,,Remove and Reinstall 12-Inch Ductile Iron Pipe
+74950074654858,,,024113,024113,Removal of Miscellaneous Site Structures (Section 024113)
+75357936922703,D-751,D-751,,,"72-Inch Manhole, Type B (Item D-751)"
+75477967215231,,,344302,344302,Sign A5-9 (Section 344302)
+77928478254510,,,,,"Level 3, 3/4-Inch Dense HMAC"
+78262111700102,P-610,P-610,,,Structural Portland Cement Concrete (Item P-610)
+78303127116671,,,,,Concrete Wall Removal
+78438813585939,,,,,DitchProtection/CheckDams (Section015713)
+78476327231497,,,344300,344300,Reinstall Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+79255225742092,,,,,XHHW Conductor - #12 AWG (Power)
+79613356884347,D-701,D-701,,,4-Inch STS Pipe (Item D-701)
+80509471263136,,,347115,347115,Precast Concrete Wheel Stop (Section 347115)
+80554903698561,P-620,P-620,,,Phasing Pavement Marking (Item P-620)
+80768254685916,,,,,Vault (Power) - 776-TRANS-PCORP (Traffic Rated)
+80819732984959,,,320117,320117,Asphalt Concrete Surface Course (Section 320117)
+81216732408368,,,,,Stormwater Treatment Vaults
+82005396229669,L-108,L-108,,,"Counterpoise Ground Rod, 10-Foot Long (Item L-108)"
+82049617083739,,,,,24-inchSTS (ItemD-701)
+82169465232197,P-603,P-603,,,Bituminous Tack Coat (Item P-603)
+82298476236816,,,,,Seeding(ItemT-901)
+82311683034985,,,,,AsphaltMixtureBaseandSurfaceCourse(ItemP-403)
+82751625301445,,,,,Concrete(ItemP-610)
+83021448666584,L-108,L-108,,,"No. 6 AWG, Solid, Bare Counterpoise Wire (Item L-108)"
+83594458648839,P-604,P-604,,,Compression Joint Sealant (Item P-604)
+84163774379758,,,,,EmbankmentinPlace (ItemP-152)
+84381881144468,,,344300,344300,Reinstall Elevated Runway End Light on Existing Base Can with PF Transformer (Section 344300)
+84477953733098,L-108,L-108,,,No. 8 AWG 5kV Cable (Item L-108)
+84814186449493,P-101,P-101,,,"Asphalt Pavement Removal - 22"" Depth (Item P-101)"
+84827356183622,,,,,Site Preparation (Sections 012200 and 320117)
+85902704870822,,,344300,344300,"Reinstall Taxiway Centerline Light on CF Base Can, CF Extenstion, CF Flange Ring, and CF Transformer (Section 344300)"
+86630316946786,P-101,P-101,,,Asphalt Pavement Removal - 12-Inch Depth (Item P-101)
+88265384973824,P-152,P-152,,,Geotextile (Item P-152)
+88439424763570,,,,,JetBlastControlMaterial (Section015713)
+88824639768958,,,344300,344300,Install PF Runway Centerline Light with CF Transformer on Existing Light Base (Section 344300)
+89363044085073,,,012200,012200,"Mobilization, Surveying, Cleanup, and Demobilization (Section 012200)"
+89470647219592,,,,,Electrical Feeder Conductor Termination and Testing
+90153587984962,,,,,Deck Topping Replacement
+90317382501021,,,344300,344300,"Install PF L-867, 12-Inch Diameter Base Can, PF Cover Plate in Existing AC (Section 344300)"
+90351364734806,,,,,PVC Conduit (Power) - 3 Inch
+91019725692151,,,,,AdjustExistingRunway/TaxiwayElevatedEdgeLightwithCFTransformer (Section344301)
+91058632356936,D-701,D-701,,,15-Inch Slide Gate (Item D-701)
+91118420675078,,,344300,344300,"Reinstall LED Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+91124910142911,,,344300,344300,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+91338732413854,,,344300,344300,Reinstall In-Pavement Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+91416544945659,D-751,D-751,,,60-Inch Manholes (Item D-751)
+91531743757493,L-110,L-110,,,2-Inch PVC Encased in Concrete in new Structural AC (Item L-110)
+91910001250851,,,,,Repair Existing ARFF Cap (Sections 012200 and 312300)
+92372252671368,,,347115,347115,Bollard - Bolt Down (Section 347115)
+92464119601170,,,,,Pavement Removal
+92867348299623,P-101,P-101,,,"Asphalt Pavement Removal - 12"" Depth Asphalt Grindings (Item P-101)"
+92952727857645,,,344302,344302,Sign A7-2 (Section 344302)
+93122193725576,,,260500,260500,General Electrical Removal (Section 260500)
+93234761712126,,,,,Concrete Removal and Backfill
+94525261950198,,,260500,260500,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit) (Section 260500)"
+94865238319308,P-621,P-621,,,Grooving (Item P-621)
+94887778009558,,,024113,024113,Building Demolition (Section 024113)
+95355893919609,P-153,P-153,,,Controlled Low-Strength Material (CLSM) (Item P-153)
+95611948569856,P-610,P-610,,,Concrete (Item P-610)
+95668633575839,,,,,ExistingManholeAdjustmenttoGrade-Cleanout (Section312300)
+96317849182133,,,260526,260526,Ground Rod for Counterpoise (Section 260526)
+96863061334885,,,263343,263343,Electrical Charging Units (Secondary Units) (Section 263343)
+97102735044520,D-751,D-751,,,Trench Drain (Item D-751)
+97266808592272,P-153,P-153,,,Controlled Low-Strength Material (Item P-153)
+97358019099321,P-620,P-620,,,Temporary Pavement Markings (Item P-620)
+97931709527670,,,,,Trench Stabilization
+98076201157785,,,012200,012200,"Removal, Haul, and Disposal of Demolition Debris (Section 012200)"
+98120571407521,P-620,P-620,,,Temporary Runway and Taxiway Marking (Item P-620)
+98380397531050,,,012200,012200,Temporary Sewage Bypassing (Section 012200)
+98944171314065,,,,,Sweeper (Section012200)
+98979579173515,,,,,Crack Seal
+99588977449947,,,,,36-Inch STS (Sections 012200 and 334100)
+99762624210745,,,,,TemporaryRunwayandTaxiwayMarking (ItemP-620)
+99818813134661,,,,,EmulsifiedAsphaltTackCoat (ItemP-603)
+100321865801732,,,,,12-Inch Ductile Iron Sewer Pipe
+100329287130598,P-603,P-603,,,Emulsified Asphalt Tack Coat (Item P-603)
+100507370797183,T-905,T-905,,,Topsoiling (Item T-905)
+100538700074338,,,,,"Level 3, 1/2-Inch Dense HMAC"
+100906917800872,,,323113,323113,10-Foot Chain Link Fence with Slats and Barbed Wire (Section 323113)
+101023071236203,,,,,Bedding and Pipe Zone Material
+102421741428582,L-108,L-108,,,"No. 6 AWG, Solid, Bare Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)"
+102503261318381,,,012200,012200,B6 Electrical (Section 012200)
+103187092087863,,,,,3'HighBlueReflectiveMarkers (Section012200)
+103432767736900,,,344300,344300,Install PF Taxiway Edge Reflector (Section 344300)
+104007708755231,P-101,P-101,,,Asphalt Pavement Removal - 13.5-Inch Depth (Item P-101)
+104943233371981,,,,,Shoring
+105076593234824,,,344302,344302,Sign V-4 (Section 344302)
+105546021975772,,,,,Trench Excavation and Select Backfill
+106270110274649,,,,,ReinforcingSteel (ItemD-752)
+106588419960982,,,260500,260500,Electrical Equipment Rack - Panel Connected (Section 260500)
+106990672860511,,,334100,334100,Riprap (Section 334100)
+107274352711778,P-403,P-403,,,HMA Base Course (Item P-403)
+107389781709187,L-108,L-108,,,"No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)"
+107417279247577,P-101,P-101,,,Asphalt Pavement Removal - 3-5 Inch Depth (Item P-101)
+108031724503182,,,012200,012200,B6 Valve Vault (SSVLT 1202) Mechanical Rehabilitation (Section 012200)
+108184954988165,D-751,D-751,,,84-Inch Diameter Manhole (Item D-751)
+108342438794922,L-110,L-110,,,2-Inch PVC in New Shoulder and Direct Buried (Item L-110)
+109086583212080,,,344300,344300,Install PF Taxiway Centerline Light with PF Remote and CF Transformer on Existing Light Base (Section 344300)
+109123069954514,,,,,Boulders (Section354000)
+109441880482582,,,,,Modified Concrete Curb and Gutter
+109613425430886,,,,,GroundRodforCounterpoise (ItemL-108)
+109974462499432,P-152,P-152,,,Separation Geotextile (Item P-152)
+110305523179878,,,,,Remove and Replace Compression Seal
+110522572072588,,,,,Contaminated Soil Sediment Excavation and Disposal
+110974847193466,P-101,P-101,,,Asphalt Pavement Removal - 15-Inch Depth (Item P-101)
+111167949771330,,,,,Vault (Power) - 776-TRANS-PCORP
+111548374202260,,,,,Clearing and Grubbing
+112062485778895,,,344301,344301,Adjust Existing Base Can to New Finish Elevation (Section 344301)
+112291848155280,P-101,P-101,,,Removal of Pipe and other Buried Structures (Item P-101)
+112793397259943,,,,,Connection to Existing Utility
+113199673425409,,,,,"InstallPFLEDElevatedRunwayGuardLightwithPFBaseCan,CFTransformerinNewACPShoulder(Section344300)"
+113304810836588,,,,,Reinforced Concrete Pad
+113308752853016,,,,,"Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R"
+113420019546208,,,344300,344300,Install PF In-Pavement Runway Edge Light with CF Transformer on Existing Light Base (Section 344300)
+113609280223546,,,260500,260500,Electrical Equipment Rack - Load Share Connected (Section 260500)
+114160747164049,,,344300,344300,"Reinstall Elevated LED Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+114847687954238,,,312300,312300,Sanitary Sewer Wet Well Removal (Section 312300)
+115005660444072,P-501,P-501,,,19-Inch Thick Concrete Pavement (Item P-501)
+115858249238287,,,331116,331116,8-Inch Gate Valve (Section 331116)
+115886615125111,,,,,Electrical Feeder Conductor Assembly
+116439364382849,P-620,P-620,,,Surface Preparation - Marking Removal (Item P-620)
+116513855048865,P-101,P-101,,,Cold Milling 3-Inch Depth (Item P-101)
+116653121199865,D-701,D-701,,,12-Inch STS (Item D-701)
+117533187156418,,,,,Deck Crack Repair
+118937635031728,,,,,Asphalt Sawcut
+118949907665667,L-110,L-110,,,2-Inch PVC Direct Buried (Item L-110)
+119070000224927,,,,,Kennedy Feeder Point-of-Service Access Pad
+119577379013470,,,,,"Mobilization, Cleanup, and Demobilization"
+120155957965708,P-501,P-501,,,15-Inch Thick Concrete Pavement (Item P-501)
+120288224881689,,,,,Concrete Pad Demolition and Repair
+120553206826415,,,344302,344302,Sign A6-12 (Section 344302)
+120578629736626,,,,,Hand Rail
+120842497908222,P-101,P-101,,,Asphalt Pavement Removal - 5-Inch Depth (Item P-101)
+121117014174985,,,344302,344302,Sign A6-10 (Section 344302)
+121221066137400,,,347113,347113,Pipe Bollards (Section 347113)
+121380721774637,,,,,Seeding (Sections 012200 and 329219)
+121429672332530,,,,,Signage
+121539492340811,,,,,"InstallPFLEDRunwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder (Section344300)"
+121787385389872,D-701,D-701,,,18-Inch STS (Item D-701)
+122874012243429,,,344300,344300,Reinstall Taxiway Centerline Light on Existing Base Can with CF Transformer (Section 344300)
+122978394870433,,,344300,344300,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)"
+123313062984899,,,,,120-Inch Manhole
+123626235047998,,,012200,012200,"PCC Crack Repair, Renewal (Section 012200)"
+123692550529413,,,012200,012200,Contaminated Soil Handling and Management (Section 012200)
+123752002675218,P-604,P-604,,,Compression Joint Seals for Concrete Pavement (Item P-604)
+123838165716126,,,012200,012200,B6 Wet Well (SSLS 950) Mechanical Rehabilitation (Section 012200)
+124386438131441,,,,,"Loose Riprap, Class 50"
+124832552534339,,,,,Concrete Sidewalk
+125043929419508,,,,,Metalizing Repairs
+125851928792862,,,,,6-InchPipeUnderdrains (ItemD-705)
+125906616162031,T-901,T-901,,,Seeding (Item T-901)
+127240799161354,D-701,D-701,,,15-Inch STS (Item D-701)
+127602094194520,,,344302,344302,Sign A8-2 (Section 344302)
+127913085536700,,,334213,334213,Pump Station (Section 334213)
+128582701035785,P-101,P-101,,,Asphalt Pavement Removal - 8-Inch Depth (Item P-101)
+128978325823465,,,344300,344300,Install In-Pavement Runway Guard/Stop Bar Light on Existing Base Can with CF Transformer (Section 344300)
+129582484003610,P-156,P-156,,,Silt Fence (Item P-156)
+129601573278276,,,,,Vault (Power) - 712-SWITCH-PCORP
+130364610361146,,,,,Mulch
+130382050566660,P-401,P-401,,,Hot Mix Asphalt (HMA) Pavement (Item P-401)
+130725810400940,,,334213,334213,Stormwater Valve Vault (Section 334213)
+130993556239327,,,,,Cast-In-Place Concrete Curb
+131289643347493,,,344302,344302,Sign A6-9 (Section 344302)
+131351192333598,D-701,D-701,,,STS Drain Pipe (24-inch) (Item D-701)
+131367997866921,L-110,L-110,,,2-Inch GRSC (Item L-110)
+131623227071361,,,012200,012200,B6 Wet Well (SSLS 950) Concrete Repair (Section 012200)
+131758140681317,P-101,P-101,,,"Asphalt Pavement Removal - 14"" Depth (Item P-101)"
+131902406232221,D-701,D-701,,,12-Inch Slide Gate (Item D-701)
+132091915961643,,,334100,334100,30-Inch DIP (Force Main) (Section 334100)
+132391910935360,D-701,D-701,,,24-Inch STS (Item D-701)
+132523856309205,P-101,P-101,,,Asphalt Pavement Removal - 6 Inch Depth (Item P-101)
+132940653390748,L-108,L-108,,,Counterpoise Ground Rod (Item L-108)
+133285367547759,,,,,General Demolition (Sections 012200 and 024113)
+133321165075445,,,,,14-inchClass50DuctileIronPipeCulvert(ItemD-701)
+133634624039393,P-101,P-101,,,PCC Pavement Removal - 18-Inch Depth (Item P-101)
+134796242157955,P-620,P-620,,,Pavement Markings (Item P-620)
+134869281732938,,,,,Extra Manhole Depth (48-Inch) (Sections 012200 and 334100)
+135408202419738,,,344300,344300,Install PF In-Pavement Red Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300)
+136425347366210,P-101,P-101,,,"Asphalt Pavement Removal - 5"" Depth (Item P-101)"
+136434683431730,L-110,L-110,,,2-inch PVC Direct Buried in Grass (Item L-110)
+136743866098817,,,,,Temporary Traffic Control
+136868618447705,,,344300,344300,Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+137450177760537,,,,,2-InchPVCinNewACStructuralPavement(ItemL-110)
+137776961817801,,,,,Remove and Reinstall Chain Link Fence
+137925399193431,P-152,P-152,,,Unclassified Excavation (Item P-152)
+138459982404420,,,,,Central Water Meter Vault and Manifold
+138792459064543,,,312300,312300,Existing Electrical Vault (H-20 Rated) Extension to Finish Grade (Section 312300)
+139072893751179,P-101,P-101,,,Asphalt Pavement Removal - 9-Inch Depth (Item P-101)
+139073599893860,D-701,D-701,,,30-Inch STS Pipe (Item D-701)
+139231011510646,T-905,T-905,,,Topsoil (Furnished from Off the Site) (Item T-905)
+139358034510314,,,265000,265000,Temporary Circuit Connection (Section 265000)
+139627149053328,,,,,Dewatering
+140133308765107,,,344300,344300,"Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer in Existing AC (Section 344300)"
+140282272357735,,,,,Utility Adjustments to Grade
+140395821112522,,,,,2-InchPVCinGrassorinNewACshoulder(ItemL-110)
+140539715613908,,,,,Embankment
+140954929874181,,,,,16-Inch Butterfly Valve
+140974611633032,,,,,Bollards
+141240232165672,,,,,Signal Modification
+141897521240961,,,260553,260553,3-Inch Diameter Brass Marker (Section 260553)
+142274732672649,L-110,L-110,,,2-Inch PVC in Existing AC (Item L-110)
+142371451057789,,,,,72-Inch Sewer Pipe
+142729334708070,,,344302,344302,Sign A4-9 (Section 344302)
+143446713715684,,,,,Site Preparation
+144399626421405,,,,,18-inchClass50DuctileIronPipeCulvert (ItemD-701)
+144411272341907,,,012200,012200,"PCC Spall Panel Repair, 0-1 SF (Section 012200)"
+144463396869089,,,344300,344300,Install PF LED In-Pavement Runway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+145601236052095,,,260500,260500,"Electrical Feeds to Panels (Existing 3.5"" Conduit) (Section 260500)"
+145699572726152,,,024113,024113,Relocate Storage Shelter (Section 024113)
+145809875998527,P-620,P-620,,,Surface Prep - Existing Pavement (Item P-620)
+145893281676446,,,344302,344302,Sign A6-2 (Section 344302)
+146155109714156,P-620,P-620,,,Runway and Taxiway Marking (Item P-620)
+146392913748792,,,,,"Fill Material, Topsoil"
+146637388321598,P-101,P-101,,,"PCC Pavement Removal - 3"" Depth (Item P-101)"
+146835447920268,,,,,Guard Rail Removal and Replacement
+146985227040784,,,,,SeparationGeotextile (ItemP-209)
+147111408262667,,,,,Metered Switchgear Installation
+148207708082443,,,,,Portland Cement Concrete Pavement (9-Inch)
+148648072340810,P-403,P-403,,,Asphalt Mixture Surface and Base (Item P-403)
+149582143537970,,,260500,260500,Install Gate Valve and Lighting Controls (Section 260500)
+150117375388207,,,,,Trestle Cross-Brace Rehabilitation
+150296594736829,D-701,D-701,,,24-Inch RCP Pipe (Item D-701)
+150339926832429,,,,,Electric Utility Meter Base - 200A Direct
+150659609526481,,,,,15-Inch Storm Sewer Pipe
+151083537753879,,,312300,312300,Existing Electrical Vault Adjustment to Grade (Section 312300)
+151246462794135,,,344302,344302,Sign G-3 (Section 344302)
+151710711947510,,,,,8'HX14'WCulvert (ItemD-701)
+152828683396569,,,344300,344300,"Reinstall Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and PF Transformer (Section 344300)"
+153310144085156,,,,,"Pavement Removal and Disposal, 9-Inch Depth"
+153598883829058,,,260500,260500,Provide Temporary Power During Construction Inside the 480V Power Center (Section 260500)
+153700501590509,,,312300,312300,Replace Existing Manhole Lid with Open Grated Lid (Section 312300)
+153841868713495,,,,,Temporary Erosion and Sediment Control
+154125824456396,,,,,XHHW Conductor - #3 AWG (Power)
+154246538662080,,,,,Trench Stabilization (Sections 012200 and 312300)
+154556011900166,P-620,P-620,,,Preformed Markings (Item P-620)
+154585680172173,D-751,D-751,,,60-Inch Manhole Catch Basin (Item D-751)
+154703386850136,,,,,Contaminated Soil Excavation and Disposal
+154816616504935,,,,,"Temporary Erosion, Sediment, and Pollution Control"
+155333224641685,,,,,Stormwater Pump Station
+155521425711408,,,,,Building Removal and Backfill
+156022586697065,,,,,"Fill Material, Top Soil"
+156858019203487,,,334213,334213,Pump Station Electrical Equipment Installation (Section 334213)
+157271378777774,,,321613,321613,Cast-in-Place Concrete Curb (Section 321613)
+157273986787301,,,012200,012200,Escort (Section 012200)
+157483808709429,,,,,Topsoil(ObtainedOnStieorRemovedfromStockpile) (ItemT-905)
+157797949054225,,,312300,312300,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300)
+157998830773588,P-620,P-620,,,Pavement Marking (Item P-620)
+158161530438644,,,312300,312300,Existing Manhole Adjustment to Grade (Section 312300)
+158957622616475,,,,,CrushedAggregateBaseCourse (ItemP-209)
+159065842262806,,,,,Electrical
+159395817706960,D-751,D-751,,,"60-Inch Manhole, Type B (Item D-751)"
+159856170198692,,,344301,344301,Adjust Existing Taxiway Centerline Light (Section 344301)
+160451343573733,,,,,Aggregate Base Course
+160710660997115,,,,,Pavement Markings
+160922099039316,,,,,Extra Manhole Depth (72-Inch) (Sections 012200 and 334100)
+161304642318553,,,,,"Pavement Marking, Temporary"
+161617075210779,,,,,SignA-1 (Section344302)
+161942740112092,,,260526,260526,Grounding and Bonding for Electrical Systems (Section 260526)
+161968925902706,,,,,Extra Manhole Depth (120-Inch) (Sections 012200 and 334100)
+162031702890747,,,,,Remove and Replace Embedded Anodes
+162320783492855,,,,,72-Inch Manhole (Sections 012200 and 334100)
+162385569629919,,,,,Cold Plane Pavement Removal (3-5 Inch Maximum)
+162387636122320,,,344302,344302,Sign V-2 (Section 344302)
+163077623265887,P-209,P-209,,,Crushed Aggregate Base Course (Item P-209)
+163083024320903,D-751,D-751,,,"96-Inch Diameter Manhole, Type A (Item D-751)"
+163825724990961,L-110,L-110,,,1.5-Inch IMC under New AC Shoulder (Item L-110)
+163830961541041,,,,,Catch Basins/Inlets (Sections 012200 and 334100)
+164193458514496,,,,,StreambedCobble (Section354000)
+164234000453519,L-110,L-110,,,2-Inch PVC in CLSM (Item L-110)
+164404074468884,P-101,P-101,,,PCC Pavement Removal - 16-Inch Depth (Item P-101)
+164511830092850,,,344300,344300,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+164903673294620,,,024113,024113,Removal of Existing or Temporary Fence (Section 024113)
+165616064454028,,,344300,344300,Reinstall In-Pavement Stop Bar Light on Existing Base Can with Existing Transformer (Section 344300)
+165723965155340,P-101,P-101,,,Asphalt Pavement Removal - 6-Inch Depth (Item P-101)
+165822788610505,L-108,L-108,,,"No. 8 AWG, 5 kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)"
+165842494735110,D-751,D-751,,,"84-Inch Diameter Manhole, Type A (Item D-751)"
+165891358094435,,,,,Water Well Decommission
+166390954334637,,,347115,347115,Guard Rail (Section 347115)
+166783058536459,,,,,6-inchSTS (ItemD-701)
+167503740471030,,,,,48-Inch Manhole
+168494986652615,L-108,L-108,,,"No. 8 AWG, 5kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)"
+168601629399208,,,344302,344302,Sign A5-4 (Section 344302)
+169595925463476,,,271000,271000,Network Termination Enclosure (Section 271000)
+170080326040478,P-101,P-101,,,Cold Milling Surface Preparation (Item P-101)
+170996762169789,,,344300,344300,Install PF LED Elevated Runway End/Threshold Light on Existing Base Can with PF Transformer (Section 344300)
+171428124052770,D-751,D-751,,,"48-Inch Manhole, Type B (Item D-751)"
+171505086229366,,,,,Construction Survey
+173740571810607,P-501,P-501,,,Portland Cement Concrete (PCC) Pavement (Item P-501)
+173818084829957,D-751,D-751,,,"48-Inch Diameter Manhole, Type A (Item D-751)"
+174072581133293,,,344300,344300,Install PF Dual Stop Bar Light on Existing Light Base (Section 344300)
+174430583660027,,,344301,344301,Adjust Existing Runway Edge Light to New Finish Elevation (Section 344301)
+174683285087949,L-108,L-108,,,"Counterpoise Ground Rod, 10-Ft Long (Item L-108)"
+174733669379115,,,,,Cold Plane Pavement Removal (0-3 Inch Maximum)
+174933454072072,,,,,"Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R"
+175018115403814,,,,,Electrical Modifications
+175324883374631,,,,,Fender Panel Rehabilitation
+175397107725163,,,,,Abandon Existing Structure (Sections 012200 and 334100)
+176330088771902,,,012200,012200,Work Zone and Traffic Control (Section 012200)
+177183424847903,P-101,P-101,,,Asphalt Pavement Removal - 16-Inch Depth (Item P-101)
+177433339411855,,,,,Soffit and Vertical Crack Repair
+178056383456973,,,344300,344300,"Install Elevated Runway Guard Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+178089119118964,,,012200,012200,D9 Wet Well (SSLS 953) Mechanical Rehabilitation (Section 012200)
+179031816643595,,,,,2-Inch Water Pipe
+179346882328973,,,,,Kennedy Feeder Pad-Mount Switch
+179517490341324,,,344302,344302,Sign E6-9 (Section 344302)
+179699038381908,P-101,P-101,,,Removal of Pipe and Other Buried Structures (Item P-101)
+180294154220735,L-108,L-108,,,No. 4 GND Conductor (Item L-108)
+181078119461028,,,,,Aggregate Removal and Disposal
+181258447163497,,,344300,344300,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)"
+181271674845001,,,,,AsphaltPavementRemoval-2.5-InchDepth (ItemP-101)
+181285138988218,D-705,D-705,,,6-Inch Perforated Storm Sewer Pipe (Item D-705)
+181287398286849,,,,,Escort
+181425239631921,,,,,Electrical Bedding Material
+181577902694625,P-608,P-608,,,Runway and High Speed Exit Taxiway Friction Testing (Item P-608)
+181585540549341,,,,,Subgrade Preparation
+181954246863273,,,,,ConstructionEntrance (Section015713)
+182157430013898,,,,,Aircraft-Rated Electrical Vaults
+182315223573158,,,,,Catch Basin
+182844356018860,L-110,L-110,,,2-Inch PVC Encased in CLSM in New AC (Item L-110)
+183108431634048,L-110,L-110,,,2-Inch PVC encased in P-610 in Existing AC (Item L-110)
+183482904169994,,,015713,015713,Jet Blast Control Material (Section 015713)
+184116537216848,,,,,Contaminated Soil Excavation and Placement
+184202778951523,,,,,GradeControlStructures (Section354000)
+184254667179750,,,,,Asphalt Concrete Pavement (Sections 012200 and 321200)
+185099446899239,,,,,Tack Coat
+185115797836447,,,,,Deck Delamination and Spall Repair with Anodes
+185620661966737,,,,,Soffit and Vertical Face Delamination and Spall Repair
+185649054093367,P-153,P-153,,,Controlled Low Strength Material (Item P-153)
+185951165093888,,,,,ExistingSubgradeStabilzation (ItemP-152)
+186947600751634,P-101,P-101,,,Full-Depth Asphalt Pavement Removal - 10 to 19 Inches) (Item P-101)
+187142500216757,P-602,P-602,,,Emulsified Asphalt Prime Coat (Item P-602)
+187598890207788,,,344302,344302,Sign B7-1 (Section 344302)
+189153997525879,,,265623,265623,Install Apron Lighting (Section 265623)
+189532758295756,,,265000,265000,General Electrical Removal (Section 265000)
+189719105176646,,,,,Clearing and Seeding
+190205501611485,P-101,P-101,,,"Asphalt Pavement Removal - 3"" Depth (Item P-101)"
+190632389832344,,,012200,012200,Security Control Monitoring (Section 012200)
+190635802267757,P-154,P-154,,,Subbase Course (Item P-154)
+190762519212870,,,270553,270553,Telecommunications Identification (Section 270553)
+190904283439396,,,,,Sign13R-1 (Section344302)
+191160521100649,,,,,Offsite Haul and Disposal
+191926801127214,P-621,P-621,,,Saw-Cut Grooving (Item P-621)
+192321610462416,,,,,60-Inch Manhole
+193090190232429,,,012200,012200,D9 Wet Well (SSLS 953) Concrete Repair (Section 012200)
+193417316762295,,,,,Electrical Feeder Installation in Vaults
+193853449357780,D-751,D-751,,,48-Inch Manholes (Item D-751)
+193856277754356,D-751,D-751,,,"72-Inch Diameter Manhole, Type A (Item D-751)"
+196593499626084,,,,,Inlet (Type PB)
+197725664260875,,,,,"HDPE Interduct (Comm) - 1 1/4"""
+198162409857413,D-705,D-705,,,6-Inch Non-Perforated Pipe (Item D-705)
+198539071800873,P-101,P-101,,,Asphalt Pavement Removal - 4-Inch Depth (Item P-101)
+199139354631819,,,,,"InstallPFTaxiwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder(Section344300)"
+199199617301155,,,,,McBride Slough Intake Structure
+199284117726364,,,,,Monolithic Curb and Sidewalk
+199485795120494,,,,,Sediment Fence
+199491318326803,D-701,D-701,,,15-Inch Storm Sewer Pipe (Item D-701)
+199516175385612,,,,,WorkZoneandTrafficControl (Section012200)
+199537712601705,P-403,P-403,,,Asphalt Mixture Base Course (Item P-403)
+199808449224649,,,,,4-Inch Water Pipe
+199905741608327,,,012200,012200,Abandon Existing Monitoring Well (Section 012200)
+200951165807607,,,344300,344300,Reinstall Taxiway Centerline Light on Existing Base Can with PF Transformer (Section 344300)
+201237638081684,L-108,L-108,,,No. 6 AWG Solid Wire for Counterpoise (Item L-108)
+201432688643695,,,344300,344300,Install PF Dual Stop Bar Light with Two CF Transformers on Existing Light Base (Section 344300)
+201617121769110,,,012200,012200,"Wildlife Access Road, Asphalt Grindings (Section 012200)"
+201725401400097,D-751,D-751,,,"84-Inch Manhole, Type B (Item D-751)"
+201964365352782,,,,,Irrigation Replacement
+202001421871808,,,344302,344302,Sign A6-11 (Section 344302)
+202031727240051,,,334213,334213,"Stormwater Pump Station, Electrical Equipment Installation (Section 334213)"
+202235879625283,P-156,P-156,,,Installation and Removal of Silt Fence (Item P-156)
+202307932146971,,,,,Stormwater Treatment Vault Cover
+202480600971200,,,344302,344302,Sign A6-3 (Section 344302)
+202484725969373,,,,,Manholes (ItemD-751)
+202745059567486,P-101,P-101,,,Joint and Crack Repair (Item P-101)
+202843620802131,D-751,D-751,,,72-Inch Manhole (Item D-751)
+203179775911109,,,012200,012200,B6 Valve Vault (SSVLT 1202) Concrete Repair (Section 012200)
+203221281882208,,,,,Deck Delamination and Spall Repair
+203240801174063,,,329300,329300,Ground Cover Planting (Section 329300)
+204044603392368,D-701,D-701,,,18-Inch STS Pipe (Item D-701)
+204183008592085,D-751,D-751,,,Catch Basins (Item D-751)
+204659291245585,,,,,TemporaryCircuitConnection (Section260500)
+204963096434645,D-751,D-751,,,48-Inch Diameter Manhole (Item D-751)
+205846188772868,,,,,InstallationandRemovalofSiltFence (ItemC-102)
+206247719651617,P-620,P-620,,,Runway Marking (Item P-620)
+206425941618723,D-701,D-701,,,12-Inch Storm Sewer Pipe (Item D-701)
+206582465855984,,,,,24-Inch Storm Sewer Pipe
+206871899425316,P-101,P-101,,,Asphalt Pavement Removal - 8 Inch Depth (Item P-101)
+206970114104475,,,344300,344300,Install PF Dual Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300)
+207245924403782,,,,,6-Inch Water Pipe
+207408010541078,,,344300,344300,Install PF Cover Plate on Existing Base Can (Section 344300)
+207698990750303,,,,,Wattles (Section015713)
+207927715039653,D-751,D-751,,,60-Inch Manhole (Item D-751)
+208916536155438,P-620,P-620,,,Surface Preparation - Existing Pavement Surface (Item P-620)
+208952614874307,L-110,L-110,,,2-Inch PVC Direct Buried in Grass or under New AC Shoulder (Item L-110)
+208955510230763,,,344300,344300,Install PF LED Taxiway Centerline Light on Existing Base Can with CF Isolation Transformer (Section 344300)
+208988326122888,,,344302,344302,Sign A8-1 (Section 344302)
+209032903280823,,,024113,024113,Existing Landscape Removal (Section 024113)
+209267395474450,,,344302,344302,Sign CE-10 (Section 344302)
+209532841397275,,,,,Modifications to Existing Wet Well
+210132563603090,,,,,PVC Conduit (Comm) - 4 Inch
+210135263265717,,,,,Joint Repair at Panel Step
+210342786548609,,,323113,323113,7-Foot Chain Link Fance with Barbed Wire (Section 323113)
+210484492154829,,,344300,344300,Install Elevated Red Stop Bar Light on Existing Base Can with CF Transformer (Section 344300)
+210734811134094,D-701,D-701,,,STS Drain Pipe (18-inch) (Item D-701)
+211190392175856,,,012200,012200,Delineators (Section 012200)
+211229768348441,P-152,P-152,,,Unsuitable Excavation (Item P-152)
+211299015381867,,,,,4-Inch Reduced Pressure Backflow Assembly and Enclosure
+211448483169348,,,,,PlasticMeshFence (Section015713)
+211919003852509,,,328400,328400,Irrigation Replacement (Section 328400)
+212083656005216,,,,,Temporary Erosion and Sediment Control Measures (Sections 012200 and 015713)
+212165945472649,,,,,Sign UL-1 Section 344302)
+212376656389125,,,,,Compacted Bedding Material
+212413391187989,,,260500,260500,Demolition of Existing Electrical Equipment on Work Site (Section 260500)
+212590242797611,P-602,P-602,,,Bituminous Prime Coat (Item P-602)
+212701561435593,,,344300,344300,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)"
+213703297151811,,,,,RemovalofPipeandOtherBuriedStructures (ItemP-101)
+213956565170674,,,,,Traffic Control
+213984702271772,,,012200,012200,"PCC Spall Panel Repair, 1-5 SF (Section 012200)"
+214095772975379,,,344300,344300,Install PF In-Pavement Runway Guard Light with CF Transformer on Existing Light Base (Section 344300)
+214548454816689,P-605,P-605,,,Concrete to Concrete Joint Seal (Silicone) (Item P-605)
+214958001636891,L-108,L-108,,,"#6 AWG, 5kV Cable (Item L-108)"
+215169747135390,P-401,P-401,,,Bituminous Surface Course (Item P-401)
+215379521064441,,,012200,012200,Dewatering (Section 012200)
+216239919997399,,,,,Blackout and Temporary Pavement Marking
+216543401305016,,,,,Fence Fabric Removal
+216753227862700,,,,,Bollard
+217052166813625,P-152,P-152,,,Existing Subgrade Stabilzation (Item P-152)
+217320393120047,,,,,"Embankment, Ditch (Sections 012200 and 312000)"
+217430358037177,P-604,P-604,,,Compression Joint Seals for Concrete Pavements (Item P-604)
+218101485209339,,,,,CatchBasins (ItemD-751)
+218397490258208,,,,,ExistingManholeAdjustmenttoGrade-MajorAdjustment (Section312300)
+218459186687816,,,026100,026100,Contaminated Material Excavation and Disposal - Wasco Landfill (Section 026100)
+218778717503513,P-620,P-620,,,Reflective Media (Item P-620)
+219209346865411,P-101,P-101,,,Cold Millling - 3-Inch Depth (Item P-101)
+219231119282976,,,015713,015713,Trench Protection (Section 015713)
+219676745230486,,,,,Curb Removal
+219850209965208,,,012200,012200,D9 Electrical (Section 012200)
+220353123601519,D-751,D-751,,,"48-Inch Manhole, Ditch Inlet (Item D-751)"
+220728754598891,,,260500,260500,Training (Section 260500)
+220883395625459,P-101,P-101,,,3-5 Inch Cold Milling (Item P-101)
+222507857015443,D-701,D-701,,,24-Inch STS Pipe (Item D-701)
+222553876251816,D-751,D-751,,,Underdrain Cleanout (Item D-751)
+222638250808166,,,344301,344301,Adjust Existing In-Pavement Stop Bar Light (Section 344301)
+222884379894959,,,,,Concrete Curb Removal
+223260513131325,,,,,Soffit and Vertical Face Delamination and Spall Repair with Anodes
+223595791184187,P-501,P-501,,,18-Inch Thick Concrete Pavement (Item P-501)
+223633326510001,,,,,6-Inch Gate Valve
+223749079366797,,,344302,344302,Sign A4-13 (Section 344302)
+224543954426624,,,012200,012200,D9 Replacement of Existing Lids and Hatches (Section 012200)
+224782667553442,P-605,P-605,,,Joint Sealing Filler (Item P-605)
+225087266392777,,,,,#REF!
+225284065959662,P-101,P-101,,,Asphalt Pavement Removal - 3-Inch Depth (Item P-101)
+225488638391032,P-101,P-101,,,"Pavement Removal (Full Depth Asphalt Concrete, 4-17.5 Inches) (Item P-101)"
+225496230294970,,,,,Encasement Over Existing Waterlin
+225662698764516,P-306,P-306,,,Lean Concrete Base Course (Item P-306)
+225664352094166,L-108,L-108,,,"No. 12 AWG, 600V, Cable, Installed in Conduit (Item L-108)"
+226147672758447,,,,,Two 6-Inch Conduits by Directional Drilling Method
+226162482877025,,,,,Concrete Curb
+226465867815547,,,,,Asphalt Grinding Removal and Disposal
+226720344211562,P-101,P-101,,,Cold Milling - 6-Inch Depth (Item P-101)
+226987570142293,,,,,Trenchless Installation
+227348487267555,P-101,P-101,,,PCC Pavement Removal - 3-Inch Depth (Item P-101)
+227420711486427,P-101,P-101,,,PCC Pavement Removal - 16 Inch Depth (Item P-101)
+228182418228653,P-101,P-101,,,Cold Milling - 2- to 4-Inch Depth (Item P-101)
+228633373341037,,,026100,026100,Contaminated Material Excavation and Disposal (Section 026100)
+229005618726364,,,344302,344302,Sign B6-11 (Section 344302)
+229082348895919,,,344300,344300,Reinstall In-Pavement Taxiway Centerline Light on Existing Base Can with Existing Transformer (Section 344300)
+230136564296823,,,,,Adjustment of Existing Structures (H-20 Rated Vaults)
+230791679074339,L-110,L-110,,,1-Inch GRSC (Item L-110)
+230817348734508,,,344302,344302,Sign A1-1 (Section 344302)
+231493965961938,,,024113,024113,Remove Bollard - Bolt Down (Section 024113)
+231936741504403,L-108,L-108,,,"No. 10 AWG, 600V, Cable Installed in Conduit (Item L-108)"
+231965876751356,,,,,General Demolition
+232121908478662,,,,,PVC Conduit (Power) - 6 Inch
+232125755969063,,,,,2-Inch Gate Valve
+232260740107421,,,,,XHHW Conductor - #6 AWG (Power)
+232384420967421,,,344300,344300,"Install Elevated Red Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+232546272103258,,,262400,262400,Remove and Replace Existing 480V Distribution Panel (Section 262400)
+232726060087960,,,344300,344300,Install PF Cover Plate on Existing Light Base (Section 344300)
+232981420189412,,,,,Unclassified Excavation (P-152)
+233307720271141,,,260543,260543,Underground Ducts and Raceways for Electrical Systems (Section 260543)
+233365916616088,,,,,TemporaryStreamBypass(Section012200)
+233410905472856,L-110,L-110,,,2-Inch PVC under New AC Shoulder (Item L-110)
+233411774745604,,,,,4-Inch Gate Valve
+233998397448188,L-110,L-110,,,2-Inch PVC Encased in P-610 in Existing AC (Item L-110)
+234094258324734,,,312300,312300,Remove Existing Manhole Flat Top and Upgrade to Aircraft Rated Structure (Section 312300)
+234539496294225,,,,,Pile Spall Repair
+234567913084621,L-110,L-110,,,2-Inch PVC in Existing Structural AC (Item L-110)
+234598337485913,,,271000,271000,Structured Cabling (Section 271000)
+235185445048709,,,,,Miscellaneous Removals and Backfill
+236006340149453,,,,,8-Inch STS (Sections 012200 and 334100)
+236393003300042,,,344300,344300,Install PF Elevated Runway End Light with CF Transformer on Existing Light Base (Section 344300)
+236407872899321,,,,,72-Inch Corrugated Metal Riser
+236812682555796,,,,,72-Inch Manhole
+237151661909867,D-751,D-751,,,48-Inch Manhole (Item D-751)
+237550834368524,,,,,UnsuitableExcavation (ItemP-152)
+237682734436522,,,,,XHHW Conductor - #8 AWG (Power)
+237701102568033,P-605,P-605,,,Joint Sealant (Item P-605)
+237719840467162,,,312300,312300,Rotate Existing Manhole Lid (Section 312300)
+238606228931768,,,,,Subdrains
+238928339239386,,,,,ExistingManholeAdjustmenttoGrade-MinorAdjustment (Section312300)
+239504768877648,,,,,12-Inch Storm Sewer Pipe
+239977868742582,P-501,P-501,,,Concrete Pavement (Item P-501)
+240142454051360,P-101,P-101,,,PCC Pavement Removal - 4-Inch Depth (Item P-101)
+240371306584019,,,,,AsphaltPavementRemoval-6-8-InchDepth (ItemP-101)
+240394696026279,,,,,MechanicalStabilization (ItemP-152)
+241533182061345,,,344302,344302,Sign A5-6 (Section 344302)
+241731027583490,,,,,Surfacings Removal
+241966029783861,,,,,TemporaryThresholdSetUpandCircuitConnection (Section260500)
+242018638360493,P-403,P-403,,,Asphalt Mixture Base and Surface Course (Item P-403)
+242222112131895,,,,,Trench Excavation and General Native Backfill
+243017829226249,,,344300,344300,Install PF In-Pavement Runway Guard Light on Existing Light Base (Section 344300)
+243066210077796,,,282300,282300,Video Surveillance (Section 282300)
+243208867120249,,,344300,344300,Reinstall Taxiway Centerline Light on Existing Base Can w/ Existing Transformer in Existing AC (Section 344300)
+243289662566304,,,015713,015713,Construction Access (Section 015713)
+243367308269165,,,334100,334100,12-Inch DIP (Force Main) (Section 334100)
+243701410878473,,,344300,344300,Install PF Taxiway Centerline Light with CF Transformer on Existing Light Base (Section 344300)
+243788875718128,,,344300,344300,"Install PF L-868, 12-Inch Diameter Base Can, PF Cover Plate in New AC (Section 344300)"
+243961725840523,P-101,P-101,,,"Asphalt Pavement Removal - 16"" Depth (Item P-101)"
+244857920725964,,,320117,320117,Asphalt Pavement Removal - 2-3 Inch Depth (Section 320117)
+245158785612087,,,,,Borrow Excavation (P-152)
+245812162856091,,,262200,262200,Remove and Replace Existing 9KVA Transformer (Section 262200)
+246021504935844,,,344300,344300,Install PF Taxiway Centerline Light on Existing Light Base (Section 344300)
+246275366133894,,,,,Hollow Core Deck Panel Replacement
+246692234463680,P-620,P-620,,,Temporary Runway and Taxiway Makrings (Item P-620)
+246706184939940,P-101,P-101,,,Cold Milling - 3-Inch Maximum Depth (Item P-101)
+247084260290465,,,,,Fire Hydrant Assembly
+247469650305684,P-403,P-403,,,Hot Mix Asphalt (HMA) Pavement Base Course (Item P-403)
+248415173012973,P-101,P-101,,,"Asphalt Pavement Removal - 12"" Depth (Item P-101)"
+249489074007258,,,,,Concrete Walks
+249779284973702,,,312300,312300,Existing Manhole/Inlet Adjustment to Grade (Section 312300)
+250441583889535,P-610,P-610,,,Steel Reinforcement (Item P-610)
+251597576934678,,,,,PVC Conduit (Power) - 2 Inch
+251610326978626,,,,,4-Inch DIP Water Pipe
+251920292365147,,,,,FAAMALSRandThresholdBarLights(Section260500)
+252094704651117,,,344300,344300,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+252412578970316,,,111100,111100,Cable Retrievers (Section 111100)
+253178956848373,,,,,XHHW Conductor - #10 AWG (Power)
+253439920146567,,,,,2-Inch Air Release Valve Assembly
+254046465162867,,,344302,344302,Sign A5-7 (Section 344302)
+254308450565105,,,,,Topsoil(FurnishedfromOfftheSite) (ItemT-905)
+254657575186220,,,,,"Cold Plane Pavement Removal and Disposal, 3-Inch Depth"
+254690796417662,,,260500,260500,Install Handholes for Power (Section 260500)
+255264067641445,,,012200,012200,B6 Temporary Airfield Lighting Circuit Connection (Section 012200)
+255652158897938,,,260500,260500,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit) (Section 260500)"
+256167893251278,,,,,"Fill Material, Topsoil (Sections 012200, 312000, and 329113)"
+257216568563752,P-620,P-620,,,Surface Preparation - New or Existing Pavement Surfaces (Item P-620)
+258443963771151,,,344300,344300,Install PF LED Elevated Runway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+258901094588110,L-110,L-110,,,2-Inch PVC (Item L-110)
+259861493595180,,,,,Geotextile
+259905285644558,,,334100,334100,20-Inch Ductile Iron (Force Main) Pipe (Section 334100)
+260065868684017,L-108,L-108,,,"No. 8 AWG, 5kV, L-824, Type C Cable (Item L-108)"
+260229771657782,P-610,P-610,,,Structural Portland Cement Concrete (PCC) (Item P-610)
+260269529385669,,,,,"InstallPFLEDElevatedRunwayEnd/ThresholdLightwithPFBaseCan,CFTransformerinNewACPShoulder (Section344300)"
+260417933446205,,,,,Landscape Restoration
+260443559841366,,,344300,344300,Install PF Cover Plate on Existing Base Can with PF Bolts (Section 344300)
+260909337949008,,,344302,344302,Sign T-5 (Section 344302)
+261180886779689,,,,,8-Inch Gate Valve
+261794014745654,P-403,P-403,,,Asphalt Mixture Surface Course (Item P-403)
+262608336636471,P-154,P-154,,,Separation Geotextile (Item P-154)
+262880943679048,,,344301,344301,Adjust Existing In-Pavement Runway Guard/Stop Bar Light to New Finish Elevation (Section 344301)
+262941961739828,,,344302,344302,Sign A5-3 (Section 344302)
+263031602774407,,,,,21-Inch Storm Sewer Pipe (RCP)
+263559913281347,,,,,Sweeper Section (012200)
+263822857992414,,,,,SubbaseCourse (ItemP-154)
+263982585976930,,,,,Unsuitable Excavation and Disposal
+264426333748829,,,,,12-Inch STS (Sections 012200 and 334100)
+264749390475054,,,344300,344300,"Install PF Base Can, PF Extension, PF Flange Ring and PF Cover Plate (Section 344300)"
+264875964740906,,,,,Marking (ItemP-620)
+265114623003980,,,,,InstallPFElevatedTaxiwayEdgeLightonExistingBaseCanwithCFTransformer (Section344300)
+265179171100315,,,344302,344302,Sign E6-6 (Section 344302)
+265221633626571,,,015713,015713,Wattles (Section 015713)
+265559738480917,,,,,Pipe Zone and Bedding Material
+266668164480947,,,,,Abandon and Plug Storm Pipe (Sections 012200 and 334100)
+266795406632291,,,,,18-Inch STS (Sections 012200 and 334100)
+267194453133436,P-101,P-101,,,Cold Milling - 3-Inch Depth (Item P-101)
+267477056244737,,,,,JointSealingFiller(ItemP-605)
+267734890120355,P-401,P-401,,,Hot Mix Asphalt (HMA) Bituminous Surface Course (Item P-401)
+267847895674135,,,,,Common Excavation
+267972467496709,,,312300,312300,"Removal of Existing Storm Pipe, Manholes, and Inlets (Section 312300)"
+268077471263343,,,,,JuteMatting (Section015713)
+268137771179989,D-701,D-701,,,18-Inch Storm Sewer Pipe (Item D-701)
+268587682075032,P-620,P-620,,,Surface Preparation - Remove Existing Markings (Item P-620)
+268814157157594,,,,,Vault (Power) - 575-PCORP
+270230117104873,,,,,Mini-Power Zone (10 KVA)
+270353794114836,D-705,D-705,,,6-Inch Perforated Pipe (Item D-705)
+270855099789238,L-110,L-110,,,1.5-Inch GRSC Encased in P-610 in Existing AC (Item L-110)
+270917463676835,,,320118,320118,Crack Repair (Section 320118)
+272176512378641,,,344300,344300,Install Elevated Runway Guard Light on Existing Base Can with CF Transformer (Section 344300)
+272368584040374,,,,,Concrete Winch House Removal and Backfill
+273150702305999,,,344300,344300,Install PF In-Pavement Runway Threshold Light with CF Transformer on Existing Light Base (Section 344300)
+273956929111437,,,015713,015713,Sediment Fence (Section 015713)
+274325302290750,,,,,16-Inch DIP Water Pipe
+274400071961133,,,,,Manhole and Catch Basin Adjustment
+274401593854626,,,344300,344300,Install PF Red Elevated Stop Bar Light with CF Transformer on Existing Light Base (Section 344300)
+274475098551390,,,,,"Pavement Marking, Painted"
+274615284031058,,,,,Project Traffic Control
+274766642847833,,,,,6-Foot Chain-Link Slatted Fence Fabric
+275183038722708,,,344300,344300,Install PF Red Elevated Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300)
+275209100196009,,,,,Landside Utility Disconnections
+275228444152212,,,344301,344301,Adjust Existing Elevated Runway Threshold Light (Section 344301)
+275498692172761,,,,,Stormwater Flow Through Pollution Reduction Facility
+276016633358171,P-209,P-209,,,Separation Geotextile (Item P-209)
+276366608072470,,,,,"Level 3, 1/2-Inch-Dense HMAC"
+276509755123203,P-152,P-152,,,Subgrade Stabilzation (Item P-152)
+276940367888717,,,312300,312300,Adjustment of Existing Structures (229 Kip Rated Vaults) (Section 312300)
+277601176877589,L-110,L-110,,,1 1/2-Inch GRSC (Item L-110)
+277714453018627,P-626,P-626,,,Slurry Seal (Item P-626)
+278004594764513,,,,,AdhesiveCompound (ItemP-606)
+278303208687196,,,,,Lighting
+278721777463815,P-620,P-620,,,Surface Preparation (Item P-620)
+278811282556354,,,344300,344300,"Install CF 150-Watt, 6.6/6.6 Amp Isolation Transformer in Existing Base Can (Section 344300)"
+279091017943666,P-101,P-101,,,Cold Milling - 4 Inch Maximum Depth (Item P-101)
+279250538108326,,,344300,344300,Install PF Elevated Runway Edge Light with CF Transformer on Existing Light Base (Section 344300)
+279729961153641,,,,,120-Inch Manhole (Sections 012200 and 334100)
+279793304353691,,,,,Vault (Power) - 575-TRANS-PCORP
+280536865205702,,,344302,344302,Sign A5-1 (Section 344302)
