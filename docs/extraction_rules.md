@@ -16,7 +16,7 @@
 - If unmerged, accept identical values across the pair or non-blank value where the other is blank.
 
 ## Totals Row Detection
-- A row is marked totals when `Item Description` contains `Total Amount` or `Basis of Award` (case-insensitive).
+- A row is marked totals when `Item Description` contains `Total Amount` or the phrase `Basis of Bid` (sheet text, case-insensitive).
 - Emit totals rows at bidder grain with `schedule_total` from bidder `Total Price` cell.
 
 ## Regexes

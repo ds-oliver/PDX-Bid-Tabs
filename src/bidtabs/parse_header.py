@@ -27,6 +27,12 @@ def _parse_date(value: str) -> Optional[str]:
     return None
 
 
+def _normalize_location_text(value: str) -> str:
+    text = clean_whitespace(value).upper()
+    # Keep alphanumeric only so "HILLSBORO AIRPORT" -> "HILLSBOROAIRPORT".
+    return re.sub(r"[^A-Z0-9]", "", text)
+
+
 def parse_project_header(ws: Worksheet, table_header_row: int) -> Dict[str, str]:
     header_lines: List[str] = []
     max_scan_col = min(ws.max_column, 20)
@@ -58,18 +64,25 @@ def parse_project_header(ws: Worksheet, table_header_row: int) -> Dict[str, str]
         letting_raw = clean_whitespace(date_m.group(1))
         letting_date = _parse_date(letting_raw) or ""
 
-    top_candidates = []
-    for r in range(1, min(table_header_row, 8)):
-        row_text = " ".join(
-            clean_whitespace(ws.cell(row=r, column=c).value)
-            for c in range(1, min(ws.max_column, 15) + 1)
-        )
-        row_text = clean_whitespace(row_text)
-        if row_text and "item no" not in row_text.lower():
-            top_candidates.append(row_text)
+    # Read left header block only to avoid contractor/bidder names from right-side columns.
+    left_lines = []
+    for r in range(1, table_header_row):
+        v = clean_whitespace(ws.cell(row=r, column=1).value)
+        if v and "item no" not in v.lower():
+            left_lines.append(v)
 
-    location = top_candidates[0] if top_candidates else ""
-    project = top_candidates[1] if len(top_candidates) > 1 else ""
+    location = _normalize_location_text(left_lines[0]) if left_lines else ""
+
+    project_lines = []
+    for line in left_lines[1:]:
+        l = line.lower()
+        if l.startswith("ean ") or l.startswith("solicitation"):
+            break
+        if DATE_RE.search(line):
+            break
+        project_lines.append(line)
+
+    project = clean_whitespace(" ".join(project_lines))
 
     return {
         "project_ean": ean,

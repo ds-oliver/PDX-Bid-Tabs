@@ -16,3 +16,14 @@ def test_parse_project_header():
     assert h["project_ean"] == "2023D016"
     assert "12566" in h["solicitation_no"]
     assert h["letting_date"] == "2026-02-09"
+
+
+def test_location_token_normalization():
+    wb = Workbook()
+    ws = wb.active
+    ws.cell(1, 1, "HILLSBORO AIRPORT")
+    ws.cell(1, 6, "Name of Contractor 1")
+    ws.cell(2, 1, "RUNWAY PROJECT")
+
+    h = parse_project_header(ws, table_header_row=10)
+    assert h["location_name_raw"] == "HILLSBOROAIRPORT"

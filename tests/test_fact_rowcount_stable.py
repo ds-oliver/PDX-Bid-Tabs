@@ -3,7 +3,7 @@ import pandas as pd
 from scripts.build_star_schema import build_analysis_tables
 
 
-def test_fact_rowcount_stable_and_unique():
+def test_bids_rowcount_stable_and_item_unique():
     canonical = pd.DataFrame(
         [
             {
@@ -13,29 +13,22 @@ def test_fact_rowcount_stable_and_unique():
                 "letting_date": "2026-01-01",
                 "location_name_raw": "PDX",
                 "source_file": "f.xlsx",
-                "bid_schedule_name": "Base Bid",
-                "bid_schedule_type": "BASE",
-                "bid_schedule_code": "",
                 "source_sheet": "Base Bid",
                 "source_row_index": 10,
                 "line_no": "0010",
-                "item_description_clean": "Item A",
-                "item_code_raw": "A-1",
-                "item_code_norm": "A-1",
-                "section_code_raw": "1010",
-                "section_code_norm": "1010",
+                "item_description_raw": "Item A (Item C-105)",
+                "item_description_clean": "Item A (Item C-105)",
+                "item_code_norm": "C-105",
+                "section_code_norm": "",
+                "item_code_raw": "C-105",
+                "section_code_raw": "",
                 "unit_code_norm": "EA",
                 "quantity": 2,
                 "unit_price": 3,
                 "total_price": 6,
-                "total_price_calc": 6,
-                "parse_confidence": 0.9,
                 "bidder_type": "CONTRACTOR",
-                "bidder_name_raw": "Acme",
                 "bidder_name_canonical": "ACME",
                 "is_totals_row": False,
-                "schedule_total": "",
-                "totals_row_label": "",
             },
             {
                 "project_ean": "P1",
@@ -44,29 +37,22 @@ def test_fact_rowcount_stable_and_unique():
                 "letting_date": "2026-01-01",
                 "location_name_raw": "PDX",
                 "source_file": "f.xlsx",
-                "bid_schedule_name": "Base Bid",
-                "bid_schedule_type": "BASE",
-                "bid_schedule_code": "",
                 "source_sheet": "Base Bid",
                 "source_row_index": 11,
-                "line_no": "0020",
-                "item_description_clean": "Item B",
-                "item_code_raw": "B-1",
-                "item_code_norm": "B-1",
-                "section_code_raw": "1020",
-                "section_code_norm": "1020",
+                "line_no": "0010",
+                "item_description_raw": "Item A (Item C-105)",
+                "item_description_clean": "Item A (Item C-105)",
+                "item_code_norm": "C-105",
+                "section_code_norm": "",
+                "item_code_raw": "C-105",
+                "section_code_raw": "",
                 "unit_code_norm": "EA",
-                "quantity": 4,
-                "unit_price": 5,
-                "total_price": 20,
-                "total_price_calc": 20,
-                "parse_confidence": 0.9,
+                "quantity": 2,
+                "unit_price": 4,
+                "total_price": 8,
                 "bidder_type": "CONTRACTOR",
-                "bidder_name_raw": "Acme",
-                "bidder_name_canonical": "ACME",
+                "bidder_name_canonical": "BRAVO",
                 "is_totals_row": False,
-                "schedule_total": "",
-                "totals_row_label": "",
             },
             {
                 "project_ean": "P1",
@@ -75,36 +61,42 @@ def test_fact_rowcount_stable_and_unique():
                 "letting_date": "2026-01-01",
                 "location_name_raw": "PDX",
                 "source_file": "f.xlsx",
-                "bid_schedule_name": "Base Bid",
-                "bid_schedule_type": "BASE",
-                "bid_schedule_code": "",
                 "source_sheet": "Base Bid",
                 "source_row_index": 12,
-                "line_no": "",
-                "item_description_clean": "Total Amount",
-                "item_code_raw": "",
-                "item_code_norm": "",
-                "section_code_raw": "",
+                "line_no": "0010",
+                "item_description_raw": "Item A (Item C-105)",
+                "item_description_clean": "Item A (Item C-105)",
+                "item_code_norm": "C-105",
                 "section_code_norm": "",
-                "unit_code_norm": "",
-                "quantity": "",
-                "unit_price": "",
-                "total_price": "",
-                "total_price_calc": "",
-                "parse_confidence": 0.9,
-                "bidder_type": "CONTRACTOR",
-                "bidder_name_raw": "Acme",
-                "bidder_name_canonical": "ACME",
-                "is_totals_row": True,
-                "schedule_total": 26,
-                "totals_row_label": "Total Amount",
+                "item_code_raw": "C-105",
+                "section_code_raw": "",
+                "unit_code_norm": "EA",
+                "quantity": 2,
+                "unit_price": 3.5,
+                "total_price": 7,
+                "bidder_type": "ENGINEERS_ESTIMATE",
+                "bidder_name_canonical": "ENGINEER'S ESTIMATE",
+                "is_totals_row": False,
             },
         ]
     )
     location_dict = pd.DataFrame(columns=["location_name_raw", "location_code"])
 
     tables = build_analysis_tables(canonical, location_dict)
-    fact = tables["fact_bid_item_price"]
+    projects = tables["Projects"]
+    items = tables["Items"]
+    bids = tables["Bids"]
 
-    assert len(fact) == 2
-    assert not fact.duplicated(subset=["project_id", "bid_schedule_id", "pay_item_id", "bidder_id", "line_no"]).any()
+    assert len(projects) == 1
+    assert len(items) == 1
+    assert len(bids) == 3
+    assert bids["Bid_ID"].is_unique
+
+    # EE remains but is never winner and is unranked.
+    ee = bids[bids["Contractor Name"].str.contains("ENGINEER", case=False, na=False)].iloc[0]
+    assert bool(ee["Is_Winner"]) is False
+    assert ee["Rank"] == ""
+
+    # Lowest contractor should rank 1.
+    acme = bids[bids["Contractor Name"] == "ACME"].iloc[0]
+    assert acme["Rank"] == 1

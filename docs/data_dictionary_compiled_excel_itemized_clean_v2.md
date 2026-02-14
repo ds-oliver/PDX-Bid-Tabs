@@ -1,10 +1,16 @@
 # Data Dictionary: compiled_excel_itemized_clean.csv (v2)
 
 ## Totals Row Behavior
-- Totals rows are identified when `item_description_raw` contains `Total Amount` or `Basis of Award` (case-insensitive).
+- Totals rows are identified when `item_description_raw` contains `Total Amount` or the phrase `Basis of Bid` (sheet text, case-insensitive).
 - Totals rows are emitted one row per bidder with `is_totals_row=True`.
 - For totals rows, `line_no`, `quantity`, `unit_code_*`, and `unit_price` are expected to be blank/null unless explicitly present.
-- `schedule_total` stores the bidder-specific totals value from the totals row.
+- `schedule_total` stores the bidder-specific totals value from the totals row (bid total from sheet).
+
+## Dashboard Use
+- Filters/labels: `project_name_raw`, `letting_date`, `bid_schedule_type`, `bid_schedule_code`.
+- Bidder comparisons: `bidder_name_canonical`, `bidder_type`.
+- Line-item tables: `line_no`, `item_description_clean`, `quantity`, `unit_code_norm`, `unit_price`, `total_price`.
+- Totals panels: `schedule_total` from totals rows (`is_totals_row=True`).
 
 ## Columns
 
@@ -20,7 +26,7 @@
 | solicitation_no | str | True | Solicitation identifier. | regex Solicitation No. |
 | letting_date_raw | str | True | Unparsed letting date token. | header scan |
 | letting_date | str | True | Normalized letting date (YYYY-MM-DD). | date parsing |
-| location_name_raw | str | True | Location text from header. | header heuristic |
+| location_name_raw | str | True | Normalized location token from header (alphanumeric uppercase). | header heuristic |
 | project_name_raw | str | True | Project title text from header. | header heuristic |
 | bid_schedule_name | str | False | Bid schedule name (sheet title). | worksheet title |
 | bid_schedule_type | str | False | Schedule type BASE or ALTERNATE. | sheet title heuristic |

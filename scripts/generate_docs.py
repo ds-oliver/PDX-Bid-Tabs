@@ -20,7 +20,7 @@ def _table_md(columns):
 def write_data_model(doc_dir: Path):
     text = """# Data Model Overview
 
-This project is sheet-native: it parses Bid Tabulation Excel sheets into a clean analytical extract for historical analysis. It does not establish authoritative selection outcomes.
+This project is an internal bid lookup tool: it parses Bid Tabulation Excel sheets into a clean analytical extract for historical analysis. It does not report selection outcomes.
 
 ## Primary Deliverable
 - `compiled_excel_itemized_clean.csv`: canonical bidder-line extract (Project x Schedule x Line Item x Bidder), including totals rows.
@@ -37,7 +37,14 @@ This project is sheet-native: it parses Bid Tabulation Excel sheets into a clean
 ## Optional Tables (Flag-Gated)
 - `dim_specification`, `bridge_pay_item_spec` with `--emit_spec_tables`.
 - `fact_project_pay_item_metrics` with `--emit_metrics` via `scripts/build_metrics.py`.
-- `fact_award` legacy-named placeholder with `--emit_award_table` for externally supplied selection context.
+
+## Dashboard Use (ODOT-Style Reference)
+The end dashboard is designed for bid analytics similar to the ODOT example. These are the intended uses:
+- Project/Schedule context: `dim_project`, `dim_bid_schedule` filter all visuals.
+- Bidder comparisons: `dim_bidder` + `fact_bid_item_price` show bidder rankings and unit price comparisons.
+- Line-item detail: `fact_bid_item_price` (unit/total) with `dim_pay_item` (description + `standard_cat`) for drill-down tables.
+- Schedule totals: `fact_bid_schedule_total` for total bid comparisons per bidder.
+- Optional metrics: `fact_project_pay_item_metrics` provides 3-low average and other bid-only summaries (flag-gated).
 
 ## ERD
 ```mermaid
@@ -59,10 +66,16 @@ def write_compiled_dictionary(doc_dir: Path):
     intro = """# Data Dictionary: compiled_excel_itemized_clean.csv (v2)
 
 ## Totals Row Behavior
-- Totals rows are identified when `item_description_raw` contains `Total Amount` or `Basis of Award` (case-insensitive).
+- Totals rows are identified when `item_description_raw` contains `Total Amount` or the phrase `Basis of Bid` (sheet text, case-insensitive).
 - Totals rows are emitted one row per bidder with `is_totals_row=True`.
 - For totals rows, `line_no`, `quantity`, `unit_code_*`, and `unit_price` are expected to be blank/null unless explicitly present.
-- `schedule_total` stores the bidder-specific totals value from the totals row.
+- `schedule_total` stores the bidder-specific totals value from the totals row (bid total from sheet).
+
+## Dashboard Use
+- Filters/labels: `project_name_raw`, `letting_date`, `bid_schedule_type`, `bid_schedule_code`.
+- Bidder comparisons: `bidder_name_canonical`, `bidder_type`.
+- Line-item tables: `line_no`, `item_description_clean`, `quantity`, `unit_code_norm`, `unit_price`, `total_price`.
+- Totals panels: `schedule_total` from totals rows (`is_totals_row=True`).
 
 ## Columns
 """
@@ -80,7 +93,7 @@ def write_analysis_dictionary(doc_dir: Path):
         "fact_bid_item_price",
         "fact_bid_schedule_total",
     ]
-    optional_tables = ["dim_specification", "bridge_pay_item_spec", "fact_project_pay_item_metrics", "fact_award"]
+    optional_tables = ["dim_specification", "bridge_pay_item_spec", "fact_project_pay_item_metrics"]
 
     lines = [
         "# Data Dictionary: Analysis Schema",
@@ -97,7 +110,6 @@ def write_analysis_dictionary(doc_dir: Path):
     lines.append("## Optional Tables (default off)")
     lines.append("- Enable `dim_specification` and `bridge_pay_item_spec` with `--emit_spec_tables`.")
     lines.append("- Enable `fact_project_pay_item_metrics` with `--emit_metrics`.")
-    lines.append("- Enable placeholder `fact_award` with `--emit_award_table`.")
     lines.append("")
 
     for name in optional_tables:
@@ -117,6 +129,14 @@ def write_analysis_dictionary(doc_dir: Path):
         "JOIN dim_pay_item i ON i.pay_item_id = f.pay_item_id;"
     )
     lines.append("```")
+
+    lines.append("")
+    lines.append("## Dashboard Measure Guidance (ODOT-Style)")
+    lines.append("- Bidder total comparison: `fact_bid_schedule_total.schedule_total` by `dim_bidder` (exclude engineer estimate).")
+    lines.append("- Unit price comparison: `fact_bid_item_price.unit_price` by `dim_bidder` and `dim_pay_item`.")
+    lines.append("- Total price comparison: `fact_bid_item_price.total_price` by `dim_bidder` and `dim_pay_item`.")
+    lines.append("- Line-item drilldown: use `dim_pay_item.item_desc_canonical`, `standard_code`, `standard_cat`.")
+    lines.append("- Optional 3-low: `fact_project_pay_item_metrics.avg_unit_price_3low` (metrics flag required).")
 
     (doc_dir / "data_dictionary_analysis_schema.md").write_text("\n".join(lines) + "\n")
 
@@ -140,7 +160,7 @@ def write_extraction_rules(doc_dir: Path):
 - If unmerged, accept identical values across the pair or non-blank value where the other is blank.
 
 ## Totals Row Detection
-- A row is marked totals when `Item Description` contains `Total Amount` or `Basis of Award` (case-insensitive).
+- A row is marked totals when `Item Description` contains `Total Amount` or the phrase `Basis of Bid` (sheet text, case-insensitive).
 - Emit totals rows at bidder grain with `schedule_total` from bidder `Total Price` cell.
 
 ## Regexes

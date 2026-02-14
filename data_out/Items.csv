@@ -1,0 +1,1387 @@
+Item_ID,Project_ID,Item Sequence,Specification Code,Item Description,Estimated Quantity,Unit
+1,1,0001,,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+2,1,0002,,Work Zone Traffic Control,1.0,LS
+3,1,0003,,"Temporary Erosion, Sediment, and Pollution Control",1.0,LS
+4,1,0004,,Site Demolition,1.0,LS
+5,1,0005,,Clearing and Grubbing,1.0,LS
+6,1,0006,,Trench Excavation and General Native Backfill,577.0,LF
+7,1,0007,,Trench Excavation and Select Native Backfill,622.0,LF
+8,1,0008,,Trench Excavation and Select Backfill,48.0,LF
+9,1,0009,,Offsite Haul and Disposal,6060.0,CY
+10,1,0010,,Contaminated Soil Sediment Excavation and Disposal,255.0,TON
+11,1,0011,,Shoring,1.0,LS
+12,1,0012,,Pipe Zone and Bedding Material,2940.0,CY
+13,1,0013,,Trench Stabilization,555.0,CY
+14,1,0014,,Dewatering,1.0,LS
+15,1,0015,,72-Inch Sewer Pipe,1260.0,LF
+16,1,0016,,108-Inch Manhole,1.0,EACH
+17,1,0017,,120-Inch Manhole,1.0,EACH
+18,1,0018,,Subdrains,36.0,LF
+19,1,0019,,Inlet (Type PB),3.0,EACH
+20,1,0020,,McBride Slough Intake Structure,1.0,LS
+21,1,0021,,Columbia Slough Outfall Structure,1.0,LS
+22,1,0022,,Modified Concrete Curb and Gutter,36.0,LF
+23,1,0023,,Sidewalk,500.0,SF
+24,1,0024,,Aggregate Base Course,175.0,TON
+25,1,0025,,Portland Cement Concrete Pavement (9-Inch),175.0,SY
+26,1,0026,,Pavement Marking,1.0,LS
+27,1,0027,,Guard Rail Removal and Replacement,72.0,LF
+28,1,0028,,Area Seeding,1.0,LS
+29,1,0029,,Stormwater Flow Through Pollution Reduction Facility,1.0,LS
+30,1,0030,,Landscape Restoration,1.0,LS
+31,2,0001,012200,"Mobilization, Cleanup, and Demobilization",1.0,LS
+32,2,0002,012200,Sweeper,1.0,LS
+33,2,0003,012200,Security Control Monitoring,1.0,LS
+34,2,0004,012200,Work Zone and Traffic Control,1.0,LS
+35,2,0005,012200,Escort,1.0,LS
+36,2,0006,012200,Delineators,5.0,EACH
+37,2,0006,015713,Construction Access,2.0,EACH
+38,2,0007,015713,Inlet Protection,86.0,EACH
+39,2,0007,015713,Inlet Protection,15.0,EACH
+40,2,0008,,Construction Survey,1.0,LS
+41,2,0008,015713,Jet Blast Control Material,0.2,ACRE
+42,2,0009,,Construction Survey,1.0,LS
+43,2,0009,P-101,Joint and Crack Repair,1000.0,LF
+44,2,0010,P-101,Asphalt Pavement Removal - 3-Inch Depth,100.0,SY
+45,2,0010,P-101,Cold Milling - 2-Inch Maximum Depth,58100.0,SY
+46,2,0011,P-101,Asphalt Pavement Removal - 8-Inch Depth,1700.0,SY
+47,2,0011,P-101,Cold Milling - 4.5-Inch Maximum Depth,30400.0,SY
+48,2,0012,P-101,Cold Milling - 2-Inch Maximum Depth,550.0,SY
+49,2,0012,P-156,Silt Fence,4200.0,LF
+50,2,0013,,Borrow Excavation (P-152),14500.0,CY
+51,2,0013,P-401,Hot Mix Asphalt (HMA) Bituminous Surface Course,15000.0,TON
+52,2,0014,P-152,Unsuitable Excavation,250.0,CY
+53,2,0014,P-403,Hot Mix Asphalt (HMA) Base Course,8500.0,TON
+54,2,0015,P-152,Geotextile,1600.0,SY
+55,2,0015,P-603,Bituminous Tack Coat,9500.0,GAL
+56,2,0016,P-153,Controlled Low-Strength Material (CLSM),750.0,CY
+57,2,0016,P-605,Joint Sealing Filler,25.0,GAL
+58,2,0017,P-154,Subbase Course,150.0,CY
+59,2,0017,P-606,Adhesive Compound,60.0,GAL
+60,2,0018,P-156,Silt Fence,2300.0,LF
+61,2,0018,P-608,Asphalt Surface Treatment,19600.0,SY
+62,2,0019,P-209,Crushed Aggregate Base Course,650.0,CY
+63,2,0019,P-608,Runway Friction Testing,1.0,LS
+64,2,0020,P-403,Hot Mix Asphalt (HMA) Pavement Base Course,750.0,TON
+65,2,0020,P-610,Structural Portland Cement Concrete (PCC),30.0,CY
+66,2,0021,P-603,Bituminous Tack Coat,140.0,GAL
+67,2,0021,P-610,Steel Reinforcement,400.0,LB
+68,2,0022,P-610,Steel Reinforcement,1830.0,LB
+69,2,0022,P-620,Runway Marking,92000.0,SF
+70,2,0023,P-620,Reflective Media,5600.0,LB
+71,2,0023,P-620,Runway Marking,750.0,SF
+72,2,0024,P-620,Phasing Pavement Marking,7250.0,SF
+73,2,0024,P-620,Reflective Media,50.0,LB
+74,2,0025,D-701,8-Inch STS Pipe,439.0,LF
+75,2,0025,P-621,Grooving,78600.0,SY
+76,2,0026,D-701,12-Inch STS Pipe,749.0,LF
+77,2,0026,L-108,No. 8 AWG 5kV Cable,5000.0,LF
+78,2,0027,D-701,48-Inch STS Pipe,2336.0,LF
+79,2,0027,L-108,No. 6 AWG Solid Wire for Counterpoise,1060.0,LF
+80,2,0028,D-701,12-Inch RCP Pipe,52.0,LF
+81,2,0028,L-108,Heat Shrink for 5kV L-823 Primary Connector,485.0,EACH
+82,2,0029,D-701,24-Inch RCP Pipe,58.0,LF
+83,2,0029,L-108,Ground Rod for Counterpoise,6.0,EACH
+84,2,0030,D-751,"48-Inch Manhole, Type B",1.0,EACH
+85,2,0030,L-110,1-Inch IMC in Existing AC,25.0,LF
+86,2,0031,D-751,"48-Inch Manhole, Ditch Inlet",1.0,EACH
+87,2,0031,L-110,2-Inch PVC Direct Buried,65.0,LF
+88,2,0032,D-751,"72-Inch Manhole, Type A",6.0,EACH
+89,2,0032,L-110,2-Inch PVC in Existing AC,1190.0,LF
+90,2,0033,026100,Contaminated Material Excavation and Disposal,250.0,TON
+91,2,0033,D-751,"84-Inch Manhole, Type A",1.0,EACH
+92,2,0034,260500,General Electrical Removal,1.0,LS
+93,2,0034,D-751,Catch Basin,4.0,EACH
+94,2,0035,260500,Temporary Circuit Connection,1.0,LS
+95,2,0035,T-901,Seeding,17.3,ACRE
+96,2,0036,260553,3-Inch Diameter Brass Marker,2.0,EACH
+97,2,0036,312300,"Removal of Existing Storm Pipe, Manholes, and Inlets",1.0,LS
+98,2,0037,312300,Connection to Existing Storm Drainage System,17.0,EACH
+99,2,0037,344300,"Install PF LED Taxiway Centerline Light with PF Base Can, CF Transformer in New AC",21.0,EACH
+100,2,0038,312300,Existing Manhole Adjustment to Grade,1.0,EACH
+101,2,0038,344300,Install PF LED Taxiway Centerline Light on Existing Base Can with CF Isolation Transformer,9.0,EACH
+102,2,0039,312300,Existing Catch Basin Adjustment to Grade,1.0,EACH
+103,2,0039,344300,"Install PF L-868, 12-Inch Diameter Base Can, PF Cover Plate in New AC",15.0,EACH
+104,2,0040,312300,Adjustment of Existing Structures (H-20 Rated Vaults),9.0,EACH
+105,2,0040,344300,"Install PF L-867, 12-Inch Diameter Base Can, PF Cover Plate in Existing AC",2.0,EACH
+106,2,0041,312300,Adjustment of Existing Structures (229 Kip Rated Vaults),1.0,EACH
+107,2,0041,344300,Install PF Cover Plate on Existing Light Base,21.0,EACH
+108,2,0042,334100,12-Inch DIP (Force Main),91.0,LF
+109,2,0042,344301,Adjust Existing Elevated Runway Threshold/Edge Light,21.0,EACH
+110,2,0043,334100,30-Inch DIP (Force Main),77.0,LF
+111,2,0043,344301,Adjust Existing In-Pavement Runway Edge Light,8.0,EACH
+112,2,0044,334100,Riprap,50.0,CY
+113,2,0044,344302,Sign E6-6,1.0,LS
+114,2,0045,334213,Pump Station,1.0,LS
+115,2,0045,344302,Sign E6-9,1.0,LS
+116,2,0046,334213,Pump Station Electrical Equipment Installation,1.0,LS
+117,2,0046,344302,Sign G-3,1.0,LS
+118,2,0047,P-610,Structural Portland Cement Concrete (PCC),85.0,CY
+119,2,0048,L-108,No. 6 AWG Solid Wire for Counterpoise,310.0,LF
+120,2,0049,L-108,Ground Rod for Counterpoise,8.0,EACH
+121,3,#REF!,,#REF!,,#REF!
+122,3,0001,012200,"Mobilization, Cleanup, and Demobilization",1.0,LS
+123,3,0001,012200,"Wildlife Access Road, Asphalt Grindings",200.0,CY
+124,3,0002,012200,Sweeper,1.0,LS
+125,3,0002,L-108,Heat Shrink for 5kV L-823 Primary Connector,435.0,EACH
+126,3,0003,012200,Security Control Monitoring,1.0,LS
+127,3,0003,L-110,1-Inch IMC in Existing AC,25.0,LF
+128,3,0004,012200,Traffic Control,1.0,LS
+129,3,0004,260553,3-Inch Diameter Brass Marker,3.0,EACH
+130,3,0005,012200,Escort,1.0,LS
+131,3,0006,015713,Construction Access,2.0,EACH
+132,3,0007,015713,Jet Blast Control Material,2.5,ACRE
+133,3,0008,015713,Inlet Protection,85.0,EACH
+134,3,0009,015713,Ditch Protection/Check Dams,12.0,EACH
+135,3,0010,015713,Wattles,1000.0,LF
+136,3,0011,,Construction Survey,1.0,LS
+137,3,0012,P-101,"PCC Pavement Removal - 3"" Depth",375.0,SY
+138,3,0013,P-101,"PCC Pavement Removal - 6"" Depth",950.0,SY
+139,3,0014,P-101,"Asphalt Pavement Removal - 3"" Depth",19700.0,SY
+140,3,0015,P-101,"Asphalt Pavement Removal - 5"" Depth",2100.0,SY
+141,3,0016,P-101,"Asphalt Pavement Removal - 7.5"" Depth",2600.0,SY
+142,3,0017,P-101,"Asphalt Pavement Removal - 12"" Depth",8700.0,SY
+143,3,0018,P-101,"Asphalt Pavement Removal - 14"" Depth",950.0,SY
+144,3,0019,P-101,"Asphalt Pavement Removal - 16"" Depth",15200.0,SY
+145,3,0020,P-101,"Asphalt Pavement Removal - 20"" Depth",23600.0,SY
+146,3,0021,P-101,"Asphalt Pavement Removal - 22"" Depth",6100.0,SY
+147,3,0022,P-101,"Asphalt Pavement Removal - 12"" Depth Asphalt Grindings",375.0,SY
+148,3,0023,P-101,Joint and Crack Repair,1500.0,LF
+149,3,0024,P-101,Cold Milling - 4 Inch Maximum Depth,5500.0,SY
+150,3,0025,,Unclassified Excavation (P-152),37500.0,CY
+151,3,0026,P-152,Unsuitable Excavation,1000.0,CY
+152,3,0027,P-152,Geotextile,87400.0,SY
+153,3,0028,P-153,Controlled Low-Strength Material (CLSM),1500.0,CY
+154,3,0029,P-154,Subbase Course,6900.0,CY
+155,3,0030,P-156,Silt Fence,5100.0,LF
+156,3,0031,P-209,Crushed Aggregate Base Course,17800.0,CY
+157,3,0032,P-401,Hot Mix Asphalt (HMA) Pavement,11300.0,TON
+158,3,0033,P-403,Hot Mix Asphalt (HMA) Pavement Base Course,22800.0,TON
+159,3,0034,P-501,Portland Cement Concrete (PCC) Pavement,48500.0,SY
+160,3,0035,P-602,Bituminous Prime Coat,2800.0,GAL
+161,3,0036,P-603,Bituminous Tack Coat,600.0,GAL
+162,3,0037,P-604,Compression Joint Sealant,39900.0,LF
+163,3,0038,P-605,Joint Sealant,300.0,GAL
+164,3,0039,P-606,Adhesive Compound,300.0,GAL
+165,3,0040,P-610,Structural Portland Cement Concrete (PCC),250.0,CY
+166,3,0041,P-610,Steel Reinforcement,5600.0,LB
+167,3,0042,P-620,Pavement Marking,36000.0,SF
+168,3,0043,P-620,Reflective Media,2300.0,LB
+169,3,0044,P-620,Phasing Pavement Marking,22500.0,SF
+170,3,0045,P-621,Saw-Cut Grooving,450.0,SY
+171,3,0046,D-701,4-Inch STS Pipe,210.0,LF
+172,3,0047,D-701,6-Inch STS Pipe,1061.0,LF
+173,3,0048,D-701,12-Inch STS Pipe,1682.0,LF
+174,3,0049,D-701,12-Inch RCP Pipe,707.0,LF
+175,3,0050,D-701,18-Inch STS Pipe,743.0,LF
+176,3,0051,D-701,24-Inch STS Pipe,192.0,LF
+177,3,0052,D-701,24-Inch RCP Pipe,251.0,LF
+178,3,0053,D-701,48-Inch STS Pipe,1020.0,LF
+179,3,0054,D-705,6-Inch Perforated Pipe Underdrains,5379.0,LF
+180,3,0055,D-751,"48-Inch Manhole, Type A",1.0,EACH
+181,3,0056,D-751,"48-Inch Manhole, Type B",6.0,EACH
+182,3,0057,D-751,"60-Inch Manhole, Type B",1.0,EACH
+183,3,0058,D-751,"72-Inch Manhole, Type A",1.0,EACH
+184,3,0059,D-751,"72-Inch Manhole, Type B",3.0,EACH
+185,3,0060,D-751,"84-Inch Manhole, Type A",2.0,EACH
+186,3,0061,D-751,"84-Inch Manhole, Type B",1.0,EACH
+187,3,0062,D-751,Catch Basin,31.0,EACH
+188,3,0063,T-901,Seeding,8.2,ACRE
+189,3,0064,T-905,Topsoiling,6900.0,CY
+190,3,0065,L-108,No. 8 AWG 5kV Cable,5000.0,LF
+191,3,0066,L-108,No. 6 AWG Solid Wire for Counterpoise,1060.0,LF
+192,3,0067,L-108,Ground Rod for Counterpoise,6.0,EACH
+193,3,0068,L-110,2-Inch PVC Direct Buried,65.0,LF
+194,3,0069,L-110,2-Inch PVC in Existing AC,1175.0,LF
+195,3,0070,260500,General Electrical Removal,1.0,LS
+196,3,0071,260500,Temporary Circuit Connection,1.0,LS
+197,3,0072,312300,"Removal of Existing Storm Pipe, Manholes, and Inlets",1.0,LS
+198,3,0073,312300,Connection to Existing Storm Drainage System,0.0,EACH
+199,3,0074,312300,Existing Manhole Adjustment to Grade,0.0,EACH
+200,3,0075,312300,Existing Catch Basin Adjustment to Grade,0.0,EACH
+201,3,0076,312300,Existing Electrical Vault Adjustment to Grade,2.0,EACH
+202,3,0077,334100,12-Inch Ductile Iron (Force Main) Pipe,0.0,LF
+203,3,0078,334100,20-Inch Ductile Iron (Force Main) Pipe,0.0,LF
+204,3,0079,334100,Riprap,0.0,CY
+205,3,0080,334213,"Stormwater Pump Station, Electrical Equipment Installation",1.0,LS
+206,3,0081,334213,Stormwater Valve Vault,1.0,LS
+207,3,0082,344300,"Install PF LED Taxiway Centerline Light with PF Base Can, CF Transformer in New AC",22.0,EACH
+208,3,0083,344300,Install PF LED Taxiway Centerline Light on Existing Base Can with CF Isolation Transformer,9.0,EACH
+209,3,0084,344301,Adjust Existing Elevated Runway Threshold Light,8.0,EACH
+210,3,0085,344301,Adjust Existing In-Pavement Runway Edge Light,8.0,EACH
+211,3,0086,344301,Adjust Existing In-Pavement Stop Bar Light,15.0,EACH
+212,3,0087,344302,Sign E6-6,1.0,LS
+213,3,0088,344302,Sign E6-9,1.0,LS
+214,3,0089,344302,Sign G-3,1.0,LS
+215,4,0001,,"Mobilization, Cleanup, and Demobilization",1.0,LS
+216,4,0002,,Sweeper,1.0,LS
+217,4,0003,,Security Control Monitoring,1.0,LS
+218,4,0004,,Escort,1.0,LS
+219,4,0005,,Construction Survey,1.0,LS
+220,4,0006,,Sediment Fence,750.0,LF
+221,4,0007,,Inlet Protection,2.0,EACH
+222,4,0008,,Stabilized Construction Entrance,1.0,EACH
+223,4,0009,,Pavement Removal,20.0,CY
+224,4,0010,,Common Excavation,1500.0,CY
+225,4,0011,,Unsuitable Excavation and Disposal,40.0,CY
+226,4,0012,,Contaminated Soil Excavation and Disposal,50.0,CY
+227,4,0013,,Trench Stabilization,10.0,CY
+228,4,0014,,Geotextile,650.0,SY
+229,4,0015,,Aggregate Base Course,400.0,CY
+230,4,0016,,"Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets",1.0,LS
+231,4,0017,,Removal of Existing Lid from Stormwater Treatment Vault,1.0,LS
+232,4,0018,,Modifications to Existing Wet Well,1.0,LS
+233,4,0019,,Adjustment of Existing Structures (H-20 Rated Vaults),4.0,EACH
+234,4,0020,,24-Inch Storm Sewer (Force Main) Pipe,23.0,LF
+235,4,0021,,12-Inch Storm Sewer Pipe,51.0,LF
+236,4,0022,,15-Inch Storm Sewer Pipe,22.0,LF
+237,4,0023,,21-Inch Storm Sewer Pipe,23.0,LF
+238,4,0024,,21-Inch Storm Sewer Pipe (RCP),70.0,LF
+239,4,0025,,24-Inch Storm Sewer Pipe,85.0,LF
+240,4,0026,,48-Inch Manhole,1.0,EACH
+241,4,0027,,60-Inch Manhole,1.0,EACH
+242,4,0028,,72-Inch Manhole,2.0,EACH
+243,4,0029,,72-Inch Corrugated Metal Riser,1.0,EACH
+244,4,0030,,Stormwater Pump Station,1.0,LS
+245,4,0031,,Stormwater Treatment Vaults,3.0,EACH
+246,4,0032,,Stormwater Treatment Vault Cover,1500.0,SF
+247,4,0033,,Hand Rail,350.0,LF
+248,4,0034,,Concrete Wall Removal,8.0,LF
+249,4,0035,,Concrete Curb Removal,8.0,LF
+250,4,0036,,Bollard,4.0,EACH
+251,4,0037,,Area Seeding,0.07,ACRE
+252,4,0038,,Electrical Modifications,1.0,LS
+253,5,0001,,"Mobilization, Cleanup, and Demobilization",1.0,LS
+254,5,0002,,Sweeper,1.0,LS
+255,5,0003,,Work Zone Traffic Control,1.0,LS
+256,5,0004,,Construction Survey,1.0,LS
+257,5,0005,,Inlet Protection,96.0,EACH
+258,5,0006,,Cold Plane Pavement Removal (0-3 Inch Maximum),59000.0,SY
+259,5,0007,,Cold Plane Pavement Removal (3-5 Inch Maximum),5500.0,SY
+260,5,0008,,Pavement Removal,800.0,CY
+261,5,0009,,Common Excavation,500.0,CY
+262,5,0010,,Unsuitable Excavation and Disposal,200.0,CY
+263,5,0011,,Contaminated Soil Excavation and Disposal,50.0,CY
+264,5,0012,,Geotextile,650.0,SY
+265,5,0013,,Aggregate Base Course,170.0,CY
+266,5,0014,,Utility Adjustments to Grade,12.0,EACH
+267,5,0015,,"Pavement Marking, Thermoplastic",3200.0,SF
+268,5,0016,,"Pavement Marking, Painted",11000.0,SF
+269,5,0017,,"Pavement Marking, Temporary",6000.0,SF
+270,5,0018,,Vehicle Detection Loops,1.0,LS
+271,5,0019,,"Level 3, 1/2-Inch Dense HMAC",16200.0,TON
+272,6,0001,012200,"Mobilization, Cleanup, and Demobilization",1.0,LS
+273,6,0002,012200,Sweeper,1.0,LS
+274,6,0003,012200,Security Control Monitoring,1.0,LS
+275,6,0004,012200,Work Zone and Traffic Control,1.0,LS
+276,6,0005,012200,Escort,1.0,LS
+277,6,0006,015713,Inlet Protection,18.0,EACH
+278,6,0007,,Construction Survey,1.0,LS
+279,6,0008,P-101,Cold Milling - 3-Inch Maximum Depth,21200.0,SY
+280,6,0009,P-401,Bituminous Surface Course,3800.0,TON
+281,6,0010,P-603,Bituminous Tack Coat,2200.0,GAL
+282,6,0011,P-620,Runway and Taxiway Marking,8000.0,SF
+283,6,0012,P-620,Reflective Media,500.0,LB
+284,6,0013,P-620,Preformed Markings,4200.0,SF
+285,6,0014,P-620,Phasing Pavement Marking,24750.0,SF
+286,6,0015,026100,Contaminated Material Excavation and Disposal,1500.0,TON
+287,6,0016,312300,Modifications to Existing Pump Station A and Deicing Valve Vault,1.0,LS
+288,6,0017,260553,3-Inch Diameter Brass Marker,18.0,EACH
+289,7,0001,012200,"Mobilization, Cleanup, and Demobilization",1.0,LS
+290,7,0002,012200,Sweeper,1.0,LS
+291,7,0003,012200,Security Control Monitoring,1.0,LS
+292,7,0004,012200,Work Zone and Traffic Control,1.0,LS
+293,7,0005,012200,Escort,1.0,LS
+294,7,0006,015713,Jet Blast Control Material,1.4,ACRE
+295,7,0007,015713,Inlet Protection,35.0,EACH
+296,7,0008,015713,Trench Protection,1740.0,LF
+297,7,0009,,Construction Survey,1.0,LS
+298,7,0010,P-101,PCC Pavement Removal - 3-Inch Depth,320.0,SY
+299,7,0011,P-101,PCC Pavement Removal - 4-Inch Depth,60.0,SY
+300,7,0012,P-101,PCC Pavement Removal - 16-Inch Depth,9400.0,SY
+301,7,0013,P-101,Asphalt Pavement Removal - 3-Inch Depth,3700.0,SY
+302,7,0014,P-101,Asphalt Pavement Removal - 6-Inch Depth,16900.0,SY
+303,7,0015,P-101,Asphalt Pavement Removal - 9-Inch Depth,3000.0,SY
+304,7,0016,P-101,Asphalt Pavement Removal - 12-Inch Depth,26500.0,SY
+305,7,0017,P-101,Asphalt Pavement Removal - 15-Inch Depth,7000.0,SY
+306,7,0018,P-101,Joint and Crack Repair,1500.0,LF
+307,7,0019,P-101,Cold Milling - 3-Inch Maximum Depth,400.0,SY
+308,7,0020,P-152,Unclassified Excavation,65000.0,CY
+309,7,0021,P-152,Unsuitable Excavation,3250.0,CY
+310,7,0022,P-152,Geotextile,57000.0,SY
+311,7,0023,P-153,Controlled Low-Strength Material,2000.0,CY
+312,7,0024,P-154,Subbase Course,52200.0,CY
+313,7,0025,P-156,Installation and Removal of Silt Fence,2600.0,LF
+314,7,0026,P-209,Crushed Aggregate Base Course,10000.0,CY
+315,7,0027,P-401,Bituminous Surface Course,8700.0,TON
+316,7,0028,P-403,HMA Base Course,35600.0,TON
+317,7,0029,P-501,Portland Cement Concrete Pavement,13400.0,SY
+318,7,0030,P-602,Bituminous Prime Coat,700.0,GAL
+319,7,0031,P-603,Bituminous Tack Coat,23900.0,GAL
+320,7,0032,P-604,Compression Joint Seals for Concrete Pavement,10850.0,LF
+321,7,0033,P-605,Joint Sealing Filler,61.0,GAL
+322,7,0034,P-606,Adhesive Compound,50.0,GAL
+323,7,0035,P-610,Structural Portland Cement Concrete,30.0,CY
+324,7,0036,P-610,Steel Reinforcement,175.0,LB
+325,7,0037,P-620,Runway and Taxiway Marking,20000.0,SF
+326,7,0038,P-620,Reflective Media,1225.0,LB
+327,7,0039,P-620,Preformed Markings,9400.0,SF
+328,7,0040,P-620,Phasing Pavement Marking,21750.0,SF
+329,7,0041,D-701,4-Inch STS Pipe,49.0,LF
+330,7,0042,D-701,6-Inch STS Pipe,394.0,LF
+331,7,0043,D-701,12-Inch STS Pipe,657.0,LF
+332,7,0044,D-701,24-Inch STS Pipe,472.0,LF
+333,7,0045,D-701,30-Inch STS Pipe,238.0,LF
+334,7,0046,D-701,48-Inch STS Pipe,3653.0,LF
+335,7,0047,D-705,6-Inch Perforated Pipe,5322.0,LF
+336,7,0048,D-751,"48-Inch Diameter Manhole, Type A",1.0,EACH
+337,7,0049,D-751,"72-Inch Diameter Manhole, Type A",7.0,EACH
+338,7,0050,D-751,"84-Inch Diameter Manhole, Type A",2.0,EACH
+339,7,0051,D-751,"96-Inch Diameter Manhole, Type A",1.0,EACH
+340,7,0052,D-751,Catch Basins,18.0,EACH
+341,7,0053,T-901,Seeding,2.8,ACRE
+342,7,0054,T-905,Topsoiling,2300.0,CY
+343,7,0055,312300,"Removal of Existing Storm Pipe, Manholes, and Inlets",1.0,LS
+344,7,0056,312300,Connection to Existing Storm Drainage System,18.0,EACH
+345,7,0057,312300,Existing Manhole Adjustment to Grade,3.0,EACH
+346,7,0058,312300,Existing Electrical Vault (H-20 Rated) Extension to Finish Grade,2.0,EACH
+347,7,0059,312300,Sanitary Sewer Wet Well Removal,1.0,EACH
+348,7,0060,L-108,"No. 8 AWG, 5 kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit",14265.0,LF
+349,7,0061,L-108,"No. 6 AWG, Solid, Bare Counterpoise Wire",4000.0,LF
+350,7,0062,L-108,"Counterpoise Ground Rod, 10-Foot Long",13.0,EACH
+351,7,0063,L-110,2-Inch PVC,3680.0,LF
+352,7,0064,L-110,2-Inch GRSC,45.0,LF
+353,7,0065,L-110,1 1/2-Inch GRSC,80.0,LF
+354,7,0066,260500,General Electrical Removal,1.0,LS
+355,7,0067,260500,Temporary Circuit Connection,1.0,LS
+356,7,0068,344300,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC",43.0,EACH
+357,7,0069,344300,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in Existing AC",6.0,EACH
+358,7,0070,344300,"Reinstall LED Taxiway Centerline Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC",13.0,EACH
+359,7,0071,344300,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC",3.0,EACH
+360,7,0072,344300,Reinstall Taxiway Edge Light on Existing Base Can with Existing Isolation Transformer,28.0,EACH
+361,7,0073,344300,Reinstall Taxiway Centerline Light on Existing Base Can w/ Existing Transformer in Existing AC,1.0,EACH
+362,7,0074,344300,"Reinstall Taxiway Centerline Light on Existing Base Can w/ PF Extension, PF Flange Ring, and Existing Transformer in New AC",45.0,EACH
+363,7,0075,344302,Sign V-2,1.0,LS
+364,7,0076,344302,Sign V-4,1.0,LS
+365,7,0077,344302,Sign V-6,1.0,LS
+366,7,0078,344302,Sign A4-6,1.0,LS
+367,7,0079,344302,Sign A4-7,1.0,LS
+368,7,0080,344302,Sign A4-9,1.0,LS
+369,7,0081,344302,Sign A5-3,1.0,LS
+370,7,0082,344302,Sign A5-4,1.0,LS
+371,7,0083,344302,Sign V-5,1.0,LS
+372,7,0084,344302,Sign A4-13,1.0,LS
+373,8,0001,012200,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+374,8,0002,012200,Sweeper,1.0,LS
+375,8,0003,012200,Security Control Monitoring,1.0,LS
+376,8,0004,012200,Work Zone and Traffic Control,1.0,LS
+377,8,0005,012200,Escort,1.0,LS
+378,8,0006,260500,General Electrical Removal,1.0,LS
+379,8,0007,260500,Temporary Circuit Connection,1.0,LS
+380,8,0008,260526,Ground Rod for Counterpoise,2.0,EACH
+381,8,0009,260553,3-Inch Diameter Brass Marker,1.0,EACH
+382,8,0010,344300,Install PF Elevated Runway End Light with CF Transformer on Existing Light Base,16.0,EACH
+383,8,0011,344300,Install PF Elevated Runway Edge Light with CF Transformer on Existing Light Base,79.0,EACH
+384,8,0012,344300,Install PF In-Pavement Runway Edge Light with CF Transformer on Existing Light Base,17.0,EACH
+385,8,0013,344300,Install PF Runway Centerline Light with CF Transformer on Existing Light Base,195.0,EACH
+386,8,0014,344300,Install PF In-Pavement Runway Threshold Light with CF Transformer on Existing Light Base,16.0,EACH
+387,8,0015,344300,Install PF Taxiway Centerline Light with PF Remote and CF Transformer on Existing Light Base,143.0,EACH
+388,8,0016,344300,Install PF Red Elevated Stop Bar Light with PF Remote and CF Transformer on Existing Light Base,14.0,EACH
+389,8,0017,344300,Install PF Dual Stop Bar Light with PF Remote and CF Transformer on Existing Light Base,93.0,EACH
+390,8,0018,344300,Install PF In-Pavement Runway Guard Light with CF Transformer on Existing Light Base,39.0,EACH
+391,8,0019,344300,Install PF Red Elevated Stop Bar Light with CF Transformer on Existing Light Base,40.0,EACH
+392,8,0020,344300,Install PF Elevated Runway Guard Light with CF Transformer on Existing Light Base,34.0,EACH
+393,8,0021,344300,Install PF Dual Stop Bar Light with Two CF Transformers on Existing Light Base,108.0,EACH
+394,8,0022,344300,Install PF Taxiway Centerline Light with CF Transformer on Existing Light Base,258.0,EACH
+395,8,0023,344300,Install PF Elevated Taxiway Edge Light with CF Transformer on Existing Light Base,599.0,EACH
+396,8,0024,344300,Install PF Taxiway Centerline Light on Existing Light Base,80.0,EACH
+397,8,0025,344300,Install PF Dual Stop Bar Light on Existing Light Base,91.0,EACH
+398,8,0026,344300,Install PF In-Pavement Runway Guard Light on Existing Light Base,14.0,EACH
+399,8,0027,344300,Install PF In-Pavement Red Stop Bar Light with PF Remote and CF Transformer on Existing Light Base,10.0,EACH
+400,8,0028,344300,"Install CF 150-Watt, 6.6/6.6 Amp Isolation Transformer in Existing Base Can",91.0,EACH
+401,8,0029,344300,Install PF Microwave Sensor with CF Transformer in Existing Base Can,14.0,EACH
+402,8,0030,344300,Install PF Cover Plate on Existing Base Can,1.0,EACH
+403,8,0031,L-108,"#6 AWG, 5kV Cable",55000.0,LF
+404,8,0032,L-110,2-inch PVC Direct Buried in Grass,150.0,LF
+405,8,0033,L-110,2-inch PVC in Existing ACP Shoulder,10.0,LF
+406,9,0001,,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+407,9,0002,,"Temporary Erosion, Sediment, and Pollution Control",1.0,LS
+408,9,0003,,Temporary Traffic Control,1.0,LS
+409,9,0004,,Site Demolition,1.0,LS
+410,9,0005,,Contaminated Soil Excavation and Placement,26.0,CY
+411,9,0006,,"Fill Material, Topsoil",105.0,CY
+412,9,0007,,Compacted Bedding Material,181.0,CY
+413,9,0008,,2-Inch Water Pipe,111.0,LF
+414,9,0009,,4-Inch Water Pipe,1277.0,LF
+415,9,0010,,6-Inch Water Pipe,6077.0,LF
+416,9,0011,,2-Inch Gate Valve,1.0,EACH
+417,9,0012,,4-Inch Gate Valve,2.0,EACH
+418,9,0013,,6-Inch Gate Valve,5.0,EACH
+419,9,0014,,Remove and Reinstall Catch Basin,1.0,EACH
+420,9,0015,,Aggregate Base Course,608.0,TON
+421,9,0016,,Pavement Markings,1.0,LS
+422,9,0017,,Remove and Reinstall Chain Link Fence,81.0,LF
+423,9,0018,,Area Seeding,6.0,ACRE
+424,9,0019,,Asphalt Concrerte Surface Course,45.0,TON
+425,10,0001,012200,Sweeper,1.0,LS
+426,10,0002,012200,Security Control Monitoring,1.0,LS
+427,10,0003,012200,Traffic Control,1.0,LS
+428,10,0004,012200,Escort,1.0,LS
+429,10,0005,015713,Inlet Protection,6.0,EACH
+430,10,0005,015713,Jet Blast Control Material,3.0,ACRE
+431,10,0006,015713,Inlet Protection,60.0,EACH
+432,10,0006,C-105,Mobilization,1.0,LS
+433,10,0007,015713,Ditch Protection/Check Dams,4.0,EACH
+434,10,0007,P-101,PCC Pavement Removal - 15-Inch Depth,450.0,SY
+435,10,0008,C-102,Installation and Removal of Silt Fence,4650.0,LF
+436,10,0008,P-101,PCC Pavement Removal - 18-Inch Depth,150.0,SY
+437,10,0009,C-105,Mobilization,1.0,LS
+438,10,0009,P-101,Asphalt Pavement Removal - 11-Inch Depth,5900.0,SY
+439,10,0010,P-101,Asphalt Pavement Removal - 20-Inch Depth,3600.0,SY
+440,10,0010,P-101,Asphalt Pavement Removal - 4-Inch Depth,2700.0,SY
+441,10,0011,P-101,Asphalt Pavement Removal - 6-Inch Depth,625.0,SY
+442,10,0011,P-101,Cold Milling - 3-Inch Depth,150.0,SY
+443,10,0012,P-101,Asphalt Pavement Removal - 13.5-Inch Depth,1000.0,SY
+444,10,0012,P-101,Removal of Pipe and Other Buried Structures,1.0,LS
+445,10,0013,P-101,PCC Pavement Removal - 6-Inch Depth,25.0,SY
+446,10,0013,P-152,Unclassified Excavation,13025.0,CY
+447,10,0014,P-101,Cold Milling - 3-Inch Depth,3400.0,SY
+448,10,0014,P-152,Unsuitable Excavation,850.0,CY
+449,10,0015,P-101,Cold Milling - 4-Inch Depth,22300.0,SY
+450,10,0015,P-153,Controlled Low-Strength Material,1100.0,CY
+451,10,0016,P-101,Cold Milling - 12-Inch Depth,2400.0,SY
+452,10,0016,P-154,Subbase Course,9100.0,CY
+453,10,0017,P-101,Removal of Pipe and Other Buried Structures,1.0,LS
+454,10,0017,P-154,Separation Geotextile,12900.0,SY
+455,10,0018,P-152,Unclassified Excavation,10650.0,CY
+456,10,0018,P-209,Crushed Aggregate Base Course,2500.0,CY
+457,10,0019,P-152,Unsuitable Excavation,1000.0,CY
+458,10,0019,P-401,Asphalt Surface Course,1800.0,TON
+459,10,0020,P-153,Controlled Low-Strength Material,1750.0,CY
+460,10,0020,P-403,Asphalt Mixture Surface and Base,4600.0,TON
+461,10,0021,P-154,Subbase Course,5700.0,CY
+462,10,0021,P-501,11-Inch Thick Concrete Pavement,1511.0,SY
+463,10,0022,P-154,Separation Geotextile,14400.0,SY
+464,10,0022,P-501,15-Inch Thick Concrete Pavement,6259.0,SY
+465,10,0023,P-209,Crushed Aggregate Base Course,2600.0,CY
+466,10,0023,P-501,18-Inch Thick Concrete Pavement,139.0,SY
+467,10,0024,P-401,Asphalt Surface Course,7500.0,TON
+468,10,0024,P-603,Emulsified Asphalt Tack Coat,1800.0,GAL
+469,10,0025,P-403,Asphalt Mixture Surface and Base,6100.0,TON
+470,10,0025,P-604,Compression Joint Seals for Concrete Pavements,6000.0,LF
+471,10,0026,P-602,Emulsified Asphalt Prime Coat,3600.0,GAL
+472,10,0026,P-605,Joint Sealing Filler,100.0,GAL
+473,10,0027,P-603,Emulsified Asphalt Tack Coat,6750.0,GAL
+474,10,0027,P-608,Asphalt Surface Treatment,1900.0,SY
+475,10,0028,P-605,Joint Sealing Filler,82.0,GAL
+476,10,0028,P-620,Surface Preparation - New Pavement Surfaces,5725.0,SF
+477,10,0029,P-606,Adhesive Compound,45.0,GAL
+478,10,0029,P-620,Surface Preparation - Remove Existing Markings,3200.0,SF
+479,10,0030,P-608,Asphalt Surface Treatment,2800.0,SY
+480,10,0030,P-620,Marking,5725.0,SF
+481,10,0031,P-610,Concrete,8.0,CY
+482,10,0031,P-620,Reflective Media,250.0,LB
+483,10,0032,P-620,Surface Preparation - New Pavement Surfaces,5300.0,SF
+484,10,0032,P-620,Temporary Runway and Taxiway Marking,15725.0,SF
+485,10,0033,D-701,12-Inch STS,160.0,LF
+486,10,0033,P-620,Marking,5300.0,SF
+487,10,0034,D-701,15-Inch STS,102.0,LF
+488,10,0034,P-620,Reflective Media,263.0,LB
+489,10,0035,D-701,36-Inch STS,925.0,LF
+490,10,0035,P-620,Temporary Runway and Taxiway Marking,25300.0,SF
+491,10,0036,D-701,8-Inch STS,46.0,LF
+492,10,0036,D-751,60-Inch Manhole,4.0,EACH
+493,10,0037,D-701,12-Inch STS,1328.0,LF
+494,10,0037,D-751,72-Inch Manhole,1.0,EACH
+495,10,0038,D-701,15-Inch STS,251.0,LF
+496,10,0038,D-751,Catch Basins,2.0,EACH
+497,10,0039,312300,Connection to Existing Storm Drainage System,4.0,EACH
+498,10,0039,D-701,18-Inch STS,36.0,LF
+499,10,0040,312300,Existing Electrical Vault Adjustment to Grade,2.0,EACH
+500,10,0040,D-701,24-Inch STS,2286.0,LF
+501,10,0041,312300,Remove Existing Manhole Flat Top and Upgrade to Aircraft Rated Structure,1.0,EACH
+502,10,0041,D-701,30-Inch STS,299.0,LF
+503,10,0042,260500,General Electrical Removal,1.0,LS
+504,10,0042,D-751,48-Inch Manhole,7.0,EACH
+505,10,0043,D-751,60-Inch Manhole,2.0,EACH
+506,10,0043,P-101,Asphalt Pavement Removal - 16-Inch Depth,1350.0,SY
+507,10,0044,D-751,Catch Basins,12.0,EACH
+508,10,0045,T-901,Seeding,6.0,ACRE
+509,10,0046,T-905,Topsoil (Obtained on Site or Removed from Stockpile),1700.0,CY
+510,10,0047,312300,Connection to Existing Storm Drainage System,6.0,EACH
+511,10,0048,312300,Existing Manhole/Inlet Adjustment to Grade,9.0,EACH
+512,10,0049,312300,Existing Electrical Vault Adjustment to Grade,2.0,EACH
+513,10,0050,312300,Replace Existing Manhole Lid with Open Grated Lid,2.0,EACH
+514,10,0051,L-108,No. 4 GND Conductor,450.0,LF
+515,10,0052,L-108,"No. 2/0 AWG, 600-Volt Conductor",1350.0,LF
+516,10,0053,L-108,"No. 8 AWG, 5 kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit",8000.0,LF
+517,10,0054,L-108,"No. 6 AWG, Solid, Bare Counterpoise Wire",2000.0,LF
+518,10,0055,L-108,"Counterpoise Ground Rod, 10-Foot Long",8.0,EACH
+519,10,0056,L-110,2-Inch PVC in New Shoulder and Direct Buried,1700.0,LF
+520,10,0057,L-110,2-Inch PVC in CLSM,230.0,LF
+521,10,0058,L-110,1-Inch GRSC,75.0,LF
+522,10,0059,260500,General Electrical Removal,1.0,LS
+523,10,0060,260500,Temporary Circuit Connection,1.0,LS
+524,10,0061,344300,"Reinstall Elevated LED Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",22.0,EACH
+525,10,0062,344300,"Reinstall LED Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",6.0,EACH
+526,10,0063,344300,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",3.0,EACH
+527,10,0064,344300,Install PF Cover Plate on Existing Light Base,2.0,EACH
+528,10,0065,344301,Adjust Existing Taxiway Centerline Light,24.0,EACH
+529,10,0066,344302,Sign B6-11,1.0,LS
+530,11,0001,012200,"Mobilization, Cleanup, and Demobilization",1.0,LS
+531,11,0002,012200,Sweeper,1.0,LS
+532,11,0003,012200,Security Control Monitoring,1.0,LS
+533,11,0004,012200,Work Zone and Traffic Control,1.0,LS
+534,11,0005,012200,Escort,1.0,LS
+535,11,0006,012200,Construction Survey,1.0,LS
+536,11,0007,012200,Abandon Existing Monitoring Well,1.0,EACH
+537,11,0008,015713,Inlet Protection,36.0,EACH
+538,11,0009,015713,Trench Drain Protection,975.0,LF
+539,11,0010,015713,Sediment Fence,4655.0,LF
+540,11,0011,024113,Building Demolition,1.0,LS
+541,11,0012,024113,Building Slab and Foundation Removal,1.0,LS
+542,11,0013,024113,Existing Landscape Removal,1.0,LS
+543,11,0014,024113,Removal of Miscellaneous Site Structures,1.0,LS
+544,11,0015,024113,Removal of Existing or Temporary Fence,4290.0,LF
+545,11,0016,026100,Contaminated Material Excavation and Disposal,250.0,TON
+546,11,0017,P-101,PCC Pavement Removal - 15-Inch Depth,440.0,SY
+547,11,0018,P-101,Asphalt Pavement Removal - 3-Inch Depth,8177.0,SY
+548,11,0019,P-101,Asphalt Pavement Removal - 4-Inch Depth,11899.0,SY
+549,11,0020,P-101,Asphalt Pavement Removal - 5-Inch Depth,3087.0,SY
+550,11,0021,P-101,Asphalt Pavement Removal - 8-Inch Depth,203.0,SY
+551,11,0022,P-101,Removal of Pipe and other Buried Structures,1.0,LS
+552,11,0023,P-152,Unclassified Excavation,36522.0,CY
+553,11,0024,P-152,Unsuitable Excavation,1157.0,CY
+554,11,0025,P-152,Separation Geotextile,34818.0,SY
+555,11,0026,P-153,Controlled Low Strength Material,200.0,CY
+556,11,0027,P-209,Crushed Aggregate Base Course,6395.0,CY
+557,11,0028,P-401,Asphalt Surface Course,877.0,TON
+558,11,0029,P-403,Asphalt Mixture Base Course,9975.0,TON
+559,11,0030,P-501,15-Inch Thick Concrete Pavement,440.0,SY
+560,11,0031,P-501,19-Inch Thick Concrete Pavement,30790.0,SY
+561,11,0032,P-603,Emulsified Asphalt Tack Coat,2794.0,GAL
+562,11,0033,P-604,Compression Joint Seals for Concrete Pavements,28932.0,LF
+563,11,0034,P-605,Joint Sealing Filler,12.0,GAL
+564,11,0035,P-608,Asphalt Surface Treatment,106.0,SY
+565,11,0036,P-620,Surface Preparation - New or Existing Pavement Surfaces,14035.0,SF
+566,11,0037,P-620,Surface Preparation - Remove Existing Markings,5702.0,SF
+567,11,0038,P-620,Marking,14035.0,SF
+568,11,0039,P-620,Reflective Media,347.0,LB
+569,11,0040,P-620,Temporary Marking,14830.0,SF
+570,11,0041,D-701,8-Inch STS,132.0,LF
+571,11,0042,D-701,12-Inch STS,224.0,LF
+572,11,0043,D-701,15-Inch STS,300.0,LF
+573,11,0044,D-701,18-Inch STS,340.0,LF
+574,11,0045,D-701,24-Inch STS,225.0,LF
+575,11,0046,D-701,12-Inch Slide Gate,1.0,EACH
+576,11,0047,D-701,15-Inch Slide Gate,1.0,EACH
+577,11,0048,D-701,30-Inch Slide Gate,1.0,EACH
+578,11,0049,D-751,48-Inch Diameter Manhole,3.0,EACH
+579,11,0050,D-751,84-Inch Diameter Manhole,2.0,EACH
+580,11,0051,D-751,Catch Basins,7.0,EACH
+581,11,0052,D-751,Trench Drain,885.0,LF
+582,11,0053,260500,Provide Temporary Power During Construction Inside the 480V Power Center,1.0,LS
+583,11,0054,260500,Re-feed Loads Inside 480V Power Center,1.0,LS
+584,11,0055,260500,Install Handholes for Power and Communications,1.0,LS
+585,11,0056,260500,Install Underground Power Conductors for Apron Lights and Communications,1.0,LS
+586,11,0057,260500,Install Gate Valve and Lighting Controls,1.0,LS
+587,11,0058,260500,Demolition of Existing Electrical Equipment on Work Site,1.0,LS
+588,11,0059,260526,Grounding and Bonding for Electrical Systems,1.0,LS
+589,11,0060,260543,Underground Ducts and Raceways for Electrical Systems,1.0,LS
+590,11,0061,262200,Remove and Replace Existing 9KVA Transformer,1.0,LS
+591,11,0062,262400,Remove and Replace Existing 480V Distribution Panel,1.0,LS
+592,11,0063,265623,Install Apron Lighting,1.0,LS
+593,11,0064,270553,Telecommunications Identification,1.0,LS
+594,11,0065,271000,Structured Cabling,1.0,LS
+595,11,0066,282300,Video Surveillance,1.0,LS
+596,11,0067,312300,Connection to Existing Storm Drainage System,7.0,EACH
+597,11,0068,312300,Existing Manhole/Inlet Adjustment to Grade,1.0,EACH
+598,11,0069,312300,Rotate Existing Manhole Lid,1.0,LS
+599,11,0070,321613,Cast-in-Place Concrete Curb,1011.0,LF
+600,11,0071,321613,Concrete Utility Hub Pavement - 4-Inch,131.0,SY
+601,11,0072,323113,7-Foot Chain Link Fance with Barbed Wire,402.0,LF
+602,11,0073,323113,10-Foot Chain Link Fence with Slats and Barbed Wire,1230.0,LF
+603,11,0074,328400,Irrigation Replacement,1.0,LS
+604,11,0075,329300,Ground Cover Planting,1.0,LS
+605,11,0076,331116,8-Inch Fire Water Line,830.0,LF
+606,11,0077,331116,8-Inch Gate Valve,5.0,EACH
+607,11,0078,331116,Underground Fire Hydrant,2.0,EACH
+608,11,0079,347113,Pipe Bollards,19.0,EACH
+609,11,0080,015713,Ditch Protection/Check Dams,5.0,EACH
+610,12,0001,012200,Sweeper,1.0,LS
+611,12,0002,012200,WorkZoneandTrafficControl,1.0,LS
+612,12,0003,012200,Escort,1.0,LS
+613,12,0004,012200,3'HighBlueReflectiveMarkers,12.0,EACH
+614,12,0005,012200,TemporaryStreamBypass,1.0,LS
+615,12,0006,012200,SettlementPlates,6.0,EACH
+616,12,0007,015713,PlasticMeshFence,100.0,LF
+617,12,0008,015713,InletProtection,14.0,EACH
+618,12,0009,015713,Wattles,5000.0,LF
+619,12,0010,015713,JetBlastControlMaterial,1.0,ACRE
+620,12,0011,015713,DitchProtection/CheckDams,13.0,EACH
+621,12,0012,015713,ConstructionEntrance,3.0,EACH
+622,12,0013,015713,JuteMatting,300.0,SY
+623,12,0014,C-102,InstallationandRemovalofSiltFence,7800.0,LF
+624,12,0015,C-105,Mobilization,1.0,LS
+625,12,0016,P-101,AsphaltPavementRemoval-2.5-InchDepth,7900.0,SY
+626,12,0017,P-101,AsphaltPavementRemoval-4-InchDepth,4100.0,SY
+627,12,0018,P-101,AsphaltPavementRemoval-6-8-InchDepth,4200.0,SY
+628,12,0019,P-101,ColdMilling-0.5InchDepth,4900.0,SY
+629,12,0020,P-101,ColdMilling-VariableDepth(Transitional),4000.0,SY
+630,12,0021,P-101,RemovalofPipeandOtherBuriedStructures,1.0,LS
+631,12,0022,P-152,EmbankmentinPlace,38600.0,CY
+632,12,0023,P-152,MechanicalStabilization,2500.0,CY
+633,12,0024,P-152,ExistingSubgradeStabilzation,1000.0,CY
+634,12,0025,P-152,UnsuitableExcavation,11000.0,CY
+635,12,0026,P-153,ControlledLow-StrengthMaterial(CLSM),228.0,CY
+636,12,0027,P-154,SubbaseCourse,1000.0,CY
+637,12,0028,P-209,CrushedAggregateBaseCourse,9700.0,CY
+638,12,0029,P-209,SeparationGeotextile,12800.0,SY
+639,12,0030,P-401,AsphaltSurfaceCourse,2900.0,TON
+640,12,0031,P-403,AsphaltMixtureBaseandSurfaceCourse,3600.0,TON
+641,12,0032,P-603,EmulsifiedAsphaltTackCoat,2200.0,GAL
+642,12,0033,P-605,JointSealingFiller,20.0,GAL
+643,12,0034,P-606,AdhesiveCompound,40.0,GAL
+644,12,0035,P-610,Concrete,40.0,CY
+645,12,0036,P-620,SurfacePreparation-NewPavementSurface,40800.0,SF
+646,12,0037,P-620,SurfacePreparation-RemoveExistingMarkings,38500.0,SF
+647,12,0038,P-620,Marking,40800.0,SF
+648,12,0039,P-620,ReflectiveMedia,2500.0,LB
+649,12,0040,P-620,TemporaryRunwayandTaxiwayMarking,21800.0,SF
+650,12,0041,D-701,6-inchSTS,137.0,LF
+651,12,0042,D-701,12-inchSTS,77.0,LF
+652,12,0043,D-701,24-inchSTS,1080.0,LF
+653,12,0044,D-701,14-inchClass50DuctileIronPipeCulvert,69.0,LF
+654,12,0045,D-701,18-inchClass50DuctileIronPipeCulvert,151.0,LF
+655,12,0046,D-701,8'HX14'WCulvert,1.0,LS
+656,12,0047,D-705,6-InchPipeUnderdrains,1309.0,LF
+657,12,0048,D-751,Manholes,2.0,EACH
+658,12,0049,D-751,CatchBasins,2.0,EACH
+659,12,0050,D-752,UnclassifiedExcavationforStructures,1100.0,CY
+660,12,0051,D-752,StructuralConcrete,310.0,CY
+661,12,0052,D-752,ReinforcingSteel,29300.0,LB
+662,12,0053,T-901,Seeding,17.0,ACRE
+663,12,0054,T-905,Topsoil(ObtainedOnStieorRemovedfromStockpile),5000.0,CY
+664,12,0055,T-905,Topsoil(FurnishedfromOfftheSite),4800.0,CY
+665,12,0056,026100,ContaminatedMaterialExcavationandDisposal,1000.0,TON
+666,12,0057,312300,ExistingManholeAdjustmenttoGrade-MinorAdjustment,2.0,EACH
+667,12,0058,312300,ExistingManholeAdjustmenttoGrade-MajorAdjustment,2.0,EACH
+668,12,0059,312300,ExistingManholeAdjustmenttoGrade-Cleanout,3.0,EACH
+669,12,0060,312300,ExistingElectricalVaultAdjustmenttoGrade,1.0,EACH
+670,12,0061,330516,CleanoutStructures,10.0,EACH
+671,12,0062,354000,Boulders,120.0,EACH
+672,12,0063,354000,StreambedCobble,750.0,CY
+673,12,0064,354000,StreambedSediment,150.0,CY
+674,12,0065,354000,RiprapOutfall,4.0,EACH
+675,12,0066,354000,GradeControlStructures,40.0,CY
+676,12,0067,L-108,"No.8AWG,5kV,L-824,TypeCCableInstalledinTrench,DuctBank,orConduit",16000.0,LF
+677,12,0068,L-108,"No.6AWG,Solid,BareCounterpoiseWire,InstalledAbovetheDuctBankorConduit,IncludingConnections/Terminations",1911.0,LF
+678,12,0069,L-108,GroundRodforCounterpoise,10.0,EACH
+679,12,0070,L-110,2-InchPVCinGrassorinNewACshoulder,1948.0,LF
+680,12,0071,L-110,2-InchPVCinNewACStructuralPavement,160.0,LF
+681,12,0072,260500,GeneralElectricalRemoval,1.0,LS
+682,12,0073,260500,TemporaryCircuitConnection,1.0,LS
+683,12,0074,260500,TemporaryThresholdSetUpandCircuitConnection,1.0,LS
+684,12,0075,260500,FAAMALSRandThresholdBarLights,1.0,LS
+685,12,0076,260500,InstallPFConstantCurrentRegulator,1.0,LS
+686,12,0077,344300,"InstallPFLEDRunwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder",1.0,EACH
+687,12,0078,344300,"InstallPFLEDElevatedRunwayEnd/ThresholdLightwithPFBaseCan,CFTransformerinNewACPShoulder",8.0,EACH
+688,12,0079,344300,"InstallPFLEDElevatedRunwayGuardLightwithPFBaseCan,CFTransformerinNewACPShoulder",2.0,EACH
+689,12,0080,344300,"InstallPFTaxiwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder",38.0,EACH
+690,12,0081,344300,"InstallPF12""Diameter,24""DeepBaseCanwithPFCoverinNewACPShoulder",1.0,EACH
+691,12,0082,344300,InstallPFElevatedTaxiwayEdgeLightonExistingBaseCanwithCFTransformer,13.0,EACH
+692,12,0083,344301,AdjustExistingRunway/TaxiwayElevatedEdgeLightwithCFTransformer,3.0,EACH
+693,12,0084,344302,Sign13R-1,1.0,LS
+694,12,0085,344302,SignA-1,1.0,LS
+695,13,0001,,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+696,13,0002,,Sweeper,1.0,LS
+697,13,0003,,Temporary Erosion and Sediment Control,1.0,LS
+698,13,0004,,Contaminated Soil Excavation and Disposal,300.0,CY
+699,13,0005,,Dewatering,9.0,EACH
+700,13,0006,,Kennedy Feeder Point-of-Service Access Pad,1.0,LS
+701,13,0007,,Kennedy Feeder Pad-Mount Switch,1.0,LS
+702,13,0008,,Aircraft-Rated Electrical Vaults,4.0,EACH
+703,13,0009,,H-20 Traffic-Rated Electrical Vaults,4.0,EACH
+704,13,0010,,Two 6-Inch Conduits by Directional Drilling Method,5360.0,LF
+705,13,0011,,Electrical Feeder Conductor Assembly,12397.0,LF
+706,13,0012,,Electrical Feeder Installation in Vaults,17.0,EACH
+707,13,0013,,Electrical Feeder Conductor Termination and Testing,1.0,LS
+708,14,0001,,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+709,14,0002,,Project Traffic Control,1.0,LS
+710,14,0003,,Inlet Protection,6.0,EACH
+711,14,0004,,Ditch Protection,9.0,EACH
+712,14,0005,,Clearing and Grubbing,1.0,LS
+713,14,0006,,Pavement Removal,110.0,CY
+714,14,0007,,Asphalt Sawcut,1127.0,LF
+715,14,0008,,Curb Removal,85.0,LF
+716,14,0009,,Asphalt Grinding Removal and Disposal,138.0,CY
+717,14,0010,,Common Excavation,2571.0,CY
+718,14,0011,,Embankment,183.0,CY
+719,14,0012,,Unsuitable Excavation and Disposal,100.0,CY
+720,14,0013,,Encasement Over Existing Waterlin,359.0,LF
+721,14,0014,,Remove and Reinstall 12-Inch Ductile Iron Pipe,38.0,LF
+722,14,0015,,Electrical Bedding Material,466.0,LF
+723,14,0016,,Trench Stabilization,100.0,CY
+724,14,0017,,12-Inch Ductile Iron Sewer Pipe,20.0,LF
+725,14,0018,,Connection to Existing Utility,2.0,EACH
+726,14,0019,,Catch Basin,2.0,EACH
+727,14,0020,,Standard 8-Inch Concrete Curb,798.0,LF
+728,14,0021,,Monolithic Curb and Sidewalk,360.0,SF
+729,14,0022,,Geotextile,2327.0,SY
+730,14,0023,,Aggregate Base Course,391.0,CY
+731,14,0024,,Pavement Marking,925.0,SF
+732,14,0025,,Blackout and Temporary Pavement Marking,1983.0,SF
+733,14,0026,,Signage,1.0,LS
+734,14,0027,,Fence Fabric Removal,1024.0,LF
+735,14,0028,,6-Foot Chain-Link Slatted Fence Fabric,1024.0,LF
+736,14,0029,,Area Seeding,1.08,ACRE
+737,14,0030,,Electrical,1.0,LS
+738,14,0031,,"Level 3, 3/4-Inch Dense HMAC",540.0,TON
+739,14,0032,,Bollards,8.0,EACH
+740,15,0001,012200,Security Control Monitoring,1.0,LS
+741,15,0002,012200,Traffic Control,1.0,LS
+742,15,0003,012200,Sweeper,1.0,LS
+743,15,0004,012200,Escort,1.0,LS
+744,15,0005,015713,Inlet Protection,7.0,EACH
+745,15,0006,C-105,Mobilization,1.0,LS
+746,15,0007,P-101,Cold Millling - 3-Inch Depth,11580.0,SY
+747,15,0008,P-101,Cold Milling - 6-Inch Depth,2680.0,SY
+748,15,0009,P-401,Asphalt Surface Course,3180.0,TON
+749,15,0010,P-603,Emulsified Asphalt Tack Coat,1900.0,GAL
+750,15,0011,P-605,Joint Sealing Filler,16.0,GAL
+751,15,0012,P-606,Adhesive Compound,26.0,GAL
+752,15,0013,P-610,Concrete,23.0,CY
+753,15,0014,P-620,Surface Preparation - Remarking,470.0,SF
+754,15,0015,P-620,Surface Preparation - Remove Existing Marking,200.0,SF
+755,15,0016,P-620,Marking,8100.0,SF
+756,15,0017,P-620,Reflective Media,300.0,LB
+757,15,0018,P-620,Temporary Runway and Taxiway Makrings,4200.0,SF
+758,15,0019,L-108,"No. 8 AWG, 5kV, L-824, Type C Cable",3300.0,LF
+759,15,0020,L-108,"No. 6 AWG, Solid, Bare Counterpoise Wire",1460.0,LF
+760,15,0021,L-108,Counterpoise Ground Rod,5.0,EACH
+761,15,0022,L-110,2-Inch PVC encased in P-610 in Existing AC,1350.0,LF
+762,15,0023,260500,General Electrical Removal,1.0,LS
+763,15,0024,260500,Temporary Circuit Connection,1.0,LS
+764,15,0025,344300,"Reinstall Taxiway Centerline Light on CF Base Can, CF Extenstion, CF Flange Ring, and CF Transformer",49.0,EACH
+765,15,0026,344300,Reinstall Taxiway Centerline Light on Existing Base Can with CF Transformer,1.0,EACH
+766,15,0027,344300,Reinstall Taxiway Edge Light on Existing Base Can with Existing Transformer,11.0,EACH
+767,16,0001,,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+768,16,0002,,Traffic Control,1.0,LS
+769,16,0003,,Sweeper,1.0,LS
+770,16,0004,,Tree and Plant Protection,1.0,LS
+771,16,0005,,"Temporary Erosion, Sediment, and Pollution Control",1.0,LS
+772,16,0006,,Surfacings Removal,1700.0,SY
+773,16,0007,,Signage,1.0,LS
+774,16,0008,,PVC Conduit (Power) - 6 Inch,6500.0,LF
+775,16,0009,,PVC Conduit (Power) - 4 Inch,1050.0,LF
+776,16,0010,,PVC Conduit (Power) - 3 Inch,350.0,LF
+777,16,0011,,PVC Conduit (Power) - 2 Inch,200.0,LF
+778,16,0012,,XHHW Conductor - #3 AWG (Power),450.0,LF
+779,16,0013,,XHHW Conductor - #6 AWG (Power),200.0,LF
+780,16,0014,,XHHW Conductor - #8 AWG (Power),200.0,LF
+781,16,0015,,XHHW Conductor - #10 AWG (Power),200.0,LF
+782,16,0016,,XHHW Conductor - #12 AWG (Power),1250.0,LF
+783,16,0017,,Electric Utility Meter Base - 200A Direct,3.0,EACH
+784,16,0018,,Metered Switchgear Installation,1.0,EACH
+785,16,0019,,Vault (Power) - 712-SWITCH-PCORP,1.0,EACH
+786,16,0020,,Vault (Power) - 575-TRANS-PCORP,4.0,EACH
+787,16,0021,,Vault (Power) - 575-PCORP,2.0,EACH
+788,16,0022,,Vault (Power) - 776-TRANS-PCORP,2.0,EACH
+789,16,0023,,Vault (Power) - 776-TRANS-PCORP (Traffic Rated),1.0,EACH
+790,16,0024,,PVC Conduit (Comm) - 4 Inch,12250.0,LF
+791,16,0025,,"HDPE Interduct (Comm) - 1 1/4""",9300.0,LF
+792,16,0026,,Vault (Comm) - 444-LA,8.0,EACH
+793,16,0027,,Vault (Comm) - 444-LA (Traffic Rated),1.0,EACH
+794,16,0028,,"Demarcation Panel with Receptacles, Heater, and T-Stat",1.0,EACH
+795,16,0029,,H-Frame Support,2.0,EACH
+796,16,0030,,Mini-Power Zone (10 KVA),1.0,EACH
+797,16,0031,,"Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R",1.0,EACH
+798,16,0032,,"Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R",1.0,EACH
+799,16,0033,,Electrical Demo (Existing ORANG),1.0,LS
+800,16,0034,,Clearing and Grubbing,1.0,LS
+801,16,0035,,Contaminated Soil Excavation and Disposal,2900.0,CY
+802,16,0036,,Trench Excavation,4800.0,CY
+803,16,0037,,Trenchless Installation,330.0,LF
+804,16,0038,,Bedding and Pipe Zone Material,2300.0,CY
+805,16,0039,,Trench Stabilization,250.0,CY
+806,16,0040,,"Level 3, 1/2-Inch Dense HMAC",400.0,TON
+807,16,0041,,Crack Seal,7950.0,LF
+808,16,0042,,Aggregate Base Course,550.0,CY
+809,16,0043,,Reinforced Concrete Pad,840.0,SF
+810,16,0044,,Cast-In-Place Concrete Curb,220.0,LF
+811,16,0045,,Concrete Sidewalk,500.0,SF
+812,16,0046,,Pavement Marking,2000.0,SF
+813,16,0047,,One-Year Landscape Maintenance,1.0,LS
+814,16,0048,,Area Seeding,0.5,ACRE
+815,16,0049,,Mulch,220.0,SY
+816,16,0050,,Irrigation Replacement,1.0,LS
+817,16,0051,,3-Inch DR9 Pex Water Pipe,860.0,LF
+818,16,0052,,4-Inch DIP Water Pipe,1260.0,LF
+819,16,0053,,12-Inch DIP Water Pipe,110.0,LF
+820,16,0054,,16-Inch DIP Water Pipe,1800.0,LF
+821,16,0055,,4-Inch Reduced Pressure Backflow Assembly and Enclosure,1.0,LS
+822,16,0056,,16-Inch Reduced Pressure Detector Assembly and Enclosure,1.0,LS
+823,16,0057,,3-Inch Gate Valve,4.0,EACH
+824,16,0058,,4-Inch Gate Valve,1.0,EACH
+825,16,0059,,8-Inch Gate Valve,1.0,EACH
+826,16,0060,,16-Inch Butterfly Valve,2.0,EACH
+827,16,0061,,2-Inch Water Meter,2.0,EACH
+828,16,0062,,2-Inch Air Release Valve Assembly,4.0,EACH
+829,16,0063,,Central Water Meter Vault and Manifold,1.0,LS
+830,16,0064,,Landside Utility Disconnections,7.0,EACH
+831,16,0065,,Airfield Fire Water Disconnection,1.0,LS
+832,16,0066,,Fire Hydrant Assembly,6.0,EACH
+833,16,0067,,Manhole and Catch Basin Adjustment,5.0,EACH
+834,17,1-001,,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+835,17,1-002,,Sweeper,1.0,LS
+836,17,1-003,,Work Zone Traffic Control,1.0,LS
+837,17,1-004,,"Temporary Erosion, Sediment, and Pollution Control",1.0,LS
+838,17,1-005,,Building Removal and Backfill,1.0,LS
+839,17,1-006,,Concrete Winch House Removal and Backfill,1.0,LS
+840,17,1-007,,Water Well Decommission,1.0,LS
+841,17,1-008,,Concrete Removal and Backfill,1.0,LS
+842,17,1-009,,Pavement Removal,207.0,S.Y.
+843,17,1-010,,Aggregate Removal and Disposal,335.0,C.Y.
+844,17,1-011,,Septic Tank and Drain Field Removal,1.0,LS
+845,17,1-012,,"Utility Removal, Relocation, and Backfill",1.0,LS
+846,17,1-013,,Common Excavation,411.0,C.Y.
+847,17,1-014,,Miscellaneous Removals and Backfill,1.0,LS
+848,17,1-015,,Area Seeding,0.84,ACRE
+849,17,1-016,,"Fill Material, Top Soil",675.0,C.Y.
+850,17,1-017,,"Loose Riprap, Class 50",2.04,C.Y.
+851,17,1-018,,Lead Paint Chip Removal,1.0,LS
+852,17,2-001,,One-Year Landscape Maintenance,1.0,L.S.
+853,18,0001,012200,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+854,18,0002,012200,Work Zone and Traffic Control,1.0,LS
+855,18,0003,012200,Sweeper,1.0,LS
+856,18,0004,015713,Inlet Protection,13.0,EACH
+857,18,0005,P-620,Surface Preparation - Remove Existing Markings,59920.0,SF
+858,18,0006,P-620,Pavement Markings,56090.0,SF
+859,18,0007,P-620,Reflective Media,3420.0,LB
+860,18,0008,P-620,Temporary Pavement Markings,56090.0,SF
+861,18,0009,P-626,Slurry Seal,83900.0,SY
+862,18,0010,320117,Asphalt Pavement Removal - 2-3 Inch Depth,160.0,SY
+863,18,0011,320117,Asphalt Concrete Surface Course,30.0,TON
+864,18,0012,320118,Crack Repair,4500.0,LF
+865,18,0013,260500,General Electrical Removal,1.0,LS
+866,18,0014,260500,Temporary Circuit Connection,1.0,LS
+867,18,0015,344300,Install PF LED Elevated Runway End/Threshold Light on Existing Base Can with PF Transformer,14.0,EACH
+868,18,0016,344300,Install PF LED Elevated Runway Edge Light on Existing Base Can with PF Transformer,43.0,EACH
+869,18,0017,344300,Install PF LED In-Pavement Runway Edge Light on Existing Base Can with PF Transformer,1.0,EACH
+870,18,0018,344300,Install PF Cover Plate on Existing Base Can with PF Bolts,50.0,EACH
+871,18,0019,344300,Install PF Taxiway Edge Reflector,7.0,EACH
+872,18,0020,344302,Sign A1-1,1.0,LS
+873,18,0021,344302,Sign A7-2,1.0,LS
+874,18,0022,344302,Sign A8-1,1.0,LS
+875,18,0023,344302,Sign A8-2,1.0,LS
+876,18,0024,344302,Sign B1-1,1.0,LS
+877,18,0025,344302,Sign B7-1,1.0,LS
+878,18,0026,344302,Sign B8-1,1.0,LS
+879,18,0027,344302,Sign UL-1 Section 344302),1.0,LS
+880,18,0028,344302,Sign UL-2,1.0,LS
+881,19,0001,,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+882,19,0002,,Barge and Access Equipment,1.0,LS
+883,19,0003,,Containment,1.0,LS
+884,19,0004,,Hollow Core Deck Panel Replacement,2.0,EACH
+885,19,0005,,Deck Crack Repair,1386.0,LF
+886,19,0006,,Soffit and Vertical Crack Repair,639.0,LF
+887,19,0007,,Deck Delamination and Spall Repair,176.0,SF
+888,19,0008,,Deck Delamination and Spall Repair with Anodes,21.0,SF
+889,19,0009,,Soffit and Vertical Face Delamination and Spall Repair,342.0,SF
+890,19,0010,,Soffit and Vertical Face Delamination and Spall Repair with Anodes,80.0,SF
+891,19,0011,,Pile Spall Repair,15.0,SF
+892,19,0012,,Pile Crack Repair,66.0,LF
+893,19,0013,,Joint Repair,2650.0,LF
+894,19,0014,,Joint Repair at Panel Step,44.0,LF
+895,19,0015,,Deck Surface Repair,8100.0,SF
+896,19,0016,,Deck Surface Repair with Cathodic Protection,4420.0,SF
+897,19,0017,,Deck Topping Replacement,4460.0,SF
+898,19,0018,,Deck Topping Repair,1210.0,SF
+899,19,0019,,Fender Panel Rehabilitation,1.0,LS
+900,19,0020,,Trestle Cross-Brace Rehabilitation,1.0,LS
+901,19,0021,,Remove and Replace Embedded Anodes,566.0,EACH
+902,19,0022,,Metalizing Repairs,3000.0,SF
+903,19,0023,,Metalizing System at Edge Beams,3300.0,SF
+904,19,0024,,Remove and Replace Compression Seal,17.0,LF
+905,19,0025,,Concrete Pad Demolition and Repair,125.0,SF
+906,20,0001,012200,"Mobilization, Cleanup, and Demobilization",1.0,LS
+907,20,0002,012200,Sweeper,1.0,LS
+908,20,0003,012200,Security Control Monitoring,1.0,LS
+909,20,0004,012200,Work Zone and Traffic Control,1.0,LS
+910,20,0005,012200,Escort,1.0,LS
+911,20,0006,012200,Construction Survey,1.0,LS
+912,20,0007,015713,Inlet Protection,4.0,EACH
+913,20,0008,015713,Trench Drain Protection,435.0,LF
+914,20,0009,024113,Building Demolition,1.0,LS
+915,20,0010,024113,Building Slab and Foundation Removal,1.0,LS
+916,20,0011,026100,Contaminated Material Excavation and Disposal,150.0,TON
+917,20,0012,260500,Demolition of Existing Electrical Equipment on Work Site,1.0,LS
+918,20,0013,260500,Install Handholes for Power,1.0,EACH
+919,20,0014,312300,Connection to Existing Storm Drainage System,2.0,EACH
+920,20,0015,312300,Existing Manhole/Inlet Adjustment to Grade,1.0,EACH
+921,20,0016,P-101,PCC Pavement Removal - 15-Inch Depth,70.0,SY
+922,20,0017,P-101,Asphalt Pavement Removal - 3-5 Inch Depth,2705.0,SY
+923,20,0018,P-101,Asphalt Pavement Removal - 8 Inch Depth,205.0,SY
+924,20,0019,P-101,Removal of Pipe and Other Buried Structures,1.0,LS
+925,20,0020,P-152,Unclassified Excavation,2700.0,CY
+926,20,0021,P-152,Unsuitable Excavation,95.0,CY
+927,20,0022,P-152,Separation Geotextile,2750.0,SY
+928,20,0023,P-153,Controlled Low-Strength Material (CLSM),115.0,CY
+929,20,0024,P-209,Crushed Aggregate Base Course,475.0,CY
+930,20,0025,P-401,Asphalt Surface Course,85.0,TON
+931,20,0026,P-403,Asphalt Mixture Base Course,850.0,TON
+932,20,0027,P-501,19-Inch-Thick Concrete Pavement,2550.0,SY
+933,20,0028,P-603,Emulsified Asphalt Tack Coat,240.0,GAL
+934,20,0029,P-604,Compression Joint Seals for Concrete Pavements,1970.0,LF
+935,20,0030,P-605,Joint Sealing Filler,13.0,GAL
+936,20,0031,P-620,Surface Preparation - New or Existing Pavement Surfaces,525.0,SF
+937,20,0032,P-620,Surface Preparation - Remove Existing Markings,140.0,SF
+938,20,0033,P-620,Marking,860.0,SF
+939,20,0034,P-620,Reflective Media,20.0,LB
+940,20,0035,D-701,8-Inch STS,20.0,LF
+941,20,0036,D-751,Trench Drain,130.0,LF
+942,21,0001,012200,Sweeper,1.0,LS
+943,21,0002,012200,Security Control Monitoring,1.0,LS
+944,21,0003,012200,Work Zone and Traffic Control,1.0,LS
+945,21,0004,012200,Escort,1.0,LS
+946,21,0005,015713,Inlet Protection,44.0,EACH
+947,21,0005,015713,Inlet Protection,23.0,EACH
+948,21,0006,C-105,Mobilization,1.0,LS
+949,21,0007,P-101,Asphalt Pavement Removal - 16-Inch Depth,15000.0,SY
+950,21,0007,P-101,Cold Milling - 2- to 4-Inch Depth,17700.0,SY
+951,21,0008,P-101,Cold Milling - 2- to 4-Inch Depth,74000.0,SY
+952,21,0008,P-401,Asphalt Surface Course,3000.0,TON
+953,21,0009,P-101,Removal of Pipe and Other Buried Structures,1.0,LS
+954,21,0009,P-603,Emulsified Asphalt Tack Coat,200.0,GAL
+955,21,0010,P-152,Unclassified Excavation,4900.0,CY
+956,21,0010,P-605,Joint Sealing Filler,24.0,GAL
+957,21,0011,P-152,Existing Subgrade Stabilzation,500.0,CY
+958,21,0011,P-606,Adhesive Compound,41.0,GAL
+959,21,0012,P-153,Controlled Low-Strength Material (CLSM),226.0,CY
+960,21,0012,P-620,Surface Preparation - Existing Pavement Surface,14600.0,SF
+961,21,0013,P-209,Crushed Aggregate Base Course,4500.0,CY
+962,21,0013,P-620,Marking,23200.0,SF
+963,21,0014,P-209,Separation Geotextile,15000.0,SY
+964,21,0014,P-620,Reflective Media,725.0,LB
+965,21,0015,P-401,Asphalt Surface Course,17100.0,TON
+966,21,0015,P-620,Temporary Runway and Taxiway Marking,15800.0,SF
+967,21,0016,026100,Contaminated Material Excavation and Disposal,300.0,TON
+968,21,0016,P-403,Asphalt Mixture Base and Surface Course,11500.0,TON
+969,21,0017,260500,General Electrical Removal,1.0,LS
+970,21,0017,P-603,Emulsified Asphalt Tack Coat,4300.0,GAL
+971,21,0018,260500,Temporary Circuit Connection,1.0,LS
+972,21,0018,P-605,Joint Sealing Filler,79.0,GAL
+973,21,0019,344300,Reinstall In-Pavement Taxiway Centerline Light on Existing Base Can with Existing Transformer,2.0,EACH
+974,21,0019,P-606,Adhesive Compound,160.0,GAL
+975,21,0020,344300,Reinstall In-Pavement Stop Bar Light on Existing Base Can with Existing Transformer,5.0,EACH
+976,21,0020,P-610,Concrete,55.0,CY
+977,21,0021,344301,Adjust Existing Taxiway Centerline Light to New Finish Elevation,77.0,EACH
+978,21,0021,P-620,Surface Preparation - Marking Removal,7800.0,SF
+979,21,0022,P-620,Surface Preparation - Remove Existing Markings,62300.0,SF
+980,21,0023,P-620,Marking,105800.0,SF
+981,21,0024,P-620,Reflective Media,3500.0,LB
+982,21,0025,P-620,Temporary Runway and Taxiway Marking,67500.0,SF
+983,21,0026,P-620,Preformed Markings,3950.0,SF
+984,21,0027,P-621,Grooving,1600.0,SY
+985,21,0028,D-701,12-Inch STS,189.0,LF
+986,21,0029,D-701,18-Inch STS,264.0,LF
+987,21,0030,D-751,Manholes,1.0,EACH
+988,21,0031,D-751,Catch Basins,2.0,EACH
+989,21,0032,312300,Existing Manhole Adjustment to Grade - Minor Adjustment,5.0,EACH
+990,21,0033,312300,Existing Manhole Adjustment - Cleanout,1.0,EACH
+991,21,0034,L-108,"No. 8 AWG, 5kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit",9310.0,LF
+992,21,0035,L-108,"No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed above the Duct Bank or Conduit, Including Connections/Terminations",2080.0,LF
+993,21,0036,L-108,"No. 10 AWG, 600V, Cable Installed in Conduit",110.0,LF
+994,21,0037,L-108,Counterpoise Ground Rod,9.0,EACH
+995,21,0038,L-110,2-Inch PVC Encased in CLSM in New AC,1530.0,LF
+996,21,0039,L-110,2-Inch PVC Encased in P-610 in Existing AC,535.0,LF
+997,21,0040,L-110,1.5-Inch GRSC Encased in P-610 in Existing AC,25.0,LF
+998,21,0041,L-110,1-Inch GRSC Encased in P-610 in Existing AC,145.0,LF
+999,21,0042,260500,General Electrical Removal,1.0,LS
+1000,21,0043,260500,Temporary Circuit Connection,1.0,LS
+1001,21,0044,344300,Reinstall Elevated Taxiway Edge Light on Existing Base Can with PF Transformer,131.0,EACH
+1002,21,0045,344300,Reinstall Elevated Runway End Light on Existing Base Can with PF Transformer,2.0,EACH
+1003,21,0046,344300,Reinstall In-Pavement Taxiway Edge Light on Existing Base Can with PF Transformer,5.0,EACH
+1004,21,0047,344300,Reinstall Taxiway Centerline Light on Existing Base Can with PF Transformer,5.0,EACH
+1005,21,0048,344300,"Reinstall Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and PF Transformer",116.0,EACH
+1006,21,0049,344301,Adjust Existing Taxiway Centerline Light to New Finish Elevation,88.0,EACH
+1007,21,0050,344301,Adjust Existing Runway Edge Light to New Finish Elevation,11.0,EACH
+1008,21,0051,344301,Adjust Existing Taxiway Edge Light to New Finish Elevation,1.0,EACH
+1009,21,0052,344301,Adjust Existing Base Can to New Finish Elevation,35.0,EACH
+1010,21,0053,344302,Sign CE-10,1.0,LS
+1011,22,0001,,Sweeper Section (012200),1.0,LS
+1012,22,0001,012200,Sweeper,1.0,LS
+1013,22,0001,C-105,Mobilization,1.0,LS
+1014,22,0002,012200,Escort,1.0,LS
+1015,22,0002,P-620,Surface Prep - Existing Pavement,5407.0,SF
+1016,22,0002,P-620,Surface Prep - Existing Pavement,2142.0,SF
+1017,22,0003,C-105,Mobilization,1.0,LS
+1018,22,0003,P-620,Surface Prep - Marking Removal,1515.0,SF
+1019,22,0003,P-620,Surface Prep - Marking Removal,766.0,SF
+1020,22,0004,P-101,Asphalt Pavement Removal,145.0,SY
+1021,22,0004,P-101,Asphalt Pavement Removal,67.0,SY
+1022,22,0004,P-101,Asphalt Pavement Removal,21.0,SY
+1023,22,0004,P-620,Markings,5407.0,SF
+1024,22,0004,P-620,Markings,2142.0,SF
+1025,22,0005,P-610,Concrete,112.0,SY
+1026,22,0005,P-610,Concrete,67.0,SY
+1027,22,0005,P-610,Concrete,21.0,SY
+1028,22,0005,P-620,Reflective Media,362.0,LB
+1029,22,0005,P-620,Reflective Media,143.0,LB
+1030,22,0006,024113,Remove Bollard - Embedded,10.0,EACH
+1031,22,0006,024113,Remove Bollard - Embedded,6.0,EACH
+1032,22,0006,P-620,Surface Prep - Existing Pavement,1559.0,SF
+1033,22,0006,P-620,Surface Prep - Existing Pavement,341.0,SF
+1034,22,0006,P-620,Surface Prep - Existing Pavement,259.0,SF
+1035,22,0007,024113,Relocate Storage Shelter,1.0,LS
+1036,22,0007,024113,Remove Bollard - Bolt Down,1.0,EACH
+1037,22,0007,P-620,Markings,259.0,SF
+1038,22,0007,P-620,Surface Prep - Marking Removal,220.0,SF
+1039,22,0007,P-620,Surface Prep - Marking Removal,67.0,SF
+1040,22,0008,111100,Cable Retrievers,112.0,EACH
+1041,22,0008,111100,Cable Retrievers,46.0,EACH
+1042,22,0008,P-620,Markings,1559.0,SF
+1043,22,0008,P-620,Markings,341.0,SF
+1044,22,0008,P-620,Reflective Media,17.0,LB
+1045,22,0009,111100,Cable Retrievers,6.0,EACH
+1046,22,0009,347115,Precast Concrete Wheel Stop,74.0,EACH
+1047,22,0009,347115,Precast Concrete Wheel Stop,33.0,EACH
+1048,22,0009,P-620,Reflective Media,106.0,LB
+1049,22,0009,P-620,Reflective Media,23.0,LB
+1050,22,0010,024113,Remove Bollard - Embedded,9.0,EACH
+1051,22,0010,111100,Cable Retrievers,8.0,EACH
+1052,22,0010,347115,Bollard - Bolt Down,35.0,EACH
+1053,22,0010,347115,Bollard - Bolt Down,19.0,EACH
+1054,22,0010,347115,Precast Concrete Wheel Stop,5.0,EACH
+1055,22,0011,024113,Remove Electrical Chargers,1.0,LS
+1056,22,0011,347115,Bollard - Bolt Down,2.0,EACH
+1057,22,0011,347115,Guard Rail,430.0,LF
+1058,22,0011,347115,Guard Rail,161.0,LF
+1059,22,0011,347115,Precast Concrete Wheel Stop,8.0,EACH
+1060,22,0012,111100,Cable Retrievers,38.0,EACH
+1061,22,0012,260500,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit)",2700.0,LF
+1062,22,0012,260500,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit)",1025.0,LF
+1063,22,0012,347115,Guard Rail,98.0,LF
+1064,22,0012,347115,Guard Rail,82.0,LF
+1065,22,0013,260500,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit)",80.0,LF
+1066,22,0013,260500,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit)",50.0,LF
+1067,22,0013,260500,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit)",2660.0,LF
+1068,22,0013,260500,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit)",1025.0,LF
+1069,22,0013,347115,Precast Concrete Wheel Stop,23.0,EACH
+1070,22,0014,260500,Electrical Equipment Rack - Load Share Connected,23.0,EACH
+1071,22,0014,260500,Electrical Equipment Rack - Load Share Connected,9.0,EACH
+1072,22,0014,260500,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit)",80.0,LF
+1073,22,0014,260500,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit)",50.0,LF
+1074,22,0014,347115,Bollard - Bolt Down,7.0,EACH
+1075,22,0015,260500,Electrical Equipment Rack - Panel Connected,1.0,EACH
+1076,22,0015,260500,"Electrical Feeds to Panels (Existing 3.5"" Conduit)",70.0,LF
+1077,22,0015,263343,Electrical Charging Units (Primary Units),9.0,EACH
+1078,22,0015,347115,Guard Rail,105.0,LF
+1079,22,0016,260500,Electrical Equipment Rack - Panel Connected,1.0,EACH
+1080,22,0016,260500,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit)",858.0,LF
+1081,22,0016,260500,Training,1.0,LS
+1082,22,0016,263343,Electrical Charging Units (Primary Units),1.0,EACH
+1083,22,0016,263343,Electrical Charging Units (Secondary Units),14.0,EACH
+1084,22,0017,260500,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit)",868.0,LF
+1085,22,0017,260500,"New Electrical Panels, 800A",2.0,EACH
+1086,22,0017,263343,Electrical Charging Units (Primary Units),24.0,EACH
+1087,22,0017,263343,Electrical Charging Units (Secondary Units),3.0,EACH
+1088,22,0017,271000,Network Termination Enclosure,14.0,EACH
+1089,22,0018,260500,"Electrical Feeds to Panels (Existing 3.5"" Conduit)",1600.0,LF
+1090,22,0018,263343,Electrical Charging Units (Primary Units),1.0,EACH
+1091,22,0018,263343,Electrical Charging Units (Secondary Units),36.0,EACH
+1092,22,0018,271000,"Data Equipment Rack & Data Connections 1"" Conduit",900.0,LF
+1093,22,0018,271000,Network Termination Enclosure,1.0,EACH
+1094,22,0019,260500,Electrical Equipment Rack - Panel Connected,6.0,EACH
+1095,22,0019,263343,Electrical Charging Units (Secondary Units),2.0,EACH
+1096,22,0019,271000,Data Drop to Each Enclosure and Chargers,23.0,EACH
+1097,22,0019,271000,"Data Equipment Rack & Data Connections 1"" Conduit",100.0,LF
+1098,22,0019,271000,Network Termination Enclosure,30.0,EACH
+1099,22,0020,260500,"New Electrical Panels, 800A",2.0,EACH
+1100,22,0020,271000,Data Drop to Each Enclosure and Chargers,4.0,EACH
+1101,22,0020,271000,"Data Equipment Rack & Data Connections 1"" Conduit",2400.0,LF
+1102,22,0020,271000,Network Termination Enclosure,1.0,EACH
+1103,22,0021,263343,Electrical Charging Units (Primary Units),6.0,EACH
+1104,22,0021,271000,Data Drop to Each Enclosure and Chargers,61.0,EACH
+1105,22,0021,271000,"Data Equipment Rack & Data Connections 1"" Conduit",100.0,LF
+1106,22,0022,263343,Electrical Charging Units (Secondary Units),13.0,EACH
+1107,22,0022,271000,Data Drop to Each Enclosure and Chargers,3.0,EACH
+1108,22,0023,271000,Network Termination Enclosure,6.0,EACH
+1109,22,0024,271000,"Data Equipment Rack & Data Connections 1"" Conduit",878.0,LF
+1110,22,0025,271000,Data Drop to Each Enclosure and Chargers,19.0,EACH
+1111,23,0001,012200,Sweeper,1.0,LS
+1112,23,0001,C-105,Mobilization,1.0,LS
+1113,23,0002,012200,Security Control Monitoring,1.0,LS
+1114,23,0002,P-101,3-5 Inch Cold Milling,7200.0,SY
+1115,23,0003,012200,Work Zone Traffic Control,1.0,LS
+1116,23,0003,P-401,Asphalt Surface Course,1420.0,TON
+1117,23,0004,012200,Escort,1.0,LS
+1118,23,0004,P-603,Emulsified Asphalt Tack Coat,1520.0,GAL
+1119,23,0005,C-102,Inlet Protection,21.0,EACH
+1120,23,0005,P-620,Permanent Pavement Marking,3111.0,SF
+1121,23,0006,C-105,Mobilization,1.0,LS
+1122,23,0006,P-620,Reflective Media,86.0,LB
+1123,23,0007,P-101,"Pavement Removal (Full Depth Asphalt Concrete, 4-17.5 Inches)",18390.0,SY
+1124,23,0007,P-620,Temporary Pavement Marking,482.0,SF
+1125,23,0008,026100,Contaminated Material Excavation and Disposal,50.0,TON
+1126,23,0008,P-101,Joint and Crack Repair,1000.0,LF
+1127,23,0009,L-108,"No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit",960.0,LF
+1128,23,0009,P-101,3-5 Inch Cold Milling,16460.0,SY
+1129,23,0010,344300,Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer,18.0,EACH
+1130,23,0010,P-101,Removal of Pipe and other Buried Structures,1.0,LS
+1131,23,0011,344301,Adjust Existing Taxiway Centerline Light to New Finish Elevation,4.0,EACH
+1132,23,0011,P-152,Unclassified Excavation,14988.0,CY
+1133,23,0012,P-152,Existing Subgrade Stabilzation,744.0,CY
+1134,23,0013,P-154,Subbase Course,4700.0,CY
+1135,23,0014,P-154,Separation Geotextile,24800.0,SY
+1136,23,0015,P-209,Crushed Aggregate Base Course,8150.0,CY
+1137,23,0016,P-401,Asphalt Surface Course,8760.0,TON
+1138,23,0017,P-403,Asphalt Mixture Base Course,11540.0,TON
+1139,23,0018,P-603,Emulsified Asphalt Tack Coat,8710.0,GAL
+1140,23,0019,P-605,Joint Sealing Filler,122.0,GAL
+1141,23,0020,P-606,Adhesive Compound,88.0,GAL
+1142,23,0021,P-610,Structural Portland Cement Concrete,89.0,CY
+1143,23,0022,P-620,Surface Preparation,1.0,LS
+1144,23,0023,P-620,Permanent Pavement Marking,29101.0,SF
+1145,23,0024,P-620,Reflective Media,805.0,LB
+1146,23,0025,P-620,Temporary Pavement Marking,10668.0,SF
+1147,23,0026,D-701,STS Drain Pipe (18-inch),393.0,LF
+1148,23,0027,D-701,STS Drain Pipe (24-inch),1220.0,LF
+1149,23,0028,D-705,Perforated Underdrain Pipe (6-inch),2325.0,LF
+1150,23,0029,D-705,Non-Perforated Underdrain Pipe (6-inch),174.0,LF
+1151,23,0030,D-751,60-Inch Manholes,5.0,EACH
+1152,23,0031,D-751,Catch Basins,3.0,EACH
+1153,23,0032,D-751,Underdrain Cleanout,12.0,EACH
+1154,23,0033,D-751,Connect to Existing Catch Basin/Manhole,5.0,EACH
+1155,23,0034,D-751,60-Inch Manhole Catch Basin,1.0,EACH
+1156,23,0035,T-901,Seeding,3.0,ACRE
+1157,23,0036,T-905,"Topsoil (Obtained on Site or Removed from Stockpile) (3"")",1113.0,CY
+1158,23,0037,L-108,"No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit",16545.0,LF
+1159,23,0038,L-108,"No. 12 AWG, 600V, Cable, Installed in Conduit",5720.0,LF
+1160,23,0039,L-108,"No. 6 AWG, Solid, Bare Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations",3765.0,LF
+1161,23,0040,L-108,"Counterpoise Ground Rod, 10-Ft Long",12.0,EACH
+1162,23,0041,L-110,2-Inch PVC Encased in Concrete in new Structural AC,1410.0,LF
+1163,23,0042,L-110,2-Inch PVC in Existing Structural AC,100.0,LF
+1164,23,0043,L-110,2-Inch PVC Direct Buried in Grass,155.0,LF
+1165,23,0044,L-110,2-Inch PVC under New AC Shoulder,2815.0,LF
+1166,23,0045,L-110,1.5-Inch IMC under New AC Shoulder,30.0,LF
+1167,23,0046,265000,General Electrical Removal,1.0,LS
+1168,23,0047,265000,Temporary Circuit Connection,1.0,LS
+1169,23,0048,344300,Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer,31.0,EACH
+1170,23,0049,344300,Install Elevated Runway Guard Light on Existing Base Can with PF Transformer,1.0,EACH
+1171,23,0050,344300,Install Elevated Red Stop Bar Light on Existing Base Can with PF Transformer,1.0,EACH
+1172,23,0051,344300,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",28.0,EACH
+1173,23,0052,344300,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",38.0,EACH
+1174,23,0053,344300,"Install Elevated Runway Guard Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",3.0,EACH
+1175,23,0054,344300,"Install Elevated Red Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",3.0,EACH
+1176,23,0055,344300,"Install In-Pavement Runway Guard/Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer",14.0,EACH
+1177,23,0056,344300,"Install PF Base Can, PF Extension, PF Flange Ring and PF Cover Plate",4.0,EACH
+1178,23,0057,344301,Adjust Existing Taxiway Centerline Light to New Finish Elevation,39.0,EACH
+1179,23,0058,344301,Adjust Existing In-Pavement Runway Guard/Stop Bar Light to New Finish Elevation,13.0,EACH
+1180,23,0059,344302,Sign A5-1,1.0,LS
+1181,23,0060,344302,Sign A5-6,1.0,LS
+1182,23,0061,344302,Sign A5-7,1.0,LS
+1183,23,0062,344302,Sign A5-8,1.0,LS
+1184,23,0063,344302,Sign A5-9,1.0,LS
+1185,23,0064,344302,Sign A6-2,1.0,LS
+1186,23,0065,344302,Sign A6-3,1.0,LS
+1187,23,0066,344302,Sign A6-9,1.0,LS
+1188,23,0067,344302,Sign A6-10,1.0,LS
+1189,23,0068,344302,Sign A6-11,1.0,LS
+1190,23,0069,344302,Sign A6-12,1.0,LS
+1191,24,0001,012200,Sweeper,1.0,LS
+1192,24,0001,C-105,Mobilization,1.0,LS
+1193,24,0002,012200,Security Control Monitoring,1.0,LS
+1194,24,0002,P-101,Cold Milling 3-Inch Depth,2389.0,SY
+1195,24,0003,012200,Traffic Control,1.0,LS
+1196,24,0003,P-603,Emulsified Asphalt Tack Coat,170.0,GAL
+1197,24,0004,012200,Escort,1.0,LS
+1198,24,0004,P-401,Asphalt Surface Course,429.0,TON
+1199,24,0005,015713,Inlet Protection,18.0,EACH
+1200,24,0005,P-620,Marking,1537.0,SF
+1201,24,0006,015713,Trench Drain Protection,153.0,LF
+1202,24,0006,P-620,Reflective Media,47.0,LB
+1203,24,0007,015713,Jet Blast Control Material,0.3,ACRE
+1204,24,0007,P-620,Surface Preparation,768.0,SF
+1205,24,0008,015713,Sediment Fence,1620.0,LF
+1206,24,0008,026100,Contaminated Material Excavation and Disposal,290.0,TON
+1207,24,0009,026100,Contaminated Material Excavation and Disposal - Wasco Landfill,500.0,TON
+1208,24,0009,C-105,Mobilization,1.0,LS
+1209,24,0010,P-101,Full-Depth Asphalt Pavement Removal - 10 to 19 Inches),16500.0,SY
+1210,24,0011,P-101,Cold Milling 3-Inch Depth,18000.0,SY
+1211,24,0012,P-101,Cold Milling Variable to 10-Inch Depth,2300.0,SY
+1212,24,0013,P-101,Cold Milling Surface Preparation,822.0,SY
+1213,24,0014,P-101,Removal of Pipe and Other Buried Structures,1.0,LS
+1214,24,0015,P-152,Unclassified Excavation,5720.0,CY
+1215,24,0016,P-152,Existing Subgrade Stabilzation,500.0,CY
+1216,24,0017,P-209,Crushed Aggregate Base Course,6200.0,CY
+1217,24,0018,P-209,Separation Geotextile,15540.0,SY
+1218,24,0019,P-401,Asphalt Surface Course,7300.0,TON
+1219,24,0020,P-403,Asphalt Mixture Base Course,12100.0,TON
+1220,24,0021,P-603,Emulsified Asphalt Tack Coat,7940.0,GAL
+1221,24,0022,P-605,Joint Sealing Filler,37.0,GAL
+1222,24,0023,P-606,Adhesive Compound,63.0,GAL
+1223,24,0024,P-610,Concrete,22.0,CY
+1224,24,0025,P-620,Surface Preparation,15260.0,SF
+1225,24,0026,P-620,Marking,38950.0,SF
+1226,24,0027,P-620,Reflective Media,1360.0,LB
+1227,24,0028,P-620,Temporary Runway and Taxiway Marking,8250.0,SF
+1228,24,0029,D-701,12-Inch Storm Sewer Pipe,413.0,LF
+1229,24,0030,D-701,15-Inch Storm Sewer Pipe,265.0,LF
+1230,24,0031,D-701,18-Inch Storm Sewer Pipe,162.0,LF
+1231,24,0032,D-705,6-Inch Perforated Storm Sewer Pipe,520.0,LF
+1232,24,0033,D-705,6-Inch Non-Perforated Pipe,50.0,LF
+1233,24,0034,D-751,48-Inch Manholes,3.0,EACH
+1234,24,0035,D-751,60-Inch Manholes,1.0,EACH
+1235,24,0036,D-751,Catch Basins,3.0,EACH
+1236,24,0037,D-751,Underdrain Cleanout,4.0,EACH
+1237,24,0038,D-751,Connect to Existing Catch Basin/Manhole,2.0,EACH
+1238,24,0039,T-901,Seeding,0.7,ACRE
+1239,24,0040,T-905,Topsoil (Furnished from Off the Site),550.0,CY
+1240,24,0041,L-108,"No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit",7925.0,LF
+1241,24,0042,L-108,"No. 6 AWG, Solid, Bare Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations",1765.0,LF
+1242,24,0043,L-108,"Counterpoise Ground Rod, 10-Ft Long",7.0,EACH
+1243,24,0044,L-110,2-Inch PVC Encased in Concrete in New Structural AC,640.0,LF
+1244,24,0045,L-110,2-Inch PVC in Existing Structural AC,660.0,LF
+1245,24,0046,L-110,2-Inch PVC Direct Buried in Grass or under New AC Shoulder,585.0,LF
+1246,24,0047,260500,General Electrical Removal,1.0,LS
+1247,24,0048,260500,Temporary Circuit Connection,1.0,LS
+1248,24,0049,344300,Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer,32.0,EACH
+1249,24,0050,344300,Install Elevated Runway Guard Light on Existing Base Can with CF Transformer,4.0,EACH
+1250,24,0051,344300,Install Elevated Red Stop Bar Light on Existing Base Can with CF Transformer,2.0,EACH
+1251,24,0052,344300,Install In-Pavement Runway Guard Light on Existing Base Can with CF Transformer,17.0,EACH
+1252,24,0053,344300,Install In-Pavement Runway Guard/Stop Bar Light on Existing Base Can with CF Transformer,13.0,EACH
+1253,24,0054,344300,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer",39.0,EACH
+1254,24,0055,344300,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer",6.0,EACH
+1255,24,0056,344300,"Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer in Existing AC",1.0,EACH
+1256,24,0057,344301,Adjust Existing Taxiway Centerline Light to New Finish Elevation,64.0,EACH
+1257,24,0058,344301,Adjust Existing Base Can to New Finish Elevation,5.0,EACH
+1258,24,0059,344302,Sign A6-7,1.0,EACH
+1259,24,0060,344302,Sign EA-15,1.0,EACH
+1260,24,0061,344302,Sign T-5,1.0,EACH
+1261,25,0,,0,0.0,0
+1262,25,0001,012200,Sweeper,1.0,LS
+1263,25,0001,C-105,Mobilization,1.0,LS
+1264,25,0002,012200,Work Zone and Traffic Control,1.0,LS
+1265,25,0002,P-608,Asphalt Surface Treatment,8600.0,SY
+1266,25,0003,C-105,Mobilization,1.0,LS
+1267,25,0003,P-620,Surface Preparation - Remove Existing Markings,1840.0,SF
+1268,25,0004,P-608,Runway and High Speed Exit Taxiway Friction Testing,1.0,LS
+1269,25,0004,P-620,Marking,1840.0,SF
+1270,25,0005,P-608,Asphalt Surface Treatment,163800.0,SY
+1271,25,0005,P-620,Temporary Runway and Taxiway Marking,1840.0,SF
+1272,25,0006,P-620,Reflective Media,120.0,LB
+1273,25,0006,P-620,Surface Preparation - Remove Existing Markings,69500.0,SF
+1274,25,0007,P-620,Marking,69500.0,SF
+1275,25,0008,P-620,Temporary Runway and Taxiway Marking,69500.0,SF
+1276,25,0009,P-620,Reflective Media,4300.0,LB
+1277,26,0001,012200,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+1278,26,0002,012200,Sweeper,1.0,LS
+1279,26,0003,012200,Work Zone and Traffic Control,1.0,LS
+1280,26,0004,012200,Escort,1.0,LS
+1281,26,0005,012200,Erosion and Sediment Control,1.0,LS
+1282,26,0006,012200,Dewatering,100.0,GAL
+1283,26,0007,012200,Contaminated Soil Handling and Management,10.0,CY
+1284,26,0008,012200,Temporary Sewage Bypassing,1.0,LS
+1285,26,0009,012200,"Removal, Haul, and Disposal of Demolition Debris",1.0,LS
+1286,26,0010,012200,B6 Wet Well (SSLS 950) Mechanical Rehabilitation,1.0,LS
+1287,26,0010,012200,D9 Wet Well (SSLS 953) Mechanical Rehabilitation,1.0,LS
+1288,26,0011,012200,B6 Valve Vault (SSVLT 1202) Mechanical Rehabilitation,1.0,LS
+1289,26,0011,012200,D9 Valve Vault (STSVLT 863) Mechanical Rehabilitation,1.0,LS
+1290,26,0012,012200,B6 Replacement of Existing Lids and Hatches,2.0,EACH
+1291,26,0012,012200,D9 Replacement of Existing Lids and Hatches,2.0,EACH
+1292,26,0013,012200,B6 Wet Well (SSLS 950) Concrete Repair,1.0,LS
+1293,26,0013,012200,D9 Wet Well (SSLS 953) Concrete Repair,1.0,LS
+1294,26,0014,012200,B6 Valve Vault (SSVLT 1202) Concrete Repair,1.0,LS
+1295,26,0014,012200,D9 Valve Vault (STSVLT 863) Concrete Repair,1.0,LS
+1296,26,0015,012200,B6 Electrical,1.0,LS
+1297,26,0015,012200,D9 Electrical,1.0,LS
+1298,26,0016,012200,B6 Temporary Airfield Lighting Circuit Connection,1.0,LS
+1299,26,0016,P-101,PCC Pavement Removal - 16 Inch Depth,90.0,SY
+1300,26,0017,P-101,Asphalt Pavement Removal - 6 Inch Depth,90.0,SY
+1301,26,0017,P-152,Unclassified Excavation,25.0,CY
+1302,26,0018,P-152,Subgrade Stabilzation,20.0,CY
+1303,26,0018,P-152,Unclassified Excavation,20.0,CY
+1304,26,0019,P-152,Subgrade Stabilzation,10.0,CY
+1305,26,0019,P-209,Crushed Aggregate Base Course,10.0,CY
+1306,26,0020,P-209,Crushed Aggregate Base Course,15.0,CY
+1307,26,0020,P-306,Lean Concrete Base Course,80.0,SY
+1308,26,0021,P-403,Asphalt Mixture Surface Course,25.0,TON
+1309,26,0021,P-501,Concrete Pavement,35.0,CY
+1310,26,0022,P-603,Emulsified Asphalt Tack Coat,10.0,GAL
+1311,26,0022,P-605,Joint Sealing Filler,245.0,LF
+1312,26,0023,P-620,Marking,295.0,SF
+1313,26,0023,P-620,Marking,3170.0,SF
+1314,26,0024,P-620,Reflective Media,20.0,LB
+1315,26,0024,P-620,Reflective Media,95.0,LB
+1316,26,0025,P-620,Temporary Runway and Taxiway Marking,295.0,SF
+1317,26,0025,P-620,Temporary Runway and Taxiway Marking,3095.0,SF
+1318,27,0001,,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+1319,27,0002,,Traffic Control,1.0,LS
+1320,27,0003,,"Temporary Erosion, Sediment, and Pollution Control",1.0,LS
+1321,27,0004,,General Demolition,1.0,LS
+1322,27,0005,,"Pavement Removal and Disposal, 9-Inch Depth",230.0,SY
+1323,27,0006,,"Cold Plane Pavement Removal and Disposal, 3-Inch Depth",5000.0,SY
+1324,27,0007,,Signage,1.0,LS
+1325,27,0008,,Signal Modification,1.0,LS
+1326,27,0009,,Lighting,1.0,LS
+1327,27,0010,,Common Excavation,1030.0,CY
+1328,27,0011,,Site Preparation,1.0,LS
+1329,27,0012,,Subgrade Preparation,670.0,SY
+1330,27,0013,,Aggregate Base Course,250.0,CY
+1331,27,0014,,"Level 3, 1/2-Inch-Dense HMAC",1500.0,TON
+1332,27,0015,,Geotextile Fabric,700.0,SY
+1333,27,0016,,Tack Coat,4.0,TON
+1334,27,0017,,Valley Gutter,105.0,SF
+1335,27,0018,,Concrete Curb,180.0,LF
+1336,27,0019,,Concrete Walks,700.0,SF
+1337,27,0020,,Pavement Markings,1.0,LS
+1338,27,0021,,Clearing and Seeding,0.3,ACRE
+1339,27,0022,,Storm Culvert,55.0,LF
+1340,28,0001,012200,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+1341,28,0002,012200,Sweeper,1.0,LS
+1342,28,0003,012200,Traffic Control,1.0,LS
+1343,28,0004,012200,Escort,1.0,LS
+1344,28,0005,012200,Clearing and Grubbing,1.0,LS
+1345,28,0006,012200,Temporary Erosion and Sediment Control Measures,1.0,LS
+1346,28,0007,012200,General Demolition,1.0,LS
+1347,28,0008,012200,"Pavement Removal and Disposal, 6-inch Depth",171.0,CY
+1348,28,0009,012200,Contaminated Soil Removal and Haul,3887.0,TON
+1349,28,0010,012200,Unsuitable Excavation and Disposal,200.0,CY
+1350,28,0011,012200,Trench Stabilization,200.0,CY
+1351,28,0012,012200,"Embankment, Ditch",2446.1,CY
+1352,28,0013,012200,Repair Existing ARFF Cap,342.0,SY
+1353,28,0014,012200,Site Preparation,1.0,LS
+1354,28,0015,012200,Aggregate Base Course,612.0,TON
+1355,28,0016,012200,Asphalt Concrete Pavement,369.0,TON
+1356,28,0017,012200,Portland Cement Concrete Pavement (10-Inch Thick),23.0,SY
+1357,28,0018,012200,Seeding,4.0,ACRE
+1358,28,0019,012200,"Fill Material, Topsoil",2487.0,CY
+1359,28,0020,012200,8-Inch STS,153.0,LF
+1360,28,0021,012200,12-Inch STS,1426.0,LF
+1361,28,0022,012200,18-Inch STS,474.0,LF
+1362,28,0023,012200,36-Inch STS,1695.0,LF
+1363,28,0024,012200,48-Inch STS,896.0,LF
+1364,28,0025,012200,Connection to Existing Drainage Structure,7.0,EACH
+1365,28,0026,012200,Abandon and Plug Storm Pipe,4.0,EACH
+1366,28,0027,012200,Abandon Existing Structure,2.0,EACH
+1367,28,0028,012200,Catch Basins/Inlets,14.0,EACH
+1368,28,0029,012200,48-Inch Manhole,9.0,EACH
+1369,28,0030,012200,72-Inch Manhole,15.0,EACH
+1370,28,0031,012200,120-Inch Manhole,1.0,EACH
+1371,28,0032,012200,Extra Manhole Depth (48-Inch),4.0,LF
+1372,28,0033,012200,Extra Manhole Depth (72-Inch),35.0,LF
+1373,28,0034,012200,Extra Manhole Depth (120-Inch),4.0,LF
+1374,29,0001,012200,"Mobilization, Surveying, Cleanup, and Demobilization",1.0,LS
+1375,29,0002,012200,Sweeper,1.0,LS
+1376,29,0003,012200,Security Control Monitoring,1.0,LS
+1377,29,0004,012200,Work Zone and Traffic Control,1.0,LS
+1378,29,0005,012200,Escort,1.0,LS
+1379,29,0006,012200,"PCC Spall Panel Repair, 0-1 SF",99.0,EACH
+1380,29,0007,012200,"PCC Spall Panel Repair, 1-5 SF",53.0,EACH
+1381,29,0008,012200,"PCC Spall Panel Repair, 5-15 SF",16.0,EACH
+1382,29,0009,012200,"PCC Crack Repair, Original",3210.0,LF
+1383,29,0010,012200,"PCC Crack Repair, Renewal",350.0,LF
+1384,29,0011,P-604,Compression Joint Seals for Concrete Pavements,79900.0,LF
+1385,29,0012,P-605,Concrete to Concrete Joint Seal (Silicone),3500.0,LF
+1386,29,0013,P-605,Concrete to Asphalt Joint Seal,1740.0,LF

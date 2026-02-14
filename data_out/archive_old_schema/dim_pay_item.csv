@@ -1,0 +1,830 @@
+pay_item_id,spec_extract,standard_code,standard_cat,item_code_raw,section_code_raw,alt_code,item_desc_raw,item_desc_canonical
+1001,,,UNKNOWN,,,,#REF!,#REF!
+1002,,,UNKNOWN,,,,0,0
+1003,,,UNKNOWN,,,,108-Inch Manhole,108-Inch Manhole
+1004,,,UNKNOWN,,,,12-Inch DIP Water Pipe,12-Inch DIP Water Pipe
+1005,,,UNKNOWN,,,,12-Inch Ductile Iron Sewer Pipe,12-Inch Ductile Iron Sewer Pipe
+1006,,,UNKNOWN,,,,12-Inch Storm Sewer Pipe,12-Inch Storm Sewer Pipe
+1007,,,UNKNOWN,,,,120-Inch Manhole,120-Inch Manhole
+1008,,,UNKNOWN,,,,15-Inch Storm Sewer Pipe,15-Inch Storm Sewer Pipe
+1009,,,UNKNOWN,,,,16-Inch Butterfly Valve,16-Inch Butterfly Valve
+1010,,,UNKNOWN,,,,16-Inch DIP Water Pipe,16-Inch DIP Water Pipe
+1011,,,UNKNOWN,,,,16-Inch Reduced Pressure Detector Assembly and Enclosure,16-Inch Reduced Pressure Detector Assembly and Enclosure
+1012,,,UNKNOWN,,,,2-Inch Air Release Valve Assembly,2-Inch Air Release Valve Assembly
+1013,,,UNKNOWN,,,,2-Inch Gate Valve,2-Inch Gate Valve
+1014,,,UNKNOWN,,,,2-Inch Water Meter,2-Inch Water Meter
+1015,,,UNKNOWN,,,,2-Inch Water Pipe,2-Inch Water Pipe
+1016,,,UNKNOWN,,,,21-Inch Storm Sewer Pipe,21-Inch Storm Sewer Pipe
+1017,,,UNKNOWN,,,,21-Inch Storm Sewer Pipe (RCP),21-Inch Storm Sewer Pipe (RCP)
+1018,,,UNKNOWN,,,,24-Inch Storm Sewer (Force Main) Pipe,24-Inch Storm Sewer (Force Main) Pipe
+1019,,,UNKNOWN,,,,24-Inch Storm Sewer Pipe,24-Inch Storm Sewer Pipe
+1020,,,UNKNOWN,,,,3-Inch DR9 Pex Water Pipe,3-Inch DR9 Pex Water Pipe
+1021,,,UNKNOWN,,,,3-Inch Gate Valve,3-Inch Gate Valve
+1022,,,UNKNOWN,,,,4-Inch DIP Water Pipe,4-Inch DIP Water Pipe
+1023,,,UNKNOWN,,,,4-Inch Gate Valve,4-Inch Gate Valve
+1024,,,UNKNOWN,,,,4-Inch Reduced Pressure Backflow Assembly and Enclosure,4-Inch Reduced Pressure Backflow Assembly and Enclosure
+1025,,,UNKNOWN,,,,4-Inch Water Pipe,4-Inch Water Pipe
+1026,,,UNKNOWN,,,,48-Inch Manhole,48-Inch Manhole
+1027,,,UNKNOWN,,,,6-Foot Chain-Link Slatted Fence Fabric,6-Foot Chain-Link Slatted Fence Fabric
+1028,,,UNKNOWN,,,,6-Inch Gate Valve,6-Inch Gate Valve
+1029,,,UNKNOWN,,,,6-Inch Water Pipe,6-Inch Water Pipe
+1030,,,UNKNOWN,,,,60-Inch Manhole,60-Inch Manhole
+1031,,,UNKNOWN,,,,72-Inch Corrugated Metal Riser,72-Inch Corrugated Metal Riser
+1032,,,UNKNOWN,,,,72-Inch Manhole,72-Inch Manhole
+1033,,,UNKNOWN,,,,72-Inch Sewer Pipe,72-Inch Sewer Pipe
+1034,,,UNKNOWN,,,,8-Inch Gate Valve,8-Inch Gate Valve
+1035,,,UNKNOWN,,,,Adjustment of Existing Structures (H-20 Rated Vaults),Adjustment of Existing Structures (H-20 Rated Vaults)
+1036,,,UNKNOWN,,,,Aggregate Base Course,Aggregate Base Course
+1037,,,UNKNOWN,,,,Aggregate Removal and Disposal,Aggregate Removal and Disposal
+1038,,,UNKNOWN,,,,Aircraft-Rated Electrical Vaults,Aircraft-Rated Electrical Vaults
+1039,,,UNKNOWN,,,,Airfield Fire Water Disconnection,Airfield Fire Water Disconnection
+1040,,,UNKNOWN,,,,Area Seeding,Area Seeding
+1041,,,UNKNOWN,,,,Asphalt Concrerte Surface Course,Asphalt Concrerte Surface Course
+1042,,,UNKNOWN,,,,Asphalt Grinding Removal and Disposal,Asphalt Grinding Removal and Disposal
+1043,,,UNKNOWN,,,,Asphalt Sawcut,Asphalt Sawcut
+1044,,,UNKNOWN,,,,Barge and Access Equipment,Barge and Access Equipment
+1045,,,UNKNOWN,,,,Bedding and Pipe Zone Material,Bedding and Pipe Zone Material
+1046,,,UNKNOWN,,,,Blackout and Temporary Pavement Marking,Blackout and Temporary Pavement Marking
+1047,,,UNKNOWN,,,,Bollard,Bollard
+1048,,,UNKNOWN,,,,Bollards,Bollards
+1049,,,UNKNOWN,,,,Borrow Excavation (P-152),Borrow Excavation (P-152)
+1050,,,UNKNOWN,,,,Building Removal and Backfill,Building Removal and Backfill
+1051,,,UNKNOWN,,,,Cast-In-Place Concrete Curb,Cast-In-Place Concrete Curb
+1052,,,UNKNOWN,,,,Catch Basin,Catch Basin
+1053,,,UNKNOWN,,,,Central Water Meter Vault and Manifold,Central Water Meter Vault and Manifold
+1054,,,UNKNOWN,,,,Clearing and Grubbing,Clearing and Grubbing
+1055,,,UNKNOWN,,,,Clearing and Seeding,Clearing and Seeding
+1056,,,UNKNOWN,,,,Cold Plane Pavement Removal (0-3 Inch Maximum),Cold Plane Pavement Removal (0-3 Inch Maximum)
+1057,,,UNKNOWN,,,,Cold Plane Pavement Removal (3-5 Inch Maximum),Cold Plane Pavement Removal (3-5 Inch Maximum)
+1058,,,UNKNOWN,,,,"Cold Plane Pavement Removal and Disposal, 3-Inch Depth","Cold Plane Pavement Removal and Disposal, 3-Inch Depth"
+1059,,,UNKNOWN,,,,Columbia Slough Outfall Structure,Columbia Slough Outfall Structure
+1060,,,UNKNOWN,,,,Common Excavation,Common Excavation
+1061,,,UNKNOWN,,,,Compacted Bedding Material,Compacted Bedding Material
+1062,,,UNKNOWN,,,,Concrete Curb,Concrete Curb
+1063,,,UNKNOWN,,,,Concrete Curb Removal,Concrete Curb Removal
+1064,,,UNKNOWN,,,,Concrete Pad Demolition and Repair,Concrete Pad Demolition and Repair
+1065,,,UNKNOWN,,,,Concrete Removal and Backfill,Concrete Removal and Backfill
+1066,,,UNKNOWN,,,,Concrete Sidewalk,Concrete Sidewalk
+1067,,,UNKNOWN,,,,Concrete Walks,Concrete Walks
+1068,,,UNKNOWN,,,,Concrete Wall Removal,Concrete Wall Removal
+1069,,,UNKNOWN,,,,Concrete Winch House Removal and Backfill,Concrete Winch House Removal and Backfill
+1070,,,UNKNOWN,,,,Connection to Existing Utility,Connection to Existing Utility
+1071,,,UNKNOWN,,,,Construction Survey,Construction Survey
+1072,,,UNKNOWN,,,,Construction Survey (Item GP-50),Construction Survey (Item GP-50)
+1073,,,UNKNOWN,,,,Containment,Containment
+1074,,,UNKNOWN,,,,Contaminated Soil Excavation and Disposal,Contaminated Soil Excavation and Disposal
+1075,,,UNKNOWN,,,,Contaminated Soil Excavation and Placement,Contaminated Soil Excavation and Placement
+1076,,,UNKNOWN,,,,Contaminated Soil Sediment Excavation and Disposal,Contaminated Soil Sediment Excavation and Disposal
+1077,,,UNKNOWN,,,,Crack Seal,Crack Seal
+1078,,,UNKNOWN,,,,Curb Removal,Curb Removal
+1079,,,UNKNOWN,,,,Deck Crack Repair,Deck Crack Repair
+1080,,,UNKNOWN,,,,Deck Delamination and Spall Repair,Deck Delamination and Spall Repair
+1081,,,UNKNOWN,,,,Deck Delamination and Spall Repair with Anodes,Deck Delamination and Spall Repair with Anodes
+1082,,,UNKNOWN,,,,Deck Surface Repair,Deck Surface Repair
+1083,,,UNKNOWN,,,,Deck Surface Repair with Cathodic Protection,Deck Surface Repair with Cathodic Protection
+1084,,,UNKNOWN,,,,Deck Topping Repair,Deck Topping Repair
+1085,,,UNKNOWN,,,,Deck Topping Replacement,Deck Topping Replacement
+1086,,,UNKNOWN,,,,"Demarcation Panel with Receptacles, Heater, and T-Stat","Demarcation Panel with Receptacles, Heater, and T-Stat"
+1087,,,UNKNOWN,,,,Dewatering,Dewatering
+1088,,,UNKNOWN,,,,Ditch Protection,Ditch Protection
+1089,,,UNKNOWN,,,,Electric Utility Meter Base - 200A Direct,Electric Utility Meter Base - 200A Direct
+1090,,,UNKNOWN,,,,Electrical,Electrical
+1091,,,UNKNOWN,,,,Electrical Bedding Material,Electrical Bedding Material
+1092,,,UNKNOWN,,,,Electrical Demo (Existing ORANG),Electrical Demo (Existing ORANG)
+1093,,,UNKNOWN,,,,Electrical Feeder Conductor Assembly,Electrical Feeder Conductor Assembly
+1094,,,UNKNOWN,,,,Electrical Feeder Conductor Termination and Testing,Electrical Feeder Conductor Termination and Testing
+1095,,,UNKNOWN,,,,Electrical Feeder Installation in Vaults,Electrical Feeder Installation in Vaults
+1096,,,UNKNOWN,,,,Electrical Modifications,Electrical Modifications
+1097,,,UNKNOWN,,,,Embankment,Embankment
+1098,,,UNKNOWN,,,,Encasement Over Existing Waterlin,Encasement Over Existing Waterlin
+1099,,,UNKNOWN,,,,Escort,Escort
+1100,,,UNKNOWN,,,,Fence Fabric Removal,Fence Fabric Removal
+1101,,,UNKNOWN,,,,Fender Panel Rehabilitation,Fender Panel Rehabilitation
+1102,,,UNKNOWN,,,,"Fill Material, Top Soil","Fill Material, Top Soil"
+1103,,,UNKNOWN,,,,"Fill Material, Topsoil","Fill Material, Topsoil"
+1104,,,UNKNOWN,,,,Fire Hydrant Assembly,Fire Hydrant Assembly
+1105,,,UNKNOWN,,,,General Demolition,General Demolition
+1106,,,UNKNOWN,,,,Geotextile,Geotextile
+1107,,,UNKNOWN,,,,Geotextile Fabric,Geotextile Fabric
+1108,,,UNKNOWN,,,,Guard Rail Removal and Replacement,Guard Rail Removal and Replacement
+1109,,,UNKNOWN,,,,H-20 Traffic-Rated Electrical Vaults,H-20 Traffic-Rated Electrical Vaults
+1110,,,UNKNOWN,,,,H-Frame Support,H-Frame Support
+1111,,,UNKNOWN,,,,"HDPE Interduct (Comm) - 1 1/4""",HDPE Interduct (Comm) - 1 1/4
+1112,,,UNKNOWN,,,,Hand Rail,Hand Rail
+1113,,,UNKNOWN,,,,Hollow Core Deck Panel Replacement,Hollow Core Deck Panel Replacement
+1114,,,UNKNOWN,,,,Inlet (Type PB),Inlet (Type PB)
+1115,,,UNKNOWN,,,,Inlet Protection,Inlet Protection
+1116,,,UNKNOWN,,,,Irrigation Replacement,Irrigation Replacement
+1117,,,UNKNOWN,,,,Joint Repair,Joint Repair
+1118,,,UNKNOWN,,,,Joint Repair at Panel Step,Joint Repair at Panel Step
+1119,,,UNKNOWN,,,,Kennedy Feeder Pad-Mount Switch,Kennedy Feeder Pad-Mount Switch
+1120,,,UNKNOWN,,,,Kennedy Feeder Point-of-Service Access Pad,Kennedy Feeder Point-of-Service Access Pad
+1121,,,UNKNOWN,,,,Landscape Restoration,Landscape Restoration
+1122,,,UNKNOWN,,,,Landside Utility Disconnections,Landside Utility Disconnections
+1123,,,UNKNOWN,,,,Lead Paint Chip Removal,Lead Paint Chip Removal
+1124,,,UNKNOWN,,,,"Level 3, 1/2-Inch Dense HMAC","Level 3, 1/2-Inch Dense HMAC"
+1125,,,UNKNOWN,,,,"Level 3, 1/2-Inch-Dense HMAC","Level 3, 1/2-Inch-Dense HMAC"
+1126,,,UNKNOWN,,,,"Level 3, 3/4-Inch Dense HMAC","Level 3, 3/4-Inch Dense HMAC"
+1127,,,UNKNOWN,,,,Lighting,Lighting
+1128,,,UNKNOWN,,,,"Loose Riprap, Class 50","Loose Riprap, Class 50"
+1129,,,UNKNOWN,,,,Manhole and Catch Basin Adjustment,Manhole and Catch Basin Adjustment
+1130,,,UNKNOWN,,,,McBride Slough Intake Structure,McBride Slough Intake Structure
+1131,,,UNKNOWN,,,,Metalizing Repairs,Metalizing Repairs
+1132,,,UNKNOWN,,,,Metalizing System at Edge Beams,Metalizing System at Edge Beams
+1133,,,UNKNOWN,,,,Metered Switchgear Installation,Metered Switchgear Installation
+1134,,,UNKNOWN,,,,Mini-Power Zone (10 KVA),Mini-Power Zone (10 KVA)
+1135,,,UNKNOWN,,,,Miscellaneous Removals and Backfill,Miscellaneous Removals and Backfill
+1136,,,UNKNOWN,,,,"Mobilization, Cleanup, and Demobilization","Mobilization, Cleanup, and Demobilization"
+1137,,,UNKNOWN,,,,"Mobilization, Surveying, Cleanup, and Demobilization","Mobilization, Surveying, Cleanup, and Demobilization"
+1138,,,UNKNOWN,,,,Modifications to Existing Wet Well,Modifications to Existing Wet Well
+1139,,,UNKNOWN,,,,Modified Concrete Curb and Gutter,Modified Concrete Curb and Gutter
+1140,,,UNKNOWN,,,,Monolithic Curb and Sidewalk,Monolithic Curb and Sidewalk
+1141,,,UNKNOWN,,,,Mulch,Mulch
+1142,,,UNKNOWN,,,,Offsite Haul and Disposal,Offsite Haul and Disposal
+1143,,,UNKNOWN,,,,One-Year Landscape Maintenance,One-Year Landscape Maintenance
+1144,,,UNKNOWN,,,,PVC Conduit (Comm) - 4 Inch,PVC Conduit (Comm) - 4 Inch
+1145,,,UNKNOWN,,,,PVC Conduit (Power) - 2 Inch,PVC Conduit (Power) - 2 Inch
+1146,,,UNKNOWN,,,,PVC Conduit (Power) - 3 Inch,PVC Conduit (Power) - 3 Inch
+1147,,,UNKNOWN,,,,PVC Conduit (Power) - 4 Inch,PVC Conduit (Power) - 4 Inch
+1148,,,UNKNOWN,,,,PVC Conduit (Power) - 6 Inch,PVC Conduit (Power) - 6 Inch
+1149,,,UNKNOWN,,,,"Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R","Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R"
+1150,,,UNKNOWN,,,,"Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R","Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R"
+1151,,,UNKNOWN,,,,Pavement Marking,Pavement Marking
+1152,,,UNKNOWN,,,,"Pavement Marking, Painted","Pavement Marking, Painted"
+1153,,,UNKNOWN,,,,"Pavement Marking, Temporary","Pavement Marking, Temporary"
+1154,,,UNKNOWN,,,,"Pavement Marking, Thermoplastic","Pavement Marking, Thermoplastic"
+1155,,,UNKNOWN,,,,Pavement Markings,Pavement Markings
+1156,,,UNKNOWN,,,,Pavement Removal,Pavement Removal
+1157,,,UNKNOWN,,,,"Pavement Removal and Disposal, 9-Inch Depth","Pavement Removal and Disposal, 9-Inch Depth"
+1158,,,UNKNOWN,,,,Pile Crack Repair,Pile Crack Repair
+1159,,,UNKNOWN,,,,Pile Spall Repair,Pile Spall Repair
+1160,,,UNKNOWN,,,,Pipe Zone and Bedding Material,Pipe Zone and Bedding Material
+1161,,,UNKNOWN,,,,Portland Cement Concrete Pavement (9-Inch),Portland Cement Concrete Pavement (9-Inch)
+1162,,,UNKNOWN,,,,Project Traffic Control,Project Traffic Control
+1163,,,UNKNOWN,,,,Reinforced Concrete Pad,Reinforced Concrete Pad
+1164,,,UNKNOWN,,,,Removal of Existing Lid from Stormwater Treatment Vault,Removal of Existing Lid from Stormwater Treatment Vault
+1165,,,UNKNOWN,,,,"Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets","Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets"
+1166,,,UNKNOWN,,,,Remove and Reinstall 12-Inch Ductile Iron Pipe,Remove and Reinstall 12-Inch Ductile Iron Pipe
+1167,,,UNKNOWN,,,,Remove and Reinstall Catch Basin,Remove and Reinstall Catch Basin
+1168,,,UNKNOWN,,,,Remove and Reinstall Chain Link Fence,Remove and Reinstall Chain Link Fence
+1169,,,UNKNOWN,,,,Remove and Replace Compression Seal,Remove and Replace Compression Seal
+1170,,,UNKNOWN,,,,Remove and Replace Embedded Anodes,Remove and Replace Embedded Anodes
+1171,,,UNKNOWN,,,,Security Control Monitoring,Security Control Monitoring
+1172,,,UNKNOWN,,,,Sediment Fence,Sediment Fence
+1173,,,UNKNOWN,,,,Septic Tank and Drain Field Removal,Septic Tank and Drain Field Removal
+1174,,,UNKNOWN,,,,Shoring,Shoring
+1175,,,UNKNOWN,,,,Sidewalk,Sidewalk
+1176,,,UNKNOWN,,,,Signage,Signage
+1177,,,UNKNOWN,,,,Signal Modification,Signal Modification
+1178,,,UNKNOWN,,,,Site Demolition,Site Demolition
+1179,,,UNKNOWN,,,,Site Preparation,Site Preparation
+1180,,,UNKNOWN,,,,Soffit and Vertical Crack Repair,Soffit and Vertical Crack Repair
+1181,,,UNKNOWN,,,,Soffit and Vertical Face Delamination and Spall Repair,Soffit and Vertical Face Delamination and Spall Repair
+1182,,,UNKNOWN,,,,Soffit and Vertical Face Delamination and Spall Repair with Anodes,Soffit and Vertical Face Delamination and Spall Repair with Anodes
+1183,,,UNKNOWN,,,,Stabilized Construction Entrance,Stabilized Construction Entrance
+1184,,,UNKNOWN,,,,Standard 8-Inch Concrete Curb,Standard 8-Inch Concrete Curb
+1185,,,UNKNOWN,,,,Storm Culvert,Storm Culvert
+1186,,,UNKNOWN,,,,Stormwater Flow Through Pollution Reduction Facility,Stormwater Flow Through Pollution Reduction Facility
+1187,,,UNKNOWN,,,,Stormwater Pump Station,Stormwater Pump Station
+1188,,,UNKNOWN,,,,Stormwater Treatment Vault Cover,Stormwater Treatment Vault Cover
+1189,,,UNKNOWN,,,,Stormwater Treatment Vaults,Stormwater Treatment Vaults
+1190,,,UNKNOWN,,,,Subdrains,Subdrains
+1191,,,UNKNOWN,,,,Subgrade Preparation,Subgrade Preparation
+1192,,,UNKNOWN,,,,Surfacings Removal,Surfacings Removal
+1193,,,UNKNOWN,,,,Sweeper,Sweeper
+1194,,,UNKNOWN,,,,Sweeper Section (012200),Sweeper Section (012200)
+1195,,,UNKNOWN,,,,Tack Coat,Tack Coat
+1196,,,UNKNOWN,,,,Temporary Erosion and Sediment Control,Temporary Erosion and Sediment Control
+1197,,,UNKNOWN,,,,"Temporary Erosion, Sediment, and Pollution Control","Temporary Erosion, Sediment, and Pollution Control"
+1198,,,UNKNOWN,,,,Temporary Traffic Control,Temporary Traffic Control
+1199,,,UNKNOWN,,,,Traffic Control,Traffic Control
+1200,,,UNKNOWN,,,,Tree and Plant Protection,Tree and Plant Protection
+1201,,,UNKNOWN,,,,Trench Excavation,Trench Excavation
+1202,,,UNKNOWN,,,,Trench Excavation and General Native Backfill,Trench Excavation and General Native Backfill
+1203,,,UNKNOWN,,,,Trench Excavation and Select Backfill,Trench Excavation and Select Backfill
+1204,,,UNKNOWN,,,,Trench Excavation and Select Native Backfill,Trench Excavation and Select Native Backfill
+1205,,,UNKNOWN,,,,Trench Stabilization,Trench Stabilization
+1206,,,UNKNOWN,,,,Trenchless Installation,Trenchless Installation
+1207,,,UNKNOWN,,,,Trestle Cross-Brace Rehabilitation,Trestle Cross-Brace Rehabilitation
+1208,,,UNKNOWN,,,,Two 6-Inch Conduits by Directional Drilling Method,Two 6-Inch Conduits by Directional Drilling Method
+1209,,,UNKNOWN,,,,Unclassified Excavation (P-152),Unclassified Excavation (P-152)
+1210,,,UNKNOWN,,,,Unsuitable Excavation and Disposal,Unsuitable Excavation and Disposal
+1211,,,UNKNOWN,,,,Utility Adjustments to Grade,Utility Adjustments to Grade
+1212,,,UNKNOWN,,,,"Utility Removal, Relocation, and Backfill","Utility Removal, Relocation, and Backfill"
+1213,,,UNKNOWN,,,,Valley Gutter,Valley Gutter
+1214,,,UNKNOWN,,,,Vault (Comm) - 444-LA,Vault (Comm) - 444-LA
+1215,,,UNKNOWN,,,,Vault (Comm) - 444-LA (Traffic Rated),Vault (Comm) - 444-LA (Traffic Rated)
+1216,,,UNKNOWN,,,,Vault (Power) - 575-PCORP,Vault (Power) - 575-PCORP
+1217,,,UNKNOWN,,,,Vault (Power) - 575-TRANS-PCORP,Vault (Power) - 575-TRANS-PCORP
+1218,,,UNKNOWN,,,,Vault (Power) - 712-SWITCH-PCORP,Vault (Power) - 712-SWITCH-PCORP
+1219,,,UNKNOWN,,,,Vault (Power) - 776-TRANS-PCORP,Vault (Power) - 776-TRANS-PCORP
+1220,,,UNKNOWN,,,,Vault (Power) - 776-TRANS-PCORP (Traffic Rated),Vault (Power) - 776-TRANS-PCORP (Traffic Rated)
+1221,,,UNKNOWN,,,,Vehicle Detection Loops,Vehicle Detection Loops
+1222,,,UNKNOWN,,,,Water Well Decommission,Water Well Decommission
+1223,,,UNKNOWN,,,,Work Zone Traffic Control,Work Zone Traffic Control
+1224,,,UNKNOWN,,,,XHHW Conductor - #10 AWG (Power),XHHW Conductor - #10 AWG (Power)
+1225,,,UNKNOWN,,,,XHHW Conductor - #12 AWG (Power),XHHW Conductor - #12 AWG (Power)
+1226,,,UNKNOWN,,,,XHHW Conductor - #3 AWG (Power),XHHW Conductor - #3 AWG (Power)
+1227,,,UNKNOWN,,,,XHHW Conductor - #6 AWG (Power),XHHW Conductor - #6 AWG (Power)
+1228,,,UNKNOWN,,,,XHHW Conductor - #8 AWG (Power),XHHW Conductor - #8 AWG (Power)
+1229,012200,012200,PDX,,,334100,12-Inch STS (Sections 012200 and 334100),12-Inch STS (Sections 012200 and 334100)
+1230,012200,012200,PDX,,,334100,120-Inch Manhole (Sections 012200 and 334100),120-Inch Manhole (Sections 012200 and 334100)
+1231,012200,012200,PDX,,,334100,18-Inch STS (Sections 012200 and 334100),18-Inch STS (Sections 012200 and 334100)
+1232,012200,012200,PDX,,,,3'HighBlueReflectiveMarkers (Section012200),3'HighBlueReflectiveMarkers (Section012200)
+1233,012200,012200,PDX,,,334100,36-Inch STS (Sections 012200 and 334100),36-Inch STS (Sections 012200 and 334100)
+1234,012200,012200,PDX,,,334100,48-Inch Manhole (Sections 012200 and 334100),48-Inch Manhole (Sections 012200 and 334100)
+1235,012200,012200,PDX,,,334100,48-Inch STS (Sections 012200 and 334100),48-Inch STS (Sections 012200 and 334100)
+1236,012200,012200,PDX,,,334100,72-Inch Manhole (Sections 012200 and 334100),72-Inch Manhole (Sections 012200 and 334100)
+1237,012200,012200,PDX,,,334100,8-Inch STS (Sections 012200 and 334100),8-Inch STS (Sections 012200 and 334100)
+1238,012200,012200,PDX,,012200,,Abandon Existing Monitoring Well (Section 012200),Abandon Existing Monitoring Well (Section 012200)
+1239,012200,012200,PDX,,,334100,Abandon Existing Structure (Sections 012200 and 334100),Abandon Existing Structure (Sections 012200 and 334100)
+1240,012200,012200,PDX,,,334100,Abandon and Plug Storm Pipe (Sections 012200 and 334100),Abandon and Plug Storm Pipe (Sections 012200 and 334100)
+1241,012200,012200,PDX,,,321123,Aggregate Base Course (Sections 012200 and 321123),Aggregate Base Course (Sections 012200 and 321123)
+1242,012200,012200,PDX,,,321200,Asphalt Concrete Pavement (Sections 012200 and 321200),Asphalt Concrete Pavement (Sections 012200 and 321200)
+1243,012200,012200,PDX,,012200,,B6 Electrical (Section 012200),B6 Electrical (Section 012200)
+1244,012200,012200,PDX,,012200,,B6 Replacement of Existing Lids and Hatches (Section 012200),B6 Replacement of Existing Lids and Hatches (Section 012200)
+1245,012200,012200,PDX,,012200,,B6 Temporary Airfield Lighting Circuit Connection (Section 012200),B6 Temporary Airfield Lighting Circuit Connection (Section 012200)
+1246,012200,012200,PDX,,012200,,B6 Valve Vault (SSVLT 1202) Concrete Repair (Section 012200),B6 Valve Vault (SSVLT 1202) Concrete Repair (Section 012200)
+1247,012200,012200,PDX,,012200,,B6 Valve Vault (SSVLT 1202) Mechanical Rehabilitation (Section 012200),B6 Valve Vault (SSVLT 1202) Mechanical Rehabilitation (Section 012200)
+1248,012200,012200,PDX,,012200,,B6 Wet Well (SSLS 950) Concrete Repair (Section 012200),B6 Wet Well (SSLS 950) Concrete Repair (Section 012200)
+1249,012200,012200,PDX,,012200,,B6 Wet Well (SSLS 950) Mechanical Rehabilitation (Section 012200),B6 Wet Well (SSLS 950) Mechanical Rehabilitation (Section 012200)
+1250,012200,012200,PDX,,,334100,Catch Basins/Inlets (Sections 012200 and 334100),Catch Basins/Inlets (Sections 012200 and 334100)
+1251,012200,012200,PDX,,,312000,Clearing and Grubbing (Sections 012200 and 312000),Clearing and Grubbing (Sections 012200 and 312000)
+1252,012200,012200,PDX,,,334100,Connection to Existing Drainage Structure (Sections 012200 and 334100),Connection to Existing Drainage Structure (Sections 012200 and 334100)
+1253,012200,012200,PDX,,012200,,Construction Survey (Section 012200),Construction Survey (Section 012200)
+1254,012200,012200,PDX,,012200,,Contaminated Soil Handling and Management (Section 012200),Contaminated Soil Handling and Management (Section 012200)
+1255,012200,012200,PDX,,,026100,Contaminated Soil Removal and Haul (Sections 012200 and 026100),Contaminated Soil Removal and Haul (Sections 012200 and 026100)
+1256,012200,012200,PDX,,012200,,D9 Electrical (Section 012200),D9 Electrical (Section 012200)
+1257,012200,012200,PDX,,012200,,D9 Replacement of Existing Lids and Hatches (Section 012200),D9 Replacement of Existing Lids and Hatches (Section 012200)
+1258,012200,012200,PDX,,012200,,D9 Valve Vault (STSVLT 863) Concrete Repair (Section 012200),D9 Valve Vault (STSVLT 863) Concrete Repair (Section 012200)
+1259,012200,012200,PDX,,012200,,D9 Valve Vault (STSVLT 863) Mechanical Rehabilitation (Section 012200),D9 Valve Vault (STSVLT 863) Mechanical Rehabilitation (Section 012200)
+1260,012200,012200,PDX,,012200,,D9 Wet Well (SSLS 953) Concrete Repair (Section 012200),D9 Wet Well (SSLS 953) Concrete Repair (Section 012200)
+1261,012200,012200,PDX,,012200,,D9 Wet Well (SSLS 953) Mechanical Rehabilitation (Section 012200),D9 Wet Well (SSLS 953) Mechanical Rehabilitation (Section 012200)
+1262,012200,012200,PDX,,012200,,Delineators (Section 012200),Delineators (Section 012200)
+1263,012200,012200,PDX,,012200,,Dewatering (Section 012200),Dewatering (Section 012200)
+1264,012200,012200,PDX,,,312000,"Embankment, Ditch (Sections 012200 and 312000)","Embankment, Ditch (Sections 012200 and 312000)"
+1265,012200,012200,PDX,,012200,,Erosion and Sediment Control (Section 012200),Erosion and Sediment Control (Section 012200)
+1266,012200,012200,PDX,,012200,,Escort (Section 012200),Escort (Section 012200)
+1267,012200,012200,PDX,,,,Escort (Section012200),Escort (Section012200)
+1268,012200,012200,PDX,,,334100,Extra Manhole Depth (120-Inch) (Sections 012200 and 334100),Extra Manhole Depth (120-Inch) (Sections 012200 and 334100)
+1269,012200,012200,PDX,,,334100,Extra Manhole Depth (48-Inch) (Sections 012200 and 334100),Extra Manhole Depth (48-Inch) (Sections 012200 and 334100)
+1270,012200,012200,PDX,,,334100,Extra Manhole Depth (72-Inch) (Sections 012200 and 334100),Extra Manhole Depth (72-Inch) (Sections 012200 and 334100)
+1271,012200,012200,PDX,,,,"Fill Material, Topsoil (Sections 012200, 312000, and 329113)","Fill Material, Topsoil (Sections 012200, 312000, and 329113)"
+1272,012200,012200,PDX,,,024113,General Demolition (Sections 012200 and 024113),General Demolition (Sections 012200 and 024113)
+1273,012200,012200,PDX,,012200,,"Mobilization, Cleanup, and Demobilization (Section 012200)","Mobilization, Cleanup, and Demobilization (Section 012200)"
+1274,012200,012200,PDX,,012200,,"Mobilization, Surveying, Cleanup, and Demobilization (Section 012200)","Mobilization, Surveying, Cleanup, and Demobilization (Section 012200)"
+1275,012200,012200,PDX,,012200,,"PCC Crack Repair, Original (Section 012200)","PCC Crack Repair, Original (Section 012200)"
+1276,012200,012200,PDX,,012200,,"PCC Crack Repair, Renewal (Section 012200)","PCC Crack Repair, Renewal (Section 012200)"
+1277,012200,012200,PDX,,012200,,"PCC Spall Panel Repair, 0-1 SF (Section 012200)","PCC Spall Panel Repair, 0-1 SF (Section 012200)"
+1278,012200,012200,PDX,,012200,,"PCC Spall Panel Repair, 1-5 SF (Section 012200)","PCC Spall Panel Repair, 1-5 SF (Section 012200)"
+1279,012200,012200,PDX,,012200,,"PCC Spall Panel Repair, 5-15 SF (Section 012200)","PCC Spall Panel Repair, 5-15 SF (Section 012200)"
+1280,012200,012200,PDX,,,024113,"Pavement Removal and Disposal, 6-inch Depth (Sections 012200 and 024113)","Pavement Removal and Disposal, 6-inch Depth (Sections 012200 and 024113)"
+1281,012200,012200,PDX,,,321300,Portland Cement Concrete Pavement (10-Inch Thick) (Sections 012200 and 321300),Portland Cement Concrete Pavement (10-Inch Thick) (Sections 012200 and 321300)
+1282,012200,012200,PDX,,012200,,"Removal, Haul, and Disposal of Demolition Debris (Section 012200)","Removal, Haul, and Disposal of Demolition Debris (Section 012200)"
+1283,012200,012200,PDX,,,312300,Repair Existing ARFF Cap (Sections 012200 and 312300),Repair Existing ARFF Cap (Sections 012200 and 312300)
+1284,012200,012200,PDX,,012200,,Security Control Monitoring (Section 012200),Security Control Monitoring (Section 012200)
+1285,012200,012200,PDX,,,329219,Seeding (Sections 012200 and 329219),Seeding (Sections 012200 and 329219)
+1286,012200,012200,PDX,,,,SettlementPlates (Section012200),SettlementPlates (Section012200)
+1287,012200,012200,PDX,,,320117,Site Preparation (Sections 012200 and 320117),Site Preparation (Sections 012200 and 320117)
+1288,012200,012200,PDX,,012200,,Sweeper (Section 012200),Sweeper (Section 012200)
+1289,012200,012200,PDX,,,,Sweeper (Section012200),Sweeper (Section012200)
+1290,012200,012200,PDX,,,015713,Temporary Erosion and Sediment Control Measures (Sections 012200 and 015713),Temporary Erosion and Sediment Control Measures (Sections 012200 and 015713)
+1291,012200,012200,PDX,,012200,,Temporary Sewage Bypassing (Section 012200),Temporary Sewage Bypassing (Section 012200)
+1292,012200,012200,PDX,,,,TemporaryStreamBypass(Section012200),TemporaryStreamBypass(Section012200)
+1293,012200,012200,PDX,,012200,,Traffic Control (Section 012200),Traffic Control (Section 012200)
+1294,012200,012200,PDX,,,312300,Trench Stabilization (Sections 012200 and 312300),Trench Stabilization (Sections 012200 and 312300)
+1295,012200,012200,PDX,,,312300,Unsuitable Excavation and Disposal (Sections 012200 and 312300),Unsuitable Excavation and Disposal (Sections 012200 and 312300)
+1296,012200,012200,PDX,,012200,,"Wildlife Access Road, Asphalt Grindings (Section 012200)","Wildlife Access Road, Asphalt Grindings (Section 012200)"
+1297,012200,012200,PDX,,012200,,Work Zone Traffic Control (Section 012200),Work Zone Traffic Control (Section 012200)
+1298,012200,012200,PDX,,012200,,Work Zone and Traffic Control (Section 012200),Work Zone and Traffic Control (Section 012200)
+1299,012200,012200,PDX,,,,WorkZoneandTrafficControl (Section012200),WorkZoneandTrafficControl (Section012200)
+1300,015713,015713,PDX,,015713,,Construction Access (Section 015713),Construction Access (Section 015713)
+1301,015713,015713,PDX,,,,ConstructionEntrance (Section015713),ConstructionEntrance (Section015713)
+1302,015713,015713,PDX,,015713,,Ditch Protection/Check Dams (Section 015713),Ditch Protection/Check Dams (Section 015713)
+1303,015713,015713,PDX,,,,DitchProtection/CheckDams (Section015713),DitchProtection/CheckDams (Section015713)
+1304,015713,015713,PDX,,015713,,Inlet Protection (Section 015713),Inlet Protection (Section 015713)
+1305,015713,015713,PDX,,,,InletProtection (Section015713),InletProtection (Section015713)
+1306,015713,015713,PDX,,015713,,Jet Blast Control Material (Section 015713),Jet Blast Control Material (Section 015713)
+1307,015713,015713,PDX,,,,JetBlastControlMaterial (Section015713),JetBlastControlMaterial (Section015713)
+1308,015713,015713,PDX,,,,JuteMatting (Section015713),JuteMatting (Section015713)
+1309,015713,015713,PDX,,,,PlasticMeshFence (Section015713),PlasticMeshFence (Section015713)
+1310,015713,015713,PDX,,015713,,Sediment Fence (Section 015713),Sediment Fence (Section 015713)
+1311,015713,015713,PDX,,015713,,Trench Drain Protection (Section 015713),Trench Drain Protection (Section 015713)
+1312,015713,015713,PDX,,015713,,Trench Protection (Section 015713),Trench Protection (Section 015713)
+1313,015713,015713,PDX,,015713,,Wattles (Section 015713),Wattles (Section 015713)
+1314,015713,015713,PDX,,,,Wattles (Section015713),Wattles (Section015713)
+1315,024113,024113,PDX,,024113,,Building Demolition (Section 024113),Building Demolition (Section 024113)
+1316,024113,024113,PDX,,024113,,Building Slab and Foundation Removal (Section 024113),Building Slab and Foundation Removal (Section 024113)
+1317,024113,024113,PDX,,024113,,Existing Landscape Removal (Section 024113),Existing Landscape Removal (Section 024113)
+1318,024113,024113,PDX,,024113,,Relocate Storage Shelter (Section 024113),Relocate Storage Shelter (Section 024113)
+1319,024113,024113,PDX,,024113,,Removal of Existing or Temporary Fence (Section 024113),Removal of Existing or Temporary Fence (Section 024113)
+1320,024113,024113,PDX,,024113,,Removal of Miscellaneous Site Structures (Section 024113),Removal of Miscellaneous Site Structures (Section 024113)
+1321,024113,024113,PDX,,024113,,Remove Bollard - Bolt Down (Section 024113),Remove Bollard - Bolt Down (Section 024113)
+1322,024113,024113,PDX,,024113,,Remove Bollard - Embedded (Section 024113),Remove Bollard - Embedded (Section 024113)
+1323,024113,024113,PDX,,024113,,Remove Electrical Chargers (Section 024113),Remove Electrical Chargers (Section 024113)
+1324,026100,026100,PDX,,026100,,Contaminated Material Excavation and Disposal (Section 026100),Contaminated Material Excavation and Disposal (Section 026100)
+1325,026100,026100,PDX,,026100,,Contaminated Material Excavation and Disposal - Wasco Landfill (Section 026100),Contaminated Material Excavation and Disposal - Wasco Landfill (Section 026100)
+1326,026100,026100,PDX,,,,ContaminatedMaterialExcavationandDisposal(Section026100),ContaminatedMaterialExcavationandDisposal(Section026100)
+1327,111100,111100,PDX,,111100,,Cable Retrievers (Section 111100),Cable Retrievers (Section 111100)
+1328,260500,260500,PDX,,260500,,Demolition of Existing Electrical Equipment on Work Site (Section 260500),Demolition of Existing Electrical Equipment on Work Site (Section 260500)
+1329,260500,260500,PDX,,260500,,Electrical Equipment Rack - Load Share Connected (Section 260500),Electrical Equipment Rack - Load Share Connected (Section 260500)
+1330,260500,260500,PDX,,260500,,Electrical Equipment Rack - Panel Connected (Section 260500),Electrical Equipment Rack - Panel Connected (Section 260500)
+1331,260500,260500,PDX,,260500,,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit) (Section 260500)",Electrical Feeds to Enclosed Circuit Breakers (2.5 Conduit) (Section 260500)
+1332,260500,260500,PDX,,260500,,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit) (Section 260500)",Electrical Feeds to Enclosed Circuit Breakers (3/4 Conduit) (Section 260500)
+1333,260500,260500,PDX,,260500,,"Electrical Feeds to Panels (Existing 3.5"" Conduit) (Section 260500)",Electrical Feeds to Panels (Existing 3.5 Conduit) (Section 260500)
+1334,260500,260500,PDX,,,,FAAMALSRandThresholdBarLights(Section260500),FAAMALSRandThresholdBarLights(Section260500)
+1335,260500,260500,PDX,,260500,,General Electrical Removal (Section 260500),General Electrical Removal (Section 260500)
+1336,260500,260500,PDX,,,,GeneralElectricalRemoval (Section260500),GeneralElectricalRemoval (Section260500)
+1337,260500,260500,PDX,,260500,,Install Gate Valve and Lighting Controls (Section 260500),Install Gate Valve and Lighting Controls (Section 260500)
+1338,260500,260500,PDX,,260500,,Install Handholes for Power (Section 260500),Install Handholes for Power (Section 260500)
+1339,260500,260500,PDX,,260500,,Install Handholes for Power and Communications (Section 260500),Install Handholes for Power and Communications (Section 260500)
+1340,260500,260500,PDX,,260500,,Install Underground Power Conductors for Apron Lights and Communications (Section 260500),Install Underground Power Conductors for Apron Lights and Communications (Section 260500)
+1341,260500,260500,PDX,,,,InstallPFConstantCurrentRegulator (Section260500),InstallPFConstantCurrentRegulator (Section260500)
+1342,260500,260500,PDX,,260500,,"New Electrical Panels, 800A (Section 260500)","New Electrical Panels, 800A (Section 260500)"
+1343,260500,260500,PDX,,260500,,Provide Temporary Power During Construction Inside the 480V Power Center (Section 260500),Provide Temporary Power During Construction Inside the 480V Power Center (Section 260500)
+1344,260500,260500,PDX,,260500,,Re-feed Loads Inside 480V Power Center (Section 260500),Re-feed Loads Inside 480V Power Center (Section 260500)
+1345,260500,260500,PDX,,260500,,Temporary Circuit Connection (Section 260500),Temporary Circuit Connection (Section 260500)
+1346,260500,260500,PDX,,,,TemporaryCircuitConnection (Section260500),TemporaryCircuitConnection (Section260500)
+1347,260500,260500,PDX,,,,TemporaryThresholdSetUpandCircuitConnection (Section260500),TemporaryThresholdSetUpandCircuitConnection (Section260500)
+1348,260500,260500,PDX,,260500,,Training (Section 260500),Training (Section 260500)
+1349,260526,260526,PDX,,260526,,Ground Rod for Counterpoise (Section 260526),Ground Rod for Counterpoise (Section 260526)
+1350,260526,260526,PDX,,260526,,Grounding and Bonding for Electrical Systems (Section 260526),Grounding and Bonding for Electrical Systems (Section 260526)
+1351,260543,260543,PDX,,260543,,Underground Ducts and Raceways for Electrical Systems (Section 260543),Underground Ducts and Raceways for Electrical Systems (Section 260543)
+1352,260553,260553,PDX,,260553,,3-Inch Diameter Brass Marker (Section 260553),3-Inch Diameter Brass Marker (Section 260553)
+1353,262200,262200,PDX,,262200,,Remove and Replace Existing 9KVA Transformer (Section 262200),Remove and Replace Existing 9KVA Transformer (Section 262200)
+1354,262400,262400,PDX,,262400,,Remove and Replace Existing 480V Distribution Panel (Section 262400),Remove and Replace Existing 480V Distribution Panel (Section 262400)
+1355,263343,263343,PDX,,263343,,Electrical Charging Units (Primary Units) (Section 263343),Electrical Charging Units (Primary Units) (Section 263343)
+1356,263343,263343,PDX,,263343,,Electrical Charging Units (Secondary Units) (Section 263343),Electrical Charging Units (Secondary Units) (Section 263343)
+1357,265000,265000,PDX,,265000,,General Electrical Removal (Section 265000),General Electrical Removal (Section 265000)
+1358,265000,265000,PDX,,265000,,Temporary Circuit Connection (Section 265000),Temporary Circuit Connection (Section 265000)
+1359,265623,265623,PDX,,265623,,Install Apron Lighting (Section 265623),Install Apron Lighting (Section 265623)
+1360,270553,270553,PDX,,270553,,Telecommunications Identification (Section 270553),Telecommunications Identification (Section 270553)
+1361,271000,271000,PDX,,271000,,Data Drop to Each Enclosure and Chargers (Section 271000),Data Drop to Each Enclosure and Chargers (Section 271000)
+1362,271000,271000,PDX,,271000,,"Data Equipment Rack & Data Connections 1"" Conduit (Section 271000)",Data Equipment Rack & Data Connections 1 Conduit (Section 271000)
+1363,271000,271000,PDX,,271000,,Network Termination Enclosure (Section 271000),Network Termination Enclosure (Section 271000)
+1364,271000,271000,PDX,,271000,,Structured Cabling (Section 271000),Structured Cabling (Section 271000)
+1365,282300,282300,PDX,,282300,,Video Surveillance (Section 282300),Video Surveillance (Section 282300)
+1366,312300,312300,PDX,,312300,,Adjustment of Existing Structures (229 Kip Rated Vaults) (Section 312300),Adjustment of Existing Structures (229 Kip Rated Vaults) (Section 312300)
+1367,312300,312300,PDX,,312300,,Adjustment of Existing Structures (H-20 Rated Vaults) (Section 312300),Adjustment of Existing Structures (H-20 Rated Vaults) (Section 312300)
+1368,312300,312300,PDX,,312300,,Connection to Existing Storm Drainage System (Section 312300),Connection to Existing Storm Drainage System (Section 312300)
+1369,312300,312300,PDX,,312300,,Existing Catch Basin Adjustment to Grade (Section 312300),Existing Catch Basin Adjustment to Grade (Section 312300)
+1370,312300,312300,PDX,,312300,,Existing Electrical Vault (H-20 Rated) Extension to Finish Grade (Section 312300),Existing Electrical Vault (H-20 Rated) Extension to Finish Grade (Section 312300)
+1371,312300,312300,PDX,,312300,,Existing Electrical Vault Adjustment to Grade (Section 312300),Existing Electrical Vault Adjustment to Grade (Section 312300)
+1372,312300,312300,PDX,,312300,,Existing Manhole Adjustment - Cleanout (Section 312300),Existing Manhole Adjustment - Cleanout (Section 312300)
+1373,312300,312300,PDX,,312300,,Existing Manhole Adjustment to Grade (Section 312300),Existing Manhole Adjustment to Grade (Section 312300)
+1374,312300,312300,PDX,,312300,,Existing Manhole Adjustment to Grade - Minor Adjustment (Section 312300),Existing Manhole Adjustment to Grade - Minor Adjustment (Section 312300)
+1375,312300,312300,PDX,,312300,,Existing Manhole/Inlet Adjustment to Grade (Section 312300),Existing Manhole/Inlet Adjustment to Grade (Section 312300)
+1376,312300,312300,PDX,,,,ExistingElectricalVaultAdjustmenttoGrade(Section312300),ExistingElectricalVaultAdjustmenttoGrade(Section312300)
+1377,312300,312300,PDX,,,,ExistingManholeAdjustmenttoGrade-Cleanout (Section312300),ExistingManholeAdjustmenttoGrade-Cleanout (Section312300)
+1378,312300,312300,PDX,,,,ExistingManholeAdjustmenttoGrade-MajorAdjustment (Section312300),ExistingManholeAdjustmenttoGrade-MajorAdjustment (Section312300)
+1379,312300,312300,PDX,,,,ExistingManholeAdjustmenttoGrade-MinorAdjustment (Section312300),ExistingManholeAdjustmenttoGrade-MinorAdjustment (Section312300)
+1380,312300,312300,PDX,,312300,,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300)
+1381,312300,312300,PDX,,312300,,"Removal of Existing Storm Pipe, Manholes, and Inlets (Section 312300)","Removal of Existing Storm Pipe, Manholes, and Inlets (Section 312300)"
+1382,312300,312300,PDX,,312300,,Remove Existing Manhole Flat Top and Upgrade to Aircraft Rated Structure (Section 312300),Remove Existing Manhole Flat Top and Upgrade to Aircraft Rated Structure (Section 312300)
+1383,312300,312300,PDX,,312300,,Replace Existing Manhole Lid with Open Grated Lid (Section 312300),Replace Existing Manhole Lid with Open Grated Lid (Section 312300)
+1384,312300,312300,PDX,,312300,,Rotate Existing Manhole Lid (Section 312300),Rotate Existing Manhole Lid (Section 312300)
+1385,312300,312300,PDX,,312300,,Sanitary Sewer Wet Well Removal (Section 312300),Sanitary Sewer Wet Well Removal (Section 312300)
+1386,320117,320117,PDX,,320117,,Asphalt Concrete Surface Course (Section 320117),Asphalt Concrete Surface Course (Section 320117)
+1387,320117,320117,PDX,,320117,,Asphalt Pavement Removal - 2-3 Inch Depth (Section 320117),Asphalt Pavement Removal - 2-3 Inch Depth (Section 320117)
+1388,320118,320118,PDX,,320118,,Crack Repair (Section 320118),Crack Repair (Section 320118)
+1389,321613,321613,PDX,,321613,,Cast-in-Place Concrete Curb (Section 321613),Cast-in-Place Concrete Curb (Section 321613)
+1390,321613,321613,PDX,,321613,,Concrete Utility Hub Pavement - 4-Inch (Section 321613),Concrete Utility Hub Pavement - 4-Inch (Section 321613)
+1391,323113,323113,PDX,,323113,,10-Foot Chain Link Fence with Slats and Barbed Wire (Section 323113),10-Foot Chain Link Fence with Slats and Barbed Wire (Section 323113)
+1392,323113,323113,PDX,,323113,,7-Foot Chain Link Fance with Barbed Wire (Section 323113),7-Foot Chain Link Fance with Barbed Wire (Section 323113)
+1393,328400,328400,PDX,,328400,,Irrigation Replacement (Section 328400),Irrigation Replacement (Section 328400)
+1394,329300,329300,PDX,,329300,,Ground Cover Planting (Section 329300),Ground Cover Planting (Section 329300)
+1395,330516,330516,PDX,,,,CleanoutStructures (Section330516),CleanoutStructures (Section330516)
+1396,331116,331116,PDX,,331116,,8-Inch Fire Water Line (Section 331116),8-Inch Fire Water Line (Section 331116)
+1397,331116,331116,PDX,,331116,,8-Inch Gate Valve (Section 331116),8-Inch Gate Valve (Section 331116)
+1398,331116,331116,PDX,,331116,,Underground Fire Hydrant (Section 331116),Underground Fire Hydrant (Section 331116)
+1399,334100,334100,PDX,,334100,,12-Inch DIP (Force Main) (Section 334100),12-Inch DIP (Force Main) (Section 334100)
+1400,334100,334100,PDX,,334100,,12-Inch Ductile Iron (Force Main) Pipe (Section 334100),12-Inch Ductile Iron (Force Main) Pipe (Section 334100)
+1401,334100,334100,PDX,,334100,,20-Inch Ductile Iron (Force Main) Pipe (Section 334100),20-Inch Ductile Iron (Force Main) Pipe (Section 334100)
+1402,334100,334100,PDX,,334100,,30-Inch DIP (Force Main) (Section 334100),30-Inch DIP (Force Main) (Section 334100)
+1403,334100,334100,PDX,,334100,,Riprap (Section 334100),Riprap (Section 334100)
+1404,334213,334213,PDX,,334213,,Pump Station (Section 334213),Pump Station (Section 334213)
+1405,334213,334213,PDX,,334213,,Pump Station Electrical Equipment Installation (Section 334213),Pump Station Electrical Equipment Installation (Section 334213)
+1406,334213,334213,PDX,,334213,,"Stormwater Pump Station, Electrical Equipment Installation (Section 334213)","Stormwater Pump Station, Electrical Equipment Installation (Section 334213)"
+1407,334213,334213,PDX,,334213,,Stormwater Valve Vault (Section 334213),Stormwater Valve Vault (Section 334213)
+1408,344300,344300,PDX,,344300,,"Install CF 150-Watt, 6.6/6.6 Amp Isolation Transformer in Existing Base Can (Section 344300)","Install CF 150-Watt, 6.6/6.6 Amp Isolation Transformer in Existing Base Can (Section 344300)"
+1409,344300,344300,PDX,,344300,,Install Elevated Red Stop Bar Light on Existing Base Can with CF Transformer (Section 344300),Install Elevated Red Stop Bar Light on Existing Base Can with CF Transformer (Section 344300)
+1410,344300,344300,PDX,,344300,,Install Elevated Red Stop Bar Light on Existing Base Can with PF Transformer (Section 344300),Install Elevated Red Stop Bar Light on Existing Base Can with PF Transformer (Section 344300)
+1411,344300,344300,PDX,,344300,,"Install Elevated Red Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)","Install Elevated Red Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+1412,344300,344300,PDX,,344300,,Install Elevated Runway Guard Light on Existing Base Can with CF Transformer (Section 344300),Install Elevated Runway Guard Light on Existing Base Can with CF Transformer (Section 344300)
+1413,344300,344300,PDX,,344300,,Install Elevated Runway Guard Light on Existing Base Can with PF Transformer (Section 344300),Install Elevated Runway Guard Light on Existing Base Can with PF Transformer (Section 344300)
+1414,344300,344300,PDX,,344300,,"Install Elevated Runway Guard Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)","Install Elevated Runway Guard Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+1415,344300,344300,PDX,,344300,,Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+1416,344300,344300,PDX,,344300,,Install In-Pavement Runway Guard Light on Existing Base Can with CF Transformer (Section 344300),Install In-Pavement Runway Guard Light on Existing Base Can with CF Transformer (Section 344300)
+1417,344300,344300,PDX,,344300,,Install In-Pavement Runway Guard/Stop Bar Light on Existing Base Can with CF Transformer (Section 344300),Install In-Pavement Runway Guard/Stop Bar Light on Existing Base Can with CF Transformer (Section 344300)
+1418,344300,344300,PDX,,344300,,"Install In-Pavement Runway Guard/Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)","Install In-Pavement Runway Guard/Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)"
+1419,344300,344300,PDX,,344300,,"Install PF Base Can, PF Extension, PF Flange Ring and PF Cover Plate (Section 344300)","Install PF Base Can, PF Extension, PF Flange Ring and PF Cover Plate (Section 344300)"
+1420,344300,344300,PDX,,344300,,Install PF Cover Plate on Existing Base Can (Section 344300),Install PF Cover Plate on Existing Base Can (Section 344300)
+1421,344300,344300,PDX,,344300,,Install PF Cover Plate on Existing Base Can with PF Bolts (Section 344300),Install PF Cover Plate on Existing Base Can with PF Bolts (Section 344300)
+1422,344300,344300,PDX,,344300,,Install PF Cover Plate on Existing Light Base (Section 344300),Install PF Cover Plate on Existing Light Base (Section 344300)
+1423,344300,344300,PDX,,344300,,Install PF Dual Stop Bar Light on Existing Light Base (Section 344300),Install PF Dual Stop Bar Light on Existing Light Base (Section 344300)
+1424,344300,344300,PDX,,344300,,Install PF Dual Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),Install PF Dual Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300)
+1425,344300,344300,PDX,,344300,,Install PF Dual Stop Bar Light with Two CF Transformers on Existing Light Base (Section 344300),Install PF Dual Stop Bar Light with Two CF Transformers on Existing Light Base (Section 344300)
+1426,344300,344300,PDX,,344300,,Install PF Elevated Runway Edge Light with CF Transformer on Existing Light Base (Section 344300),Install PF Elevated Runway Edge Light with CF Transformer on Existing Light Base (Section 344300)
+1427,344300,344300,PDX,,344300,,Install PF Elevated Runway End Light with CF Transformer on Existing Light Base (Section 344300),Install PF Elevated Runway End Light with CF Transformer on Existing Light Base (Section 344300)
+1428,344300,344300,PDX,,344300,,Install PF Elevated Runway Guard Light with CF Transformer on Existing Light Base (Section 344300),Install PF Elevated Runway Guard Light with CF Transformer on Existing Light Base (Section 344300)
+1429,344300,344300,PDX,,344300,,"Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer in Existing AC (Section 344300)","Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer in Existing AC (Section 344300)"
+1430,344300,344300,PDX,,344300,,Install PF Elevated Taxiway Edge Light with CF Transformer on Existing Light Base (Section 344300),Install PF Elevated Taxiway Edge Light with CF Transformer on Existing Light Base (Section 344300)
+1431,344300,344300,PDX,,344300,,Install PF In-Pavement Red Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),Install PF In-Pavement Red Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300)
+1432,344300,344300,PDX,,344300,,Install PF In-Pavement Runway Edge Light with CF Transformer on Existing Light Base (Section 344300),Install PF In-Pavement Runway Edge Light with CF Transformer on Existing Light Base (Section 344300)
+1433,344300,344300,PDX,,344300,,Install PF In-Pavement Runway Guard Light on Existing Light Base (Section 344300),Install PF In-Pavement Runway Guard Light on Existing Light Base (Section 344300)
+1434,344300,344300,PDX,,344300,,Install PF In-Pavement Runway Guard Light with CF Transformer on Existing Light Base (Section 344300),Install PF In-Pavement Runway Guard Light with CF Transformer on Existing Light Base (Section 344300)
+1435,344300,344300,PDX,,344300,,Install PF In-Pavement Runway Threshold Light with CF Transformer on Existing Light Base (Section 344300),Install PF In-Pavement Runway Threshold Light with CF Transformer on Existing Light Base (Section 344300)
+1436,344300,344300,PDX,,344300,,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)","Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+1437,344300,344300,PDX,,344300,,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)","Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)"
+1438,344300,344300,PDX,,344300,,"Install PF L-867, 12-Inch Diameter Base Can, PF Cover Plate in Existing AC (Section 344300)","Install PF L-867, 12-Inch Diameter Base Can, PF Cover Plate in Existing AC (Section 344300)"
+1439,344300,344300,PDX,,344300,,"Install PF L-868, 12-Inch Diameter Base Can, PF Cover Plate in New AC (Section 344300)","Install PF L-868, 12-Inch Diameter Base Can, PF Cover Plate in New AC (Section 344300)"
+1440,344300,344300,PDX,,344300,,Install PF LED Elevated Runway Edge Light on Existing Base Can with PF Transformer (Section 344300),Install PF LED Elevated Runway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+1441,344300,344300,PDX,,344300,,Install PF LED Elevated Runway End/Threshold Light on Existing Base Can with PF Transformer (Section 344300),Install PF LED Elevated Runway End/Threshold Light on Existing Base Can with PF Transformer (Section 344300)
+1442,344300,344300,PDX,,344300,,Install PF LED In-Pavement Runway Edge Light on Existing Base Can with PF Transformer (Section 344300),Install PF LED In-Pavement Runway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+1443,344300,344300,PDX,,344300,,Install PF LED Taxiway Centerline Light on Existing Base Can with CF Isolation Transformer (Section 344300),Install PF LED Taxiway Centerline Light on Existing Base Can with CF Isolation Transformer (Section 344300)
+1444,344300,344300,PDX,,344300,,"Install PF LED Taxiway Centerline Light with PF Base Can, CF Transformer in New AC (Section 344300)","Install PF LED Taxiway Centerline Light with PF Base Can, CF Transformer in New AC (Section 344300)"
+1445,344300,344300,PDX,,344300,,Install PF Microwave Sensor with CF Transformer in Existing Base Can (Section 344300),Install PF Microwave Sensor with CF Transformer in Existing Base Can (Section 344300)
+1446,344300,344300,PDX,,344300,,Install PF Red Elevated Stop Bar Light with CF Transformer on Existing Light Base (Section 344300),Install PF Red Elevated Stop Bar Light with CF Transformer on Existing Light Base (Section 344300)
+1447,344300,344300,PDX,,344300,,Install PF Red Elevated Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),Install PF Red Elevated Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300)
+1448,344300,344300,PDX,,344300,,Install PF Runway Centerline Light with CF Transformer on Existing Light Base (Section 344300),Install PF Runway Centerline Light with CF Transformer on Existing Light Base (Section 344300)
+1449,344300,344300,PDX,,344300,,Install PF Taxiway Centerline Light on Existing Light Base (Section 344300),Install PF Taxiway Centerline Light on Existing Light Base (Section 344300)
+1450,344300,344300,PDX,,344300,,Install PF Taxiway Centerline Light with CF Transformer on Existing Light Base (Section 344300),Install PF Taxiway Centerline Light with CF Transformer on Existing Light Base (Section 344300)
+1451,344300,344300,PDX,,344300,,Install PF Taxiway Centerline Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),Install PF Taxiway Centerline Light with PF Remote and CF Transformer on Existing Light Base (Section 344300)
+1452,344300,344300,PDX,,344300,,Install PF Taxiway Edge Reflector (Section 344300),Install PF Taxiway Edge Reflector (Section 344300)
+1453,344300,344300,PDX,,344300,,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)","Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)"
+1454,344300,344300,PDX,,344300,,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)","Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+1455,344300,344300,PDX,,344300,,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)","Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)"
+1456,344300,344300,PDX,,344300,,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)","Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+1457,344300,344300,PDX,,,,"InstallPF12""Diameter,24""DeepBaseCanwithPFCoverinNewACPShoulder (Section344300)","InstallPF12Diameter,24DeepBaseCanwithPFCoverinNewACPShoulder (Section344300)"
+1458,344300,344300,PDX,,,,InstallPFElevatedTaxiwayEdgeLightonExistingBaseCanwithCFTransformer (Section344300),InstallPFElevatedTaxiwayEdgeLightonExistingBaseCanwithCFTransformer (Section344300)
+1459,344300,344300,PDX,,,,"InstallPFLEDElevatedRunwayEnd/ThresholdLightwithPFBaseCan,CFTransformerinNewACPShoulder (Section344300)","InstallPFLEDElevatedRunwayEnd/ThresholdLightwithPFBaseCan,CFTransformerinNewACPShoulder (Section344300)"
+1460,344300,344300,PDX,,,,"InstallPFLEDElevatedRunwayGuardLightwithPFBaseCan,CFTransformerinNewACPShoulder(Section344300)","InstallPFLEDElevatedRunwayGuardLightwithPFBaseCan,CFTransformerinNewACPShoulder(Section344300)"
+1461,344300,344300,PDX,,,,"InstallPFLEDRunwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder (Section344300)","InstallPFLEDRunwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder (Section344300)"
+1462,344300,344300,PDX,,,,"InstallPFTaxiwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder(Section344300)","InstallPFTaxiwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder(Section344300)"
+1463,344300,344300,PDX,,344300,,"Reinstall Elevated LED Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)","Reinstall Elevated LED Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+1464,344300,344300,PDX,,344300,,Reinstall Elevated Runway End Light on Existing Base Can with PF Transformer (Section 344300),Reinstall Elevated Runway End Light on Existing Base Can with PF Transformer (Section 344300)
+1465,344300,344300,PDX,,344300,,Reinstall Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),Reinstall Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+1466,344300,344300,PDX,,344300,,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in Existing AC (Section 344300)","Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in Existing AC (Section 344300)"
+1467,344300,344300,PDX,,344300,,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)","Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)"
+1468,344300,344300,PDX,,344300,,Reinstall In-Pavement Stop Bar Light on Existing Base Can with Existing Transformer (Section 344300),Reinstall In-Pavement Stop Bar Light on Existing Base Can with Existing Transformer (Section 344300)
+1469,344300,344300,PDX,,344300,,Reinstall In-Pavement Taxiway Centerline Light on Existing Base Can with Existing Transformer (Section 344300),Reinstall In-Pavement Taxiway Centerline Light on Existing Base Can with Existing Transformer (Section 344300)
+1470,344300,344300,PDX,,344300,,Reinstall In-Pavement Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),Reinstall In-Pavement Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300)
+1471,344300,344300,PDX,,344300,,"Reinstall LED Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)","Reinstall LED Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)"
+1472,344300,344300,PDX,,344300,,"Reinstall LED Taxiway Centerline Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)","Reinstall LED Taxiway Centerline Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)"
+1473,344300,344300,PDX,,344300,,"Reinstall Taxiway Centerline Light on CF Base Can, CF Extenstion, CF Flange Ring, and CF Transformer (Section 344300)","Reinstall Taxiway Centerline Light on CF Base Can, CF Extenstion, CF Flange Ring, and CF Transformer (Section 344300)"
+1474,344300,344300,PDX,,344300,,Reinstall Taxiway Centerline Light on Existing Base Can w/ Existing Transformer in Existing AC (Section 344300),Reinstall Taxiway Centerline Light on Existing Base Can w/ Existing Transformer in Existing AC (Section 344300)
+1475,344300,344300,PDX,,344300,,"Reinstall Taxiway Centerline Light on Existing Base Can w/ PF Extension, PF Flange Ring, and Existing Transformer in New AC (Section 344300)","Reinstall Taxiway Centerline Light on Existing Base Can w/ PF Extension, PF Flange Ring, and Existing Transformer in New AC (Section 344300)"
+1476,344300,344300,PDX,,344300,,Reinstall Taxiway Centerline Light on Existing Base Can with CF Transformer (Section 344300),Reinstall Taxiway Centerline Light on Existing Base Can with CF Transformer (Section 344300)
+1477,344300,344300,PDX,,344300,,Reinstall Taxiway Centerline Light on Existing Base Can with PF Transformer (Section 344300),Reinstall Taxiway Centerline Light on Existing Base Can with PF Transformer (Section 344300)
+1478,344300,344300,PDX,,344300,,"Reinstall Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and PF Transformer (Section 344300)","Reinstall Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and PF Transformer (Section 344300)"
+1479,344300,344300,PDX,,344300,,Reinstall Taxiway Edge Light on Existing Base Can with Existing Isolation Transformer (Section 344300),Reinstall Taxiway Edge Light on Existing Base Can with Existing Isolation Transformer (Section 344300)
+1480,344300,344300,PDX,,344300,,Reinstall Taxiway Edge Light on Existing Base Can with Existing Transformer (Section 344300),Reinstall Taxiway Edge Light on Existing Base Can with Existing Transformer (Section 344300)
+1481,344301,344301,PDX,,344301,,Adjust Existing Base Can to New Finish Elevation (Section 344301),Adjust Existing Base Can to New Finish Elevation (Section 344301)
+1482,344301,344301,PDX,,344301,,Adjust Existing Elevated Runway Threshold Light (Section 344301),Adjust Existing Elevated Runway Threshold Light (Section 344301)
+1483,344301,344301,PDX,,344301,,Adjust Existing Elevated Runway Threshold/Edge Light (Section 344301),Adjust Existing Elevated Runway Threshold/Edge Light (Section 344301)
+1484,344301,344301,PDX,,344301,,Adjust Existing In-Pavement Runway Edge Light (Section 344301),Adjust Existing In-Pavement Runway Edge Light (Section 344301)
+1485,344301,344301,PDX,,344301,,Adjust Existing In-Pavement Runway Guard/Stop Bar Light to New Finish Elevation (Section 344301),Adjust Existing In-Pavement Runway Guard/Stop Bar Light to New Finish Elevation (Section 344301)
+1486,344301,344301,PDX,,344301,,Adjust Existing In-Pavement Stop Bar Light (Section 344301),Adjust Existing In-Pavement Stop Bar Light (Section 344301)
+1487,344301,344301,PDX,,344301,,Adjust Existing Runway Edge Light to New Finish Elevation (Section 344301),Adjust Existing Runway Edge Light to New Finish Elevation (Section 344301)
+1488,344301,344301,PDX,,344301,,Adjust Existing Taxiway Centerline Light (Section 344301),Adjust Existing Taxiway Centerline Light (Section 344301)
+1489,344301,344301,PDX,,344301,,Adjust Existing Taxiway Centerline Light to New Finish Elevation (Section 344301),Adjust Existing Taxiway Centerline Light to New Finish Elevation (Section 344301)
+1490,344301,344301,PDX,,344301,,Adjust Existing Taxiway Edge Light to New Finish Elevation (Section 344301),Adjust Existing Taxiway Edge Light to New Finish Elevation (Section 344301)
+1491,344301,344301,PDX,,,,AdjustExistingRunway/TaxiwayElevatedEdgeLightwithCFTransformer (Section344301),AdjustExistingRunway/TaxiwayElevatedEdgeLightwithCFTransformer (Section344301)
+1492,344302,344302,PDX,,344302,,Sign A1-1 (Section 344302),Sign A1-1 (Section 344302)
+1493,344302,344302,PDX,,344302,,Sign A4-13 (Section 344302),Sign A4-13 (Section 344302)
+1494,344302,344302,PDX,,344302,,Sign A4-6 (Section 344302),Sign A4-6 (Section 344302)
+1495,344302,344302,PDX,,344302,,Sign A4-7 (Section 344302),Sign A4-7 (Section 344302)
+1496,344302,344302,PDX,,344302,,Sign A4-9 (Section 344302),Sign A4-9 (Section 344302)
+1497,344302,344302,PDX,,344302,,Sign A5-1 (Section 344302),Sign A5-1 (Section 344302)
+1498,344302,344302,PDX,,344302,,Sign A5-3 (Section 344302),Sign A5-3 (Section 344302)
+1499,344302,344302,PDX,,344302,,Sign A5-4 (Section 344302),Sign A5-4 (Section 344302)
+1500,344302,344302,PDX,,344302,,Sign A5-6 (Section 344302),Sign A5-6 (Section 344302)
+1501,344302,344302,PDX,,344302,,Sign A5-7 (Section 344302),Sign A5-7 (Section 344302)
+1502,344302,344302,PDX,,344302,,Sign A5-8 (Section 344302),Sign A5-8 (Section 344302)
+1503,344302,344302,PDX,,344302,,Sign A5-9 (Section 344302),Sign A5-9 (Section 344302)
+1504,344302,344302,PDX,,344302,,Sign A6-10 (Section 344302),Sign A6-10 (Section 344302)
+1505,344302,344302,PDX,,344302,,Sign A6-11 (Section 344302),Sign A6-11 (Section 344302)
+1506,344302,344302,PDX,,344302,,Sign A6-12 (Section 344302),Sign A6-12 (Section 344302)
+1507,344302,344302,PDX,,344302,,Sign A6-2 (Section 344302),Sign A6-2 (Section 344302)
+1508,344302,344302,PDX,,344302,,Sign A6-3 (Section 344302),Sign A6-3 (Section 344302)
+1509,344302,344302,PDX,,344302,,Sign A6-7 (Section 344302),Sign A6-7 (Section 344302)
+1510,344302,344302,PDX,,344302,,Sign A6-9 (Section 344302),Sign A6-9 (Section 344302)
+1511,344302,344302,PDX,,344302,,Sign A7-2 (Section 344302),Sign A7-2 (Section 344302)
+1512,344302,344302,PDX,,344302,,Sign A8-1 (Section 344302),Sign A8-1 (Section 344302)
+1513,344302,344302,PDX,,344302,,Sign A8-2 (Section 344302),Sign A8-2 (Section 344302)
+1514,344302,344302,PDX,,344302,,Sign B1-1 (Section 344302),Sign B1-1 (Section 344302)
+1515,344302,344302,PDX,,344302,,Sign B6-11 (Section 344302),Sign B6-11 (Section 344302)
+1516,344302,344302,PDX,,344302,,Sign B7-1 (Section 344302),Sign B7-1 (Section 344302)
+1517,344302,344302,PDX,,344302,,Sign B8-1 (Section 344302),Sign B8-1 (Section 344302)
+1518,344302,344302,PDX,,344302,,Sign CE-10 (Section 344302),Sign CE-10 (Section 344302)
+1519,344302,344302,PDX,,344302,,Sign E6-6 (Section 344302),Sign E6-6 (Section 344302)
+1520,344302,344302,PDX,,344302,,Sign E6-9 (Section 344302),Sign E6-9 (Section 344302)
+1521,344302,344302,PDX,,344302,,Sign EA-15 (Section 344302),Sign EA-15 (Section 344302)
+1522,344302,344302,PDX,,344302,,Sign G-3 (Section 344302),Sign G-3 (Section 344302)
+1523,344302,344302,PDX,,344302,,Sign T-5 (Section 344302),Sign T-5 (Section 344302)
+1524,344302,344302,PDX,,,,Sign UL-1 Section 344302),Sign UL-1 Section 344302)
+1525,344302,344302,PDX,,344302,,Sign UL-2 (Section 344302),Sign UL-2 (Section 344302)
+1526,344302,344302,PDX,,344302,,Sign V-2 (Section 344302),Sign V-2 (Section 344302)
+1527,344302,344302,PDX,,344302,,Sign V-4 (Section 344302),Sign V-4 (Section 344302)
+1528,344302,344302,PDX,,344302,,Sign V-5 (Section 344302),Sign V-5 (Section 344302)
+1529,344302,344302,PDX,,344302,,Sign V-6 (Section 344302),Sign V-6 (Section 344302)
+1530,344302,344302,PDX,,,,Sign13R-1 (Section344302),Sign13R-1 (Section344302)
+1531,344302,344302,PDX,,,,SignA-1 (Section344302),SignA-1 (Section344302)
+1532,347113,347113,PDX,,347113,,Pipe Bollards (Section 347113),Pipe Bollards (Section 347113)
+1533,347115,347115,PDX,,347115,,Bollard - Bolt Down (Section 347115),Bollard - Bolt Down (Section 347115)
+1534,347115,347115,PDX,,347115,,Guard Rail (Section 347115),Guard Rail (Section 347115)
+1535,347115,347115,PDX,,347115,,Precast Concrete Wheel Stop (Section 347115),Precast Concrete Wheel Stop (Section 347115)
+1536,354000,354000,PDX,,,,Boulders (Section354000),Boulders (Section354000)
+1537,354000,354000,PDX,,,,GradeControlStructures (Section354000),GradeControlStructures (Section354000)
+1538,354000,354000,PDX,,,,RiprapOutfall (Section354000),RiprapOutfall (Section354000)
+1539,354000,354000,PDX,,,,StreambedCobble (Section354000),StreambedCobble (Section354000)
+1540,354000,354000,PDX,,,,StreambedSediment (Section354000),StreambedSediment (Section354000)
+1541,C-102,C-102,FAA,C-102,,,Inlet Protection (Item C-102),Inlet Protection (Item C-102)
+1542,C-102,C-102,FAA,C-102,,,Installation and Removal of Silt Fence (Item C-102),Installation and Removal of Silt Fence (Item C-102)
+1543,C-102,C-102,FAA,,,,InstallationandRemovalofSiltFence (ItemC-102),InstallationandRemovalofSiltFence (ItemC-102)
+1544,C-105,C-105,FAA,C-105,,,Mobilization (Item C-105),Mobilization (Item C-105)
+1545,C-105,C-105,FAA,,,,Mobilization (ItemC-105),Mobilization (ItemC-105)
+1546,D-701,D-701,FAA,D-701,,,12-Inch RCP Pipe (Item D-701),12-Inch RCP Pipe (Item D-701)
+1547,D-701,D-701,FAA,D-701,,,12-Inch STS (Item D-701),12-Inch STS (Item D-701)
+1548,D-701,D-701,FAA,D-701,,,12-Inch STS Pipe (Item D-701),12-Inch STS Pipe (Item D-701)
+1549,D-701,D-701,FAA,D-701,,,12-Inch Slide Gate (Item D-701),12-Inch Slide Gate (Item D-701)
+1550,D-701,D-701,FAA,D-701,,,12-Inch Storm Sewer Pipe (Item D-701),12-Inch Storm Sewer Pipe (Item D-701)
+1551,D-701,D-701,FAA,,,,12-inchSTS (ItemD-701),12-inchSTS (ItemD-701)
+1552,D-701,D-701,FAA,,,,14-inchClass50DuctileIronPipeCulvert(ItemD-701),14-inchClass50DuctileIronPipeCulvert(ItemD-701)
+1553,D-701,D-701,FAA,D-701,,,15-Inch STS (Item D-701),15-Inch STS (Item D-701)
+1554,D-701,D-701,FAA,D-701,,,15-Inch Slide Gate (Item D-701),15-Inch Slide Gate (Item D-701)
+1555,D-701,D-701,FAA,D-701,,,15-Inch Storm Sewer Pipe (Item D-701),15-Inch Storm Sewer Pipe (Item D-701)
+1556,D-701,D-701,FAA,D-701,,,18-Inch STS (Item D-701),18-Inch STS (Item D-701)
+1557,D-701,D-701,FAA,D-701,,,18-Inch STS Pipe (Item D-701),18-Inch STS Pipe (Item D-701)
+1558,D-701,D-701,FAA,D-701,,,18-Inch Storm Sewer Pipe (Item D-701),18-Inch Storm Sewer Pipe (Item D-701)
+1559,D-701,D-701,FAA,,,,18-inchClass50DuctileIronPipeCulvert (ItemD-701),18-inchClass50DuctileIronPipeCulvert (ItemD-701)
+1560,D-701,D-701,FAA,D-701,,,24-Inch RCP Pipe (Item D-701),24-Inch RCP Pipe (Item D-701)
+1561,D-701,D-701,FAA,D-701,,,24-Inch STS (Item D-701),24-Inch STS (Item D-701)
+1562,D-701,D-701,FAA,D-701,,,24-Inch STS Pipe (Item D-701),24-Inch STS Pipe (Item D-701)
+1563,D-701,D-701,FAA,,,,24-inchSTS (ItemD-701),24-inchSTS (ItemD-701)
+1564,D-701,D-701,FAA,D-701,,,30-Inch STS (Item D-701),30-Inch STS (Item D-701)
+1565,D-701,D-701,FAA,D-701,,,30-Inch STS Pipe (Item D-701),30-Inch STS Pipe (Item D-701)
+1566,D-701,D-701,FAA,D-701,,,30-Inch Slide Gate (Item D-701),30-Inch Slide Gate (Item D-701)
+1567,D-701,D-701,FAA,D-701,,,36-Inch STS (Item D-701),36-Inch STS (Item D-701)
+1568,D-701,D-701,FAA,D-701,,,4-Inch STS Pipe (Item D-701),4-Inch STS Pipe (Item D-701)
+1569,D-701,D-701,FAA,D-701,,,48-Inch STS Pipe (Item D-701),48-Inch STS Pipe (Item D-701)
+1570,D-701,D-701,FAA,D-701,,,6-Inch STS Pipe (Item D-701),6-Inch STS Pipe (Item D-701)
+1571,D-701,D-701,FAA,,,,6-inchSTS (ItemD-701),6-inchSTS (ItemD-701)
+1572,D-701,D-701,FAA,,,,8'HX14'WCulvert (ItemD-701),8'HX14'WCulvert (ItemD-701)
+1573,D-701,D-701,FAA,D-701,,,8-Inch STS (Item D-701),8-Inch STS (Item D-701)
+1574,D-701,D-701,FAA,D-701,,,8-Inch STS Pipe (Item D-701),8-Inch STS Pipe (Item D-701)
+1575,D-701,D-701,FAA,D-701,,,STS Drain Pipe (18-inch) (Item D-701),STS Drain Pipe (18-inch) (Item D-701)
+1576,D-701,D-701,FAA,D-701,,,STS Drain Pipe (24-inch) (Item D-701),STS Drain Pipe (24-inch) (Item D-701)
+1577,D-705,D-705,FAA,D-705,,,6-Inch Non-Perforated Pipe (Item D-705),6-Inch Non-Perforated Pipe (Item D-705)
+1578,D-705,D-705,FAA,D-705,,,6-Inch Perforated Pipe (Item D-705),6-Inch Perforated Pipe (Item D-705)
+1579,D-705,D-705,FAA,D-705,,,6-Inch Perforated Pipe Underdrains (Item D-705),6-Inch Perforated Pipe Underdrains (Item D-705)
+1580,D-705,D-705,FAA,D-705,,,6-Inch Perforated Storm Sewer Pipe (Item D-705),6-Inch Perforated Storm Sewer Pipe (Item D-705)
+1581,D-705,D-705,FAA,,,,6-InchPipeUnderdrains (ItemD-705),6-InchPipeUnderdrains (ItemD-705)
+1582,D-705,D-705,FAA,D-705,,,Non-Perforated Underdrain Pipe (6-inch) (Item D-705),Non-Perforated Underdrain Pipe (6-inch) (Item D-705)
+1583,D-705,D-705,FAA,D-705,,,Perforated Underdrain Pipe (6-inch) (Item D-705),Perforated Underdrain Pipe (6-inch) (Item D-705)
+1584,D-751,D-751,FAA,D-751,,,48-Inch Diameter Manhole (Item D-751),48-Inch Diameter Manhole (Item D-751)
+1585,D-751,D-751,FAA,D-751,,,"48-Inch Diameter Manhole, Type A (Item D-751)","48-Inch Diameter Manhole, Type A (Item D-751)"
+1586,D-751,D-751,FAA,D-751,,,48-Inch Manhole (Item D-751),48-Inch Manhole (Item D-751)
+1587,D-751,D-751,FAA,D-751,,,"48-Inch Manhole, Ditch Inlet (Item D-751)","48-Inch Manhole, Ditch Inlet (Item D-751)"
+1588,D-751,D-751,FAA,D-751,,,"48-Inch Manhole, Type A (Item D-751)","48-Inch Manhole, Type A (Item D-751)"
+1589,D-751,D-751,FAA,D-751,,,"48-Inch Manhole, Type B (Item D-751)","48-Inch Manhole, Type B (Item D-751)"
+1590,D-751,D-751,FAA,D-751,,,48-Inch Manholes (Item D-751),48-Inch Manholes (Item D-751)
+1591,D-751,D-751,FAA,D-751,,,60-Inch Manhole (Item D-751),60-Inch Manhole (Item D-751)
+1592,D-751,D-751,FAA,D-751,,,60-Inch Manhole Catch Basin (Item D-751),60-Inch Manhole Catch Basin (Item D-751)
+1593,D-751,D-751,FAA,D-751,,,"60-Inch Manhole, Type B (Item D-751)","60-Inch Manhole, Type B (Item D-751)"
+1594,D-751,D-751,FAA,D-751,,,60-Inch Manholes (Item D-751),60-Inch Manholes (Item D-751)
+1595,D-751,D-751,FAA,D-751,,,"72-Inch Diameter Manhole, Type A (Item D-751)","72-Inch Diameter Manhole, Type A (Item D-751)"
+1596,D-751,D-751,FAA,D-751,,,72-Inch Manhole (Item D-751),72-Inch Manhole (Item D-751)
+1597,D-751,D-751,FAA,D-751,,,"72-Inch Manhole, Type A (Item D-751)","72-Inch Manhole, Type A (Item D-751)"
+1598,D-751,D-751,FAA,D-751,,,"72-Inch Manhole, Type B (Item D-751)","72-Inch Manhole, Type B (Item D-751)"
+1599,D-751,D-751,FAA,D-751,,,84-Inch Diameter Manhole (Item D-751),84-Inch Diameter Manhole (Item D-751)
+1600,D-751,D-751,FAA,D-751,,,"84-Inch Diameter Manhole, Type A (Item D-751)","84-Inch Diameter Manhole, Type A (Item D-751)"
+1601,D-751,D-751,FAA,D-751,,,"84-Inch Manhole, Type A (Item D-751)","84-Inch Manhole, Type A (Item D-751)"
+1602,D-751,D-751,FAA,D-751,,,"84-Inch Manhole, Type B (Item D-751)","84-Inch Manhole, Type B (Item D-751)"
+1603,D-751,D-751,FAA,D-751,,,"96-Inch Diameter Manhole, Type A (Item D-751)","96-Inch Diameter Manhole, Type A (Item D-751)"
+1604,D-751,D-751,FAA,D-751,,,Catch Basin (Item D-751),Catch Basin (Item D-751)
+1605,D-751,D-751,FAA,D-751,,,Catch Basins (Item D-751),Catch Basins (Item D-751)
+1606,D-751,D-751,FAA,,,,CatchBasins (ItemD-751),CatchBasins (ItemD-751)
+1607,D-751,D-751,FAA,D-751,,,Connect to Existing Catch Basin/Manhole (Item D-751),Connect to Existing Catch Basin/Manhole (Item D-751)
+1608,D-751,D-751,FAA,D-751,,,Manholes (Item D-751),Manholes (Item D-751)
+1609,D-751,D-751,FAA,,,,Manholes (ItemD-751),Manholes (ItemD-751)
+1610,D-751,D-751,FAA,D-751,,,Trench Drain (Item D-751),Trench Drain (Item D-751)
+1611,D-751,D-751,FAA,D-751,,,Underdrain Cleanout (Item D-751),Underdrain Cleanout (Item D-751)
+1612,D-752,D-752,FAA,,,,ReinforcingSteel (ItemD-752),ReinforcingSteel (ItemD-752)
+1613,D-752,D-752,FAA,,,,StructuralConcrete (ItemD-752),StructuralConcrete (ItemD-752)
+1614,D-752,D-752,FAA,,,,UnclassifiedExcavationforStructures (ItemD-752),UnclassifiedExcavationforStructures (ItemD-752)
+1615,L-108,L-108,FAA,L-108,,,"#6 AWG, 5kV Cable (Item L-108)","#6 AWG, 5kV Cable (Item L-108)"
+1616,L-108,L-108,FAA,L-108,,,Counterpoise Ground Rod (Item L-108),Counterpoise Ground Rod (Item L-108)
+1617,L-108,L-108,FAA,L-108,,,"Counterpoise Ground Rod, 10-Foot Long (Item L-108)","Counterpoise Ground Rod, 10-Foot Long (Item L-108)"
+1618,L-108,L-108,FAA,L-108,,,"Counterpoise Ground Rod, 10-Ft Long (Item L-108)","Counterpoise Ground Rod, 10-Ft Long (Item L-108)"
+1619,L-108,L-108,FAA,L-108,,,Ground Rod for Counterpoise (Item L-108),Ground Rod for Counterpoise (Item L-108)
+1620,L-108,L-108,FAA,,,,GroundRodforCounterpoise (ItemL-108),GroundRodforCounterpoise (ItemL-108)
+1621,L-108,L-108,FAA,L-108,,,Heat Shrink for 5kV L-823 Primary Connector (Item L-108),Heat Shrink for 5kV L-823 Primary Connector (Item L-108)
+1622,L-108,L-108,FAA,L-108,,,"No. 10 AWG, 600V, Cable Installed in Conduit (Item L-108)","No. 10 AWG, 600V, Cable Installed in Conduit (Item L-108)"
+1623,L-108,L-108,FAA,L-108,,,"No. 12 AWG, 600V, Cable, Installed in Conduit (Item L-108)","No. 12 AWG, 600V, Cable, Installed in Conduit (Item L-108)"
+1624,L-108,L-108,FAA,L-108,,,"No. 2/0 AWG, 600-Volt Conductor (Item L-108)","No. 2/0 AWG, 600-Volt Conductor (Item L-108)"
+1625,L-108,L-108,FAA,L-108,,,No. 4 GND Conductor (Item L-108),No. 4 GND Conductor (Item L-108)
+1626,L-108,L-108,FAA,L-108,,,No. 6 AWG Solid Wire for Counterpoise (Item L-108),No. 6 AWG Solid Wire for Counterpoise (Item L-108)
+1627,L-108,L-108,FAA,L-108,,,"No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)","No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)"
+1628,L-108,L-108,FAA,L-108,,,"No. 6 AWG, Solid, Bare Counterpoise Wire (Item L-108)","No. 6 AWG, Solid, Bare Counterpoise Wire (Item L-108)"
+1629,L-108,L-108,FAA,L-108,,,"No. 6 AWG, Solid, Bare Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)","No. 6 AWG, Solid, Bare Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)"
+1630,L-108,L-108,FAA,L-108,,,No. 8 AWG 5kV Cable (Item L-108),No. 8 AWG 5kV Cable (Item L-108)
+1631,L-108,L-108,FAA,L-108,,,"No. 8 AWG, 5 kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)","No. 8 AWG, 5 kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)"
+1632,L-108,L-108,FAA,L-108,,,"No. 8 AWG, 5kV, L-824, Type C Cable (Item L-108)","No. 8 AWG, 5kV, L-824, Type C Cable (Item L-108)"
+1633,L-108,L-108,FAA,L-108,,,"No. 8 AWG, 5kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)","No. 8 AWG, 5kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)"
+1634,L-108,L-108,FAA,L-108,,,"No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit (Item L-108)","No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit (Item L-108)"
+1635,L-108,L-108,FAA,,,,"No.6AWG,Solid,BareCounterpoiseWire,InstalledAbovetheDuctBankorConduit,IncludingConnections/Terminations(ItemL-108)","No.6AWG,Solid,BareCounterpoiseWire,InstalledAbovetheDuctBankorConduit,IncludingConnections/Terminations(ItemL-108)"
+1636,L-108,L-108,FAA,,,,"No.8AWG,5kV,L-824,TypeCCableInstalledinTrench,DuctBank,orConduit(ItemL-108)","No.8AWG,5kV,L-824,TypeCCableInstalledinTrench,DuctBank,orConduit(ItemL-108)"
+1637,L-110,L-110,FAA,L-110,,,1 1/2-Inch GRSC (Item L-110),1 1/2-Inch GRSC (Item L-110)
+1638,L-110,L-110,FAA,L-110,,,1-Inch GRSC (Item L-110),1-Inch GRSC (Item L-110)
+1639,L-110,L-110,FAA,L-110,,,1-Inch GRSC Encased in P-610 in Existing AC (Item L-110),1-Inch GRSC Encased in P-610 in Existing AC (Item L-110)
+1640,L-110,L-110,FAA,L-110,,,1-Inch IMC in Existing AC (Item L-110),1-Inch IMC in Existing AC (Item L-110)
+1641,L-110,L-110,FAA,L-110,,,1.5-Inch GRSC Encased in P-610 in Existing AC (Item L-110),1.5-Inch GRSC Encased in P-610 in Existing AC (Item L-110)
+1642,L-110,L-110,FAA,L-110,,,1.5-Inch IMC under New AC Shoulder (Item L-110),1.5-Inch IMC under New AC Shoulder (Item L-110)
+1643,L-110,L-110,FAA,L-110,,,2-Inch GRSC (Item L-110),2-Inch GRSC (Item L-110)
+1644,L-110,L-110,FAA,L-110,,,2-Inch PVC (Item L-110),2-Inch PVC (Item L-110)
+1645,L-110,L-110,FAA,L-110,,,2-Inch PVC Direct Buried (Item L-110),2-Inch PVC Direct Buried (Item L-110)
+1646,L-110,L-110,FAA,L-110,,,2-Inch PVC Direct Buried in Grass (Item L-110),2-Inch PVC Direct Buried in Grass (Item L-110)
+1647,L-110,L-110,FAA,L-110,,,2-Inch PVC Direct Buried in Grass or under New AC Shoulder (Item L-110),2-Inch PVC Direct Buried in Grass or under New AC Shoulder (Item L-110)
+1648,L-110,L-110,FAA,L-110,,,2-Inch PVC Encased in CLSM in New AC (Item L-110),2-Inch PVC Encased in CLSM in New AC (Item L-110)
+1649,L-110,L-110,FAA,L-110,,,2-Inch PVC Encased in Concrete in New Structural AC (Item L-110),2-Inch PVC Encased in Concrete in New Structural AC (Item L-110)
+1650,L-110,L-110,FAA,L-110,,,2-Inch PVC Encased in Concrete in new Structural AC (Item L-110),2-Inch PVC Encased in Concrete in new Structural AC (Item L-110)
+1651,L-110,L-110,FAA,L-110,,,2-Inch PVC Encased in P-610 in Existing AC (Item L-110),2-Inch PVC Encased in P-610 in Existing AC (Item L-110)
+1652,L-110,L-110,FAA,L-110,,,2-Inch PVC encased in P-610 in Existing AC (Item L-110),2-Inch PVC encased in P-610 in Existing AC (Item L-110)
+1653,L-110,L-110,FAA,L-110,,,2-Inch PVC in CLSM (Item L-110),2-Inch PVC in CLSM (Item L-110)
+1654,L-110,L-110,FAA,L-110,,,2-Inch PVC in Existing AC (Item L-110),2-Inch PVC in Existing AC (Item L-110)
+1655,L-110,L-110,FAA,L-110,,,2-Inch PVC in Existing Structural AC (Item L-110),2-Inch PVC in Existing Structural AC (Item L-110)
+1656,L-110,L-110,FAA,L-110,,,2-Inch PVC in New Shoulder and Direct Buried (Item L-110),2-Inch PVC in New Shoulder and Direct Buried (Item L-110)
+1657,L-110,L-110,FAA,L-110,,,2-Inch PVC under New AC Shoulder (Item L-110),2-Inch PVC under New AC Shoulder (Item L-110)
+1658,L-110,L-110,FAA,,,,2-InchPVCinGrassorinNewACshoulder(ItemL-110),2-InchPVCinGrassorinNewACshoulder(ItemL-110)
+1659,L-110,L-110,FAA,,,,2-InchPVCinNewACStructuralPavement(ItemL-110),2-InchPVCinNewACStructuralPavement(ItemL-110)
+1660,L-110,L-110,FAA,L-110,,,2-inch PVC Direct Buried in Grass (Item L-110),2-inch PVC Direct Buried in Grass (Item L-110)
+1661,L-110,L-110,FAA,L-110,,,2-inch PVC in Existing ACP Shoulder (Item L-110),2-inch PVC in Existing ACP Shoulder (Item L-110)
+1662,P-101,P-101,FAA,P-101,,,3-5 Inch Cold Milling (Item P-101),3-5 Inch Cold Milling (Item P-101)
+1663,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal (Item P-101),Asphalt Pavement Removal (Item P-101)
+1664,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 11-Inch Depth (Item P-101),Asphalt Pavement Removal - 11-Inch Depth (Item P-101)
+1665,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 12"" Depth (Item P-101)",Asphalt Pavement Removal - 12 Depth (Item P-101)
+1666,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 12"" Depth Asphalt Grindings (Item P-101)",Asphalt Pavement Removal - 12 Depth Asphalt Grindings (Item P-101)
+1667,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 12-Inch Depth (Item P-101),Asphalt Pavement Removal - 12-Inch Depth (Item P-101)
+1668,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 13.5-Inch Depth (Item P-101),Asphalt Pavement Removal - 13.5-Inch Depth (Item P-101)
+1669,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 14"" Depth (Item P-101)",Asphalt Pavement Removal - 14 Depth (Item P-101)
+1670,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 15-Inch Depth (Item P-101),Asphalt Pavement Removal - 15-Inch Depth (Item P-101)
+1671,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 16"" Depth (Item P-101)",Asphalt Pavement Removal - 16 Depth (Item P-101)
+1672,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 16-Inch Depth (Item P-101),Asphalt Pavement Removal - 16-Inch Depth (Item P-101)
+1673,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 20"" Depth (Item P-101)",Asphalt Pavement Removal - 20 Depth (Item P-101)
+1674,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 20-Inch Depth (Item P-101),Asphalt Pavement Removal - 20-Inch Depth (Item P-101)
+1675,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 22"" Depth (Item P-101)",Asphalt Pavement Removal - 22 Depth (Item P-101)
+1676,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 3"" Depth (Item P-101)",Asphalt Pavement Removal - 3 Depth (Item P-101)
+1677,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 3-5 Inch Depth (Item P-101),Asphalt Pavement Removal - 3-5 Inch Depth (Item P-101)
+1678,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 3-Inch Depth (Item P-101),Asphalt Pavement Removal - 3-Inch Depth (Item P-101)
+1679,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 4-Inch Depth (Item P-101),Asphalt Pavement Removal - 4-Inch Depth (Item P-101)
+1680,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 5"" Depth (Item P-101)",Asphalt Pavement Removal - 5 Depth (Item P-101)
+1681,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 5-Inch Depth (Item P-101),Asphalt Pavement Removal - 5-Inch Depth (Item P-101)
+1682,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 6 Inch Depth (Item P-101),Asphalt Pavement Removal - 6 Inch Depth (Item P-101)
+1683,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 6-Inch Depth (Item P-101),Asphalt Pavement Removal - 6-Inch Depth (Item P-101)
+1684,P-101,P-101,FAA,P-101,,,"Asphalt Pavement Removal - 7.5"" Depth (Item P-101)",Asphalt Pavement Removal - 7.5 Depth (Item P-101)
+1685,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 8 Inch Depth (Item P-101),Asphalt Pavement Removal - 8 Inch Depth (Item P-101)
+1686,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 8-Inch Depth (Item P-101),Asphalt Pavement Removal - 8-Inch Depth (Item P-101)
+1687,P-101,P-101,FAA,P-101,,,Asphalt Pavement Removal - 9-Inch Depth (Item P-101),Asphalt Pavement Removal - 9-Inch Depth (Item P-101)
+1688,P-101,P-101,FAA,,,,AsphaltPavementRemoval-2.5-InchDepth (ItemP-101),AsphaltPavementRemoval-2.5-InchDepth (ItemP-101)
+1689,P-101,P-101,FAA,,,,AsphaltPavementRemoval-4-InchDepth (ItemP-101),AsphaltPavementRemoval-4-InchDepth (ItemP-101)
+1690,P-101,P-101,FAA,,,,AsphaltPavementRemoval-6-8-InchDepth (ItemP-101),AsphaltPavementRemoval-6-8-InchDepth (ItemP-101)
+1691,P-101,P-101,FAA,P-101,,,Cold Milling - 12-Inch Depth (Item P-101),Cold Milling - 12-Inch Depth (Item P-101)
+1692,P-101,P-101,FAA,P-101,,,Cold Milling - 2- to 4-Inch Depth (Item P-101),Cold Milling - 2- to 4-Inch Depth (Item P-101)
+1693,P-101,P-101,FAA,P-101,,,Cold Milling - 2-Inch Maximum Depth (Item P-101),Cold Milling - 2-Inch Maximum Depth (Item P-101)
+1694,P-101,P-101,FAA,P-101,,,Cold Milling - 3-Inch Depth (Item P-101),Cold Milling - 3-Inch Depth (Item P-101)
+1695,P-101,P-101,FAA,P-101,,,Cold Milling - 3-Inch Maximum Depth (Item P-101),Cold Milling - 3-Inch Maximum Depth (Item P-101)
+1696,P-101,P-101,FAA,P-101,,,Cold Milling - 4 Inch Maximum Depth (Item P-101),Cold Milling - 4 Inch Maximum Depth (Item P-101)
+1697,P-101,P-101,FAA,P-101,,,Cold Milling - 4-Inch Depth (Item P-101),Cold Milling - 4-Inch Depth (Item P-101)
+1698,P-101,P-101,FAA,P-101,,,Cold Milling - 4.5-Inch Maximum Depth (Item P-101),Cold Milling - 4.5-Inch Maximum Depth (Item P-101)
+1699,P-101,P-101,FAA,P-101,,,Cold Milling - 6-Inch Depth (Item P-101),Cold Milling - 6-Inch Depth (Item P-101)
+1700,P-101,P-101,FAA,P-101,,,Cold Milling 3-Inch Depth (Item P-101),Cold Milling 3-Inch Depth (Item P-101)
+1701,P-101,P-101,FAA,P-101,,,Cold Milling Surface Preparation (Item P-101),Cold Milling Surface Preparation (Item P-101)
+1702,P-101,P-101,FAA,P-101,,,Cold Milling Variable to 10-Inch Depth (Item P-101),Cold Milling Variable to 10-Inch Depth (Item P-101)
+1703,P-101,P-101,FAA,P-101,,,Cold Millling - 3-Inch Depth (Item P-101),Cold Millling - 3-Inch Depth (Item P-101)
+1704,P-101,P-101,FAA,,,,ColdMilling-0.5InchDepth (ItemP-101),ColdMilling-0.5InchDepth (ItemP-101)
+1705,P-101,P-101,FAA,,,,ColdMilling-VariableDepth(Transitional)(ItemP-101),ColdMilling-VariableDepth(Transitional)(ItemP-101)
+1706,P-101,P-101,FAA,P-101,,,Full-Depth Asphalt Pavement Removal - 10 to 19 Inches) (Item P-101),Full-Depth Asphalt Pavement Removal - 10 to 19 Inches) (Item P-101)
+1707,P-101,P-101,FAA,P-101,,,Joint and Crack Repair (Item P-101),Joint and Crack Repair (Item P-101)
+1708,P-101,P-101,FAA,P-101,,,PCC Pavement Removal - 15-Inch Depth (Item P-101),PCC Pavement Removal - 15-Inch Depth (Item P-101)
+1709,P-101,P-101,FAA,P-101,,,PCC Pavement Removal - 16 Inch Depth (Item P-101),PCC Pavement Removal - 16 Inch Depth (Item P-101)
+1710,P-101,P-101,FAA,P-101,,,PCC Pavement Removal - 16-Inch Depth (Item P-101),PCC Pavement Removal - 16-Inch Depth (Item P-101)
+1711,P-101,P-101,FAA,P-101,,,PCC Pavement Removal - 18-Inch Depth (Item P-101),PCC Pavement Removal - 18-Inch Depth (Item P-101)
+1712,P-101,P-101,FAA,P-101,,,"PCC Pavement Removal - 3"" Depth (Item P-101)",PCC Pavement Removal - 3 Depth (Item P-101)
+1713,P-101,P-101,FAA,P-101,,,PCC Pavement Removal - 3-Inch Depth (Item P-101),PCC Pavement Removal - 3-Inch Depth (Item P-101)
+1714,P-101,P-101,FAA,P-101,,,PCC Pavement Removal - 4-Inch Depth (Item P-101),PCC Pavement Removal - 4-Inch Depth (Item P-101)
+1715,P-101,P-101,FAA,P-101,,,"PCC Pavement Removal - 6"" Depth (Item P-101)",PCC Pavement Removal - 6 Depth (Item P-101)
+1716,P-101,P-101,FAA,P-101,,,PCC Pavement Removal - 6-Inch Depth (Item P-101),PCC Pavement Removal - 6-Inch Depth (Item P-101)
+1717,P-101,P-101,FAA,P-101,,,"Pavement Removal (Full Depth Asphalt Concrete, 4-17.5 Inches) (Item P-101)","Pavement Removal (Full Depth Asphalt Concrete, 4-17.5 Inches) (Item P-101)"
+1718,P-101,P-101,FAA,P-101,,,Removal of Pipe and Other Buried Structures (Item P-101),Removal of Pipe and Other Buried Structures (Item P-101)
+1719,P-101,P-101,FAA,P-101,,,Removal of Pipe and other Buried Structures (Item P-101),Removal of Pipe and other Buried Structures (Item P-101)
+1720,P-101,P-101,FAA,,,,RemovalofPipeandOtherBuriedStructures (ItemP-101),RemovalofPipeandOtherBuriedStructures (ItemP-101)
+1721,P-152,P-152,FAA,,,,EmbankmentinPlace (ItemP-152),EmbankmentinPlace (ItemP-152)
+1722,P-152,P-152,FAA,P-152,,,Existing Subgrade Stabilzation (Item P-152),Existing Subgrade Stabilzation (Item P-152)
+1723,P-152,P-152,FAA,,,,ExistingSubgradeStabilzation (ItemP-152),ExistingSubgradeStabilzation (ItemP-152)
+1724,P-152,P-152,FAA,P-152,,,Geotextile (Item P-152),Geotextile (Item P-152)
+1725,P-152,P-152,FAA,,,,MechanicalStabilization (ItemP-152),MechanicalStabilization (ItemP-152)
+1726,P-152,P-152,FAA,P-152,,,Separation Geotextile (Item P-152),Separation Geotextile (Item P-152)
+1727,P-152,P-152,FAA,P-152,,,Subgrade Stabilzation (Item P-152),Subgrade Stabilzation (Item P-152)
+1728,P-152,P-152,FAA,P-152,,,Unclassified Excavation (Item P-152),Unclassified Excavation (Item P-152)
+1729,P-152,P-152,FAA,P-152,,,Unsuitable Excavation (Item P-152),Unsuitable Excavation (Item P-152)
+1730,P-152,P-152,FAA,,,,UnsuitableExcavation (ItemP-152),UnsuitableExcavation (ItemP-152)
+1731,P-153,P-153,FAA,P-153,,,Controlled Low Strength Material (Item P-153),Controlled Low Strength Material (Item P-153)
+1732,P-153,P-153,FAA,P-153,,,Controlled Low-Strength Material (CLSM) (Item P-153),Controlled Low-Strength Material (CLSM) (Item P-153)
+1733,P-153,P-153,FAA,P-153,,,Controlled Low-Strength Material (Item P-153),Controlled Low-Strength Material (Item P-153)
+1734,P-153,P-153,FAA,,,,ControlledLow-StrengthMaterial(CLSM) (ItemP-153),ControlledLow-StrengthMaterial(CLSM) (ItemP-153)
+1735,P-154,P-154,FAA,P-154,,,Separation Geotextile (Item P-154),Separation Geotextile (Item P-154)
+1736,P-154,P-154,FAA,P-154,,,Subbase Course (Item P-154),Subbase Course (Item P-154)
+1737,P-154,P-154,FAA,,,,SubbaseCourse (ItemP-154),SubbaseCourse (ItemP-154)
+1738,P-156,P-156,FAA,P-156,,,Installation and Removal of Silt Fence (Item P-156),Installation and Removal of Silt Fence (Item P-156)
+1739,P-156,P-156,FAA,P-156,,,Silt Fence (Item P-156),Silt Fence (Item P-156)
+1740,P-209,P-209,FAA,P-209,,,Crushed Aggregate Base Course (Item P-209),Crushed Aggregate Base Course (Item P-209)
+1741,P-209,P-209,FAA,,,,CrushedAggregateBaseCourse (ItemP-209),CrushedAggregateBaseCourse (ItemP-209)
+1742,P-209,P-209,FAA,P-209,,,Separation Geotextile (Item P-209),Separation Geotextile (Item P-209)
+1743,P-209,P-209,FAA,,,,SeparationGeotextile (ItemP-209),SeparationGeotextile (ItemP-209)
+1744,P-306,P-306,FAA,P-306,,,Lean Concrete Base Course (Item P-306),Lean Concrete Base Course (Item P-306)
+1745,P-401,P-401,FAA,P-401,,,Asphalt Surface Course (Item P-401),Asphalt Surface Course (Item P-401)
+1746,P-401,P-401,FAA,,,,AsphaltSurfaceCourse (ItemP-401),AsphaltSurfaceCourse (ItemP-401)
+1747,P-401,P-401,FAA,P-401,,,Bituminous Surface Course (Item P-401),Bituminous Surface Course (Item P-401)
+1748,P-401,P-401,FAA,P-401,,,Hot Mix Asphalt (HMA) Bituminous Surface Course (Item P-401),Hot Mix Asphalt (HMA) Bituminous Surface Course (Item P-401)
+1749,P-401,P-401,FAA,P-401,,,Hot Mix Asphalt (HMA) Pavement (Item P-401),Hot Mix Asphalt (HMA) Pavement (Item P-401)
+1750,P-403,P-403,FAA,P-403,,,Asphalt Mixture Base Course (Item P-403),Asphalt Mixture Base Course (Item P-403)
+1751,P-403,P-403,FAA,P-403,,,Asphalt Mixture Base and Surface Course (Item P-403),Asphalt Mixture Base and Surface Course (Item P-403)
+1752,P-403,P-403,FAA,P-403,,,Asphalt Mixture Surface Course (Item P-403),Asphalt Mixture Surface Course (Item P-403)
+1753,P-403,P-403,FAA,P-403,,,Asphalt Mixture Surface and Base (Item P-403),Asphalt Mixture Surface and Base (Item P-403)
+1754,P-403,P-403,FAA,,,,AsphaltMixtureBaseandSurfaceCourse(ItemP-403),AsphaltMixtureBaseandSurfaceCourse(ItemP-403)
+1755,P-403,P-403,FAA,P-403,,,HMA Base Course (Item P-403),HMA Base Course (Item P-403)
+1756,P-403,P-403,FAA,P-403,,,Hot Mix Asphalt (HMA) Base Course (Item P-403),Hot Mix Asphalt (HMA) Base Course (Item P-403)
+1757,P-403,P-403,FAA,P-403,,,Hot Mix Asphalt (HMA) Pavement Base Course (Item P-403),Hot Mix Asphalt (HMA) Pavement Base Course (Item P-403)
+1758,P-501,P-501,FAA,P-501,,,11-Inch Thick Concrete Pavement (Item P-501),11-Inch Thick Concrete Pavement (Item P-501)
+1759,P-501,P-501,FAA,P-501,,,15-Inch Thick Concrete Pavement (Item P-501),15-Inch Thick Concrete Pavement (Item P-501)
+1760,P-501,P-501,FAA,P-501,,,18-Inch Thick Concrete Pavement (Item P-501),18-Inch Thick Concrete Pavement (Item P-501)
+1761,P-501,P-501,FAA,P-501,,,19-Inch Thick Concrete Pavement (Item P-501),19-Inch Thick Concrete Pavement (Item P-501)
+1762,P-501,P-501,FAA,P-501,,,19-Inch-Thick Concrete Pavement (Item P-501),19-Inch-Thick Concrete Pavement (Item P-501)
+1763,P-501,P-501,FAA,P-501,,,Concrete Pavement (Item P-501),Concrete Pavement (Item P-501)
+1764,P-501,P-501,FAA,P-501,,,Portland Cement Concrete (PCC) Pavement (Item P-501),Portland Cement Concrete (PCC) Pavement (Item P-501)
+1765,P-501,P-501,FAA,P-501,,,Portland Cement Concrete Pavement (Item P-501),Portland Cement Concrete Pavement (Item P-501)
+1766,P-602,P-602,FAA,P-602,,,Bituminous Prime Coat (Item P-602),Bituminous Prime Coat (Item P-602)
+1767,P-602,P-602,FAA,P-602,,,Emulsified Asphalt Prime Coat (Item P-602),Emulsified Asphalt Prime Coat (Item P-602)
+1768,P-603,P-603,FAA,P-603,,,Bituminous Tack Coat (Item P-603),Bituminous Tack Coat (Item P-603)
+1769,P-603,P-603,FAA,P-603,,,Emulsified Asphalt Tack Coat (Item P-603),Emulsified Asphalt Tack Coat (Item P-603)
+1770,P-603,P-603,FAA,,,,EmulsifiedAsphaltTackCoat (ItemP-603),EmulsifiedAsphaltTackCoat (ItemP-603)
+1771,P-604,P-604,FAA,P-604,,,Compression Joint Sealant (Item P-604),Compression Joint Sealant (Item P-604)
+1772,P-604,P-604,FAA,P-604,,,Compression Joint Seals for Concrete Pavement (Item P-604),Compression Joint Seals for Concrete Pavement (Item P-604)
+1773,P-604,P-604,FAA,P-604,,,Compression Joint Seals for Concrete Pavements (Item P-604),Compression Joint Seals for Concrete Pavements (Item P-604)
+1774,P-605,P-605,FAA,P-605,,,Concrete to Asphalt Joint Seal (Item P-605),Concrete to Asphalt Joint Seal (Item P-605)
+1775,P-605,P-605,FAA,P-605,,,Concrete to Concrete Joint Seal (Silicone) (Item P-605),Concrete to Concrete Joint Seal (Silicone) (Item P-605)
+1776,P-605,P-605,FAA,P-605,,,Joint Sealant (Item P-605),Joint Sealant (Item P-605)
+1777,P-605,P-605,FAA,P-605,,,Joint Sealing Filler (Item P-605),Joint Sealing Filler (Item P-605)
+1778,P-605,P-605,FAA,,,,JointSealingFiller(ItemP-605),JointSealingFiller(ItemP-605)
+1779,P-606,P-606,FAA,P-606,,,Adhesive Compound (Item P-606),Adhesive Compound (Item P-606)
+1780,P-606,P-606,FAA,,,,AdhesiveCompound (ItemP-606),AdhesiveCompound (ItemP-606)
+1781,P-608,P-608,FAA,P-608,,,Asphalt Surface Treatment (Item P-608),Asphalt Surface Treatment (Item P-608)
+1782,P-608,P-608,FAA,P-608,,,Runway Friction Testing (Item P-608),Runway Friction Testing (Item P-608)
+1783,P-608,P-608,FAA,P-608,,,Runway and High Speed Exit Taxiway Friction Testing (Item P-608),Runway and High Speed Exit Taxiway Friction Testing (Item P-608)
+1784,P-610,P-610,FAA,P-610,,,Concrete (Item P-610),Concrete (Item P-610)
+1785,P-610,P-610,FAA,,,,Concrete(ItemP-610),Concrete(ItemP-610)
+1786,P-610,P-610,FAA,P-610,,,Steel Reinforcement (Item P-610),Steel Reinforcement (Item P-610)
+1787,P-610,P-610,FAA,P-610,,,Structural Portland Cement Concrete (Item P-610),Structural Portland Cement Concrete (Item P-610)
+1788,P-610,P-610,FAA,P-610,,,Structural Portland Cement Concrete (PCC) (Item P-610),Structural Portland Cement Concrete (PCC) (Item P-610)
+1789,P-620,P-620,FAA,P-620,,,Marking (Item P-620),Marking (Item P-620)
+1790,P-620,P-620,FAA,,,,Marking (ItemP-620),Marking (ItemP-620)
+1791,P-620,P-620,FAA,P-620,,,Markings (Item P-620),Markings (Item P-620)
+1792,P-620,P-620,FAA,P-620,,,Pavement Marking (Item P-620),Pavement Marking (Item P-620)
+1793,P-620,P-620,FAA,P-620,,,Pavement Markings (Item P-620),Pavement Markings (Item P-620)
+1794,P-620,P-620,FAA,P-620,,,Permanent Pavement Marking (Item P-620),Permanent Pavement Marking (Item P-620)
+1795,P-620,P-620,FAA,P-620,,,Phasing Pavement Marking (Item P-620),Phasing Pavement Marking (Item P-620)
+1796,P-620,P-620,FAA,P-620,,,Preformed Markings (Item P-620),Preformed Markings (Item P-620)
+1797,P-620,P-620,FAA,P-620,,,Reflective Media (Item P-620),Reflective Media (Item P-620)
+1798,P-620,P-620,FAA,,,,ReflectiveMedia (ItemP-620),ReflectiveMedia (ItemP-620)
+1799,P-620,P-620,FAA,P-620,,,Runway Marking (Item P-620),Runway Marking (Item P-620)
+1800,P-620,P-620,FAA,P-620,,,Runway and Taxiway Marking (Item P-620),Runway and Taxiway Marking (Item P-620)
+1801,P-620,P-620,FAA,P-620,,,Surface Prep - Existing Pavement (Item P-620),Surface Prep - Existing Pavement (Item P-620)
+1802,P-620,P-620,FAA,P-620,,,Surface Prep - Marking Removal (Item P-620),Surface Prep - Marking Removal (Item P-620)
+1803,P-620,P-620,FAA,P-620,,,Surface Preparation (Item P-620),Surface Preparation (Item P-620)
+1804,P-620,P-620,FAA,P-620,,,Surface Preparation - Existing Pavement Surface (Item P-620),Surface Preparation - Existing Pavement Surface (Item P-620)
+1805,P-620,P-620,FAA,P-620,,,Surface Preparation - Marking Removal (Item P-620),Surface Preparation - Marking Removal (Item P-620)
+1806,P-620,P-620,FAA,P-620,,,Surface Preparation - New Pavement Surfaces (Item P-620),Surface Preparation - New Pavement Surfaces (Item P-620)
+1807,P-620,P-620,FAA,P-620,,,Surface Preparation - New or Existing Pavement Surfaces (Item P-620),Surface Preparation - New or Existing Pavement Surfaces (Item P-620)
+1808,P-620,P-620,FAA,P-620,,,Surface Preparation - Remarking (Item P-620),Surface Preparation - Remarking (Item P-620)
+1809,P-620,P-620,FAA,P-620,,,Surface Preparation - Remove Existing Marking (Item P-620),Surface Preparation - Remove Existing Marking (Item P-620)
+1810,P-620,P-620,FAA,P-620,,,Surface Preparation - Remove Existing Markings (Item P-620),Surface Preparation - Remove Existing Markings (Item P-620)
+1811,P-620,P-620,FAA,,,,SurfacePreparation-NewPavementSurface (ItemP-620),SurfacePreparation-NewPavementSurface (ItemP-620)
+1812,P-620,P-620,FAA,,,,SurfacePreparation-RemoveExistingMarkings (ItemP-620),SurfacePreparation-RemoveExistingMarkings (ItemP-620)
+1813,P-620,P-620,FAA,P-620,,,Temporary Marking (Item P-620),Temporary Marking (Item P-620)
+1814,P-620,P-620,FAA,P-620,,,Temporary Pavement Marking (Item P-620),Temporary Pavement Marking (Item P-620)
+1815,P-620,P-620,FAA,P-620,,,Temporary Pavement Markings (Item P-620),Temporary Pavement Markings (Item P-620)
+1816,P-620,P-620,FAA,P-620,,,Temporary Runway and Taxiway Makrings (Item P-620),Temporary Runway and Taxiway Makrings (Item P-620)
+1817,P-620,P-620,FAA,P-620,,,Temporary Runway and Taxiway Marking (Item P-620),Temporary Runway and Taxiway Marking (Item P-620)
+1818,P-620,P-620,FAA,,,,TemporaryRunwayandTaxiwayMarking (ItemP-620),TemporaryRunwayandTaxiwayMarking (ItemP-620)
+1819,P-621,P-621,FAA,P-621,,,Grooving (Item P-621),Grooving (Item P-621)
+1820,P-621,P-621,FAA,P-621,,,Saw-Cut Grooving (Item P-621),Saw-Cut Grooving (Item P-621)
+1821,P-626,P-626,FAA,P-626,,,Slurry Seal (Item P-626),Slurry Seal (Item P-626)
+1822,T-901,T-901,FAA,T-901,,,Seeding (Item T-901),Seeding (Item T-901)
+1823,T-901,T-901,FAA,,,,Seeding(ItemT-901),Seeding(ItemT-901)
+1824,T-905,T-905,FAA,T-905,,,Topsoil (Furnished from Off the Site) (Item T-905),Topsoil (Furnished from Off the Site) (Item T-905)
+1825,T-905,T-905,FAA,T-905,,,"Topsoil (Obtained on Site or Removed from Stockpile) (3"") (Item T-905)",Topsoil (Obtained on Site or Removed from Stockpile) (3) (Item T-905)
+1826,T-905,T-905,FAA,T-905,,,Topsoil (Obtained on Site or Removed from Stockpile) (Item T-905),Topsoil (Obtained on Site or Removed from Stockpile) (Item T-905)
+1827,T-905,T-905,FAA,,,,Topsoil(FurnishedfromOfftheSite) (ItemT-905),Topsoil(FurnishedfromOfftheSite) (ItemT-905)
+1828,T-905,T-905,FAA,,,,Topsoil(ObtainedOnStieorRemovedfromStockpile) (ItemT-905),Topsoil(ObtainedOnStieorRemovedfromStockpile) (ItemT-905)
+1829,T-905,T-905,FAA,T-905,,,Topsoiling (Item T-905),Topsoiling (Item T-905)
