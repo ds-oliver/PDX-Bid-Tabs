@@ -16,7 +16,7 @@
 
 | Column | Type | Nullable | Definition | Extraction Rule |
 |---|---|---|---|---|
-| schema_version | str | False | Schema version constant. | constant 2.0 |
+| schema_version | str | False | Schema version constant. | constant 2.1 |
 | extract_run_id | str | False | Unique ETL run id. | CLI arg --run_id |
 | source_file | str | False | Source workbook filename. | input file name |
 | source_sheet | str | False | Source worksheet name. | worksheet title |
@@ -53,3 +53,8 @@
 | is_totals_row | bool | False | Whether row is totals/basis row. | totals detection |
 | totals_row_label | str | True | Totals row description label. | Item Description column |
 | schedule_total | float | True | Bidder schedule total from totals row. | Total Price cell on totals row |
+| specification | str | True | Primary specification parsed from description token. | parse_item_fields.spec_code_primary |
+| alternate_specification | str | True | Alternate specification code(s) parsed from (Sections ...). | parse_item_fields.spec_code_alternates |
+| pay_item_description | str | True | Base item description parsed from raw description. | parse_item_fields.item |
+| supplemental_description | str | True | Qualifier parsed from comma/dash/measurement/variant patterns. | parse_item_fields.supplemental_description |
+| item | str | True | Business item key formatted as <specification> - <pay_item_description>. | derived from parsed fields |

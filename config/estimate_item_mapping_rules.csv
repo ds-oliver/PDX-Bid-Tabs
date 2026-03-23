@@ -1,0 +1,123 @@
+rule_id,rule_type,estimate_item,pattern,specification,priority,notes
+r001,contains,13501 Escort,ESCORT,,1,Direct escort keyword.
+r002,contains,13500 Security Control Monitoring,SECURITY CONTROL,,2,Direct security keyword.
+r003,contains,15001 Work Zone and Traffic Control,TRAFFIC CONTROL,,3,Traffic control.
+r004,contains,15001 Work Zone and Traffic Control,WORK ZONE,,4,Traffic control.
+r005,contains,15002 Sweeping,SWEEP,,5,Sweeping.
+r006,contains,10000 Construction Survey,SURVEY,,6,Construction survey.
+r007,contains,15000 Mobilization & Demobilization,MOBILIZATION,,7,Mobilization.
+r008,contains,15713 Sediment Fence,SEDIMENT FENCE,,8,Erosion.
+r009,contains,15713 Inlet Protection,INLET PROTECTION,,9,Erosion.
+r010,contains,15713 Construction Entrance,CONSTRUCTION ENTRANCE,,10,Erosion.
+r011,contains,15713 Misc Erosion Control,EROSION CONTROL,,11,Erosion catch-all.
+r012,spec_keyword,24113 Portland Cement Concrete Removal,PORTLAND CEMENT CONCRETE REMOVAL,24113,12,PCC removal.
+r013,spec_keyword,24113 Portland Cement Concrete Removal,PCC PAVEMENT REMOVAL,P-101,13,PCC removal FAA text.
+r014,spec_keyword,24113 Asphalt Concrete Milling,ASPHALT CONCRETE MILLING,24113,14,AC milling.
+r015,contains,24113 Sawcutting,SAW CUT,,15,Saw cutting variants.
+r016,contains,24113 Sawcutting,SAWCUT,,16,Sawcutting compact.
+r017,contains,260500 Electrical Costs,ELECTRICAL COST,,17,Electrical rollup.
+r018,contains,312000 Aggregate Base Removal,AGGREGATE BASE REMOVAL,,18,Earthwork.
+r019,contains,312000 Common Excavation,COMMON EXCAVATION,,19,Earthwork.
+r020,contains,312000 Unclassified Excavation,UNCLASSIFIED EXCAVATION,,20,Earthwork.
+r021,contains,312000 Unsuitable Excavation,UNSUITABLE EXCAVATION,,21,Earthwork.
+r022,contains,312000 Subgrade Preparation,SUBGRADE PREPARATION,,22,Earthwork.
+r023,contains,312000 Site Grading,SITE GRADING,,23,Earthwork.
+r024,contains,312319 Dewatering,DEWATERING,,24,Earthwork.
+r025,contains,312300 Trench Stabilization,TRENCH STABILIZATION,,25,Trench.
+r026,contains,312300 Removal of Unstable Trench Material,UNSTABLE TRENCH,,26,Trench.
+r027,contains,320500 Borrow,BORROW,,27,Pavement prep.
+r028,contains,320500 Geotextile,GEOTEXTILE,,28,Pavement prep.
+r029,contains,321123 Aggregate Base Course,AGGREGATE BASE COURSE,,29,Pavement prep.
+r030,contains,321200 Surface Course,SURFACE COURSE,,30,AC course.
+r031,contains,321200 Bituminous Course,BITUMINOUS COURSE,,31,AC course.
+r032,contains,321200 Leveling Course,LEVELING COURSE,,32,AC course.
+r033,contains,321200 Emulsified Asphalt Prime Coat,PRIME COAT,,33,AC.
+r034,contains,321200 Emulsified Asphalt Tack Coat,TACK COAT,,34,AC.
+r035,spec_keyword,321300 Portland Cement Concrete Pavement,PORTLAND CEMENT CONCRETE PAVEMENT,321300,35,PCC paving non-FAA.
+r036,spec_keyword,550000 PCC Pavement (P-501),PORTLAND CEMENT CONCRETE PAVEMENT,P-501,36,PCC paving FAA.
+r037,spec_keyword,510000 PCC Pavement Removal (P-101),PCC PAVEMENT REMOVAL,P-101,37,PCC removal FAA.
+r038,contains,320118 Crack Sealing,CRACK SEAL,,38,Crack seal.
+r039,contains,321723 Pavement Marking Removal,PAVEMENT MARKING REMOVAL,,39,Marking.
+r040,contains,321723 Initial Pavement Marking,INITIAL PAVEMENT MARKING,,40,Marking.
+r041,contains,321723 Permanent Pavement Marking,PERMANENT PAVEMENT MARKING,,41,Marking.
+r042,contains,321723 Temporary Pavement Marking,TEMPORARY PAVEMENT MARKING,,42,Marking.
+r043,contains,321723 Preformed Thermoplastic Marking,THERMOPLASTIC,,43,Marking.
+r044,contains,321723 Reflective Media,REFLECTIVE MEDIA,,44,Marking.
+r045,contains,323113 Chain Link Fence,CHAIN LINK FENCE,,45,Fence.
+r046,contains,323113 Gates,GATE,,46,Fence gates.
+r047,contains,323113 Temporary Fencing,TEMPORARY FENCING,,47,Fence.
+r048,contains,329219 Hydroseeding,HYDROSEED,,48,Seeding.
+r049,contains,329219 Mulch,MULCH,,49,Seeding.
+r050,contains,329219 Topsoil,TOPSOIL,,50,Seeding.
+r051,spec_keyword,328400 Irrigation Line,IRRIGATION LINE,328400,51,Irrigation line.
+r052,contains,328400 Sprinkler Heads,SPRINKLER,,52,Irrigation.
+r053,spec_keyword,334100 Stormwater Pipe,STORMWATER,334100,53,Stormwater.
+r054,spec_keyword,334100 Stormwater Pipe,UNDERDRAIN,334100,54,Stormwater family.
+r055,spec_keyword,580000 Stormwater Pipe (D-701),STORMWATER,D-701,55,FAA stormwater.
+r056,spec_keyword,580000 Underdrain Pipe (D-705),UNDERDRAIN,D-705,56,FAA underdrain.
+r057,contains,334100 Stormwater Cleanout,STORMWATER CLEANOUT,,57,Stormwater cleanout.
+r058,spec_keyword,333100 Sanitary Pipe,SANITARY,333100,58,Sanitary.
+r059,contains,333100 Sanitary Cleanout,SANITARY CLEANOUT,,59,Sanitary cleanout.
+r060,spec_keyword,331116 Water Pipe,WATER PIPE,331116,60,Water line.
+r061,spec_keyword,331116 Water Pipe, FIRE WATER ,331116,61,Water line.
+r096,contains,331116 Water Pipe,WATER PIPE,,61,Water pipe when spec is unclassified.
+r097,contains,331116 Water Pipe,DIP WATER PIPE,,61,Water pipe DIP variants.
+r098,contains,331116 Water Pipe,PEX WATER PIPE,,61,Water pipe PEX variants.
+r062,contains,331116 Valve,VALVE,,62,Valve.
+r063,contains,331116 Water Meter,WATER METER,,63,Meter.
+r064,contains,331116 Fire Hydrant,HYDRANT,,64,Hydrant.
+r065,contains,331116 Water Service Fee,WATER SERVICE FEE,,65,Fee.
+r066,contains,330500 Gas Line,GAS LINE,,66,Gas line.
+r067,contains,330500 Trench for New Gas Service,TRENCH FOR NEW GAS SERVICE,,67,Gas trench.
+r068,contains,330500 New Gas Service,NEW GAS SERVICE,,68,Gas service.
+r069,contains,330500 Gas Meter,GAS METER,,69,Gas meter.
+r070,contains,330516 48-Inch Manhole Type A,48 INCH MANHOLE TYPE A,,70,Manhole.
+r071,contains,330516 48-Inch Manhole Type B,48 INCH MANHOLE TYPE B,,71,Manhole.
+r072,contains,330000 Other Manhole,MANHOLE,,72,Other manhole.
+r073,contains,330516 Catch Basin Type A,CATCH BASIN TYPE A,,73,Catch basin.
+r074,contains,330516 Catch Basin Type B,CATCH BASIN TYPE B,,74,Catch basin.
+r075,contains,330516 Connection to Existing Manhole or Inlet,CONNECTION TO EXISTING MANHOLE,,75,Structure.
+r076,contains,330516 Structure Adjustment (Raised),STRUCTURE ADJUSTMENT,,76,Structure.
+r077,contains,330516 Structure Reconstruction (Lowered),STRUCTURE RECONSTRUCTION,,77,Structure.
+r078,spec_keyword,520000 Crushed Aggregate Base Course (P-209),CRUSHED AGGREGATE BASE COURSE,P-209,78,FAA base.
+r079,spec_keyword,540000 Asphalt Concrete Surface Course (P-401),SURFACE COURSE,P-401,79,FAA AC.
+r080,spec_keyword,540000 Bituminous Base Course (P-403),BITUMINOUS BASE COURSE,P-403,80,FAA AC.
+r081,spec_keyword,540000 Leveling Course (P-403),LEVELING COURSE,P-403,81,FAA AC.
+r082,spec_keyword,560000 Bituminous Prime Coat (P-602),PRIME COAT,P-602,82,FAA misc.
+r083,spec_keyword,560000 Bituminous Tack Coat (P-603),TACK COAT,P-603,83,FAA misc.
+r084,spec_keyword,560000 Compression Joint Seal (P-604),COMPRESSION JOINT SEAL,P-604,84,FAA misc.
+r085,spec_keyword,560000 PCC/AC Joint Seal (P-605),JOINT SEAL,P-605,85,FAA misc.
+r086,spec_keyword,560000 Bituminous Fog Seal Coat (P-609),FOG SEAL,P-609,86,FAA misc.
+r087,spec_keyword,560000 Chip Seal Coat (P-609),CHIP SEAL,P-609,87,FAA misc.
+r088,spec_keyword,560000 Structural Portland Cement Concrete (P-610),STRUCTURAL PORTLAND CEMENT CONCRETE,P-610,88,FAA misc.
+r089,spec_keyword,560000 Pavement Grooving (P-621),GROOVING,P-621,89,FAA misc.
+r090,spec_keyword,570000 Chain Link Fence (F-162),CHAIN LINK FENCE,F-162,90,FAA fence.
+r091,spec_keyword,570000 Gates (F-162),GATE,F-162,91,FAA fence.
+r092,spec_keyword,590000 Hydroseeding (T-901),HYDROSEEDING,T-901,92,FAA turf.
+r093,spec_keyword,590000 Topsoil (T-905),TOPSOIL,T-905,93,FAA turf.
+r094,spec_keyword,590000 Mulch (T-908),MULCH,T-908,94,FAA turf.
+r095,contains,600000 Electrical Costs,ELECTRICAL COSTS,,95,FAA electrical.
+r099,spec_keyword,321723 Temporary Pavement Marking,MARKING,P-620,96,P-620 general marking routing.
+r100,spec_keyword,321723 Pavement Marking Removal,REMOVE EXISTING MARKING,P-620,97,P-620 remove existing markings.
+r101,spec_keyword,321723 Pavement Marking Removal,SURFACE PREPARATION REMOVE EXISTING MARKING,P-620,98,P-620 remove existing markings.
+r102,spec_keyword,330516 Catch Basin (Generic),CATCH BASIN,D-751,99,D-751 catch basin generic.
+r103,spec_keyword,510000 Subbase Course (P-154),SUBBASE COURSE,P-154,100,P-154 routing.
+r104,spec_keyword,510000 Subbase Course (P-154),SUBBASECOURSE,P-154,101,P-154 merged text.
+r105,spec_keyword,540000 Bituminous Base Course (P-403),ASPHALT MIXTURE BASE COURSE,P-403,102,P-403 base course routing.
+r106,spec_keyword,540000 Bituminous Base Course (P-403),HMA BASE COURSE,P-403,103,P-403 base course routing.
+r107,spec_keyword,540000 Bituminous Base Course (P-403),HOT MIX ASPHALT HMA BASE COURSE,P-403,104,P-403 base course routing.
+r108,spec_keyword,590000 Hydroseeding (T-901),SEEDING,T-901,105,T-901 routing.
+r109,contains,329219 Hydroseeding,AREA SEEDING,,106,Non-FAA seeding routing.
+r110,contains,312000 Subgrade Preparation,CLEARING AND GRUBBING,,107,Site prep/grubbing routing.
+r111,contains,24113 Portland Cement Concrete Removal,PAVEMENT REMOVAL PCC,,108,PCC pavement removal catch-all.
+r112,contains,24113 Asphalt Concrete Milling,PAVEMENT REMOVAL ASPHALT,,109,Asphalt removal catch-all.
+r113,spec_keyword,560000 Adhesive Compound (P-606),ADHESIVE COMPOUND,P-606,110,P-606 routing.
+r114,spec_keyword,560000 Structural Portland Cement Concrete (P-610),CONCRETE,P-610,111,P-610 concrete routing.
+r115,spec_keyword,560000 Structural Portland Cement Concrete (P-610),STEEL REINFORCEMENT,P-610,112,P-610 steel reinforcement routing.
+r116,spec_keyword,560000 Asphalt Surface Treatment (P-608),ASPHALT SURFACE TREATMENT,P-608,113,P-608 routing.
+r117,contains,330516 Connection to Existing Manhole or Inlet,CONNECTION TO EXISTING STORM DRAINAGE SYSTEM,,114,Storm connection routing.
+r118,contains,15713 Misc Erosion Control,TEMPORARY EROSION SEDIMENT AND POLLUTION CONTROL,,115,Temporary erosion routing.
+r119,spec_keyword,580000 Underdrain Pipe (D-705),PERFORATED HDPE PIPE,D-705,116,D-705 perforated routing.
+r120,spec_keyword,580000 Underdrain Pipe (D-705),SOLID HDPE PIPE,D-705,117,D-705 solid routing.
+r121,spec_keyword,510000 Subgrade Stabilization (P-152),STABILIZATION,P-152,118,P-152 stabilization routing.
+r122,spec_keyword,510000 Subgrade Stabilization (P-152),SUBGRADE,P-152,119,P-152 subgrade routing.

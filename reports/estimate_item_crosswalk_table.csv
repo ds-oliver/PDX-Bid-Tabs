@@ -1,0 +1,342 @@
+Estimate Item,Bid Tab Count,Project EAN,Raw Bid Tab Item Description
+013500 Security Control Monitoring,1,2016D015,Security Control Monitoring
+013501 Escort,1,2016D015,Escort
+015000 Mobilization & Demobilization,2,2016D015; 2016D18,"Mobilization, Cleanup, and Demobilization"
+015000 Mobilization & Demobilization,8,2015D006; 2018D015; 2020D008; 2020D009; 2021D001; 2021D007; 2021D025; 2023D028,"Mobilization, Surveying, Cleanup, and Demobilization"
+015001 Work Zone and Traffic Control,2,2021D001; 2023D028,Traffic Control
+015001 Work Zone and Traffic Control,3,2015D006; 2016D18; 2021D007,Work Zone Traffic Control
+015713 Construction Entrance,2,2015D142; 2015D147,Construction Access (Section 015713)
+015713 Construction Entrance,1,2019D031,ConstructionEntrance (Section015713)
+015713 Construction Entrance,1,2016D015,Stabilized Construction Entrance
+015713 Inlet Protection,3,2015D147; 2018D027; 2018D029,Ditch Protection/Check Dams (Section 015713)
+015713 Inlet Protection,1,2019D031,DitchProtection/CheckDams (Section015713)
+015713 Inlet Protection,3,2016D015; 2016D18; 2020D009,Inlet Protection
+015713 Inlet Protection,12,2015D142; 2015D147; 2017D013; 2018D027; 2018D029; 2020D022; 2021D017; 2022D027; 2022D028; 2023D016,Inlet Protection (Section 015713)
+015713 Inlet Protection,1,2019D031,InletProtection (Section015713)
+015713 Inlet Protection,3,2018D029; 2022D027; 2023D016,Trench Drain Protection (Section 015713)
+015713 Inlet Protection,1,2017D013,Trench Protection (Section 015713)
+015713 Misc Erosion Control,5,2015D142; 2015D147; 2017D013; 2018D027; 2023D016,Jet Blast Control Material (Section 015713)
+015713 Misc Erosion Control,1,2019D031,JetBlastControlMaterial (Section015713)
+015713 Misc Erosion Control,1,2024D016,Temporary Erosion and Sediment Control Measures (Sections 012200 and 015713)
+015713 Sediment Fence,1,2019D031,JuteMatting (Section015713)
+015713 Sediment Fence,1,2019D031,PlasticMeshFence (Section015713)
+015713 Sediment Fence,1,2016D015,Sediment Fence
+015713 Sediment Fence,2,2018D029; 2023D016,Sediment Fence (Section 015713)
+015713 Sediment Fence,1,2015D147,Wattles (Section 015713)
+015713 Sediment Fence,1,2019D031,Wattles (Section015713)
+024113 0'' Portland Cement Contrete Removal,1,2023D018,0
+024113 Fence Removal (Non-FAA),2,2018D029; 2022D027,Building Slab and Foundation Removal (Section 024113)
+024113 Fence Removal (Non-FAA),1,2024D016,"Pavement Removal and Disposal, 6-inch Depth (Sections 012200 and 024113)"
+024113 Fence Removal (Non-FAA),1,2018D029,Removal of Existing or Temporary Fence (Section 024113)
+024113 Misc Demolition,2,2018D029; 2022D027,Building Demolition (Section 024113)
+024113 Misc Demolition,1,2024D016,General Demolition (Sections 012200 and 024113)
+024113 Removal of Existing Drainage Structure (Non-FAA),1,2018D029,Existing Landscape Removal (Section 024113)
+024113 Removal of Existing Drainage Structure (Non-FAA),1,2018D029,Removal of Miscellaneous Site Structures (Section 024113)
+024113 Sawcutting,1,2023D003,Relocate Storage Shelter (Section 024113)
+024113 Sawcutting,1,2023D003,Remove Bollard - Bolt Down (Section 024113)
+024113 Sawcutting,2,2023D003,Remove Bollard - Embedded (Section 024113)
+024113 Sawcutting,1,2023D003,Remove Electrical Chargers (Section 024113)
+260500 Electrical Costs (See Electrical Tab),1,2020D009,Electrical
+312000 Common Excavation,5,2016D015; 2016D18; 2020D009; 2021D007; 2023D028,Common Excavation
+312000 Site Grading,1,2024D016,Clearing and Grubbing (Sections 012200 and 312000)
+312000 Site Grading,1,2024D016,"Embankment, Ditch (Sections 012200 and 312000)"
+312000 Site Grading,1,2024D016,"Fill Material, Topsoil (Sections 012200, 312000, and 329113)"
+312000 Subgrade Preparation,1,2023D028,Subgrade Preparation
+312000 Unsuitable Excavation,3,2016D015; 2016D18; 2020D009,Unsuitable Excavation and Disposal
+312300 Removal of Unstable Trench Material,1,2015D142,Adjustment of Existing Structures (229 Kip Rated Vaults) (Section 312300)
+312300 Removal of Unstable Trench Material,1,2015D142,Adjustment of Existing Structures (H-20 Rated Vaults) (Section 312300)
+312300 Removal of Unstable Trench Material,3,2015D142; 2015D147; 2017D013,"Removal of Existing Storm Pipe, Manholes, and Inlets (Section 312300)"
+312300 Removal of Unstable Trench Material,1,2017D013,Sanitary Sewer Wet Well Removal (Section 312300)
+312300 Trench Stabilization,7,2015D142; 2015D147; 2017D013; 2018D027; 2018D029; 2022D027,Connection to Existing Storm Drainage System (Section 312300)
+312300 Trench Stabilization,2,2015D142; 2015D147,Existing Catch Basin Adjustment to Grade (Section 312300)
+312300 Trench Stabilization,1,2017D013,Existing Electrical Vault (H-20 Rated) Extension to Finish Grade (Section 312300)
+312300 Trench Stabilization,3,2015D147; 2018D027,Existing Electrical Vault Adjustment to Grade (Section 312300)
+312300 Trench Stabilization,1,2022D028,Existing Manhole Adjustment - Cleanout (Section 312300)
+312300 Trench Stabilization,3,2015D142; 2015D147; 2017D013,Existing Manhole Adjustment to Grade (Section 312300)
+312300 Trench Stabilization,1,2022D028,Existing Manhole Adjustment to Grade - Minor Adjustment (Section 312300)
+312300 Trench Stabilization,3,2018D027; 2018D029; 2022D027,Existing Manhole/Inlet Adjustment to Grade (Section 312300)
+312300 Trench Stabilization,1,2019D031,ExistingElectricalVaultAdjustmenttoGrade(Section312300)
+312300 Trench Stabilization,1,2019D031,ExistingManholeAdjustmenttoGrade-Cleanout (Section312300)
+312300 Trench Stabilization,1,2019D031,ExistingManholeAdjustmenttoGrade-MajorAdjustment (Section312300)
+312300 Trench Stabilization,1,2019D031,ExistingManholeAdjustmenttoGrade-MinorAdjustment (Section312300)
+312300 Trench Stabilization,1,2017D013,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300)
+312300 Trench Stabilization,1,2018D027,Remove Existing Manhole Flat Top and Upgrade to Aircraft Rated Structure (Section 312300)
+312300 Trench Stabilization,1,2024D016,Repair Existing ARFF Cap (Sections 012200 and 312300)
+312300 Trench Stabilization,1,2018D027,Replace Existing Manhole Lid with Open Grated Lid (Section 312300)
+312300 Trench Stabilization,1,2018D029,Rotate Existing Manhole Lid (Section 312300)
+312300 Trench Stabilization,4,2015D006; 2016D015; 2020D009; 2021D001,Trench Stabilization
+312300 Trench Stabilization,1,2024D016,Trench Stabilization (Sections 012200 and 312300)
+312300 Trench Stabilization,1,2024D016,Unsuitable Excavation and Disposal (Sections 012200 and 312300)
+312319 Dewatering,2,2015D006; 2020D008,Dewatering
+320118 Crack Sealing,1,2021D017,Crack Repair (Section 320118)
+320500 Geotextile,3,2016D015; 2016D18; 2020D009,Geotextile
+320500 Geotextile,1,2023D028,Geotextile Fabric
+321123 Aggregate Base Course,7,2015D006; 2016D015; 2016D18; 2018D015; 2020D009; 2021D001; 2023D028,Aggregate Base Course
+321123 Aggregate Base Course,1,2024D016,Aggregate Base Course (Sections 012200 and 321123)
+321200 Emulsified Asphalt Tack Coat,1,2024D016,Asphalt Concrete Pavement (Sections 012200 and 321200)
+321200 Surface Course,1,2018D015,Asphalt Concrerte Surface Course
+321300 0'' Portland Cement Contrete Pavement,1,2024D016,Portland Cement Concrete Pavement (10-Inch Thick) (Sections 012200 and 321300)
+321300 0'' Portland Cement Contrete Pavement,1,2015D006,Portland Cement Concrete Pavement (9-Inch)
+321723 Initial Pavement Marking,3,2015D006; 2020D009; 2021D001,Pavement Marking
+321723 Pavement Marking Removal,4,2016D015; 2016D18; 2020D009; 2021D007,Pavement Removal
+321723 Temporary Pavement Marking,1,2020D009,Blackout and Temporary Pavement Marking
+321723 Temporary Pavement Marking,1,2016D18,"Pavement Marking, Temporary"
+323113 Chain Link Fence,1,2020D009,6-Foot Chain-Link Slatted Fence Fabric
+323113 Chain Link Fence,1,2018D015,Remove and Reinstall Chain Link Fence
+329219 Mulch,1,2021D001,Mulch
+329219 Mulch,1,2024D016,Seeding (Sections 012200 and 329219)
+329219 Topsoil,1,2018D015,"Fill Material, Topsoil"
+"330516 48-Inch Manhole, Type A",1,2015D006,108-Inch Manhole
+"330516 48-Inch Manhole, Type A",1,2015D006,120-Inch Manhole
+"330516 48-Inch Manhole, Type A",1,2016D015,48-Inch Manhole
+"330516 48-Inch Manhole, Type A",1,2016D015,60-Inch Manhole
+"330516 48-Inch Manhole, Type A",1,2016D015,72-Inch Manhole
+"330516 Catch Basin, Type A",1,2020D009,Catch Basin
+331116 Fire Hydrant,1,2021D001,Fire Hydrant Assembly
+331116 Fire Hydrant,1,2018D029,Underground Fire Hydrant (Section 331116)
+331116 Valve,1,2021D001,16-Inch Butterfly Valve
+331116 Valve,1,2021D001,2-Inch Air Release Valve Assembly
+331116 Valve,1,2018D015,2-Inch Gate Valve
+331116 Valve,1,2021D001,3-Inch Gate Valve
+331116 Valve,2,2018D015; 2021D001,4-Inch Gate Valve
+331116 Valve,1,2018D015,6-Inch Gate Valve
+331116 Valve,1,2021D001,8-Inch Gate Valve
+331116 Valve,1,2018D029,8-Inch Gate Valve (Section 331116)
+331116 Water Meter,1,2021D001,2-Inch Water Meter
+331116 Water Meter,1,2018D029,8-Inch Fire Water Line (Section 331116)
+331116 Water Meter,1,2021D001,Central Water Meter Vault and Manifold
+510101 Asphalt Concrete Pavement Milling,2,2023D011,3-5 Inch Cold Milling (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2023D003,Asphalt Pavement Removal (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2018D027,Asphalt Pavement Removal - 11-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 12"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 12"" Depth Asphalt Grindings (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2017D013,Asphalt Pavement Removal - 12-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2018D027,Asphalt Pavement Removal - 13.5-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 14"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2017D013,Asphalt Pavement Removal - 15-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 16"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,2,2018D027; 2022D028,Asphalt Pavement Removal - 16-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 20"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2018D027,Asphalt Pavement Removal - 20-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 22"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 3"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2022D027,Asphalt Pavement Removal - 3-5 Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,3,2015D142; 2017D013; 2018D029,Asphalt Pavement Removal - 3-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,2,2018D027; 2018D029,Asphalt Pavement Removal - 4-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 5"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2018D029,Asphalt Pavement Removal - 5-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2023D025,Asphalt Pavement Removal - 6 Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,2,2017D013; 2018D027,Asphalt Pavement Removal - 6-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"Asphalt Pavement Removal - 7.5"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2022D027,Asphalt Pavement Removal - 8 Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,2,2015D142; 2018D029,Asphalt Pavement Removal - 8-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2017D013,Asphalt Pavement Removal - 9-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2019D031,AsphaltPavementRemoval-2.5-InchDepth (ItemP-101)
+510101 Asphalt Concrete Pavement Milling,1,2019D031,AsphaltPavementRemoval-4-InchDepth (ItemP-101)
+510101 Asphalt Concrete Pavement Milling,1,2019D031,AsphaltPavementRemoval-6-8-InchDepth (ItemP-101)
+510101 Asphalt Concrete Pavement Milling,1,2018D027,Cold Milling - 12-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,2,2022D028,Cold Milling - 2- to 4-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,2,2015D142,Cold Milling - 2-Inch Maximum Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,2,2018D027,Cold Milling - 3-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,2,2017D013,Cold Milling - 3-Inch Maximum Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,Cold Milling - 4 Inch Maximum Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2018D027,Cold Milling - 4-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D142,Cold Milling - 4.5-Inch Maximum Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2020D022,Cold Milling - 6-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,2,2023D016,Cold Milling 3-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2023D016,Cold Milling Surface Preparation (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2023D016,Cold Milling Variable to 10-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2019D031,ColdMilling-0.5InchDepth (ItemP-101)
+510101 Asphalt Concrete Pavement Milling,1,2019D031,ColdMilling-VariableDepth(Transitional)(ItemP-101)
+510101 Asphalt Concrete Pavement Milling,1,2023D016,Full-Depth Asphalt Pavement Removal - 10 to 19 Inches) (Item P-101)
+510101 Asphalt Concrete Pavement Milling,3,2018D027; 2018D029; 2022D027,PCC Pavement Removal - 15-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2023D025,PCC Pavement Removal - 16 Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2017D013,PCC Pavement Removal - 16-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2018D027,PCC Pavement Removal - 18-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"PCC Pavement Removal - 3"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2017D013,PCC Pavement Removal - 3-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2017D013,PCC Pavement Removal - 4-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2015D147,"PCC Pavement Removal - 6"" Depth (Item P-101)"
+510101 Asphalt Concrete Pavement Milling,1,2018D027,PCC Pavement Removal - 6-Inch Depth (Item P-101)
+510101 Asphalt Concrete Pavement Milling,1,2023D011,"Pavement Removal (Full Depth Asphalt Concrete, 4-17.5 Inches) (Item P-101)"
+510101 Joint and Crack Repair,1,2021D025,Joint Repair
+510101 Joint and Crack Repair,4,2015D142; 2015D147; 2017D013; 2023D011,Joint and Crack Repair (Item P-101)
+510101 Joint and Crack Repair,5,2018D027; 2022D027; 2022D028; 2023D016,Removal of Pipe and Other Buried Structures (Item P-101)
+510101 Joint and Crack Repair,2,2018D029; 2023D011,Removal of Pipe and other Buried Structures (Item P-101)
+510101 Saw Cutting,1,2020D022,Cold Millling - 3-Inch Depth (Item P-101)
+510101 Saw Cutting,1,2019D031,RemovalofPipeandOtherBuriedStructures (ItemP-101)
+510152 Borrow,1,2015D142,Borrow Excavation (P-152)
+510152 Borrow,1,2019D031,EmbankmentinPlace (ItemP-152)
+510152 Borrow,1,2019D031,MechanicalStabilization (ItemP-152)
+510152 Geotextile,3,2015D142; 2015D147; 2017D013,Geotextile (Item P-152)
+510152 Geotextile,2,2018D029; 2022D027,Separation Geotextile (Item P-152)
+510152 Subgrade Preparation,3,2022D028; 2023D011; 2023D016,Existing Subgrade Stabilzation (Item P-152)
+510152 Subgrade Preparation,1,2019D031,ExistingSubgradeStabilzation (ItemP-152)
+510152 Subgrade Preparation,2,2023D025,Subgrade Stabilzation (Item P-152)
+510152 Unclassified Excavation,10,2017D013; 2018D027; 2018D029; 2022D027; 2022D028; 2023D011; 2023D016; 2023D025,Unclassified Excavation (Item P-152)
+510152 Unclassified Excavation,1,2015D147,Unclassified Excavation (P-152)
+510152 Unsuitable Excavation,7,2015D142; 2015D147; 2017D013; 2018D027; 2018D029; 2022D027,Unsuitable Excavation (Item P-152)
+510152 Unsuitable Excavation,1,2019D031,UnsuitableExcavation (ItemP-152)
+510154 Subbase Course,3,2018D027; 2023D011,Separation Geotextile (Item P-154)
+510154 Subbase Course,6,2015D142; 2015D147; 2017D013; 2018D027; 2023D011,Subbase Course (Item P-154)
+510154 Subbase Course,1,2019D031,SubbaseCourse (ItemP-154)
+510156 Ditch Protection,1,2020D009,Ditch Protection
+510156 Sediment Fence,1,2017D013,Installation and Removal of Silt Fence (Item P-156)
+510156 Sediment Fence,3,2015D142; 2015D147,Silt Fence (Item P-156)
+520209 Crushed Aggregate Base Course,12,2015D142; 2015D147; 2017D013; 2018D027; 2018D029; 2022D027; 2022D028; 2023D011; 2023D016; 2023D025,Crushed Aggregate Base Course (Item P-209)
+520209 Crushed Aggregate Base Course,1,2019D031,CrushedAggregateBaseCourse (ItemP-209)
+520209 Crushed Aggregate Base Course,2,2022D028; 2023D016,Separation Geotextile (Item P-209)
+520209 Crushed Aggregate Base Course,1,2019D031,SeparationGeotextile (ItemP-209)
+540401 Asphalt Concrete Surface Course,11,2018D027; 2018D029; 2020D022; 2022D027; 2022D028; 2023D011; 2023D016,Asphalt Surface Course (Item P-401)
+540401 Asphalt Concrete Surface Course,1,2019D031,AsphaltSurfaceCourse (ItemP-401)
+540401 Asphalt Concrete Surface Course,2,2017D013,Bituminous Surface Course (Item P-401)
+540401 Asphalt Concrete Surface Course,1,2015D142,Hot Mix Asphalt (HMA) Bituminous Surface Course (Item P-401)
+540401 Asphalt Concrete Surface Course,1,2015D147,Hot Mix Asphalt (HMA) Pavement (Item P-401)
+540403 Bituminous Base Course,4,2018D029; 2022D027; 2023D011; 2023D016,Asphalt Mixture Base Course (Item P-403)
+540403 Bituminous Base Course,1,2022D028,Asphalt Mixture Base and Surface Course (Item P-403)
+540403 Bituminous Base Course,2,2018D027,Asphalt Mixture Surface and Base (Item P-403)
+540403 Bituminous Base Course,1,2017D013,HMA Base Course (Item P-403)
+540403 Bituminous Base Course,1,2015D142,Hot Mix Asphalt (HMA) Base Course (Item P-403)
+540403 Bituminous Base Course,2,2015D142; 2015D147,Hot Mix Asphalt (HMA) Pavement Base Course (Item P-403)
+540403 Leveling Course,1,2023D025,Asphalt Mixture Surface Course (Item P-403)
+540403 Leveling Course,1,2019D031,AsphaltMixtureBaseandSurfaceCourse(ItemP-403)
+550501 0'' Portland Cement Contrete Pavement,1,2018D027,11-Inch Thick Concrete Pavement (Item P-501)
+550501 0'' Portland Cement Contrete Pavement,2,2018D027; 2018D029,15-Inch Thick Concrete Pavement (Item P-501)
+550501 0'' Portland Cement Contrete Pavement,1,2018D027,18-Inch Thick Concrete Pavement (Item P-501)
+550501 0'' Portland Cement Contrete Pavement,1,2018D029,19-Inch Thick Concrete Pavement (Item P-501)
+550501 0'' Portland Cement Contrete Pavement,1,2022D027,19-Inch-Thick Concrete Pavement (Item P-501)
+550501 0'' Portland Cement Contrete Pavement,1,2023D025,Concrete Pavement (Item P-501)
+550501 0'' Portland Cement Contrete Pavement,1,2015D147,Portland Cement Concrete (PCC) Pavement (Item P-501)
+550501 0'' Portland Cement Contrete Pavement,1,2017D013,Portland Cement Concrete Pavement (Item P-501)
+560602 Bituminous Prime Coat,2,2015D147; 2017D013,Bituminous Prime Coat (Item P-602)
+560602 Bituminous Prime Coat,1,2018D027,Emulsified Asphalt Prime Coat (Item P-602)
+560603 Bituminous Tack Coat,5,2015D142; 2015D147; 2017D013,Bituminous Tack Coat (Item P-603)
+560603 Bituminous Tack Coat,12,2018D027; 2018D029; 2020D022; 2022D027; 2022D028; 2023D011; 2023D016; 2023D025,Emulsified Asphalt Tack Coat (Item P-603)
+560603 Bituminous Tack Coat,1,2019D031,EmulsifiedAsphaltTackCoat (ItemP-603)
+560603 Bituminous Tack Coat,1,2023D028,Tack Coat
+560604 Compression Joint Seal,1,2015D147,Compression Joint Sealant (Item P-604)
+560604 Compression Joint Seal,1,2017D013,Compression Joint Seals for Concrete Pavement (Item P-604)
+560604 Compression Joint Seal,4,2018D027; 2018D029; 2022D027; 2024D045,Compression Joint Seals for Concrete Pavements (Item P-604)
+560605 PCC/AC Joint Seal,1,2024D045,Concrete to Asphalt Joint Seal (Item P-605)
+560605 PCC/AC Joint Seal,1,2024D045,Concrete to Concrete Joint Seal (Silicone) (Item P-605)
+560605 PCC/AC Joint Seal,1,2015D147,Joint Sealant (Item P-605)
+560605 PCC/AC Joint Seal,12,2015D142; 2017D013; 2018D027; 2018D029; 2020D022; 2022D027; 2022D028; 2023D011; 2023D016; 2023D025,Joint Sealing Filler (Item P-605)
+560605 PCC/AC Joint Seal,1,2019D031,JointSealingFiller(ItemP-605)
+560610 Structural Portland Cement Concrete,1,2022D028,1-Inch GRSC Encased in P-610 in Existing AC (Item L-110)
+560610 Structural Portland Cement Concrete,1,2022D028,1.5-Inch GRSC Encased in P-610 in Existing AC (Item L-110)
+560610 Structural Portland Cement Concrete,1,2022D028,2-Inch PVC Encased in P-610 in Existing AC (Item L-110)
+560610 Structural Portland Cement Concrete,1,2020D022,2-Inch PVC encased in P-610 in Existing AC (Item L-110)
+560610 Structural Portland Cement Concrete,5,2018D027; 2020D022; 2022D028; 2023D003; 2023D016,Concrete (Item P-610)
+560610 Structural Portland Cement Concrete,1,2019D031,Concrete(ItemP-610)
+560610 Structural Portland Cement Concrete,4,2015D142; 2015D147; 2017D013,Steel Reinforcement (Item P-610)
+560610 Structural Portland Cement Concrete,2,2017D013; 2023D011,Structural Portland Cement Concrete (Item P-610)
+560610 Structural Portland Cement Concrete,3,2015D142; 2015D147,Structural Portland Cement Concrete (PCC) (Item P-610)
+560620 Initial Pavement Marking,12,2018D027; 2018D029; 2020D022; 2022D027; 2022D028; 2023D016; 2023D018; 2023D025,Marking (Item P-620)
+560620 Initial Pavement Marking,1,2019D031,Marking (ItemP-620)
+560620 Initial Pavement Marking,1,2015D147,Pavement Marking (Item P-620)
+560620 Initial Pavement Marking,1,2021D017,Pavement Markings (Item P-620)
+560620 Initial Pavement Marking,4,2015D142; 2015D147; 2017D013,Phasing Pavement Marking (Item P-620)
+560620 Initial Pavement Marking,2,2015D142,Runway Marking (Item P-620)
+560620 Initial Pavement Marking,2,2017D013,Runway and Taxiway Marking (Item P-620)
+560620 Initial Pavement Marking,2,2023D003,Surface Prep - Existing Pavement (Item P-620)
+560620 Initial Pavement Marking,1,2022D028,Surface Preparation - Existing Pavement Surface (Item P-620)
+560620 Initial Pavement Marking,2,2018D027,Surface Preparation - New Pavement Surfaces (Item P-620)
+560620 Initial Pavement Marking,2,2018D029; 2022D027,Surface Preparation - New or Existing Pavement Surfaces (Item P-620)
+560620 Initial Pavement Marking,1,2020D022,Surface Preparation - Remove Existing Marking (Item P-620)
+560620 Pavement Marking Removal,2,2023D003,Surface Prep - Marking Removal (Item P-620)
+560620 Pavement Marking Removal,1,2022D028,Surface Preparation - Marking Removal (Item P-620)
+560620 Permenant Pavement Marking,2,2023D011,Permanent Pavement Marking (Item P-620)
+560620 Preformed Thermoplastic Airport Pavement Marking,1,2016D18,"Pavement Marking, Thermoplastic"
+560620 Preformed Thermoplastic Airport Pavement Marking,3,2017D013; 2022D028,Preformed Markings (Item P-620)
+560620 Reflective Media,3,2023D003,Markings (Item P-620)
+560620 Reflective Media,23,2015D142; 2015D147; 2017D013; 2018D027; 2018D029; 2020D022; 2021D017; 2022D027; 2022D028; 2023D003; 2023D011; 2023D016; 2023D018; 2023D025,Reflective Media (Item P-620)
+560620 Reflective Media,1,2019D031,ReflectiveMedia (ItemP-620)
+560620 Reflective Media,3,2023D011; 2023D016,Surface Preparation (Item P-620)
+560620 Reflective Media,1,2020D022,Surface Preparation - Remarking (Item P-620)
+560620 Reflective Media,7,2018D027; 2018D029; 2021D017; 2022D027; 2022D028; 2023D018,Surface Preparation - Remove Existing Markings (Item P-620)
+560620 Reflective Media,1,2019D031,SurfacePreparation-NewPavementSurface (ItemP-620)
+560620 Reflective Media,1,2019D031,SurfacePreparation-RemoveExistingMarkings (ItemP-620)
+560620 Temporary Pavement Marking,1,2018D029,Temporary Marking (Item P-620)
+560620 Temporary Pavement Marking,2,2023D011,Temporary Pavement Marking (Item P-620)
+560620 Temporary Pavement Marking,1,2021D017,Temporary Pavement Markings (Item P-620)
+560620 Temporary Pavement Marking,1,2020D022,Temporary Runway and Taxiway Makrings (Item P-620)
+560620 Temporary Pavement Marking,8,2018D027; 2022D028; 2023D016; 2023D018; 2023D025,Temporary Runway and Taxiway Marking (Item P-620)
+560620 Temporary Pavement Marking,1,2019D031,TemporaryRunwayandTaxiwayMarking (ItemP-620)
+560621 Pavement Grooving,2,2015D142; 2022D028,Grooving (Item P-621)
+560621 Pavement Grooving,1,2015D147,Saw-Cut Grooving (Item P-621)
+580701 XX-inch XX Pipe,2,2015D142; 2015D147,12-Inch RCP Pipe (Item D-701)
+580701 XX-inch XX Pipe,4,2018D027; 2018D029; 2022D028,12-Inch STS (Item D-701)
+580701 XX-inch XX Pipe,3,2015D142; 2015D147; 2017D013,12-Inch STS Pipe (Item D-701)
+580701 XX-inch XX Pipe,1,2018D029,12-Inch Slide Gate (Item D-701)
+580701 XX-inch XX Pipe,1,2023D016,12-Inch Storm Sewer Pipe (Item D-701)
+580701 XX-inch XX Pipe,1,2019D031,12-inchSTS (ItemD-701)
+580701 XX-inch XX Pipe,1,2019D031,14-inchClass50DuctileIronPipeCulvert(ItemD-701)
+580701 XX-inch XX Pipe,3,2018D027; 2018D029,15-Inch STS (Item D-701)
+580701 XX-inch XX Pipe,1,2018D029,15-Inch Slide Gate (Item D-701)
+580701 XX-inch XX Pipe,1,2023D016,15-Inch Storm Sewer Pipe (Item D-701)
+580701 XX-inch XX Pipe,3,2018D027; 2018D029; 2022D028,18-Inch STS (Item D-701)
+580701 XX-inch XX Pipe,1,2015D147,18-Inch STS Pipe (Item D-701)
+580701 XX-inch XX Pipe,1,2023D016,18-Inch Storm Sewer Pipe (Item D-701)
+580701 XX-inch XX Pipe,1,2019D031,18-inchClass50DuctileIronPipeCulvert (ItemD-701)
+580701 XX-inch XX Pipe,2,2015D142; 2015D147,24-Inch RCP Pipe (Item D-701)
+580701 XX-inch XX Pipe,2,2018D027; 2018D029,24-Inch STS (Item D-701)
+580701 XX-inch XX Pipe,2,2015D147; 2017D013,24-Inch STS Pipe (Item D-701)
+580701 XX-inch XX Pipe,1,2019D031,24-inchSTS (ItemD-701)
+580701 XX-inch XX Pipe,1,2018D027,30-Inch STS (Item D-701)
+580701 XX-inch XX Pipe,1,2017D013,30-Inch STS Pipe (Item D-701)
+580701 XX-inch XX Pipe,1,2018D029,30-Inch Slide Gate (Item D-701)
+580701 XX-inch XX Pipe,1,2018D027,36-Inch STS (Item D-701)
+580701 XX-inch XX Pipe,2,2015D147; 2017D013,4-Inch STS Pipe (Item D-701)
+580701 XX-inch XX Pipe,3,2015D142; 2015D147; 2017D013,48-Inch STS Pipe (Item D-701)
+580701 XX-inch XX Pipe,2,2015D147; 2017D013,6-Inch STS Pipe (Item D-701)
+580701 XX-inch XX Pipe,1,2019D031,6-inchSTS (ItemD-701)
+580701 XX-inch XX Pipe,1,2019D031,8'HX14'WCulvert (ItemD-701)
+580701 XX-inch XX Pipe,3,2018D027; 2018D029; 2022D027,8-Inch STS (Item D-701)
+580701 XX-inch XX Pipe,1,2015D142,8-Inch STS Pipe (Item D-701)
+580701 XX-inch XX Pipe,1,2023D011,STS Drain Pipe (18-inch) (Item D-701)
+580701 XX-inch XX Pipe,1,2023D011,STS Drain Pipe (24-inch) (Item D-701)
+580705 12-Inch Perforated HDPE Pipe (Underdrains),1,2023D016,6-Inch Non-Perforated Pipe (Item D-705)
+580705 12-Inch Perforated HDPE Pipe (Underdrains),1,2017D013,6-Inch Perforated Pipe (Item D-705)
+580705 12-Inch Perforated HDPE Pipe (Underdrains),1,2015D147,6-Inch Perforated Pipe Underdrains (Item D-705)
+580705 12-Inch Perforated HDPE Pipe (Underdrains),1,2023D016,6-Inch Perforated Storm Sewer Pipe (Item D-705)
+580705 12-Inch Perforated HDPE Pipe (Underdrains),1,2023D011,Non-Perforated Underdrain Pipe (6-inch) (Item D-705)
+580705 12-Inch Perforated HDPE Pipe (Underdrains),1,2023D011,Perforated Underdrain Pipe (6-inch) (Item D-705)
+580705 6-Inch Solid HDPE Pipe (Underdrains),1,2019D031,6-InchPipeUnderdrains (ItemD-705)
+"580751 48-Inch Manhole, Type A",1,2018D029,48-Inch Diameter Manhole (Item D-751)
+"580751 48-Inch Manhole, Type A",1,2017D013,"48-Inch Diameter Manhole, Type A (Item D-751)"
+"580751 48-Inch Manhole, Type A",1,2018D027,48-Inch Manhole (Item D-751)
+"580751 48-Inch Manhole, Type A",1,2015D147,"48-Inch Manhole, Type A (Item D-751)"
+"580751 48-Inch Manhole, Type A",2,2018D027,60-Inch Manhole (Item D-751)
+"580751 48-Inch Manhole, Type A",1,2017D013,"72-Inch Diameter Manhole, Type A (Item D-751)"
+"580751 48-Inch Manhole, Type A",1,2018D027,72-Inch Manhole (Item D-751)
+"580751 48-Inch Manhole, Type A",2,2015D142; 2015D147,"72-Inch Manhole, Type A (Item D-751)"
+"580751 48-Inch Manhole, Type A",1,2018D029,84-Inch Diameter Manhole (Item D-751)
+"580751 48-Inch Manhole, Type A",1,2017D013,"84-Inch Diameter Manhole, Type A (Item D-751)"
+"580751 48-Inch Manhole, Type A",2,2015D142; 2015D147,"84-Inch Manhole, Type A (Item D-751)"
+"580751 48-Inch Manhole, Type A",1,2017D013,"96-Inch Diameter Manhole, Type A (Item D-751)"
+"580751 48-Inch Manhole, Type B (Aircraft Rated)",2,2015D142; 2015D147,"48-Inch Manhole, Type B (Item D-751)"
+"580751 48-Inch Manhole, Type B (Aircraft Rated)",1,2015D147,"60-Inch Manhole, Type B (Item D-751)"
+"580751 48-Inch Manhole, Type B (Aircraft Rated)",1,2015D147,"72-Inch Manhole, Type B (Item D-751)"
+"580751 48-Inch Manhole, Type B (Aircraft Rated)",1,2015D147,"84-Inch Manhole, Type B (Item D-751)"
+"580751 Catch Basin, Type A",1,2023D016,48-Inch Manholes (Item D-751)
+"580751 Catch Basin, Type A",1,2023D011,60-Inch Manhole Catch Basin (Item D-751)
+"580751 Catch Basin, Type A",2,2023D011; 2023D016,60-Inch Manholes (Item D-751)
+"580751 Catch Basin, Type A",2,2015D142; 2015D147,Catch Basin (Item D-751)
+"580751 Catch Basin, Type A",7,2017D013; 2018D027; 2018D029; 2022D028; 2023D011; 2023D016,Catch Basins (Item D-751)
+"580751 Catch Basin, Type A",1,2019D031,CatchBasins (ItemD-751)
+"580751 Catch Basin, Type A",2,2023D011; 2023D016,Connect to Existing Catch Basin/Manhole (Item D-751)
+"580751 Catch Basin, Type A",1,2022D028,Manholes (Item D-751)
+"580751 Catch Basin, Type A",1,2019D031,Manholes (ItemD-751)
+"580751 Catch Basin, Type A",2,2018D029; 2022D027,Trench Drain (Item D-751)
+"580751 Catch Basin, Type A",2,2023D011; 2023D016,Underdrain Cleanout (Item D-751)
+580751 Connection to Existing Manhole or Inlet,1,2015D142,"48-Inch Manhole, Ditch Inlet (Item D-751)"
+590901 Hydroseeding,6,2015D142; 2015D147; 2017D013; 2018D027; 2023D011; 2023D016,Seeding (Item T-901)
+590901 Hydroseeding,1,2019D031,Seeding(ItemT-901)
+590905 Topsoil,1,2023D016,Topsoil (Furnished from Off the Site) (Item T-905)
+590905 Topsoil,1,2023D011,"Topsoil (Obtained on Site or Removed from Stockpile) (3"") (Item T-905)"
+590905 Topsoil,1,2018D027,Topsoil (Obtained on Site or Removed from Stockpile) (Item T-905)
+590905 Topsoil,1,2019D031,Topsoil(FurnishedfromOfftheSite) (ItemT-905)
+590905 Topsoil,1,2019D031,Topsoil(ObtainedOnStieorRemovedfromStockpile) (ItemT-905)
+590905 Topsoil,2,2015D147; 2017D013,Topsoiling (Item T-905)
+nan Construction Survey,2,2016D015; 2016D18,Construction Survey
+nan Construction Survey,5,2015D142; 2015D147; 2017D013,Construction Survey (Item GP-50)

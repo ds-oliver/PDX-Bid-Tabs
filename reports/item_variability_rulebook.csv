@@ -1,0 +1,10 @@
+category,name,value
+source_contract,baseline_source,compiled_excel_itemized_raw_snapshot.csv
+source_contract,comparison_source,"compiled_excel_itemized_clean.csv (optional, comparison-only)"
+exclusion,excluded_metric,parse_confidence
+threshold_variability,red,distinct_raw_desc_count >= 20 OR raw_variability_ratio >= 0.23 OR UNCLASSIFIED with row_count >= 10
+threshold_variability,amber,distinct_raw_desc_count 8-19 OR raw_variability_ratio 0.13-0.229
+threshold_quality_missing_unit_price,red,>= 10%
+threshold_quality_missing_unit_price,amber,5% to <10%
+threshold_quality_missing_total_price,red,>= 5%
+threshold_quality_missing_total_price,amber,2% to <5%

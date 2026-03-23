@@ -1,0 +1,199 @@
+project_ean,line_no,item_description_raw,specification,parsed_specs,pay_item_description,unit_code_norm,estimate_item,division,cost_code,cost_code_desc,catalog_item_description,needs_slicer,slicer_family,size_in,material_or_type,spec_family,match_method,match_confidence,mapping_status,needs_review
+2015D006,0003,"Temporary Erosion, Sediment, and Pollution Control",UNCLASSIFIED,,"Temporary Erosion, Sediment, and Pollution Control",LS,,,,,,False,,,,,fuzzy_token_set,85.71,unmapped,True
+2015D006,0004,Site Demolition,UNCLASSIFIED,,Site Demolition,LS,,,,,,False,,,,,fuzzy_token_set,80.0,unmapped,True
+2015D006,0005,Clearing and Grubbing,UNCLASSIFIED,,Clearing and Grubbing,LS,,,,,,False,,,,,fuzzy_token_set,51.16,unmapped,True
+2015D006,0006,Trench Excavation and General Native Backfill,UNCLASSIFIED,,Trench Excavation and General Native Backfill,LF,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2015D006,0007,Trench Excavation and Select Native Backfill,UNCLASSIFIED,,Trench Excavation and Select Native Backfill,LF,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2015D006,0008,Trench Excavation and Select Backfill,UNCLASSIFIED,,Trench Excavation and Select Backfill,LF,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2015D006,0009,Offsite Haul and Disposal,UNCLASSIFIED,,Offsite Haul and Disposal,CY,,,,,,False,,,,,fuzzy_token_set,45.28,unmapped,True
+2015D006,0010,Contaminated Soil Sediment Excavation and Disposal,UNCLASSIFIED,,Contaminated Soil Sediment Excavation and Disposal,TON,,,,,,False,,,,,fuzzy_token_set,72.73,unmapped,True
+2015D006,0011,Shoring,UNCLASSIFIED,,Shoring,LS,,,,,,False,,,,,fuzzy_token_set,53.33,unmapped,True
+2015D006,0012,Pipe Zone and Bedding Material,UNCLASSIFIED,,Pipe Zone and Bedding Material,CY,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2015D006,0015,72-Inch Sewer Pipe,UNCLASSIFIED,,Sewer Pipe,LF,,,,,,False,,,,,fuzzy_token_set,57.14,unmapped,True
+2015D006,0018,Subdrains,UNCLASSIFIED,,Subdrains,LF,,,,,,False,,,,,fuzzy_token_set,47.62,unmapped,True
+2015D006,0019,Inlet (Type PB),UNCLASSIFIED,,Inlet (Type PB),EACH,,,,,,False,,,,,fuzzy_token_set,62.07,unmapped,True
+2015D006,0020,McBride Slough Intake Structure,UNCLASSIFIED,,McBride Slough Intake Structure,LS,,,,,,False,,,,,fuzzy_token_set,54.24,unmapped,True
+2015D006,0021,Columbia Slough Outfall Structure,UNCLASSIFIED,,Columbia Slough Outfall Structure,LS,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2015D006,0022,Modified Concrete Curb and Gutter,UNCLASSIFIED,,Modified Concrete Curb and Gutter,LF,,,,,,False,,,,,fuzzy_token_set,59.38,unmapped,True
+2015D006,0023,Sidewalk,UNCLASSIFIED,,Sidewalk,SF,,,,,,False,,,,,fuzzy_token_set,44.44,unmapped,True
+2015D006,0027,Guard Rail Removal and Replacement,UNCLASSIFIED,,Guard Rail Removal and Replacement,LF,,,,,,False,,,,,fuzzy_token_set,69.57,unmapped,True
+2015D006,0028,Area Seeding,UNCLASSIFIED,,Area Seeding,LS,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2015D006,0029,Stormwater Flow Through Pollution Reduction Facility,UNCLASSIFIED,,Stormwater Flow Through Pollution Reduction Facility,LS,,,,,,False,,,,,fuzzy_token_set,68.97,unmapped,True
+2015D006,0030,Landscape Restoration,UNCLASSIFIED,,Landscape Restoration,LS,,,,,,False,,,,,fuzzy_token_set,48.65,unmapped,True
+2015D147,#REF!,#REF!,UNCLASSIFIED,,#REF!,#REF!,,,,,,False,,,,,fuzzy_token_set,35.29,unmapped,True
+2016D015,0002,Sweeper,UNCLASSIFIED,,Sweeper,LS,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2016D015,0012,Contaminated Soil Excavation and Disposal,UNCLASSIFIED,,Contaminated Soil Excavation and Disposal,CY,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2016D015,0016,"Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets",UNCLASSIFIED,,"Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets",LS,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2016D015,0017,Removal of Existing Lid from Stormwater Treatment Vault,UNCLASSIFIED,,Removal of Existing Lid from Stormwater Treatment Vault,LS,,,,,,False,,,,,fuzzy_token_set,68.97,unmapped,True
+2016D015,0018,Modifications to Existing Wet Well,UNCLASSIFIED,,Modifications to Existing Wet Well,LS,,,,,,False,,,,,fuzzy_token_set,60.27,unmapped,True
+2016D015,0019,Adjustment of Existing Structures (H-20 Rated Vaults),UNCLASSIFIED,,Adjustment of Existing Structures (H-20 Rated Vaults),EACH,,,,,,False,,,,,fuzzy_token_set,64.1,unmapped,True
+2016D015,0020,24-Inch Storm Sewer (Force Main) Pipe,UNCLASSIFIED,,Storm Sewer (Force Main) Pipe,LF,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2016D015,0021,12-Inch Storm Sewer Pipe,UNCLASSIFIED,,Storm Sewer Pipe,LF,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2016D015,0022,15-Inch Storm Sewer Pipe,UNCLASSIFIED,,Storm Sewer Pipe,LF,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2016D015,0023,21-Inch Storm Sewer Pipe,UNCLASSIFIED,,Storm Sewer Pipe,LF,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2016D015,0024,21-Inch Storm Sewer Pipe (RCP),UNCLASSIFIED,,Storm Sewer Pipe (RCP),LF,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2016D015,0025,24-Inch Storm Sewer Pipe,UNCLASSIFIED,,Storm Sewer Pipe,LF,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2016D015,0029,72-Inch Corrugated Metal Riser,UNCLASSIFIED,,Corrugated Metal Riser,EACH,,,,,,False,,,,,fuzzy_token_set,51.61,unmapped,True
+2016D015,0030,Stormwater Pump Station,UNCLASSIFIED,,Stormwater Pump Station,LS,,,,,,False,,,,,fuzzy_token_set,68.97,unmapped,True
+2016D015,0031,Stormwater Treatment Vaults,UNCLASSIFIED,,Stormwater Treatment Vaults,EACH,,,,,,False,,,,,fuzzy_token_set,69.57,unmapped,True
+2016D015,0032,Stormwater Treatment Vault Cover,UNCLASSIFIED,,Stormwater Treatment Vault Cover,SF,,,,,,False,,,,,fuzzy_token_set,68.97,unmapped,True
+2016D015,0033,Hand Rail,UNCLASSIFIED,,Hand Rail,LF,,,,,,False,,,,,fuzzy_token_set,58.33,unmapped,True
+2016D015,0034,Concrete Wall Removal,UNCLASSIFIED,,Concrete Wall Removal,LF,,,,,,False,,,,,fuzzy_token_set,65.12,unmapped,True
+2016D015,0035,Concrete Curb Removal,UNCLASSIFIED,,Concrete Curb Removal,LF,,,,,,False,,,,,fuzzy_token_set,65.12,unmapped,True
+2016D015,0036,Bollard,UNCLASSIFIED,,Bollard,EACH,,,,,,False,,,,,fuzzy_token_set,46.15,unmapped,True
+2016D015,0037,Area Seeding,UNCLASSIFIED,,Area Seeding,ACRE,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2016D015,0038,Electrical Modifications,UNCLASSIFIED,,Electrical Modifications,LS,,,,,,False,,,,,fuzzy_token_set,58.82,unmapped,True
+2016D18,0002,Sweeper,UNCLASSIFIED,,Sweeper,LS,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2016D18,0006,Cold Plane Pavement Removal (0-3 Inch Maximum),UNCLASSIFIED,,Cold Plane Pavement Removal,SY,,,,,,False,,,,,fuzzy_token_set,80.0,unmapped,True
+2016D18,0007,Cold Plane Pavement Removal (3-5 Inch Maximum),UNCLASSIFIED,,Cold Plane Pavement Removal,SY,,,,,,False,,,,,fuzzy_token_set,80.0,unmapped,True
+2016D18,0011,Contaminated Soil Excavation and Disposal,UNCLASSIFIED,,Contaminated Soil Excavation and Disposal,CY,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2016D18,0014,Utility Adjustments to Grade,UNCLASSIFIED,,Utility Adjustments to Grade,EACH,,,,,,False,,,,,fuzzy_token_set,65.45,unmapped,True
+2016D18,0016,"Pavement Marking, Painted",UNCLASSIFIED,,"Pavement Marking, Painted",SF,,,,,,False,,,,,fuzzy_token_set,83.33,unmapped,True
+2016D18,0018,Vehicle Detection Loops,UNCLASSIFIED,,Vehicle Detection Loops,LS,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2016D18,0019,"Level 3, 1/2-Inch Dense HMAC",UNCLASSIFIED,,Level 3,TON,,,,,,False,,,,,fuzzy_token_set,54.55,unmapped,True
+2018D015,0002,"Temporary Erosion, Sediment, and Pollution Control",UNCLASSIFIED,,"Temporary Erosion, Sediment, and Pollution Control",LS,,,,,,False,,,,,fuzzy_token_set,85.71,unmapped,True
+2018D015,0003,Temporary Traffic Control,UNCLASSIFIED,,Temporary Traffic Control,LS,,,,,,False,,,,,fuzzy_token_set,75.0,unmapped,True
+2018D015,0004,Site Demolition,UNCLASSIFIED,,Site Demolition,LS,,,,,,False,,,,,fuzzy_token_set,80.0,unmapped,True
+2018D015,0005,Contaminated Soil Excavation and Placement,UNCLASSIFIED,,Contaminated Soil Excavation and Placement,CY,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2018D015,0007,Compacted Bedding Material,UNCLASSIFIED,,Compacted Bedding Material,CY,,,,,,False,,,,,fuzzy_token_set,57.69,unmapped,True
+2018D015,0008,2-Inch Water Pipe,UNCLASSIFIED,,Water Pipe,LF,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2018D015,0009,4-Inch Water Pipe,UNCLASSIFIED,,Water Pipe,LF,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2018D015,0010,6-Inch Water Pipe,UNCLASSIFIED,,Water Pipe,LF,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2018D015,0014,Remove and Reinstall Catch Basin,UNCLASSIFIED,,Remove and Reinstall Catch Basin,EACH,,,,,,False,,,,,fuzzy_token_set,75.86,unmapped,True
+2018D015,0016,Pavement Markings,UNCLASSIFIED,,Pavement Markings,LS,,,,,,False,,,,,fuzzy_token_set,76.47,unmapped,True
+2018D015,0018,Area Seeding,UNCLASSIFIED,,Area Seeding,ACRE,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2020D008,0002,Sweeper,UNCLASSIFIED,,Sweeper,LS,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2020D008,0003,Temporary Erosion and Sediment Control,UNCLASSIFIED,,Temporary Erosion and Sediment Control,LS,,,,,,False,,,,,fuzzy_token_set,85.71,unmapped,True
+2020D008,0004,Contaminated Soil Excavation and Disposal,UNCLASSIFIED,,Contaminated Soil Excavation and Disposal,CY,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2020D008,0006,Kennedy Feeder Point-of-Service Access Pad,UNCLASSIFIED,,Kennedy Feeder Point-of-Service Access Pad,LS,,,,,,False,,,,,fuzzy_token_set,63.64,unmapped,True
+2020D008,0007,Kennedy Feeder Pad-Mount Switch,UNCLASSIFIED,,Kennedy Feeder Pad - Mount Switch,LS,,,,,,False,,,,,fuzzy_token_set,45.45,unmapped,True
+2020D008,0008,Aircraft-Rated Electrical Vaults,UNCLASSIFIED,,Aircraft - Rated Electrical Vaults,EACH,,,,,,False,,,,,fuzzy_token_set,61.54,unmapped,True
+2020D008,0009,H-20 Traffic-Rated Electrical Vaults,UNCLASSIFIED,,H-20 Traffic - Rated Electrical Vaults,EACH,,,,,,False,,,,,fuzzy_token_set,58.82,unmapped,True
+2020D008,0010,Two 6-Inch Conduits by Directional Drilling Method,UNCLASSIFIED,,Two 6-Inch Conduits by Directional Drilling Method,LF,,,,,,False,,,,,fuzzy_token_set,53.93,unmapped,True
+2020D008,0011,Electrical Feeder Conductor Assembly,UNCLASSIFIED,,Electrical Feeder Conductor Assembly,LF,,,,,,False,,,,,fuzzy_token_set,58.82,unmapped,True
+2020D008,0012,Electrical Feeder Installation in Vaults,UNCLASSIFIED,,Electrical Feeder Installation in Vaults,EACH,,,,,,False,,,,,fuzzy_token_set,58.82,unmapped,True
+2020D008,0013,Electrical Feeder Conductor Termination and Testing,UNCLASSIFIED,,Electrical Feeder Conductor Termination and Testing,LS,,,,,,False,,,,,fuzzy_token_set,58.82,unmapped,True
+2020D009,0002,Project Traffic Control,UNCLASSIFIED,,Project Traffic Control,LS,,,,,,False,,,,,fuzzy_token_set,78.95,unmapped,True
+2020D009,0005,Clearing and Grubbing,UNCLASSIFIED,,Clearing and Grubbing,LS,,,,,,False,,,,,fuzzy_token_set,51.16,unmapped,True
+2020D009,0007,Asphalt Sawcut,UNCLASSIFIED,,Asphalt Sawcut,LF,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2020D009,0008,Curb Removal,UNCLASSIFIED,,Curb Removal,LF,,,,,,False,,,,,fuzzy_token_set,73.68,unmapped,True
+2020D009,0009,Asphalt Grinding Removal and Disposal,UNCLASSIFIED,,Asphalt Grinding Removal and Disposal,CY,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2020D009,0011,Embankment,UNCLASSIFIED,,Embankment,CY,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2020D009,0013,Encasement Over Existing Waterlin,UNCLASSIFIED,,Encasement Over Existing Waterlin,LF,,,,,,False,,,,,fuzzy_token_set,53.85,unmapped,True
+2020D009,0014,Remove and Reinstall 12-Inch Ductile Iron Pipe,UNCLASSIFIED,,Remove and Reinstall 12-Inch Ductile Iron Pipe,LF,,,,,,False,,,,,fuzzy_token_set,85.71,unmapped,True
+2020D009,0015,Electrical Bedding Material,UNCLASSIFIED,,Electrical Bedding Material,LF,,,,,,False,,,,,fuzzy_token_set,58.82,unmapped,True
+2020D009,0017,12-Inch Ductile Iron Sewer Pipe,UNCLASSIFIED,,Ductile Iron Sewer Pipe,LF,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2020D009,0018,Connection to Existing Utility,UNCLASSIFIED,,Connection to Existing Utility,EACH,,,,,,False,,,,,fuzzy_token_set,84.62,unmapped,True
+2020D009,0020,Standard 8-Inch Concrete Curb,UNCLASSIFIED,,Standard 8-Inch Concrete Curb,LF,,,,,,False,,,,,fuzzy_token_set,53.57,unmapped,True
+2020D009,0021,Monolithic Curb and Sidewalk,UNCLASSIFIED,,Monolithic Curb and Sidewalk,SF,,,,,,False,,,,,fuzzy_token_set,53.33,unmapped,True
+2020D009,0026,Signage,UNCLASSIFIED,,Signage,LS,,,,,,False,,,,,fuzzy_token_set,53.33,unmapped,True
+2020D009,0027,Fence Fabric Removal,UNCLASSIFIED,,Fence Fabric Removal,LF,,,,,,False,,,,,fuzzy_token_set,78.79,unmapped,True
+2020D009,0029,Area Seeding,UNCLASSIFIED,,Area Seeding,ACRE,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2020D009,0031,"Level 3, 3/4-Inch Dense HMAC",UNCLASSIFIED,,Level 3,TON,,,,,,False,,,,,fuzzy_token_set,54.55,unmapped,True
+2020D009,0032,Bollards,UNCLASSIFIED,,Bollards,EACH,,,,,,False,,,,,fuzzy_token_set,42.86,unmapped,True
+2021D001,0003,Sweeper,UNCLASSIFIED,,Sweeper,LS,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2021D001,0004,Tree and Plant Protection,UNCLASSIFIED,,Tree and Plant Protection,LS,,,,,,False,,,,,fuzzy_token_set,76.92,unmapped,True
+2021D001,0005,"Temporary Erosion, Sediment, and Pollution Control",UNCLASSIFIED,,"Temporary Erosion, Sediment, and Pollution Control",LS,,,,,,False,,,,,fuzzy_token_set,85.71,unmapped,True
+2021D001,0006,Surfacings Removal,UNCLASSIFIED,,Surfacings Removal,SY,,,,,,False,,,,,fuzzy_token_set,61.54,unmapped,True
+2021D001,0007,Signage,UNCLASSIFIED,,Signage,LS,,,,,,False,,,,,fuzzy_token_set,53.33,unmapped,True
+2021D001,0008,PVC Conduit (Power) - 6 Inch,UNCLASSIFIED,,PVC Conduit (Power),LF,,,,,,False,,,,,fuzzy_token_set,48.48,unmapped,True
+2021D001,0009,PVC Conduit (Power) - 4 Inch,UNCLASSIFIED,,PVC Conduit (Power),LF,,,,,,False,,,,,fuzzy_token_set,48.48,unmapped,True
+2021D001,0010,PVC Conduit (Power) - 3 Inch,UNCLASSIFIED,,PVC Conduit (Power),LF,,,,,,False,,,,,fuzzy_token_set,48.48,unmapped,True
+2021D001,0011,PVC Conduit (Power) - 2 Inch,UNCLASSIFIED,,PVC Conduit (Power),LF,,,,,,False,,,,,fuzzy_token_set,48.48,unmapped,True
+2021D001,0012,XHHW Conductor - #3 AWG (Power),UNCLASSIFIED,,XHHW Conductor - #3 AWG (Power),LF,,,,,,False,,,,,fuzzy_token_set,45.45,unmapped,True
+2021D001,0013,XHHW Conductor - #6 AWG (Power),UNCLASSIFIED,,XHHW Conductor - #6 AWG (Power),LF,,,,,,False,,,,,fuzzy_token_set,45.45,unmapped,True
+2021D001,0014,XHHW Conductor - #8 AWG (Power),UNCLASSIFIED,,XHHW Conductor - #8 AWG (Power),LF,,,,,,False,,,,,fuzzy_token_set,45.45,unmapped,True
+2021D001,0015,XHHW Conductor - #10 AWG (Power),UNCLASSIFIED,,XHHW Conductor - #10 AWG (Power),LF,,,,,,False,,,,,fuzzy_token_set,44.44,unmapped,True
+2021D001,0016,XHHW Conductor - #12 AWG (Power),UNCLASSIFIED,,XHHW Conductor - #12 AWG (Power),LF,,,,,,False,,,,,fuzzy_token_set,44.44,unmapped,True
+2021D001,0017,Electric Utility Meter Base - 200A Direct,UNCLASSIFIED,,Electric Utility Meter Base - 200A Direct,EACH,,,,,,False,,,,,fuzzy_token_set,71.43,unmapped,True
+2021D001,0018,Metered Switchgear Installation,UNCLASSIFIED,,Metered Switchgear Installation,EACH,,,,,,False,,,,,fuzzy_token_set,58.82,unmapped,True
+2021D001,0019,Vault (Power) - 712-SWITCH-PCORP,UNCLASSIFIED,,Vault (Power) - 712-SWITCH - PCORP,EACH,,,,,,False,,,,,fuzzy_token_set,43.48,unmapped,True
+2021D001,0020,Vault (Power) - 575-TRANS-PCORP,UNCLASSIFIED,,Vault (Power) - 575-TRANS - PCORP,EACH,,,,,,False,,,,,fuzzy_token_set,49.18,unmapped,True
+2021D001,0021,Vault (Power) - 575-PCORP,UNCLASSIFIED,,Vault (Power),EACH,,,,,,False,,,,,fuzzy_token_set,45.45,unmapped,True
+2021D001,0022,Vault (Power) - 776-TRANS-PCORP,UNCLASSIFIED,,Vault (Power) - 776-TRANS - PCORP,EACH,,,,,,False,,,,,fuzzy_token_set,49.18,unmapped,True
+2021D001,0023,Vault (Power) - 776-TRANS-PCORP (Traffic Rated),UNCLASSIFIED,,Vault (Power) - 776-TRANS - PCORP (Traffic Rated),EACH,,,,,,False,,,,,fuzzy_token_set,48.57,unmapped,True
+2021D001,0024,PVC Conduit (Comm) - 4 Inch,UNCLASSIFIED,,PVC Conduit (Comm),LF,,,,,,False,,,,,fuzzy_token_set,48.48,unmapped,True
+2021D001,0025,"HDPE Interduct (Comm) - 1 1/4""",UNCLASSIFIED,,"HDPE Interduct (Comm) - 1 1/4""",LF,,,,,,False,,,,,fuzzy_token_set,46.15,unmapped,True
+2021D001,0026,Vault (Comm) - 444-LA,UNCLASSIFIED,,Vault (Comm),EACH,,,,,,False,,,,,fuzzy_token_set,59.26,unmapped,True
+2021D001,0027,Vault (Comm) - 444-LA (Traffic Rated),UNCLASSIFIED,,Vault (Comm) - 444-LA (Traffic Rated),EACH,,,,,,False,,,,,fuzzy_token_set,52.94,unmapped,True
+2021D001,0028,"Demarcation Panel with Receptacles, Heater, and T-Stat",UNCLASSIFIED,,"Demarcation Panel with Receptacles, Heater, and T-Stat",EACH,,,,,,False,,,,,fuzzy_token_set,48.28,unmapped,True
+2021D001,0029,H-Frame Support,UNCLASSIFIED,,H-Frame Support,EACH,,,,,,False,,,,,fuzzy_token_set,51.85,unmapped,True
+2021D001,0030,Mini-Power Zone (10 KVA),UNCLASSIFIED,,Mini - Power Zone,EACH,,,,,,False,,,,,fuzzy_token_set,51.61,unmapped,True
+2021D001,0031,"Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R",UNCLASSIFIED,,"Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R",EACH,,,,,,False,,,,,fuzzy_token_set,40.0,unmapped,True
+2021D001,0032,"Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R",UNCLASSIFIED,,"Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R",EACH,,,,,,False,,,,,fuzzy_token_set,36.92,unmapped,True
+2021D001,0033,Electrical Demo (Existing ORANG),UNCLASSIFIED,,Electrical Demo (Existing ORANG),LS,,,,,,False,,,,,fuzzy_token_set,59.26,unmapped,True
+2021D001,0034,Clearing and Grubbing,UNCLASSIFIED,,Clearing and Grubbing,LS,,,,,,False,,,,,fuzzy_token_set,51.16,unmapped,True
+2021D001,0035,Contaminated Soil Excavation and Disposal,UNCLASSIFIED,,Contaminated Soil Excavation and Disposal,CY,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2021D001,0036,Trench Excavation,UNCLASSIFIED,,Trench Excavation,CY,,,,,,False,,,,,fuzzy_token_set,74.07,unmapped,True
+2021D001,0037,Trenchless Installation,UNCLASSIFIED,,Trenchless Installation,LF,,,,,,False,,,,,fuzzy_token_set,74.42,unmapped,True
+2021D001,0038,Bedding and Pipe Zone Material,UNCLASSIFIED,,Bedding and Pipe Zone Material,CY,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2021D001,0040,"Level 3, 1/2-Inch Dense HMAC",UNCLASSIFIED,,Level 3,TON,,,,,,False,,,,,fuzzy_token_set,54.55,unmapped,True
+2021D001,0041,Crack Seal,UNCLASSIFIED,,Crack Seal,LF,,,,,,False,,,,,fuzzy_token_set,86.96,unmapped,True
+2021D001,0043,Reinforced Concrete Pad,UNCLASSIFIED,,Reinforced Concrete Pad,SF,,,,,,False,,,,,fuzzy_token_set,62.96,unmapped,True
+2021D001,0044,Cast-In-Place Concrete Curb,UNCLASSIFIED,,Cast - In-Place Concrete Curb,LF,,,,,,False,,,,,fuzzy_token_set,68.97,unmapped,True
+2021D001,0045,Concrete Sidewalk,UNCLASSIFIED,,Concrete Sidewalk,SF,,,,,,False,,,,,fuzzy_token_set,64.0,unmapped,True
+2021D001,0047,One-Year Landscape Maintenance,UNCLASSIFIED,,One - Year Landscape Maintenance,LS,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2021D001,0048,Area Seeding,UNCLASSIFIED,,Area Seeding,ACRE,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2021D001,0050,Irrigation Replacement,UNCLASSIFIED,,Irrigation Replacement,LS,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2021D001,0051,3-Inch DR9 Pex Water Pipe,UNCLASSIFIED,,DR9 Pex Water Pipe,LF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D001,0052,4-Inch DIP Water Pipe,UNCLASSIFIED,,DIP Water Pipe,LF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D001,0053,12-Inch DIP Water Pipe,UNCLASSIFIED,,DIP Water Pipe,LF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D001,0054,16-Inch DIP Water Pipe,UNCLASSIFIED,,DIP Water Pipe,LF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D001,0055,4-Inch Reduced Pressure Backflow Assembly and Enclosure,UNCLASSIFIED,,Reduced Pressure Backflow Assembly and Enclosure,LS,,,,,,False,,,,,fuzzy_token_set,46.75,unmapped,True
+2021D001,0056,16-Inch Reduced Pressure Detector Assembly and Enclosure,UNCLASSIFIED,,Reduced Pressure Detector Assembly and Enclosure,LS,,,,,,False,,,,,fuzzy_token_set,48.1,unmapped,True
+2021D001,0064,Landside Utility Disconnections,UNCLASSIFIED,,Landside Utility Disconnections,EACH,,,,,,False,,,,,fuzzy_token_set,51.43,unmapped,True
+2021D001,0065,Airfield Fire Water Disconnection,UNCLASSIFIED,,Airfield Fire Water Disconnection,LS,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D001,0067,Manhole and Catch Basin Adjustment,UNCLASSIFIED,,Manhole and Catch Basin Adjustment,EACH,,,,,,False,,,,,fuzzy_token_set,86.67,unmapped,True
+2021D007,1-002,Sweeper,UNCLASSIFIED,,Sweeper,LS,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2021D007,1-004,"Temporary Erosion, Sediment, and Pollution Control",UNCLASSIFIED,,"Temporary Erosion, Sediment, and Pollution Control",LS,,,,,,False,,,,,fuzzy_token_set,85.71,unmapped,True
+2021D007,1-005,Building Removal and Backfill,UNCLASSIFIED,,Building Removal and Backfill,LS,,,,,,False,,,,,fuzzy_token_set,54.9,unmapped,True
+2021D007,1-006,Concrete Winch House Removal and Backfill,UNCLASSIFIED,,Concrete Winch House Removal and Backfill,LS,,,,,,False,,,,,fuzzy_token_set,58.33,unmapped,True
+2021D007,1-007,Water Well Decommission,UNCLASSIFIED,,Water Well Decommission,LS,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D007,1-008,Concrete Removal and Backfill,UNCLASSIFIED,,Concrete Removal and Backfill,LS,,,,,,False,,,,,fuzzy_token_set,58.82,unmapped,True
+2021D007,1-010,Aggregate Removal and Disposal,UNCLASSIFIED,,Aggregate Removal and Disposal,C.Y.,,,,,,False,,,,,fuzzy_token_set,87.18,unmapped,True
+2021D007,1-011,Septic Tank and Drain Field Removal,UNCLASSIFIED,,Septic Tank and Drain Field Removal,LS,,,,,,False,,,,,fuzzy_token_set,57.14,unmapped,True
+2021D007,1-012,"Utility Removal, Relocation, and Backfill",UNCLASSIFIED,,"Utility Removal, Relocation, and Backfill",LS,,,,,,False,,,,,fuzzy_token_set,52.46,unmapped,True
+2021D007,1-014,Miscellaneous Removals and Backfill,UNCLASSIFIED,,Miscellaneous Removals and Backfill,LS,,,,,,False,,,,,fuzzy_token_set,53.57,unmapped,True
+2021D007,1-015,Area Seeding,UNCLASSIFIED,,Area Seeding,ACRE,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2021D007,1-016,"Fill Material, Top Soil",UNCLASSIFIED,,"Fill Material, Top Soil",C.Y.,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D007,1-017,"Loose Riprap, Class 50",UNCLASSIFIED,,"Loose Riprap, Class 50",C.Y.,,,,,,False,,,,,fuzzy_token_set,46.81,unmapped,True
+2021D007,1-018,Lead Paint Chip Removal,UNCLASSIFIED,,Lead Paint Chip Removal,LS,,,,,,False,,,,,fuzzy_token_set,59.46,unmapped,True
+2021D007,2-001,One-Year Landscape Maintenance,UNCLASSIFIED,,One - Year Landscape Maintenance,L.S.,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2021D025,0002,Barge and Access Equipment,UNCLASSIFIED,,Barge and Access Equipment,LS,,,,,,False,,,,,fuzzy_token_set,52.46,unmapped,True
+2021D025,0003,Containment,UNCLASSIFIED,,Containment,LS,,,,,,False,,,,,fuzzy_token_set,56.25,unmapped,True
+2021D025,0004,Hollow Core Deck Panel Replacement,UNCLASSIFIED,,Hollow Core Deck Panel Replacement,EACH,,,,,,False,,,,,fuzzy_token_set,63.77,unmapped,True
+2021D025,0005,Deck Crack Repair,UNCLASSIFIED,,Deck Crack Repair,LF,,,,,,False,,,,,fuzzy_token_set,82.76,unmapped,True
+2021D025,0006,Soffit and Vertical Crack Repair,UNCLASSIFIED,,Soffit and Vertical Crack Repair,LF,,,,,,False,,,,,fuzzy_token_set,84.21,unmapped,True
+2021D025,0007,Deck Delamination and Spall Repair,UNCLASSIFIED,,Deck Delamination and Spall Repair,SF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D025,0008,Deck Delamination and Spall Repair with Anodes,UNCLASSIFIED,,Deck Delamination and Spall Repair with Anodes,SF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D025,0009,Soffit and Vertical Face Delamination and Spall Repair,UNCLASSIFIED,,Soffit and Vertical Face Delamination and Spall Repair,SF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D025,0010,Soffit and Vertical Face Delamination and Spall Repair with Anodes,UNCLASSIFIED,,Soffit and Vertical Face Delamination and Spall Repair with Anodes,SF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True
+2021D025,0011,Pile Spall Repair,UNCLASSIFIED,,Pile Spall Repair,SF,,,,,,False,,,,,fuzzy_token_set,54.55,unmapped,True
+2021D025,0012,Pile Crack Repair,UNCLASSIFIED,,Pile Crack Repair,LF,,,,,,False,,,,,fuzzy_token_set,82.76,unmapped,True
+2021D025,0014,Joint Repair at Panel Step,UNCLASSIFIED,,Joint Repair at Panel Step,LF,,,,,,False,,,,,fuzzy_token_set,70.59,unmapped,True
+2021D025,0015,Deck Surface Repair,UNCLASSIFIED,,Deck Surface Repair,SF,,,,,,False,,,,,fuzzy_token_set,66.67,unmapped,True
+2021D025,0016,Deck Surface Repair with Cathodic Protection,UNCLASSIFIED,,Deck Surface Repair with Cathodic Protection,SF,,,,,,False,,,,,fuzzy_token_set,76.92,unmapped,True
+2021D025,0017,Deck Topping Replacement,UNCLASSIFIED,,Deck Topping Replacement,SF,,,,,,False,,,,,fuzzy_token_set,62.86,unmapped,True
+2021D025,0018,Deck Topping Repair,UNCLASSIFIED,,Deck Topping Repair,SF,,,,,,False,,,,,fuzzy_token_set,68.29,unmapped,True
+2021D025,0019,Fender Panel Rehabilitation,UNCLASSIFIED,,Fender Panel Rehabilitation,LS,,,,,,False,,,,,fuzzy_token_set,51.85,unmapped,True
+2021D025,0020,Trestle Cross-Brace Rehabilitation,UNCLASSIFIED,,Trestle Cross - Brace Rehabilitation,LS,,,,,,False,,,,,fuzzy_token_set,55.56,unmapped,True
+2021D025,0021,Remove and Replace Embedded Anodes,UNCLASSIFIED,,Remove and Replace Embedded Anodes,EACH,,,,,,False,,,,,fuzzy_token_set,60.87,unmapped,True
+2021D025,0022,Metalizing Repairs,UNCLASSIFIED,,Metalizing Repairs,SF,,,,,,False,,,,,fuzzy_token_set,51.43,unmapped,True
+2021D025,0023,Metalizing System at Edge Beams,UNCLASSIFIED,,Metalizing System at Edge Beams,SF,,,,,,False,,,,,fuzzy_token_set,41.86,unmapped,True
+2021D025,0024,Remove and Replace Compression Seal,UNCLASSIFIED,,Remove and Replace Compression Seal,LF,,,,,,False,,,,,fuzzy_token_set,84.21,unmapped,True
+2021D025,0025,Concrete Pad Demolition and Repair,UNCLASSIFIED,,Concrete Pad Demolition and Repair,SF,,,,,,False,,,,,fuzzy_token_set,80.0,unmapped,True
+2023D028,0003,"Temporary Erosion, Sediment, and Pollution Control",UNCLASSIFIED,,"Temporary Erosion, Sediment, and Pollution Control",LS,,,,,,False,,,,,fuzzy_token_set,85.71,unmapped,True
+2023D028,0004,General Demolition,UNCLASSIFIED,,General Demolition,LS,,,,,,False,,,,,fuzzy_token_set,80.0,unmapped,True
+2023D028,0005,"Pavement Removal and Disposal, 9-Inch Depth",UNCLASSIFIED,,Pavement Removal and Disposal,SY,,,,,,False,,,,,fuzzy_token_set,80.0,unmapped,True
+2023D028,0006,"Cold Plane Pavement Removal and Disposal, 3-Inch Depth",UNCLASSIFIED,,Cold Plane Pavement Removal and Disposal,SY,,,,,,False,,,,,fuzzy_token_set,80.0,unmapped,True
+2023D028,0007,Signage,UNCLASSIFIED,,Signage,LS,,,,,,False,,,,,fuzzy_token_set,53.33,unmapped,True
+2023D028,0008,Signal Modification,UNCLASSIFIED,,Signal Modification,LS,,,,,,False,,,,,fuzzy_token_set,55.0,unmapped,True
+2023D028,0009,Lighting,UNCLASSIFIED,,Lighting,LS,,,,,,False,,,,,fuzzy_token_set,44.44,unmapped,True
+2023D028,0011,Site Preparation,UNCLASSIFIED,,Site Preparation,LS,,,,,,False,,,,,fuzzy_token_set,81.48,unmapped,True
+2023D028,0014,"Level 3, 1/2-Inch-Dense HMAC",UNCLASSIFIED,,Level 3,TON,,,,,,False,,,,,fuzzy_token_set,54.55,unmapped,True
+2023D028,0017,Valley Gutter,UNCLASSIFIED,,Valley Gutter,SF,,,,,,False,,,,,fuzzy_token_set,50.0,unmapped,True
+2023D028,0018,Concrete Curb,UNCLASSIFIED,,Concrete Curb,LF,,,,,,False,,,,,fuzzy_token_set,76.19,unmapped,True
+2023D028,0019,Concrete Walks,UNCLASSIFIED,,Concrete Walks,SF,,,,,,False,,,,,fuzzy_token_set,72.73,unmapped,True
+2023D028,0020,Pavement Markings,UNCLASSIFIED,,Pavement Markings,LS,,,,,,False,,,,,fuzzy_token_set,76.47,unmapped,True
+2023D028,0021,Clearing and Seeding,UNCLASSIFIED,,Clearing and Seeding,ACRE,,,,,,False,,,,,fuzzy_token_set,56.25,unmapped,True
+2023D028,0022,Storm Culvert,UNCLASSIFIED,,Storm Culvert,LF,,,,,,False,,,,,fuzzy_token_set,62.5,unmapped,True

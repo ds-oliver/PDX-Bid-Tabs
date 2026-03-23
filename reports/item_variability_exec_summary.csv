@@ -1,0 +1,19 @@
+metric,value
+rows_analyzed,8546
+distinct_projects,28
+distinct_schedules,38
+distinct_bidders_raw,75
+distinct_raw_item_descriptions,829
+pct_missing_unit_price_raw,10.95
+pct_missing_total_price_raw,4.69
+pct_unclassified_like_raw_specs,23.24
+top_unstable_spec_1,UNCLASSIFIED | rows=1986 | distinct=227
+top_unstable_spec_2,012200 | rows=1045 | distinct=71
+top_unstable_spec_3,P-620 | rows=543 | distinct=30
+top_unstable_spec_4,P-101 | rows=525 | distinct=59
+top_unstable_spec_5,344300 | rows=397 | distinct=73
+top_raw_description_1,#REF! | count=392
+top_raw_description_2,Reflective Media (Item P-620) | count=134
+top_raw_description_3,Sweeper (Section 012200) | count=129
+top_raw_description_4,Escort (Section 012200) | count=125
+top_raw_description_5,Security Control Monitoring (Section 012200) | count=100

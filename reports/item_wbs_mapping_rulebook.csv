@@ -1,0 +1,28 @@
+rule_order,rule_id,pop_wbs_code,wbs_description,groups,subgroups,specs,keywords
+1,temp_security_access_control,1.6.F10.281300,Access Control,GENERAL_TEMPORARY,,, SECURITY CONTROL | ACCESS CONTROL | MONITORING 
+2,temp_safety_controls,1.7.Z10.013500,Safety & Controls,GENERAL_TEMPORARY,,, TRAFFIC CONTROL | ESCORT | SAFETY | CONTROL 
+3,temp_facilities,1.7.Z10.015000,Temporary Facilities,GENERAL_TEMPORARY,,,
+4,airfield_markings,1.2.G40.321723,Pavement Markings,ROADWORK_PAVING,,P-620,
+5,airfield_concrete_paving,1.2.G40.321313,Concrete Paving,ROADWORK_PAVING,,P-501,
+6,airfield_pavement_removal,1.2.G40.321216,Pavement Removal,ROADWORK_PAVING,,P-101,
+7,airfield_asphalt,1.2.G40.321216,Airfield Asphalt,ROADWORK_PAVING,,P-401|P-403|P-602|P-603|P-604|P-605|P-606|P-608|P-621|P-626,
+8,site_earthwork,1.3.G20.311000,Earthwork,ROADWORK_PAVING,,P-152|P-153|026100|024113,
+9,site_aggregate_base,1.3.G20.321000,Aggregate Base,ROADWORK_PAVING,,P-154|P-156|P-209|P-306,
+10,site_earthwork_keywords,1.3.G20.311000,Earthwork,ROADWORK_PAVING,,, EXCAVATION | TRENCH | BACKFILL | UNSUITABLE | REMOVAL 
+11,storm_sewer_pipe,1.4.G30.334000,Storm Sewer,PIPING_DRAINAGE,,D-701|D-705|334100,
+12,manholes_structures,1.4.G30.334213,Manholes,PIPING_DRAINAGE,,D-751|D-752,
+13,pump_stations,1.4.G30.334600,Pump Stations,PIPING_DRAINAGE,,334213,
+14,drainage_misc,1.4.G30.334000,Storm Sewer,PIPING_DRAINAGE,,,
+15,airfield_signage,1.5.D50.344302,Airfield Signage,ELECTRICAL,,344302,
+16,airfield_lighting,1.5.D50.344300,Airfield Lighting,ELECTRICAL,,344300|344301,
+17,electrical_grounding,1.5.D50.260526,Grounding,ELECTRICAL,,260526,
+18,electrical_conductors_l108,1.5.D50.260519,Conductors,ELECTRICAL,,L-108,
+19,electrical_raceways_l110,1.5.D50.260533,Raceways,ELECTRICAL,,L-110,
+20,electrical_comms,1.5.D50.271000,Communications,ELECTRICAL,,271000|270553|282300,
+21,electrical_distribution,1.5.D50.260500,Electrical Distribution,ELECTRICAL,,,
+22,security_special_systems,1.6.F10.281300,Access Control,SITEWORK_MISC,,, SECURITY | SURVEILLANCE | ACCESS 
+23,landscape_seeding,1.3.G20.329219,Seeding,LANDSCAPE_ENVIRONMENTAL,,T-901,
+24,landscape_topsoil,1.3.G20.329113,Topsoiling,LANDSCAPE_ENVIRONMENTAL,,T-905,
+25,landscape_maintenance,1.3.G20.329200,Landscape Maintenance,LANDSCAPE_ENVIRONMENTAL,,, MAINTENANCE 
+26,landscape_erosion_control,1.3.G20.313200,Erosion Control,LANDSCAPE_ENVIRONMENTAL,,, EROSION | SEDIMENT | SILT | WATTLE | INLET PROTECTION 
+27,landscape_default,1.3.G20.329200,Landscape Maintenance,LANDSCAPE_ENVIRONMENTAL,,,

@@ -1,0 +1,680 @@
+item_group,item_subgroup,item_label,pop_wbs_code,wbs_description,wbs_rule_id,count_of_item_description_raw
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Contaminated Material Excavation and Disposal (Section 026100),,REVIEW_NEEDED,fallback_review,7
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Remove Bollard - Embedded (Section 024113),,REVIEW_NEEDED,fallback_review,3
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Building Demolition (Section 024113),,REVIEW_NEEDED,fallback_review,2
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Building Slab and Foundation Removal (Section 024113),,REVIEW_NEEDED,fallback_review,2
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Site Demolition,,REVIEW_NEEDED,fallback_review,2
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Aggregate Removal and Disposal,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Building Removal and Backfill,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Concrete Pad Demolition and Repair,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Concrete Removal and Backfill,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Concrete Wall Removal,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Concrete Winch House Removal and Backfill,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Contaminated Material Excavation and Disposal - Wasco Landfill (Section 026100),,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Contaminated Material Excavationand Disposal (Section 026100),,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Existing Landscape Removal (Section 024113),,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Fence Fabric Removal,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,General Demolition,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Guard Rail Removal and Replacement,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Lead Paint Chip Removal,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Relocate Storage Shelter (Section 024113),,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Removal of Existing or Temporary Fence (Section 024113),,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Removal of Miscellaneous Site Structures (Section 024113),,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Remove Bollard - Bolt Down (Section 024113),,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Remove Electrical Chargers (Section 024113),,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Remove and Reinstall Chain Link Fence,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Remove and Replace Compression Seal,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Remove and Replace Embedded Anodes,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,Surfacings Removal,,REVIEW_NEEDED,fallback_review,1
+DEMOLITION_REMEDIATION,DEMOLITION_REMEDIATION,"Utility Removal, Relocation, and Backfill",,REVIEW_NEEDED,fallback_review,1
+ELECTRICAL,AIRFIELD_LIGHTING,Counterpoise Ground Rod (Item L-108),1.5.D50.260519,Conductors,electrical_conductors_l108,6
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing Taxiway Centerline Light to New Finish Elevation (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,5
+ELECTRICAL,AIRFIELD_LIGHTING,"No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,4
+ELECTRICAL,AIRFIELD_LIGHTING,PVC Conduit (Power),1.5.D50.260500,Electrical Distribution,electrical_distribution,4
+ELECTRICAL,AIRFIELD_LIGHTING,Ground Rod for Counterpoise (Item L-108),1.5.D50.260519,Conductors,electrical_conductors_l108,3
+ELECTRICAL,AIRFIELD_LIGHTING,Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,3
+ELECTRICAL,AIRFIELD_LIGHTING,No. 6 AWG Solid Wire for Counterpoise (Item L-108),1.5.D50.260519,Conductors,electrical_conductors_l108,3
+ELECTRICAL,AIRFIELD_LIGHTING,"No. 6 AWG, Solid, Bare Counterpoise Wire (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,3
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing Base Can to New Finish Elevation (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,2
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing In-Pavement Runway Edge Light (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,2
+ELECTRICAL,AIRFIELD_LIGHTING,GRSC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,GRSC Encased in P-610 in Existing AC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,Heat Shrink for 5kV L-823 Primary Connector (Item L-108),1.5.D50.260519,Conductors,electrical_conductors_l108,2
+ELECTRICAL,AIRFIELD_LIGHTING,IMC in Existing AC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Cover Plate on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,2
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF LED Taxiway Centerline Light on Existing Base Can with CF Isolation Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,2
+ELECTRICAL,AIRFIELD_LIGHTING,"Install PF LED Taxiway Centerline Light with PF Base Can, CF Transformer in New AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,2
+ELECTRICAL,AIRFIELD_LIGHTING,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,2
+ELECTRICAL,AIRFIELD_LIGHTING,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,2
+ELECTRICAL,AIRFIELD_LIGHTING,"No. 6 AWG, Solid, Bare Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,2
+ELECTRICAL,AIRFIELD_LIGHTING,No. 8 AWG 5kV Cable (Item L-108),1.5.D50.260519,Conductors,electrical_conductors_l108,2
+ELECTRICAL,AIRFIELD_LIGHTING,"No. 8 AWG, 5 kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,2
+ELECTRICAL,AIRFIELD_LIGHTING,PVC Direct Buried (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,PVC Direct Buried in Grass (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,PVC Encased in Concrete in New Structural AC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,PVC Encased in P-610 in Existing AC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,PVC in Existing AC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,PVC in Existing Structural AC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,2
+ELECTRICAL,AIRFIELD_LIGHTING,"#6 AWG, 5kV Cable (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,1 1/2-Inch GRSC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing Elevated Runway Threshold Light (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing Elevated Runway Threshold/Edge Light (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing In-Pavement Runway Guard/Stop Bar Light to New Finish Elevation (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing In-Pavement Stop Bar Light (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing Runway Edge Light to New Finish Elevation (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing Runway/Taxiway Elevated Edge Lightwith CFTransformer (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing Taxiway Centerline Light (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Adjust Existing Taxiway Edge Light to New Finish Elevation (Section 344301),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Demarcation Panel with Receptacles, Heater, and T-Stat",1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,AIRFIELD_LIGHTING,Fender Panel Rehabilitation,1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,AIRFIELD_LIGHTING,Ground Rodfor Counterpoise (Item L-108),1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,Hollow Core Deck Panel Replacement,1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,AIRFIELD_LIGHTING,IMC under New AC Shoulder (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,InchPVCinGrassorinNewACshoulder (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,InchPVCinNewACStructuralPavement (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install CF 150-Watt (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install Elevated Red Stop Bar Light on Existing Base Can with CF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install Elevated Red Stop Bar Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install Elevated Red Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install Elevated Runway Guard Light on Existing Base Can with CF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install Elevated Runway Guard Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install Elevated Runway Guard Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install In-Pavement Runway Guard Light on Existing Base Can with CF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install In-Pavement Runway Guard/Stop Bar Light on Existing Base Can with CF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install In-Pavement Runway Guard/Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install PF Base Can, PF Extension, PF Flange Ring and PF Cover Plate (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Cover Plate on Existing Base Can (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Cover Plate on Existing Base Can with PF Bolts (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Dual Stop Bar Light on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Dual Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Dual Stop Bar Light with Two CF Transformers on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Elevated Runway Edge Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Elevated Runway End Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Elevated Runway Guard Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer in Existing AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Elevated Taxiway Edge Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF In-Pavement Red Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF In-Pavement Runway Edge Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF In-Pavement Runway Guard Light on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF In-Pavement Runway Guard Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF In-Pavement Runway Threshold Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install PF L-867, 12-Inch Diameter Base Can, PF Cover Plate in Existing AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Install PF L-868, 12-Inch Diameter Base Can, PF Cover Plate in New AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF LED Elevated Runway Edge Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF LED Elevated Runway End/Threshold Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF LED In-Pavement Runway Edge Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Microwave Sensor with CF Transformer in Existing Base Can (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Red Elevated Stop Bar Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Red Elevated Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Runway Centerline Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Taxiway Centerline Light on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Taxiway Centerline Light with CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Taxiway Centerline Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PF Taxiway Edge Reflector (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PFElevated Taxiway Edge Lighton Existing Base Canwith CFTransformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PFLEDElevated Runway End/Threshold Lightwith PFBase Can (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PFLEDElevated Runway Guard Lightwith PFBase Can (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PFLEDRunway Edge Lightwith PFBase Can (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Install PFTaxiway Edge Lightwith PFBase Can (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,InstallPF (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Joint Repair at Panel Step,1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,AIRFIELD_LIGHTING,Lighting,1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,AIRFIELD_LIGHTING,"No. 10 AWG, 600V, Cable Installed in Conduit (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,"No. 12 AWG, 600V, Cable, Installed in Conduit (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,No. 2/0 AWG (Item L-108),1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,No. 4 GND Conductor (Item L-108),1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,"No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,"No. 8 AWG, 5kV, L-824, Type C Cable (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,"No.6AWG,Solid,Bare Counterpoise Wire,Installed Abovethe Duct Bankor Conduit (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,"No.8AWG,5k V,L-824,Type CCable Installedin Trench,Duct Bank (Item L-108)",1.5.D50.260519,Conductors,electrical_conductors_l108,1
+ELECTRICAL,AIRFIELD_LIGHTING,PVC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,PVC Conduit (Comm),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,AIRFIELD_LIGHTING,PVC Direct Buried in Grass or under New AC Shoulder (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,PVC Encased in CLSM in New AC (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,PVC in CLSM (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,PVC in Existing ACP Shoulder (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,PVC in New Shoulder and Direct Buried (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,PVC under New AC Shoulder (Item L-110),1.5.D50.260533,Raceways,electrical_raceways_l110,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Reinstall Elevated LED Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall Elevated Runway End Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in Existing AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall In-Pavement Stop Bar Light on Existing Base Can with Existing Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall In-Pavement Taxiway Centerline Light on Existing Base Can with Existing Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall In-Pavement Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Reinstall LED Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Reinstall LED Taxiway Centerline Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Reinstall Taxiway Centerline Light on CF Base Can, CF Extenstion, CF Flange Ring, and CF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall Taxiway Centerline Light on Existing Base Can w/ Existing Transformer in Existing AC (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Reinstall Taxiway Centerline Light on Existing Base Can w/ PF Extension, PF Flange Ring, and Existing Transformer in New AC (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall Taxiway Centerline Light on Existing Base Can with CF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall Taxiway Centerline Light on Existing Base Can with PF Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,"Reinstall Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and PF Transformer (Section 344300)",1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall Taxiway Edge Light on Existing Base Can with Existing Isolation Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_LIGHTING,Reinstall Taxiway Edge Light on Existing Base Can with Existing Transformer (Section 344300),1.5.D50.344300,Airfield Lighting,airfield_lighting,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Signage,1.5.D50.260500,Electrical Distribution,electrical_distribution,3
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign E6-6 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,2
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign E6-9 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,2
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign G-3 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,2
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A1-1 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A4-13 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A4-6 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A4-7 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A4-9 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A5-1 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A5-3 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A5-4 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A5-6 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A5-7 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A5-8 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A5-9 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A6-10 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A6-11 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A6-12 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A6-2 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A6-3 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A6-7 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A6-9 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A7-2 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A8-1 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign A8-2 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign B1-1 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign B6-11 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign B7-1 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign B8-1 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign CE-10 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign EA-15 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign T-5 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign UL-1 Section 344302),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign UL-2 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign V-2 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign V-4 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign V-5 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,Sign V-6 (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,AIRFIELD_SIGNAGE,SignA (Section 344302),1.5.D50.344302,Airfield Signage,airfield_signage,1
+ELECTRICAL,EV_CHARGING,Electrical Charging Units (Primary Units) (Section 263343),1.5.D50.260500,Electrical Distribution,electrical_distribution,5
+ELECTRICAL,EV_CHARGING,Electrical Charging Units (Secondary Units) (Section 263343),1.5.D50.260500,Electrical Distribution,electrical_distribution,5
+ELECTRICAL,POWER_DISTRIBUTION,General Electrical Removal (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,12
+ELECTRICAL,POWER_DISTRIBUTION,Temporary Circuit Connection (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,11
+ELECTRICAL,POWER_DISTRIBUTION,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit) (Section 260500)",1.5.D50.260500,Electrical Distribution,electrical_distribution,5
+ELECTRICAL,POWER_DISTRIBUTION,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit) (Section 260500)",1.5.D50.260500,Electrical Distribution,electrical_distribution,5
+ELECTRICAL,POWER_DISTRIBUTION,Diameter Brass Marker (Section 260553),1.5.D50.260500,Electrical Distribution,electrical_distribution,4
+ELECTRICAL,POWER_DISTRIBUTION,Electrical Equipment Rack - Panel Connected (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,3
+ELECTRICAL,POWER_DISTRIBUTION,Demolition of Existing Electrical Equipment on Work Site (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,2
+ELECTRICAL,POWER_DISTRIBUTION,Electrical Equipment Rack - Load Share Connected (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,2
+ELECTRICAL,POWER_DISTRIBUTION,"Electrical Feeds to Panels (Existing 3.5"" Conduit) (Section 260500)",1.5.D50.260500,Electrical Distribution,electrical_distribution,2
+ELECTRICAL,POWER_DISTRIBUTION,New Electrical Panels (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,2
+ELECTRICAL,POWER_DISTRIBUTION,FAAMALSRand Threshold Bar Lights (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,General Electrical Removal (Section 265000),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Ground Rod for Counterpoise (Section 260526),1.5.D50.260526,Grounding,electrical_grounding,1
+ELECTRICAL,POWER_DISTRIBUTION,Grounding and Bonding for Electrical Systems (Section 260526),1.5.D50.260526,Grounding,electrical_grounding,1
+ELECTRICAL,POWER_DISTRIBUTION,Install Apron Lighting (Section 265623),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Install Gate Valve and Lighting Controls (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Install Handholes for Power (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Install Handholes for Power and Communications (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Install PFConstant Current Regulator (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Install Underground Power Conductors for Apron Lights and Communications (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Provide Temporary Power During Construction Inside the 480V Power Center (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Re-feed Loads Inside 480V Power Center (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Remove and Replace Existing 480V Distribution Panel (Section 262400),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Remove and Replace Existing 9KVA Transformer (Section 262200),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Temporary Circuit Connection (Section 265000),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Temporary Threshold Set Upand Circuit Connection (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Training (Section 260500),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,POWER_DISTRIBUTION,Underground Ducts and Raceways for Electrical Systems (Section 260543),1.5.D50.260500,Electrical Distribution,electrical_distribution,1
+ELECTRICAL,TELECOM_IT,Data Drop to Each Enclosure and Chargers (Section 271000),1.5.D50.271000,Communications,electrical_comms,5
+ELECTRICAL,TELECOM_IT,"Data Equipment Rack & Data Connections 1"" Conduit (Section 271000)",1.5.D50.271000,Communications,electrical_comms,5
+ELECTRICAL,TELECOM_IT,Network Termination Enclosure (Section 271000),1.5.D50.271000,Communications,electrical_comms,5
+ELECTRICAL,TELECOM_IT,Structured Cabling (Section 271000),1.5.D50.271000,Communications,electrical_comms,1
+ELECTRICAL,TELECOM_IT,Telecommunications Identification (Section 270553),1.5.D50.271000,Communications,electrical_comms,1
+ELECTRICAL,TELECOM_IT,Video Surveillance (Section 282300),1.5.D50.271000,Communications,electrical_comms,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Sweeper (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,19
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Escort (Section 012200),1.7.Z10.013500,Safety & Controls,temp_safety_controls,17
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Inlet Protection (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,14
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Mobilization (Item C-105),1.7.Z10.015000,Temporary Facilities,temp_facilities,13
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Security Control Monitoring (Section 012200),1.6.F10.281300,Access Control,temp_security_access_control,13
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Work Zone and Traffic Control (Section 012200),1.7.Z10.013500,Safety & Controls,temp_safety_controls,11
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,"Mobilization, Surveying, Cleanup, and Demobilization",1.7.Z10.015000,Temporary Facilities,temp_facilities,8
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Jet Blast Control Material (Section 015713),1.7.Z10.013500,Safety & Controls,temp_safety_controls,6
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,"Mobilization, Cleanup, and Demobilization (Section 012200)",1.7.Z10.015000,Temporary Facilities,temp_facilities,6
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Construction Survey (Item GP-50),1.7.Z10.015000,Temporary Facilities,temp_facilities,5
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,"Mobilization, Surveying, Cleanup, and Demobilization (Section 012200)",1.7.Z10.015000,Temporary Facilities,temp_facilities,5
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,STS (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,5
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Sweeper,1.7.Z10.015000,Temporary Facilities,temp_facilities,5
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Traffic Control (Section 012200),1.7.Z10.013500,Safety & Controls,temp_safety_controls,5
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Ditch Protection/Check Dams (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,4
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Extra Manhole Depth (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,3
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Manhole (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,3
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,PCC Spall Panel Repair (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,3
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Trench Drain Protection (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,3
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Work Zone Traffic Control,1.7.Z10.013500,Safety & Controls,temp_safety_controls,3
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Construction Access (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,2
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Construction Survey,1.7.Z10.015000,Temporary Facilities,temp_facilities,2
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Construction Survey (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,2
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,"Mobilization, Cleanup, and Demobilization",1.7.Z10.015000,Temporary Facilities,temp_facilities,2
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,PCC Crack Repair (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,2
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Sediment Fence (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,2
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Traffic Control,1.7.Z10.013500,Safety & Controls,temp_safety_controls,2
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Wattles (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,2
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Abandon Existing Monitoring Well (Section 012200),1.6.F10.281300,Access Control,temp_security_access_control,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Abandon Existing Structure (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Abandon and Plug Storm Pipe (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Aggregate Base Course (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Asphalt Concrete Pavement (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,B6 Electrical (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,B6 Replacement of Existing Lids and Hatches (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,B6 Temporary Airfield Lighting Circuit Connection (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,B6 Valve Vault (SSVLT 1202) Concrete Repair (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,B6 Valve Vault (SSVLT 1202) Mechanical Rehabilitation (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,B6 Wet Well (SSLS 950) Concrete Repair (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,B6 Wet Well (SSLS 950) Mechanical Rehabilitation (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Catch Basins/Inlets (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Clearing and Grubbing (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Connection to Existing Drainage Structure (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,ConstructionEntrance (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Contaminated Soil Handling and Management (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Contaminated Soil Removal and Haul (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,D9 Electrical (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,D9 Replacement of Existing Lids and Hatches (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,D9 Valve Vault (STSVLT 863) Concrete Repair (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,D9 Valve Vault (STSVLT 863) Mechanical Rehabilitation (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,D9 Wet Well (SSLS 953) Concrete Repair (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,D9 Wet Well (SSLS 953) Mechanical Rehabilitation (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Delineators (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Dewatering (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,"Embankment, Ditch (Section 012200)",1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Erosion and Sediment Control (Section 012200),1.7.Z10.013500,Safety & Controls,temp_safety_controls,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Escort,1.7.Z10.013500,Safety & Controls,temp_safety_controls,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,"Fill Material, Topsoil (Section 012200)",1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,General Demolition (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,HighBlueReflectiveMarkers (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Inlet Protection (Item C-102),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,InletProtection (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Installation and Removal of Silt Fence (Item C-102),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Installationand Removalof Silt Fence (Item C-102),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,JuteMatting (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Pavement Removal and Disposal (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Plastic Mesh Fence (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Portland Cement Concrete Pavement (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Project Traffic Control,1.7.Z10.013500,Safety & Controls,temp_safety_controls,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,"Removal, Haul, and Disposal of Demolition Debris (Section 012200)",1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Repair Existing ARFF Cap (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Security Control Monitoring,1.6.F10.281300,Access Control,temp_security_access_control,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Seeding (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,SettlementPlates (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Site Preparation (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Sweeper Section,1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Temporary Erosion and Sediment Control Measures (Section 012200),1.7.Z10.013500,Safety & Controls,temp_safety_controls,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Temporary Sewage Bypassing (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Temporary Stream Bypass (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Temporary Traffic Control,1.7.Z10.013500,Safety & Controls,temp_safety_controls,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Trench Protection (Section 015713),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Trench Stabilization (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Unsuitable Excavation and Disposal (Section 012200),1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,"Wildlife Access Road, Asphalt Grindings (Section 012200)",1.7.Z10.015000,Temporary Facilities,temp_facilities,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Work Zone Traffic Control (Section 012200),1.7.Z10.013500,Safety & Controls,temp_safety_controls,1
+GENERAL_TEMPORARY,TEMP_TRAFFIC_MOBILIZATION,Work Zoneand Traffic Control (Section 012200),1.7.Z10.013500,Safety & Controls,temp_safety_controls,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Seeding (Item T-901),1.3.G20.329219,Seeding,landscape_seeding,7
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Area Seeding,1.3.G20.329200,Landscape Maintenance,landscape_default,6
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,"Temporary Erosion, Sediment, and Pollution Control",1.3.G20.313200,Erosion Control,landscape_erosion_control,5
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Clearing and Grubbing,1.3.G20.329200,Landscape Maintenance,landscape_default,3
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Inlet Protection,1.3.G20.313200,Erosion Control,landscape_erosion_control,3
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Dewatering,1.3.G20.329200,Landscape Maintenance,landscape_default,2
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,One - Year Landscape Maintenance,1.3.G20.329200,Landscape Maintenance,landscape_maintenance,2
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Topsoil (Item T-905),1.3.G20.329113,Topsoiling,landscape_topsoil,2
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Topsoil (Obtained on Site or Removed from Stockpile) (Item T-905),1.3.G20.329113,Topsoiling,landscape_topsoil,2
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Topsoiling (Item T-905),1.3.G20.329113,Topsoiling,landscape_topsoil,2
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Boulders (Section 354000),1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Clearing and Seeding,1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Ditch Protection,1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,"Fill Material, Topsoil",1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Grade Control Structures (Section 354000),1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Ground Cover Planting (Section 329300),1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Irrigation Replacement,1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Irrigation Replacement (Section 328400),1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Landscape Restoration,1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,"Loose Riprap, Class 50",1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,RiprapOutfall (Section 354000),1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Sediment Fence,1.3.G20.313200,Erosion Control,landscape_erosion_control,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,StreambedCobble (Section 354000),1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,StreambedSediment (Section 354000),1.3.G20.329200,Landscape Maintenance,landscape_default,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Temporary Erosion and Sediment Control,1.3.G20.313200,Erosion Control,landscape_erosion_control,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Topsoil (Furnished from Off the Site) (Item T-905),1.3.G20.329113,Topsoiling,landscape_topsoil,1
+LANDSCAPE_ENVIRONMENTAL,LANDSCAPING_REVEGETATION,Tree and Plant Protection,1.3.G20.329200,Landscape Maintenance,landscape_default,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,#REF!,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,0,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Adjustment of Existing Structures (H-20 Rated Vaults),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Aircraft - Rated Electrical Vaults,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Airfield Fire Water Disconnection,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Barge and Access Equipment,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Bollard,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Bollards,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Central Water Meter Vault and Manifold,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Chain - Link Slatted Fence Fabric,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Compacted Bedding Material,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Concrete Walks,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Connection to Existing Utility,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Containment,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Corrugated Metal Riser,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Crack Seal,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Deck Crack Repair,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Deck Delamination and Spall Repair,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Deck Delamination and Spall Repair with Anodes,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Deck Surface Repair,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Deck Surface Repair with Cathodic Protection,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Deck Topping Repair,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Deck Topping Replacement,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Electric Utility Meter Base - 200A Direct,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Electrical,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Electrical Bedding Material,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Electrical Demo (Existing ORANG),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Electrical Feeder Conductor Assembly,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Electrical Feeder Conductor Termination and Testing,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Electrical Feeder Installation in Vaults,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Electrical Modifications,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Embankment,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Encasement Over Existing Waterlin,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,"Fill Material, Top Soil",,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,H-20 Traffic - Rated Electrical Vaults,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,H-Frame Support,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,"HDPE Interduct (Comm) - 1 1/4""",,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Hand Rail,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Inlet (Type PB),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Kennedy Feeder Pad - Mount Switch,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Kennedy Feeder Point-of-Service Access Pad,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Landside Utility Disconnections,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Metalizing Repairs,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Metalizing System at Edge Beams,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Metered Switchgear Installation,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Mini - Power Zone,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Miscellaneous Removals and Backfill,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Mulch,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Offsite Haul and Disposal,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,"Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R",,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,"Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R",,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Pile Crack Repair,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Pile Spall Repair,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Reduced Pressure Backflow Assembly and Enclosure,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Reduced Pressure Detector Assembly and Enclosure,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Reinforced Concrete Pad,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Shoring,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Signal Modification,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Site Preparation,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Soffit and Vertical Crack Repair,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Soffit and Vertical Face Delamination and Spall Repair,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Soffit and Vertical Face Delamination and Spall Repair with Anodes,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Stabilized Construction Entrance,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Storm Culvert,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Subdrains,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Subgrade Preparation,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Tack Coat,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Trenchless Installation,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Trestle Cross - Brace Rehabilitation,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Two 6-Inch Conduits by Directional Drilling Method,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Utility Adjustments to Grade,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Valley Gutter,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Vault (Comm),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Vault (Comm) - 444-LA (Traffic Rated),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Vault (Power),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Vault (Power) - 575-TRANS - PCORP,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Vault (Power) - 712-SWITCH - PCORP,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Vault (Power) - 776-TRANS - PCORP,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Vault (Power) - 776-TRANS - PCORP (Traffic Rated),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Vehicle Detection Loops,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Water Meter,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,Water Well Decommission,,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,XHHW Conductor - #10 AWG (Power),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,XHHW Conductor - #12 AWG (Power),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,XHHW Conductor - #3 AWG (Power),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,XHHW Conductor - #6 AWG (Power),,REVIEW_NEEDED,fallback_review,1
+OTHER_REVIEW,UNCLASSIFIED_REVIEW,XHHW Conductor - #8 AWG (Power),,REVIEW_NEEDED,fallback_review,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,STS (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,17
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,STS Pipe (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,15
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Catch Basins (Item D-751),1.4.G30.334213,Manholes,manholes_structures,7
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Connection to Existing Storm Drainage System (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,7
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Existing Manhole Adjustment to Grade (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,7
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,"Manhole, Type A (Item D-751)",1.4.G30.334213,Manholes,manholes_structures,5
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,"Manhole, Type B (Item D-751)",1.4.G30.334213,Manholes,manholes_structures,5
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Manholes (Item D-751),1.4.G30.334213,Manholes,manholes_structures,5
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,"Diameter Manhole, Type A (Item D-751)",1.4.G30.334213,Manholes,manholes_structures,4
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Existing Electrical Vault Adjustment to Grade (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,4
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Manhole (Item D-751),1.4.G30.334213,Manholes,manholes_structures,4
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,RCP Pipe (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,4
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Existing Manhole/Inlet Adjustment to Grade (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,3
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,"Removal of Existing Storm Pipe, Manholes, and Inlets (Section 312300)",1.4.G30.334000,Storm Sewer,drainage_misc,3
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Slide Gate (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,3
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Storm Sewer Pipe (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,3
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Catch Basin (Item D-751),1.4.G30.334213,Manholes,manholes_structures,2
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Connect to Existing Catch Basin/Manhole (Item D-751),1.4.G30.334213,Manholes,manholes_structures,2
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Diameter Manhole (Item D-751),1.4.G30.334213,Manholes,manholes_structures,2
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Existing Catch Basin Adjustment to Grade (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,2
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,STS Drain Pipe (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,2
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Trench Drain (Item D-751),1.4.G30.334213,Manholes,manholes_structures,2
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Underdrain Cleanout (Item D-751),1.4.G30.334213,Manholes,manholes_structures,2
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,12-inchSTS (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,14-inch Class50Ductile Iron Pipe Culvert (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,18-inch Class50Ductile Iron Pipe Culvert (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,24-inchSTS (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,6-inchSTS (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Adjustment of Existing Structures (229 Kip Rated Vaults) (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Adjustment of Existing Structures (H-20 Rated Vaults) (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,CatchBasins (Item D-751),1.4.G30.334213,Manholes,manholes_structures,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Culvert (Item D-701),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Existing Electrical Vault (H-20 Rated) Extension to Finish Grade (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Existing Manhole Adjustment (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,InchPipeUnderdrains (Item D-705),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Manhole Catch Basin (Item D-751),1.4.G30.334213,Manholes,manholes_structures,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,"Manhole, Ditch Inlet (Item D-751)",1.4.G30.334213,Manholes,manholes_structures,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Non - Perforated Pipe (Item D-705),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Non - Perforated Underdrain Pipe (Item D-705),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Perforated Pipe (Item D-705),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Perforated Pipe Underdrains (Item D-705),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Perforated Storm Sewer Pipe (Item D-705),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Perforated Underdrain Pipe (Item D-705),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,ReinforcingSteel (Item D-752),1.4.G30.334213,Manholes,manholes_structures,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Remove Existing Manhole Flat Top and Upgrade to Aircraft Rated Structure (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Replace Existing Manhole Lid with Open Grated Lid (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Rotate Existing Manhole Lid (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Sanitary Sewer Wet Well Removal (Section 312300),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,StructuralConcrete (Item D-752),1.4.G30.334213,Manholes,manholes_structures,1
+PIPING_DRAINAGE,DRAINAGE_STRUCTURES,Unclassified Excavationfor Structures (Item D-752),1.4.G30.334213,Manholes,manholes_structures,1
+PIPING_DRAINAGE,PIPING_UTILITY,Gate Valve,1.4.G30.334000,Storm Sewer,drainage_misc,6
+PIPING_DRAINAGE,PIPING_UTILITY,Manhole,1.4.G30.334000,Storm Sewer,drainage_misc,5
+PIPING_DRAINAGE,PIPING_UTILITY,Storm Sewer Pipe,1.4.G30.334000,Storm Sewer,drainage_misc,4
+PIPING_DRAINAGE,PIPING_UTILITY,DIP Water Pipe,1.4.G30.334000,Storm Sewer,drainage_misc,3
+PIPING_DRAINAGE,PIPING_UTILITY,Water Pipe,1.4.G30.334000,Storm Sewer,drainage_misc,3
+PIPING_DRAINAGE,PIPING_UTILITY,DIP (Force Main) (Section 334100),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,2
+PIPING_DRAINAGE,PIPING_UTILITY,Ductile Iron (Force Main) Pipe (Section 334100),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,2
+PIPING_DRAINAGE,PIPING_UTILITY,Riprap (Section 334100),1.4.G30.334000,Storm Sewer,storm_sewer_pipe,2
+PIPING_DRAINAGE,PIPING_UTILITY,Air Release Valve Assembly,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Bedding and Pipe Zone Material,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Butterfly Valve,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Catch Basin,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,CleanoutStructures (Section 330516),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Columbia Slough Outfall Structure,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,DR9 Pex Water Pipe,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Ductile Iron Sewer Pipe,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Fire Hydrant Assembly,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Fire Water Line (Section 331116),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Gate Valve (Section 331116),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Manhole and Catch Basin Adjustment,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,McBride Slough Intake Structure,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Modifications to Existing Wet Well,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Pipe Zone and Bedding Material,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Pump Station (Section 334213),1.4.G30.334600,Pump Stations,pump_stations,1
+PIPING_DRAINAGE,PIPING_UTILITY,Pump Station Electrical Equipment Installation (Section 334213),1.4.G30.334600,Pump Stations,pump_stations,1
+PIPING_DRAINAGE,PIPING_UTILITY,Removal of Existing Lid from Stormwater Treatment Vault,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,"Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets",1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Remove and Reinstall 12-Inch Ductile Iron Pipe,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Remove and Reinstall Catch Basin,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Septic Tank and Drain Field Removal,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Sewer Pipe,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Storm Sewer (Force Main) Pipe,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Storm Sewer Pipe (RCP),1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Stormwater Flow Through Pollution Reduction Facility,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Stormwater Pump Station,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,"Stormwater Pump Station, Electrical Equipment Installation (Section 334213)",1.4.G30.334600,Pump Stations,pump_stations,1
+PIPING_DRAINAGE,PIPING_UTILITY,Stormwater Treatment Vault Cover,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Stormwater Treatment Vaults,1.4.G30.334000,Storm Sewer,drainage_misc,1
+PIPING_DRAINAGE,PIPING_UTILITY,Stormwater Valve Vault (Section 334213),1.4.G30.334600,Pump Stations,pump_stations,1
+PIPING_DRAINAGE,PIPING_UTILITY,Underground Fire Hydrant (Section 331116),1.4.G30.334000,Storm Sewer,drainage_misc,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Pavement Removal (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,35
+ROADWORK_PAVING,PAVING_EARTHWORK,Reflective Media (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,26
+ROADWORK_PAVING,PAVING_EARTHWORK,Cold Milling (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,15
+ROADWORK_PAVING,PAVING_EARTHWORK,Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,14
+ROADWORK_PAVING,PAVING_EARTHWORK,Crushed Aggregate Base Course (Item P-209),1.3.G20.321000,Aggregate Base,site_aggregate_base,13
+ROADWORK_PAVING,PAVING_EARTHWORK,Emulsified Asphalt Tack Coat (Item P-603),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,13
+ROADWORK_PAVING,PAVING_EARTHWORK,Joint Sealing Filler (Item P-605),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,13
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Surface Course (Item P-401),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,12
+ROADWORK_PAVING,PAVING_EARTHWORK,PCC Pavement Removal (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,11
+ROADWORK_PAVING,PAVING_EARTHWORK,Unclassified Excavation (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,10
+ROADWORK_PAVING,PAVING_EARTHWORK,Adhesive Compound (Item P-606),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,9
+ROADWORK_PAVING,PAVING_EARTHWORK,Temporary Runway and Taxiway Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,9
+ROADWORK_PAVING,PAVING_EARTHWORK,Concrete (Item P-610),,REVIEW_NEEDED,fallback_review,8
+ROADWORK_PAVING,PAVING_EARTHWORK,Aggregate Base Course,,REVIEW_NEEDED,fallback_review,7
+ROADWORK_PAVING,PAVING_EARTHWORK,Removal of Pipe and Other Buried Structures (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,7
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Preparation - Remove Existing Markings (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,7
+ROADWORK_PAVING,PAVING_EARTHWORK,Unsuitable Excavation (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,7
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Surface Treatment (Item P-608),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,6
+ROADWORK_PAVING,PAVING_EARTHWORK,Subbase Course (Item P-154),1.3.G20.321000,Aggregate Base,site_aggregate_base,6
+ROADWORK_PAVING,PAVING_EARTHWORK,Thick Concrete Pavement (Item P-501),1.2.G40.321313,Concrete Paving,airfield_concrete_paving,6
+ROADWORK_PAVING,PAVING_EARTHWORK,Bituminous Tack Coat (Item P-603),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,5
+ROADWORK_PAVING,PAVING_EARTHWORK,Common Excavation,1.3.G20.311000,Earthwork,site_earthwork_keywords,5
+ROADWORK_PAVING,PAVING_EARTHWORK,Markings (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,5
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Prep - Existing Pavement (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,5
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Mixture Base Course (Item P-403),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Compression Joint Seals for Concrete Pavements (Item P-604),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Contaminated Soil Excavation and Disposal,1.3.G20.311000,Earthwork,site_earthwork_keywords,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Controlled Low - Strength Material (CLSM) (Item P-153),1.3.G20.311000,Earthwork,site_earthwork,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Controlled Low - Strength Material (Item P-153),1.3.G20.311000,Earthwork,site_earthwork,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Existing Subgrade Stabilzation (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Joint and Crack Repair (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Level 3,,REVIEW_NEEDED,fallback_review,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Pavement Removal,1.3.G20.311000,Earthwork,site_earthwork_keywords,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Phasing Pavement Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Steel Reinforcement (Item P-610),,REVIEW_NEEDED,fallback_review,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Prep - Marking Removal (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Trench Stabilization,1.3.G20.311000,Earthwork,site_earthwork_keywords,4
+ROADWORK_PAVING,PAVING_EARTHWORK,Geotextile,,REVIEW_NEEDED,fallback_review,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Geotextile (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Pavement Marking,,REVIEW_NEEDED,fallback_review,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Preformed Markings (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Separation Geotextile (Item P-154),1.3.G20.321000,Aggregate Base,site_aggregate_base,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Silt Fence (Item P-156),1.3.G20.321000,Aggregate Base,site_aggregate_base,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Structural Portland Cement Concrete (PCC) (Item P-610),,REVIEW_NEEDED,fallback_review,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Preparation (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Unsuitable Excavation and Disposal,1.3.G20.311000,Earthwork,site_earthwork_keywords,3
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Mixture Surface and Base (Item P-403),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Bituminous Prime Coat (Item P-602),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Bituminous Surface Course (Item P-401),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Cold Milling 3-Inch Depth (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Cold Plane Pavement Removal,1.3.G20.311000,Earthwork,site_earthwork_keywords,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Grooving (Item P-621),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Hot Mix Asphalt (HMA) Pavement Base Course (Item P-403),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Pavement Markings,,REVIEW_NEEDED,fallback_review,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Permanent Pavement Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Runway Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Runway and Taxiway Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Separation Geotextile (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Separation Geotextile (Item P-209),1.3.G20.321000,Aggregate Base,site_aggregate_base,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Structural Portland Cement Concrete (Item P-610),,REVIEW_NEEDED,fallback_review,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Subgrade Stabilzation (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Preparation - New Pavement Surfaces (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Preparation - New or Existing Pavement Surfaces (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,2
+ROADWORK_PAVING,PAVING_EARTHWORK,SurfacePreparation (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,2
+ROADWORK_PAVING,PAVING_EARTHWORK,Temporary Pavement Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,2
+ROADWORK_PAVING,PAVING_EARTHWORK,AdhesiveCompound (Item P-606),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Concrerte Surface Course,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Concrete Surface Course (Section 320117),,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Grinding Removal and Disposal,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Mixture Base and Surface Course (Item P-403),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Mixture Baseand Surface Course (Item P-403),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Mixture Surface Course (Item P-403),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Pavement Removal (Section 320117),1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Pavement Removal - 2.5-InchDepth (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Asphalt Sawcut,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Blackout and Temporary Pavement Marking,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Borrow Excavation (P-152),1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Cast - In-Place Concrete Curb,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Cast-in-Place Concrete Curb (Section 321613),,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Cold Milling Surface Preparation (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Cold Milling Variable to 10-Inch Depth (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Cold Millling (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Cold Plane Pavement Removal and Disposal,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,ColdMilling - 0.5InchDepth (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,ColdMilling - VariableDepth(Transitional) (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Compression Joint Sealant (Item P-604),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Compression Joint Seals for Concrete Pavement (Item P-604),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Concrete Curb,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Concrete Curb Removal,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Concrete Pavement (Item P-501),1.2.G40.321313,Concrete Paving,airfield_concrete_paving,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Concrete Sidewalk,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Concrete Utility Hub Pavement (Section 321613),,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Concrete to Asphalt Joint Seal (Item P-605),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Concrete to Concrete Joint Seal (Item P-605),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Contaminated Soil Excavation and Placement,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Contaminated Soil Sediment Excavation and Disposal,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,ControlledLow - StrengthMaterial(CLSM) (Item P-153),1.3.G20.311000,Earthwork,site_earthwork,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Crack Repair (Section 320118),,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Curb Removal,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,EmbankmentinPlace (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Emulsified Asphalt Prime Coat (Item P-602),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Full - Depth Asphalt Pavement Removal (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Geotextile Fabric,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,HMA Base Course (Item P-403),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Hot Mix Asphalt (HMA) Base Course (Item P-403),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Hot Mix Asphalt (HMA) Bituminous Surface Course (Item P-401),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Hot Mix Asphalt (HMA) Pavement (Item P-401),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Installation and Removal of Silt Fence (Item P-156),1.3.G20.321000,Aggregate Base,site_aggregate_base,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Joint Repair,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Joint Sealant (Item P-605),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Lean Concrete Base Course (Item P-306),1.3.G20.321000,Aggregate Base,site_aggregate_base,1
+ROADWORK_PAVING,PAVING_EARTHWORK,MechanicalStabilization (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Modified Concrete Curb and Gutter,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Monolithic Curb and Sidewalk,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Pavement Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,"Pavement Marking, Painted",,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,"Pavement Marking, Temporary",,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,"Pavement Marking, Thermoplastic",,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Pavement Markings (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Pavement Removal (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Pavement Removal and Disposal,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Portland Cement Concrete (PCC) Pavement (Item P-501),1.2.G40.321313,Concrete Paving,airfield_concrete_paving,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Portland Cement Concrete Pavement,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Portland Cement Concrete Pavement (Item P-501),1.2.G40.321313,Concrete Paving,airfield_concrete_paving,1
+ROADWORK_PAVING,PAVING_EARTHWORK,ReflectiveMedia (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Removalof Pipeand Other Buried Structures (Item P-101),1.2.G40.321216,Pavement Removal,airfield_pavement_removal,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Runway Friction Testing (Item P-608),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Runway and High Speed Exit Taxiway Friction Testing (Item P-608),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Saw - Cut Grooving (Item P-621),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,SeparationGeotextile (Item P-209),1.3.G20.321000,Aggregate Base,site_aggregate_base,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Sidewalk,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Slurry Seal (Item P-626),1.2.G40.321216,Airfield Asphalt,airfield_asphalt,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Standard 8-Inch Concrete Curb,,REVIEW_NEEDED,fallback_review,1
+ROADWORK_PAVING,PAVING_EARTHWORK,SubbaseCourse (Item P-154),1.3.G20.321000,Aggregate Base,site_aggregate_base,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Preparation - Existing Pavement Surface (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Preparation - Marking Removal (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Preparation - Remarking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Surface Preparation - Remove Existing Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Temporary Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Temporary Pavement Markings (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Temporary Runway and Taxiway Makrings (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Temporary Runwayand Taxiway Marking (Item P-620),1.2.G40.321723,Pavement Markings,airfield_markings,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Trench Excavation,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Trench Excavation and General Native Backfill,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Trench Excavation and Select Backfill,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Trench Excavation and Select Native Backfill,1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,Unclassified Excavation (P-152),1.3.G20.311000,Earthwork,site_earthwork_keywords,1
+ROADWORK_PAVING,PAVING_EARTHWORK,UnsuitableExcavation (Item P-152),1.3.G20.311000,Earthwork,site_earthwork,1
+SITEWORK_MISC,FENCING_GUARDRAIL_BOLLARDS,Cable Retrievers (Section 111100),,REVIEW_NEEDED,fallback_review,5
+SITEWORK_MISC,FENCING_GUARDRAIL_BOLLARDS,Guard Rail (Section 347115),,REVIEW_NEEDED,fallback_review,5
+SITEWORK_MISC,FENCING_GUARDRAIL_BOLLARDS,Precast Concrete Wheel Stop (Section 347115),,REVIEW_NEEDED,fallback_review,5
+SITEWORK_MISC,FENCING_GUARDRAIL_BOLLARDS,Bollard - Bolt Down (Section 347115),,REVIEW_NEEDED,fallback_review,4
+SITEWORK_MISC,FENCING_GUARDRAIL_BOLLARDS,Chain Link Fance with Barbed Wire (Section 323113),,REVIEW_NEEDED,fallback_review,1
+SITEWORK_MISC,FENCING_GUARDRAIL_BOLLARDS,Chain Link Fence with Slats and Barbed Wire (Section 323113),,REVIEW_NEEDED,fallback_review,1
+SITEWORK_MISC,FENCING_GUARDRAIL_BOLLARDS,Pipe Bollards (Section 347113),,REVIEW_NEEDED,fallback_review,1

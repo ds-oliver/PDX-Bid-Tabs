@@ -90,13 +90,13 @@ def test_bids_rowcount_stable_and_item_unique():
     assert len(projects) == 1
     assert len(items) == 1
     assert len(bids) == 3
-    assert bids["Bid_ID"].is_unique
+    assert bids["bid_id"].is_unique
 
     # EE remains but is never winner and is unranked.
-    ee = bids[bids["Contractor Name"].str.contains("ENGINEER", case=False, na=False)].iloc[0]
-    assert bool(ee["Is_Winner"]) is False
-    assert ee["Rank"] == ""
+    ee = bids[bids["contractor_name"].str.contains("ENGINEER", case=False, na=False)].iloc[0]
+    assert bool(ee["is_winner"]) is False
+    assert ee["rank"] == ""
 
     # Lowest contractor should rank 1.
-    acme = bids[bids["Contractor Name"] == "ACME"].iloc[0]
-    assert acme["Rank"] == 1
+    acme = bids[bids["contractor_name"] == "ACME"].iloc[0]
+    assert acme["rank"] == 1

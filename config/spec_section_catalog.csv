@@ -1,0 +1,227 @@
+spec_code,spec_description
+012200,Manhole
+013100,Contractor's Management and Coordination
+013300,Submittal Procedures
+013500,Security Control
+013501,Escort
+014100,Permits
+015000,Mobilization and Demobilization
+015001,Traffic Control
+015002,Sweeping
+015123,Temporary Heating Cooling and Ventilating
+015323,Temporary Ramps
+015400,Construction Aids
+015500,Vehicular Access and Parking
+015600,Temporary Barriers and Enclosures
+015713,Temporary Erosion Sediment and Pollution Control
+016600,Product Storage and Handling Requirements
+017329,Cutting and Patching
+017400,Cleaning and Waste Management
+017419,Construction Waste Recycling
+019100,Commissioning
+020500,Common Work Results for Existing Conditions
+024113,Site Demolition
+024119,Selective Interior Demolition
+025000,Site Remediation
+026100,Removal and Disposal of Contaminated Soils
+026500,Underground Storage Tank Removal
+027100,Groundwater Treatment
+028213,Asbestos Abatement
+028216,Asbestos Management
+028313,Lead-Based Paint Management
+028319,Lead-Based Paint Abatement
+028400,PCB Remediation
+030500,Common Work Results for Concrete
+031100,Concrete Formwork
+031500,Concrete Accessories
+032000,Concrete Reinforcing
+033000,Cast-In-Place Concrete
+036000,Concrete Grouting
+040500,Common Work Results for Masonry
+040513,Masonry Mortar and Grout
+040523,Masonry Accessories
+042113,Brick Masonry
+042200,Concrete Unit Masonry
+050500,Common Work Results for Metals
+051200,Structural Steel Framing
+053100,Steel Decking
+054000,Cold-Formed Metal Framing
+055000,Metal Fabrications
+055200,Metal Railings
+060500,Common Work Results for Wood Plastics and Composites
+061000,Rough Carpentry
+062000,Finish Carpentry
+064000,Architectural Woodwork
+066000,Plastic Fabrications
+070500,Common Work Results for Thermal and Moisture Protection
+071000,Waterproofing
+071100,Damp proofing
+072100,Thermal Insulation
+074100,Roof Panels
+075000,Membrane Roofing
+076100,Sheet Metal Roofing
+076200,Sheet Metal Flashing and Trim
+077200,Roof Accessories
+078100,Applied Fireproofing
+078400,Fire stopping
+079200,Joint Sealants
+079500,Expansion Control
+080500,Common Work Results for Openings
+081100,Metal Doors and Frames
+083300,Coiling Doors and Grilles
+084113,Aluminum Entrances and Storefronts
+084400,Glazed Curtain Walls
+085000,Windows
+087000,Finish Hardware
+088000,Glazing
+089000,Louvers and Vents
+090500,Common Work Results for Finishes
+092100,Plaster and Gypsum Board Assemblies
+092900,Gypsum Board
+093000,Tile
+095100,Acoustical Ceilings
+096500,Resilient Flooring
+096800,Carpeting
+097200,Wall Coverings
+099100,Painting
+099700,Special Coatings
+100500,Common Work Results for Specialties
+101100,Visual Display Surfaces
+101453,Traffic Signage
+102800,Toilet and Bath Accessories
+104400,Fire Protection Specialties
+107343,Bus Stop Shelters
+110500,Common Work Results for Equipment
+111100,Vehicle Service Equipment
+111200,Parking Control Equipment
+114000,Food Service Equipment
+120500,Common Work Results for Furnishings
+125000,Furniture
+130500,Common Work Results for Special Construction
+133400,Pre-Engineered Buildings
+140500,Common Work Results for Conveying Equipment
+142000,Elevators
+143100,Escalators
+144000,Lifts
+210500,Common Work Results for Fire Suppression
+211100,Fire Suppression Piping
+211120,Fire Suppression Pumps
+212000,Fire Suppression Systems
+220500,Common Work Results for Plumbing
+221100,Plumbing Piping
+221120,Plumbing Pumps
+223000,Plumbing Equipment
+224000,Plumbing Fixtures
+230500,Common Work Results for HVAC
+232000,HVAC Piping
+233113,Low Pressure Ductwork
+233300,Air Duct Accessories
+233400,HVAC Fans
+234000,HVAC Air Cleaning Devices
+237000,Central HVAC Equipment
+238100,Decentralized Unitary HVAC Equipment
+260500,Common Work Results for Electrical
+260519,Low-Voltage Electrical Power Conductors and Cables
+260526,Grounding and Bonding for Electrical Systems
+260533,Raceway and Boxes for Electrical Systems
+260543,Underground Ducts and Raceways for Electrical Systems
+261100,Substations
+262400,Switchboards and Panel boards
+262900,Motor Controllers
+263200,Packaged Generator Assemblies for Emergency Power
+265000,Lighting
+265619,Roadway Lighting
+265623,Apron Lighting
+270500,Common Work Results for Communications
+271000,Structured Cabling
+272100,Network Equipment
+273000,Phone Communications
+274100,Audio-Video Systems
+275116,Public Address and Mass Notification Systems
+280500,Common Work Results for Electronic Safety and Security
+281300,Security Access Control System
+282300,Video Surveillance CCTV System
+283100,Fire Detection and Alarm
+310500,Common Work Results for Earthwork
+312000,Site Clearing and Earthwork
+312300,Trenching Backfilling and Compacting
+313200,Soil Stabilization
+320500,Common Work Results for Exterior Improvements
+321123,Aggregate Base Course
+321200,Asphalt Concrete Paving
+321300,Portland Cement Concrete Paving
+321723,Pavement Markings
+323113,Chain-Link Fences and Gates
+329200,Clearing and Seeding
+329219,Seeding
+330500,Common Work Results for Utilities
+330516,Utility Structures
+331116,Site Water Utility Distribution Plumbing
+333100,Sanitary Utility Sewerage Piping
+333213,Sanitary Sewer Pump Station
+334100,Storm Utility Drainage Piping
+340523,Common Work Results for Railways
+344113,Traffic Signals
+344213,Railway Signals
+344300,Airfield Lighting
+344302,Aircraft Guidance Signage
+347113,Guard Posts
+350500,Common Work Results for Waterway and Marine Construction
+354000,Waterway Construction
+355912,Heavy Timber Pier Construction
+412213,Cranes
+510101,Surface Preparation P-101
+510152,Excavation and Embankment P-152
+510153,Controlled Low-Strength Material P-153
+510154,Sub base Course P-154
+510156,Temporary Air and Water Pollution Soil Erosion and Siltation Control P-156
+520208,Aggregate Base Course P-208
+520209,Crushed Aggregate Base Course P-209
+530304,Cement Treated Base Course P-304
+540401,Plant Mix Bituminous Pavements P-401
+540403,Plant Mix Bituminous Bases P-403
+550501,Portland Cement Concrete Pavement P-501
+560603,Bituminous Tack Coat P-603
+560604,Compression Joint Seals for Concrete Pavements P-604
+560605,Joint Sealing Filler P-605
+560606,Adhesive Compounds P-606
+560610,Structural Portland Cement Concrete P-610
+560620,Runway and Taxiway Painting P-620
+560621,Saw-Cut Grooves P-621
+570162,Chain Link Fences F-162
+580701,Pipe for Storm Drains and Culverts D-701
+580702,Slotted Drains D-702
+580705,Pipe Underdrains for Airports D-705
+580751,Manholes Catch Basins Inlets and Inspection Holes D-751
+580752,Concrete Culverts Headwalls and Misc Drainage Structures D-752
+590901,Seeding T-901
+590905,Topsoiling T-905
+600108,Airport Underground Cable L-108
+600110,Airport Underground Electrical Duct L-110
+600115,Electrical Manholes and Junction Structures L-115
+D-701,Pipe for Storm Drains and Culverts
+D-705,Pipe Underdrains for Airports
+D-751,Manholes Catch Basins Inlets and Inspection Holes
+D-752,Concrete Culverts Headwalls and Misc Drainage Structures
+L-108,Airport Underground Cable
+L-110,Airport Underground Electrical Duct
+P-101,Surface Preparation
+P-152,Excavation and Embankment
+P-153,Controlled Low-Strength Material
+P-154,Sub base Course
+P-156,Temporary Air and Water Pollution Soil Erosion and Siltation Control
+P-209,Crushed Aggregate Base Course
+P-304,Cement Treated Base Course
+P-401,Plant Mix Bituminous Pavements
+P-403,Plant Mix Bituminous Bases
+P-501,Portland Cement Concrete Pavement
+P-603,Bituminous Tack Coat
+P-604,Compression Joint Seals for Concrete Pavements
+P-605,Joint Sealing Filler
+P-606,Adhesive Compounds
+P-608,Asphalt Surface Treatment
+P-610,Structural Portland Cement Concrete
+P-620,Runway and Taxiway Painting
+P-621,Saw-Cut Grooves
+T-901,Seeding
+T-905,Topsoiling

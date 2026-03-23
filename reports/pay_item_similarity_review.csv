@@ -1,67 +1,175 @@
-Spec Code,Project Count,Distinct Descriptions,Sample Descriptions,Variance Level
-UNCLASSIFIED,12,225,"0 | Mobilization, Surveying, Cleanup, and Demobilization | Traffic Control",HIGH
-344300,11,71,"InstallPFLEDRunwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder | InstallPFLEDElevatedRunwayEnd/ThresholdLightwithPFBaseCan,CFTransformerinNewACPShoulder | InstallPFLEDElevatedRunwayGuardLightwithPFBaseCan,CFTransformerinNewACPShoulder",HIGH
-012200,17,60,Sweeper | WorkZoneandTrafficControl | Escort,HIGH
-P-101,12,54,AsphaltPavementRemoval-2.5-InchDepth | AsphaltPavementRemoval-4-InchDepth | AsphaltPavementRemoval-6-8-InchDepth,HIGH
-344302,9,40,Sign13R-1 | SignA-1 | Sign CE-10,HIGH
-D-701,9,29,6-inchSTS | 12-inchSTS | 24-inchSTS,HIGH
-P-620,15,28,SurfacePreparation-NewPavementSurface | SurfacePreparation-RemoveExistingMarkings | Marking,HIGH
-L-110,10,25,2-InchPVCinGrassorinNewACshoulder | 2-InchPVCinNewACStructuralPavement | 2-Inch PVC Encased in CLSM in New AC,HIGH
-D-751,9,25,Manholes | CatchBasins | Catch Basins,HIGH
-L-108,10,22,"No.8AWG,5kV,L-824,TypeCCableInstalledinTrench,DuctBank,orConduit | No.6AWG,Solid,BareCounterpoiseWire,InstalledAbovetheDuctBankorConduit,IncludingConnections/Terminations | GroundRodforCounterpoise",HIGH
-260500,13,19,GeneralElectricalRemoval | TemporaryCircuitConnection | TemporaryThresholdSetUpandCircuitConnection,HIGH
-312300,7,16,ExistingManholeAdjustmenttoGrade-MinorAdjustment | ExistingManholeAdjustmenttoGrade-MajorAdjustment | ExistingManholeAdjustmenttoGrade-Cleanout,HIGH
-015713,11,14,PlasticMeshFence | InletProtection | Wattles,HIGH
-344301,7,11,AdjustExistingRunway/TaxiwayElevatedEdgeLightwithCFTransformer | Adjust Existing Taxiway Centerline Light to New Finish Elevation | Adjust Existing Runway Edge Light to New Finish Elevation,HIGH
-P-152,10,10,EmbankmentinPlace | MechanicalStabilization | ExistingSubgradeStabilzation,HIGH
-P-403,10,7,AsphaltMixtureBaseandSurfaceCourse | Asphalt Mixture Base and Surface Course | Asphalt Mixture Base Course,HIGH
-D-705,5,7,6-InchPipeUnderdrains | 6-Inch Perforated Pipe Underdrains | 6-Inch Perforated Pipe,HIGH
-024113,3,7,Building Demolition | Building Slab and Foundation Removal | Existing Landscape Removal,HIGH
-T-905,6,6,Topsoil(ObtainedOnStieorRemovedfromStockpile) | Topsoil(FurnishedfromOfftheSite) | Topsoiling,HIGH
-P-501,5,6,Concrete Pavement | 15-Inch Thick Concrete Pavement | 19-Inch Thick Concrete Pavement,HIGH
-P-605,13,5,JointSealingFiller | Joint Sealing Filler | Joint Sealant,HIGH
-P-401,11,5,AsphaltSurfaceCourse | Asphalt Surface Course | Hot Mix Asphalt (HMA) Pavement,HIGH
-354000,1,5,Boulders | StreambedCobble | StreambedSediment,HIGH
-P-209,10,4,CrushedAggregateBaseCourse | SeparationGeotextile | Crushed Aggregate Base Course,HIGH
-P-610,9,4,Concrete | Structural Portland Cement Concrete (PCC) | Steel Reinforcement,HIGH
-P-153,7,4,ControlledLow-StrengthMaterial(CLSM) | Controlled Low-Strength Material (CLSM) | Controlled Low Strength Material,HIGH
-271000,2,4,"Structured Cabling | Network Termination Enclosure | Data Equipment Rack & Data Connections 1"" Conduit",HIGH
-P-603,11,3,EmulsifiedAsphaltTackCoat | Emulsified Asphalt Tack Coat | Bituminous Tack Coat,HIGH
-P-154,5,3,SubbaseCourse | Subbase Course | Separation Geotextile,HIGH
-P-604,5,3,Compression Joint Seals for Concrete Pavements | Compression Joint Sealant | Compression Joint Seals for Concrete Pavement,HIGH
-P-608,4,3,Runway and High Speed Exit Taxiway Friction Testing | Asphalt Surface Treatment | Runway Friction Testing,HIGH
-C-102,3,3,InstallationandRemovalofSiltFence | Inlet Protection | Installation and Removal of Silt Fence,HIGH
-331116,1,3,8-Inch Fire Water Line | 8-Inch Gate Valve | Underground Fire Hydrant,HIGH
-334100,1,3,12-Inch Ductile Iron (Force Main) Pipe | 20-Inch Ductile Iron (Force Main) Pipe | Riprap,HIGH
-347115,1,3,Precast Concrete Wheel Stop | Bollard - Bolt Down | Guard Rail,HIGH
-D-752,1,3,UnclassifiedExcavationforStructures | StructuralConcrete | ReinforcingSteel,HIGH
-P-606,9,2,AdhesiveCompound | Adhesive Compound,HIGH
-026100,4,2,ContaminatedMaterialExcavationandDisposal | Contaminated Material Excavation and Disposal,HIGH
-P-156,3,2,Silt Fence | Installation and Removal of Silt Fence,HIGH
-P-602,3,2,Bituminous Prime Coat | Emulsified Asphalt Prime Coat,HIGH
-P-621,3,2,Grooving | Saw-Cut Grooving,HIGH
-260526,2,2,Grounding and Bonding for Electrical Systems | Ground Rod for Counterpoise,HIGH
-263343,1,2,Electrical Charging Units (Primary Units) | Electrical Charging Units (Secondary Units),HIGH
-265000,1,2,General Electrical Removal | Temporary Circuit Connection,HIGH
-320117,1,2,Asphalt Pavement Removal - 2-3 Inch Depth | Asphalt Concrete Surface Course,HIGH
-321613,1,2,Cast-in-Place Concrete Curb | Concrete Utility Hub Pavement - 4-Inch,HIGH
-323113,1,2,7-Foot Chain Link Fance with Barbed Wire | 10-Foot Chain Link Fence with Slats and Barbed Wire,HIGH
-334213,1,2,"Stormwater Pump Station, Electrical Equipment Installation | Stormwater Valve Vault",HIGH
-C-105,8,1,Mobilization,LOW
-T-901,6,1,Seeding,LOW
-P-50,3,1,Construction Survey,LOW
-260553,2,1,3-Inch Diameter Brass Marker,LOW
-111100,1,1,Cable Retrievers,LOW
-260543,1,1,Underground Ducts and Raceways for Electrical Systems,LOW
-262200,1,1,Remove and Replace Existing 9KVA Transformer,LOW
-262400,1,1,Remove and Replace Existing 480V Distribution Panel,LOW
-265623,1,1,Install Apron Lighting,LOW
-270553,1,1,Telecommunications Identification,LOW
-282300,1,1,Video Surveillance,LOW
-320118,1,1,Crack Repair,LOW
-328400,1,1,Irrigation Replacement,LOW
-329300,1,1,Ground Cover Planting,LOW
-330516,1,1,CleanoutStructures,LOW
-347113,1,1,Pipe Bollards,LOW
-P-306,1,1,Lean Concrete Base Course,LOW
-P-626,1,1,Slurry Seal,LOW
+Specification,Spec Description,Project Count,Distinct Pay Item Descriptions,Sample Pay Item Descriptions,Distinct Supplemental Descriptions,Sample Supplemental Descriptions,Variance Level
+UNCLASSIFIED,Unclassified / No parsed specification,15,206,"- 0
+- Mobilization, Surveying, Cleanup, and Demobilization
+- Traffic Control",31,"- 6 Inch
+- 4 Inch
+- 3 Inch",HIGH
+344300,Airfield Lighting,11,71,"- Install PFLEDRunway Edge Lightwith PFBase Can
+- Install PFLEDElevated Runway End/Threshold Lightwith PFBase Can
+- Install PFLEDElevated Runway Guard Lightwith PFBase Can",3,"- CFTransformerinNewACPShoulder
+- 12""Diameter,24""DeepBaseCanwithPFCoverinNewACPShoulder
+- 6.6/6.6 Amp Isolation Transformer in Existing Base Can",HIGH
+012200,Manhole,17,49,"- Sweeper
+- Work Zoneand Traffic Control
+- Escort",15,"- 3'
+- 6-inch Depth
+- 10-Inch Thick",HIGH
+344302,Aircraft Guidance Signage,9,39,"- Sign
+- SignA
+- Sign CE-10",2,"- 13R-1
+- 1",HIGH
+P-620,Runway and Taxiway Painting,15,27,"- SurfacePreparation
+- Marking
+- ReflectiveMedia",2,"- NewPavementSurface
+- RemoveExistingMarkings",HIGH
+L-110,Airport Underground Electrical Duct,10,22,"- InchPVCinGrassorinNewACshoulder
+- InchPVCinNewACStructuralPavement
+- PVC Encased in CLSM in New AC",5,"- 2-
+- 2-Inch
+- 1.5-Inch",HIGH
+L-108,Airport Underground Cable,10,20,"- No.8AWG,5k V,L-824,Type CCable Installedin Trench,Duct Bank
+- No.6AWG,Solid,Bare Counterpoise Wire,Installed Abovethe Duct Bankor Conduit
+- Ground Rodfor Counterpoise",5,"- orConduit
+- IncludingConnections/Terminations
+- 10-Foot Long",HIGH
+260500,Common Work Results for Electrical,13,17,"- General Electrical Removal
+- Temporary Circuit Connection
+- Temporary Threshold Set Upand Circuit Connection",0,,HIGH
+P-101,Surface Preparation,12,16,"- Asphalt Pavement Removal - 2.5-InchDepth
+- Asphalt Pavement Removal
+- ColdMilling - 0.5InchDepth",33,"- 4-InchDepth
+- 6-8-InchDepth
+- 16 Inch Depth",HIGH
+D-751,Manholes Catch Basins Inlets and Inspection Holes,9,13,"- Manholes
+- CatchBasins
+- Catch Basins",5,"- 48-Inch
+- 84-Inch
+- 60-Inch",HIGH
+015713,Temporary Erosion Sediment and Pollution Control,11,12,"- Plastic Mesh Fence
+- InletProtection
+- Wattles",0,,HIGH
+D-701,Pipe for Storm Drains and Culverts,9,12,"- 6-inchSTS
+- 12-inchSTS
+- 24-inchSTS",12,"- 8'HX14'W
+- 12-Inch
+- 18-Inch",HIGH
+312300,Trenching Backfilling and Compacting,7,11,"- Existing Manhole Adjustment to Grade
+- Existing Electrical Vault Adjustment to Grade
+- Existing Manhole Adjustment",4,"- MinorAdjustment
+- MajorAdjustment
+- Cleanout",HIGH
+344301,,7,11,"- Adjust Existing Runway/Taxiway Elevated Edge Lightwith CFTransformer
+- Adjust Existing Taxiway Centerline Light to New Finish Elevation
+- Adjust Existing Runway Edge Light to New Finish Elevation",0,,HIGH
+P-152,Excavation and Embankment,10,9,"- EmbankmentinPlace
+- MechanicalStabilization
+- Existing Subgrade Stabilzation",0,,HIGH
+P-403,Plant Mix Bituminous Bases,10,7,"- Asphalt Mixture Baseand Surface Course
+- Asphalt Mixture Base and Surface Course
+- Asphalt Mixture Base Course",0,,HIGH
+D-705,Pipe Underdrains for Airports,5,7,"- InchPipeUnderdrains
+- Perforated Pipe Underdrains
+- Perforated Pipe",3,"- 6-
+- 6-Inch
+- 6-inch",HIGH
+024113,Site Demolition,3,7,"- Building Demolition
+- Building Slab and Foundation Removal
+- Existing Landscape Removal",0,,HIGH
+P-501,Portland Cement Concrete Pavement,5,5,"- Concrete Pavement
+- Thick Concrete Pavement
+- - Thick Concrete Pavement",2,"- 15-Inch
+- 19-Inch",HIGH
+354000,Waterway Construction,1,5,"- Boulders
+- StreambedCobble
+- StreambedSediment",0,,HIGH
+P-605,Joint Sealing Filler,13,4,"- Joint Sealing Filler
+- Joint Sealant
+- Concrete to Concrete Joint Seal",1,- Silicone,HIGH
+P-401,Plant Mix Bituminous Pavements,11,4,"- Asphalt Surface Course
+- Hot Mix Asphalt (HMA) Pavement
+- Hot Mix Asphalt (HMA) Bituminous Surface Course",0,,HIGH
+P-610,Structural Portland Cement Concrete,9,4,"- Concrete
+- Structural Portland Cement Concrete (PCC)
+- Steel Reinforcement",0,,HIGH
+P-153,Controlled Low-Strength Material,7,4,"- ControlledLow - StrengthMaterial(CLSM)
+- Controlled Low - Strength Material (CLSM)
+- Controlled Low Strength Material",0,,HIGH
+T-905,Topsoiling,6,4,"- Topsoil
+- Topsoiling
+- Topsoil (Obtained on Site or Removed from Stockpile)",3,"- ObtainedOnStieorRemovedfromStockpile
+- FurnishedfromOfftheSite
+- 3""",HIGH
+271000,Structured Cabling,2,4,"- Structured Cabling
+- Network Termination Enclosure
+- Data Equipment Rack & Data Connections 1"" Conduit",0,,HIGH
+P-209,Crushed Aggregate Base Course,10,3,"- Crushed Aggregate Base Course
+- SeparationGeotextile
+- Separation Geotextile",0,,HIGH
+P-154,Sub base Course,5,3,"- SubbaseCourse
+- Subbase Course
+- Separation Geotextile",0,,HIGH
+P-604,Compression Joint Seals for Concrete Pavements,5,3,"- Compression Joint Seals for Concrete Pavements
+- Compression Joint Sealant
+- Compression Joint Seals for Concrete Pavement",0,,HIGH
+P-608,Asphalt Surface Treatment,4,3,"- Runway and High Speed Exit Taxiway Friction Testing
+- Asphalt Surface Treatment
+- Runway Friction Testing",0,,HIGH
+C-102,,3,3,"- Installationand Removalof Silt Fence
+- Inlet Protection
+- Installation and Removal of Silt Fence",0,,HIGH
+331116,Site Water Utility Distribution Plumbing,1,3,"- Fire Water Line
+- Gate Valve
+- Underground Fire Hydrant",1,- 8-Inch,HIGH
+347115,,1,3,"- Precast Concrete Wheel Stop
+- Bollard - Bolt Down
+- Guard Rail",0,,HIGH
+D-752,Concrete Culverts Headwalls and Misc Drainage Structures,1,3,"- Unclassified Excavationfor Structures
+- StructuralConcrete
+- ReinforcingSteel",0,,HIGH
+P-603,Bituminous Tack Coat,11,2,"- Emulsified Asphalt Tack Coat
+- Bituminous Tack Coat",0,,HIGH
+P-606,Adhesive Compounds,9,2,"- AdhesiveCompound
+- Adhesive Compound",0,,HIGH
+026100,Removal and Disposal of Contaminated Soils,4,2,"- Contaminated Material Excavationand Disposal
+- Contaminated Material Excavation and Disposal",0,,HIGH
+P-156,Temporary Air and Water Pollution Soil Erosion and Siltation Control,3,2,"- Silt Fence
+- Installation and Removal of Silt Fence",0,,HIGH
+P-602,,3,2,"- Bituminous Prime Coat
+- Emulsified Asphalt Prime Coat",0,,HIGH
+P-621,Saw-Cut Grooves,3,2,"- Grooving
+- Saw - Cut Grooving",0,,HIGH
+260526,Grounding and Bonding for Electrical Systems,2,2,"- Grounding and Bonding for Electrical Systems
+- Ground Rod for Counterpoise",0,,HIGH
+263343,,1,2,"- Electrical Charging Units (Primary Units)
+- Electrical Charging Units (Secondary Units)",0,,HIGH
+265000,Lighting,1,2,"- General Electrical Removal
+- Temporary Circuit Connection",0,,HIGH
+320117,,1,2,"- Asphalt Pavement Removal
+- Asphalt Concrete Surface Course",1,- 2-3 Inch Depth,HIGH
+321613,,1,2,"- Cast-in-Place Concrete Curb
+- Concrete Utility Hub Pavement",1,- 4-Inch,HIGH
+323113,Chain-Link Fences and Gates,1,2,"- Chain Link Fance with Barbed Wire
+- Chain Link Fence with Slats and Barbed Wire",2,"- 7-Foot
+- 10-Foot",HIGH
+334100,Storm Utility Drainage Piping,1,2,"- Ductile Iron (Force Main) Pipe
+- Riprap",2,"- 12-Inch
+- 20-Inch",HIGH
+334213,,1,2,"- Stormwater Pump Station, Electrical Equipment Installation
+- Stormwater Valve Vault",0,,HIGH
+C-105,,8,1,- Mobilization,0,,LOW
+T-901,Seeding,6,1,- Seeding,0,,LOW
+260553,,2,1,- Diameter Brass Marker,1,- 3-Inch,LOW
+111100,Vehicle Service Equipment,1,1,- Cable Retrievers,0,,LOW
+260543,Underground Ducts and Raceways for Electrical Systems,1,1,- Underground Ducts and Raceways for Electrical Systems,0,,LOW
+262200,,1,1,- Remove and Replace Existing 9KVA Transformer,0,,LOW
+262400,Switchboards and Panel boards,1,1,- Remove and Replace Existing 480V Distribution Panel,0,,LOW
+265623,Apron Lighting,1,1,- Install Apron Lighting,0,,LOW
+270553,,1,1,- Telecommunications Identification,0,,LOW
+282300,Video Surveillance CCTV System,1,1,- Video Surveillance,0,,LOW
+320118,,1,1,- Crack Repair,0,,LOW
+328400,,1,1,- Irrigation Replacement,0,,LOW
+329300,,1,1,- Ground Cover Planting,0,,LOW
+330516,Utility Structures,1,1,- CleanoutStructures,0,,LOW
+347113,Guard Posts,1,1,- Pipe Bollards,0,,LOW
+P-306,,1,1,- Lean Concrete Base Course,0,,LOW
+P-626,,1,1,- Slurry Seal,0,,LOW

@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Dict, List
 
-SCHEMA_VERSION = "2.0"
+SCHEMA_VERSION = "2.1"
 SOURCE_SYSTEM = "excel_bidtab"
 
 
@@ -17,7 +17,7 @@ class ColumnDef:
 
 
 COMPILED_COLUMNS: List[ColumnDef] = [
-    ColumnDef("schema_version", "str", False, "Schema version constant.", "constant 2.0"),
+    ColumnDef("schema_version", "str", False, "Schema version constant.", "constant 2.1"),
     ColumnDef("extract_run_id", "str", False, "Unique ETL run id.", "CLI arg --run_id"),
     ColumnDef("source_file", "str", False, "Source workbook filename.", "input file name"),
     ColumnDef("source_sheet", "str", False, "Source worksheet name.", "worksheet title"),
@@ -54,9 +54,64 @@ COMPILED_COLUMNS: List[ColumnDef] = [
     ColumnDef("is_totals_row", "bool", False, "Whether row is totals/basis row.", "totals detection"),
     ColumnDef("totals_row_label", "str", True, "Totals row description label.", "Item Description column"),
     ColumnDef("schedule_total", "float", True, "Bidder schedule total from totals row.", "Total Price cell on totals row"),
+    ColumnDef("specification", "str", True, "Primary specification parsed from description token.", "parse_item_fields.spec_code_primary"),
+    ColumnDef("alternate_specification", "str", True, "Alternate specification code(s) parsed from (Sections ...).", "parse_item_fields.spec_code_alternates"),
+    ColumnDef("pay_item_description", "str", True, "Base item description parsed from raw description.", "parse_item_fields.item"),
+    ColumnDef("supplemental_description", "str", True, "Qualifier parsed from comma/dash/measurement/variant patterns.", "parse_item_fields.supplemental_description"),
+    ColumnDef("item", "str", True, "Business item key formatted as <specification> - <pay_item_description>.", "derived from parsed fields"),
 ]
 
 COMPILED_COLUMN_ORDER = [c.name for c in COMPILED_COLUMNS]
+
+COMPILED_COLUMNS_DEV = COMPILED_COLUMNS
+COMPILED_COLUMN_ORDER_DEV = COMPILED_COLUMN_ORDER
+
+BUSINESS_EXPORT_COLUMNS: List[ColumnDef] = [
+    ColumnDef("Advertise Date", "str", True, "Advertise year/date derived from letting_date.", "derive from letting_date"),
+    ColumnDef("Location", "str", True, "Location / facility from header.", "location_name_raw"),
+    ColumnDef("Project Name", "str", True, "Project title from header.", "project_name_raw"),
+    ColumnDef("EAN", "str", True, "Project EAN from header.", "project_ean"),
+    ColumnDef("Bid Schedule Name", "str", False, "Worksheet title.", "bid_schedule_name"),
+    ColumnDef("Bid Schedule Type", "str", False, "BASE or ALTERNATE.", "bid_schedule_type"),
+    ColumnDef("Bid Schedule Code", "str", True, "ALT code if present.", "bid_schedule_code"),
+    ColumnDef("Item Sequence", "str", True, "Line item number.", "line_no"),
+    ColumnDef("Item Description Raw", "str", False, "Raw line item description.", "item_description_raw"),
+    ColumnDef("Specification", "str", True, "Primary parsed specification code.", "specification"),
+    ColumnDef("Alternate Specification", "str", True, "Alternate parsed specification code(s).", "alternate_specification"),
+    ColumnDef("Pay Item Description", "str", True, "Base parsed item description.", "pay_item_description"),
+    ColumnDef("Supplemental Description", "str", True, "Parsed qualifier text.", "supplemental_description"),
+    ColumnDef("Item", "str", True, "Business-facing item value.", "item"),
+    ColumnDef("Estimated Quantity", "float", True, "Estimated quantity.", "quantity"),
+    ColumnDef("Units", "str", True, "Normalized unit.", "unit_code_norm"),
+    ColumnDef("Contractor", "str", False, "Canonical bidder name.", "bidder_name_canonical"),
+    ColumnDef("Is Engineer's Estimate", "bool", False, "Engineer estimate flag.", "is_engineers_estimate"),
+    ColumnDef("Unit Price", "float", True, "Bidder unit price.", "unit_price"),
+    ColumnDef("Total Price", "float", True, "Bidder total price.", "total_price"),
+]
+
+BUSINESS_EXPORT_ORDER = [c.name for c in BUSINESS_EXPORT_COLUMNS]
+
+BUSINESS_EXPORT_MAP: Dict[str, str] = {
+    "location_name_raw": "Location",
+    "project_name_raw": "Project Name",
+    "project_ean": "EAN",
+    "bid_schedule_name": "Bid Schedule Name",
+    "bid_schedule_type": "Bid Schedule Type",
+    "bid_schedule_code": "Bid Schedule Code",
+    "line_no": "Item Sequence",
+    "item_description_raw": "Item Description Raw",
+    "specification": "Specification",
+    "alternate_specification": "Alternate Specification",
+    "pay_item_description": "Pay Item Description",
+    "supplemental_description": "Supplemental Description",
+    "item": "Item",
+    "quantity": "Estimated Quantity",
+    "unit_code_norm": "Units",
+    "bidder_name_canonical": "Contractor",
+    "is_engineers_estimate": "Is Engineer's Estimate",
+    "unit_price": "Unit Price",
+    "total_price": "Total Price",
+}
 
 STAR_SCHEMAS: Dict[str, List[ColumnDef]] = {
     "dim_project": [
@@ -179,3 +234,11 @@ def coerce_compiled_record(record: dict) -> dict:
 
 def compiled_columns() -> List[str]:
     return COMPILED_COLUMN_ORDER[:]
+
+
+def compiled_columns_dev() -> List[str]:
+    return COMPILED_COLUMN_ORDER_DEV[:]
+
+
+def business_export_columns() -> tuple[List[ColumnDef], List[str], Dict[str, str]]:
+    return BUSINESS_EXPORT_COLUMNS[:], BUSINESS_EXPORT_ORDER[:], dict(BUSINESS_EXPORT_MAP)

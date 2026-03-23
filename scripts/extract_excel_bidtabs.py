@@ -98,6 +98,11 @@ def extract_file(path: Path, run_id: str, name_map: Dict[str, str], parse_issues
                 "is_totals_row": item.get("is_totals_row", False),
                 "totals_row_label": item.get("totals_row_label", ""),
                 "schedule_total": item.get("schedule_total"),
+                "specification": item.get("specification", ""),
+                "alternate_specification": item.get("alternate_specification", ""),
+                "pay_item_description": item.get("pay_item_description", ""),
+                "supplemental_description": item.get("supplemental_description", ""),
+                "item": item.get("item", ""),
             }
             records.append(coerce_compiled_record(record))
 

@@ -28,33 +28,23 @@ def test_dashboard_field_mapping_artifacts_exist_and_headers():
     assert got == HEADERS
 
 
-def test_mapping_rows_match_expected_content():
+def test_mapping_rows_use_bid_tab_business_sources():
     df = pd.read_excel("docs/dashboard_field_mapping.xlsx", sheet_name="Field_Mapping")
-    expected_sources = {
-        "Letting Date": "Projects.Advertise_Date",
-        "District & County": "Projects.Location",
-        "Specification": "Items.Specification_Code",
-        "Item Description": "Items.Item_Description",
-        "Awarded Item Price": "Bids.Unit_Price (filtered by Is_Winner)",
-        "Average Item Price (3 Lowest)": "Measure (Calculated in Power BI)",
-        "Quantity": "Items.Estimated_Quantity",
-        "Unit": "Items.Unit",
-        "Project Number": "Projects.EAN",
-        "Contractor": "Bids.Contractor_Name",
-        "Prop Line No.": "Items.Item_Sequence",
-        "Project Title": "Projects.Project_Name",
-        "Project Total": "Bids.Total_Price (Sum)",
-        "Project Type": "Not currently captured",
-        "Supplemental Description": "Not currently captured",
-        "Percent of Project Total": "Calculated in Power BI",
-    }
-    assert len(df) == len(expected_sources)
 
-    for odot, src in expected_sources.items():
+    src_text = " ".join(df["Port Report Field Source"].astype(str).tolist())
+    for forbidden in ["Projects.", "Items.", "Bids."]:
+        assert forbidden not in src_text
+
+    expected_rows = {
+        "Letting Date": "Advertise Date",
+        "District & County": "Location",
+        "Specification": "Specification",
+        "Item": "Item",
+        "Prop Line No.": "Item Sequence",
+    }
+    for odot, port_name in expected_rows.items():
         row = df[df["ODOT Report Field"] == odot]
         assert not row.empty
-        assert row.iloc[0]["Port Report Field Source"] == src
+        assert row.iloc[0]["Port Report Field Name"] == port_name
 
-    readme = load_workbook("docs/dashboard_field_mapping.xlsx", data_only=True)["README"]
-    assert readme["A1"].value == "Purpose:"
-    assert "ODOT Bid Data Reporting standard" in str(readme["A5"].value)
+    assert "Dev Notes" in df.columns

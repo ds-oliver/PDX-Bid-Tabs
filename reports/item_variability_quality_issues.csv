@@ -1,0 +1,6 @@
+issue_type,issue_count,pct_rows,severity_band,definition
+unclassified_like_spec,1986,23.24,RED,raw spec token not identifiable from raw description
+missing_unit_price_raw,936,10.95,RED,unit_price_raw is blank/non-numeric
+malformed_placeholder_text,392,4.59,RED,item_description_raw contains placeholder-like tokens
+nonstandard_unit_code_raw,392,4.59,RED,unit_code_raw contains unusual symbols/patterns
+missing_total_price_raw,401,4.69,AMBER,total_price_raw is blank/non-numeric

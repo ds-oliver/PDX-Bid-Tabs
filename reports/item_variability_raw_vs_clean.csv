@@ -1,0 +1,688 @@
+specification,smart_clean_description,row_count,raw_variants_collapsed,representative_raw,sample_project
+P-101,Asphalt Pavement Removal,224,27,AsphaltPavementRemoval-4-InchDepth (ItemP-101),2019D031
+P-101,Cold Milling,96,10,Cold Milling - 2- to 4-Inch Depth (Item P-101),2022D028
+P-101,PCC Pavement Removal,75,9,PCC Pavement Removal - 16 Inch Depth (Item P-101),2023D025
+D-701,STS Pipe,114,8,4-Inch STS Pipe (Item D-701),2015D147
+D-701,STS,110,7,12-Inch STS (Item D-701),2022D028
+012200,STS,60,5,8-Inch STS (Sections 012200 and 334100),2024D016
+UNCLASSIFIED,Manhole,48,5,108-Inch Manhole,2015D006
+312300,Existing Manhole Adjustment to Grade,39,5,ExistingManholeAdjustmenttoGrade-MinorAdjustment (Section312300),2019D031
+UNCLASSIFIED,Gate Valve,30,5,3-Inch Gate Valve,2021D001
+D-751,"Diameter Manhole, Type A",36,4,"48-Inch Diameter Manhole, Type A (Item D-751)",2017D013
+D-751,"Manhole, Type B",34,4,"48-Inch Manhole, Type B (Item D-751)",2015D147
+P-501,Thick Concrete Pavement,34,4,15-Inch Thick Concrete Pavement (Item P-501),2018D029
+UNCLASSIFIED,Storm Sewer Pipe,32,4,12-Inch Storm Sewer Pipe,2016D015
+D-751,Manholes,27,4,Manholes (ItemD-751),2019D031
+UNCLASSIFIED,PVC Conduit (Power),12,4,PVC Conduit (Power) - 6 Inch,2021D001
+L-108,Counterpoise Ground Rod,39,3,Counterpoise Ground Rod (Item L-108),2022D028
+012200,Extra Manhole Depth,36,3,Extra Manhole Depth (48-Inch) (Sections 012200 and 334100),2024D016
+012200,Manhole,36,3,48-Inch Manhole (Sections 012200 and 334100),2024D016
+D-751,"Manhole, Type A",33,3,"48-Inch Manhole, Type A (Item D-751)",2015D147
+D-701,Slide Gate,24,3,12-Inch Slide Gate (Item D-701),2018D029
+D-751,Manhole,24,3,48-Inch Manhole (Item D-751),2018D027
+UNCLASSIFIED,Water Pipe,21,3,2-Inch Water Pipe,2018D015
+D-701,Storm Sewer Pipe,18,3,12-Inch Storm Sewer Pipe (Item D-701),2023D016
+UNCLASSIFIED,Level 3,18,3,"Level 3, 1/2-Inch Dense HMAC",2021D001
+012200,PCC Spall Panel Repair,15,3,"PCC Spall Panel Repair, 0-1 SF (Section 012200)",2024D045
+UNCLASSIFIED,DIP Water Pipe,9,3,4-Inch DIP Water Pipe,2021D001
+012200,Sweeper,133,2,Sweeper (Section012200),2019D031
+012200,Escort,129,2,Escort (Section012200),2019D031
+C-105,Mobilization,80,2,Mobilization (ItemC-105),2019D031
+P-605,Joint Sealing Filler,76,2,JointSealingFiller(ItemP-605),2019D031
+P-209,Crushed Aggregate Base Course,73,2,CrushedAggregateBaseCourse (ItemP-209),2019D031
+P-603,Emulsified Asphalt Tack Coat,73,2,EmulsifiedAsphaltTackCoat (ItemP-603),2019D031
+P-401,Asphalt Surface Course,71,2,AsphaltSurfaceCourse (ItemP-401),2019D031
+P-620,Marking,71,2,Marking (ItemP-620),2019D031
+260500,General Electrical Removal,67,2,GeneralElectricalRemoval (Section260500),2019D031
+260500,Temporary Circuit Connection,61,2,TemporaryCircuitConnection (Section260500),2019D031
+T-901,Seeding,44,2,Seeding(ItemT-901),2019D031
+015713,Jet Blast Control Material,38,2,JetBlastControlMaterial (Section015713),2019D031
+P-610,Concrete,37,2,Concrete(ItemP-610),2019D031
+D-701,RCP Pipe,26,2,12-Inch RCP Pipe (Item D-701),2015D147
+015713,Ditch Protection/Check Dams,25,2,DitchProtection/CheckDams (Section015713),2019D031
+312300,Existing Electrical Vault Adjustment to Grade,23,2,ExistingElectricalVaultAdjustmenttoGrade(Section312300),2019D031
+P-152,Existing Subgrade Stabilzation,21,2,ExistingSubgradeStabilzation (ItemP-152),2019D031
+D-751,Diameter Manhole,16,2,48-Inch Diameter Manhole (Item D-751),2018D029
+L-110,GRSC,15,2,2-Inch GRSC (Item L-110),2017D013
+334100,Ductile Iron (Force Main) Pipe,14,2,12-Inch Ductile Iron (Force Main) Pipe (Section 334100),2015D147
+334100,DIP (Force Main),12,2,12-Inch DIP (Force Main) (Section 334100),2015D142
+D-701,STS Drain Pipe,12,2,STS Drain Pipe (18-inch) (Item D-701),2023D011
+T-905,Topsoil (Obtained on Site or Removed from Stockpile),12,2,"Topsoil (Obtained on Site or Removed from Stockpile) (3"") (Item T-905)",2023D011
+015713,Wattles,11,2,Wattles (Section015713),2019D031
+012200,PCC Crack Repair,10,2,"PCC Crack Repair, Original (Section 012200)",2024D045
+L-110,GRSC Encased in P-610 in Existing AC,10,2,1.5-Inch GRSC Encased in P-610 in Existing AC (Item L-110),2022D028
+UNCLASSIFIED,Cold Plane Pavement Removal,10,2,Cold Plane Pavement Removal (0-3 Inch Maximum),2016D18
+L-110,PVC Direct Buried in Grass,9,2,2-inch PVC Direct Buried in Grass (Item L-110),2017D029
+P-620,SurfacePreparation,8,2,SurfacePreparation-NewPavementSurface (ItemP-620),2019D031
+T-905,Topsoil,8,2,Topsoil(ObtainedOnStieorRemovedfromStockpile) (ItemT-905),2019D031
+UNCLASSIFIED,#REF!,392,1,#REF!,2015D147
+P-620,Reflective Media,134,1,Reflective Media (Item P-620),2023D018
+012200,Security Control Monitoring,100,1,Security Control Monitoring (Section 012200),2022D028
+015713,Inlet Protection,89,1,Inlet Protection (Section 015713),2022D028
+012200,Work Zone and Traffic Control,73,1,Work Zone and Traffic Control (Section 012200),2023D018
+P-606,Adhesive Compound,57,1,Adhesive Compound (Item P-606),2022D028
+P-152,Unclassified Excavation,56,1,Unclassified Excavation (Item P-152),2023D025
+012200,"Mobilization, Cleanup, and Demobilization",51,1,"Mobilization, Cleanup, and Demobilization (Section 012200)",2018D029
+312300,Connection to Existing Storm Drainage System,48,1,Connection to Existing Storm Drainage System (Section 312300),2018D029
+P-152,Unsuitable Excavation,48,1,Unsuitable Excavation (Item P-152),2018D029
+026100,Contaminated Material Excavation and Disposal,46,1,Contaminated Material Excavation and Disposal (Section 026100),2022D028
+D-751,Catch Basins,46,1,Catch Basins (Item D-751),2022D028
+UNCLASSIFIED,Aggregate Base Course,45,1,Aggregate Base Course,2021D001
+UNCLASSIFIED,"Mobilization, Surveying, Cleanup, and Demobilization",45,1,"Mobilization, Surveying, Cleanup, and Demobilization",2021D001
+012200,Traffic Control,44,1,Traffic Control (Section 012200),2015D147
+P-154,Subbase Course,40,1,Subbase Course (Item P-154),2015D147
+P-620,Temporary Runway and Taxiway Marking,40,1,Temporary Runway and Taxiway Marking (Item P-620),2023D018
+P-603,Bituminous Tack Coat,37,1,Bituminous Tack Coat (Item P-603),2015D147
+UNCLASSIFIED,Construction Survey (Item GP-50),37,1,Construction Survey (Item GP-50),2015D147
+P-620,Surface Preparation - Remove Existing Markings,36,1,Surface Preparation - Remove Existing Markings (Item P-620),2023D018
+UNCLASSIFIED,Area Seeding,36,1,Area Seeding,2021D001
+P-608,Asphalt Surface Treatment,34,1,Asphalt Surface Treatment (Item P-608),2023D018
+UNCLASSIFIED,"Temporary Erosion, Sediment, and Pollution Control",32,1,"Temporary Erosion, Sediment, and Pollution Control",2021D001
+P-620,Phasing Pavement Marking,31,1,Phasing Pavement Marking (Item P-620),2015D147
+P-101,Removal of Pipe and Other Buried Structures,29,1,Removal of Pipe and Other Buried Structures (Item P-101),2022D028
+344301,Adjust Existing Taxiway Centerline Light to New Finish Elevation,28,1,Adjust Existing Taxiway Centerline Light to New Finish Elevation (Section 344301),2022D028
+P-101,Joint and Crack Repair,28,1,Joint and Crack Repair (Item P-101),2015D147
+P-610,Steel Reinforcement,28,1,Steel Reinforcement (Item P-610),2015D147
+012200,"Mobilization, Surveying, Cleanup, and Demobilization",27,1,"Mobilization, Surveying, Cleanup, and Demobilization (Section 012200)",2023D025
+P-403,Asphalt Mixture Base Course,26,1,Asphalt Mixture Base Course (Item P-403),2018D029
+UNCLASSIFIED,Common Excavation,26,1,Common Excavation,2016D015
+UNCLASSIFIED,Sweeper,26,1,Sweeper,2021D001
+UNCLASSIFIED,Trench Stabilization,26,1,Trench Stabilization,2021D001
+260553,Diameter Brass Marker,25,1,3-Inch Diameter Brass Marker (Section 260553),2015D147
+P-604,Compression Joint Seals for Concrete Pavements,25,1,Compression Joint Seals for Concrete Pavements (Item P-604),2018D029
+P-153,Controlled Low - Strength Material (CLSM),24,1,Controlled Low-Strength Material (CLSM) (Item P-153),2022D028
+P-620,Preformed Markings,23,1,Preformed Markings (Item P-620),2022D028
+UNCLASSIFIED,Contaminated Soil Excavation and Disposal,23,1,Contaminated Soil Excavation and Disposal,2021D001
+312300,"Removal of Existing Storm Pipe, Manholes, and Inlets",22,1,"Removal of Existing Storm Pipe, Manholes, and Inlets (Section 312300)",2015D147
+L-108,"No. 6 AWG, Solid, Bare Counterpoise Wire",22,1,"No. 6 AWG, Solid, Bare Counterpoise Wire (Item L-108)",2017D013
+P-152,Geotextile,22,1,Geotextile (Item P-152),2015D147
+P-153,Controlled Low - Strength Material,21,1,Controlled Low-Strength Material (Item P-153),2017D013
+015713,Trench Drain Protection,20,1,Trench Drain Protection (Section 015713),2018D029
+312300,Existing Manhole/Inlet Adjustment to Grade,20,1,Existing Manhole/Inlet Adjustment to Grade (Section 312300),2018D029
+UNCLASSIFIED,Work Zone Traffic Control,20,1,Work Zone Traffic Control,2015D006
+L-108,Ground Rod for Counterpoise,19,1,Ground Rod for Counterpoise (Item L-108),2015D147
+L-108,No. 6 AWG Solid Wire for Counterpoise,19,1,No. 6 AWG Solid Wire for Counterpoise (Item L-108),2015D147
+P-156,Silt Fence,19,1,Silt Fence (Item P-156),2015D147
+P-610,Structural Portland Cement Concrete (PCC),19,1,Structural Portland Cement Concrete (PCC) (Item P-610),2015D147
+UNCLASSIFIED,Dewatering,19,1,Dewatering,2015D006
+UNCLASSIFIED,Pavement Removal,19,1,Pavement Removal,2016D015
+UNCLASSIFIED,Site Demolition,19,1,Site Demolition,2015D006
+344300,Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer,18,1,Install Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),2023D011
+L-108,"No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit",18,1,"No. 8 AWG, 5kV, L-824, Type C Cable, Installed in Trench, Duct Bank or Conduit (Item L-108)",2023D011
+P-154,Separation Geotextile,18,1,Separation Geotextile (Item P-154),2023D011
+P-401,Bituminous Surface Course,18,1,Bituminous Surface Course (Item P-401),2017D013
+P-620,Runway and Taxiway Marking,18,1,Runway and Taxiway Marking (Item P-620),2017D013
+P-620,Surface Preparation,18,1,Surface Preparation (Item P-620),2023D011
+UNCLASSIFIED,Clearing and Grubbing,18,1,Clearing and Grubbing,2021D001
+UNCLASSIFIED,Pavement Marking,18,1,Pavement Marking,2021D001
+P-602,Bituminous Prime Coat,16,1,Bituminous Prime Coat (Item P-602),2015D147
+T-905,Topsoiling,16,1,Topsoiling (Item T-905),2015D147
+UNCLASSIFIED,Geotextile,16,1,Geotextile,2016D015
+UNCLASSIFIED,Inlet Protection,16,1,Inlet Protection,2016D015
+UNCLASSIFIED,Unsuitable Excavation and Disposal,16,1,Unsuitable Excavation and Disposal,2016D015
+111100,Cable Retrievers,15,1,Cable Retrievers (Section 111100),2023D003
+260500,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit)",15,1,"Electrical Feeds to Enclosed Circuit Breakers (2.5"" Conduit) (Section 260500)",2023D003
+260500,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit)",15,1,"Electrical Feeds to Enclosed Circuit Breakers (3/4"" Conduit) (Section 260500)",2023D003
+263343,Electrical Charging Units (Primary Units),15,1,Electrical Charging Units (Primary Units) (Section 263343),2023D003
+263343,Electrical Charging Units (Secondary Units),15,1,Electrical Charging Units (Secondary Units) (Section 263343),2023D003
+271000,Data Drop to Each Enclosure and Chargers,15,1,Data Drop to Each Enclosure and Chargers (Section 271000),2023D003
+271000,"Data Equipment Rack & Data Connections 1"" Conduit",15,1,"Data Equipment Rack & Data Connections 1"" Conduit (Section 271000)",2023D003
+271000,Network Termination Enclosure,15,1,Network Termination Enclosure (Section 271000),2023D003
+347115,Guard Rail,15,1,Guard Rail (Section 347115),2023D003
+347115,Precast Concrete Wheel Stop,15,1,Precast Concrete Wheel Stop (Section 347115),2023D003
+L-108,"No. 8 AWG, 5 kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit",15,1,"No. 8 AWG, 5 kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)",2017D013
+P-610,Structural Portland Cement Concrete,15,1,Structural Portland Cement Concrete (Item P-610),2017D013
+P-620,Markings,15,1,Markings (Item P-620),2023D003
+P-620,Surface Prep - Existing Pavement,15,1,Surface Prep - Existing Pavement (Item P-620),2023D003
+012200,Construction Survey,14,1,Construction Survey (Section 012200),2018D029
+015713,Sediment Fence,14,1,Sediment Fence (Section 015713),2018D029
+024113,Building Demolition,14,1,Building Demolition (Section 024113),2018D029
+024113,Building Slab and Foundation Removal,14,1,Building Slab and Foundation Removal (Section 024113),2018D029
+260500,Demolition of Existing Electrical Equipment on Work Site,14,1,Demolition of Existing Electrical Equipment on Work Site (Section 260500),2018D029
+D-751,Trench Drain,14,1,Trench Drain (Item D-751),2018D029
+P-101,Removal of Pipe and other Buried Structures,14,1,Removal of Pipe and other Buried Structures (Item P-101),2018D029
+P-152,Separation Geotextile,14,1,Separation Geotextile (Item P-152),2018D029
+P-620,Surface Preparation - New or Existing Pavement Surfaces,14,1,Surface Preparation - New or Existing Pavement Surfaces (Item P-620),2018D029
+UNCLASSIFIED,Pavement Markings,14,1,Pavement Markings,2018D015
+015713,Construction Access,13,1,Construction Access (Section 015713),2015D147
+312300,Existing Catch Basin Adjustment to Grade,13,1,Existing Catch Basin Adjustment to Grade (Section 312300),2015D147
+334100,Riprap,13,1,Riprap (Section 334100),2015D147
+344300,Install PF LED Taxiway Centerline Light on Existing Base Can with CF Isolation Transformer,13,1,Install PF LED Taxiway Centerline Light on Existing Base Can with CF Isolation Transformer (Section 344300),2015D147
+344300,"Install PF LED Taxiway Centerline Light with PF Base Can, CF Transformer in New AC",13,1,"Install PF LED Taxiway Centerline Light with PF Base Can, CF Transformer in New AC (Section 344300)",2015D147
+344301,Adjust Existing In-Pavement Runway Edge Light,13,1,Adjust Existing In-Pavement Runway Edge Light (Section 344301),2015D147
+344302,Sign E6-6,13,1,Sign E6-6 (Section 344302),2015D147
+344302,Sign E6-9,13,1,Sign E6-9 (Section 344302),2015D147
+344302,Sign G-3,13,1,Sign G-3 (Section 344302),2015D147
+D-751,Catch Basin,13,1,Catch Basin (Item D-751),2015D147
+L-108,Heat Shrink for 5kV L-823 Primary Connector,13,1,Heat Shrink for 5kV L-823 Primary Connector (Item L-108),2015D147
+L-108,No. 8 AWG 5kV Cable,13,1,No. 8 AWG 5kV Cable (Item L-108),2015D147
+L-110,IMC in Existing AC,13,1,1-Inch IMC in Existing AC (Item L-110),2015D147
+L-110,PVC Direct Buried,13,1,2-Inch PVC Direct Buried (Item L-110),2015D147
+L-110,PVC in Existing AC,13,1,2-Inch PVC in Existing AC (Item L-110),2015D147
+P-403,Hot Mix Asphalt (HMA) Pavement Base Course,13,1,Hot Mix Asphalt (HMA) Pavement Base Course (Item P-403),2015D147
+UNCLASSIFIED,Construction Survey,13,1,Construction Survey,2016D015
+UNCLASSIFIED,"Mobilization, Cleanup, and Demobilization",13,1,"Mobilization, Cleanup, and Demobilization",2016D015
+UNCLASSIFIED,Signage,13,1,Signage,2021D001
+012200,Abandon Existing Structure,12,1,Abandon Existing Structure (Sections 012200 and 334100),2024D016
+012200,Abandon and Plug Storm Pipe,12,1,Abandon and Plug Storm Pipe (Sections 012200 and 334100),2024D016
+012200,Aggregate Base Course,12,1,Aggregate Base Course (Sections 012200 and 321123),2024D016
+012200,Asphalt Concrete Pavement,12,1,Asphalt Concrete Pavement (Sections 012200 and 321200),2024D016
+012200,Catch Basins/Inlets,12,1,Catch Basins/Inlets (Sections 012200 and 334100),2024D016
+012200,Clearing and Grubbing,12,1,Clearing and Grubbing (Sections 012200 and 312000),2024D016
+012200,Connection to Existing Drainage Structure,12,1,Connection to Existing Drainage Structure (Sections 012200 and 334100),2024D016
+012200,Contaminated Soil Removal and Haul,12,1,Contaminated Soil Removal and Haul (Sections 012200 and 026100),2024D016
+012200,"Embankment, Ditch",12,1,"Embankment, Ditch (Sections 012200 and 312000)",2024D016
+012200,"Fill Material, Topsoil",12,1,"Fill Material, Topsoil (Sections 012200, 312000, and 329113)",2024D016
+012200,General Demolition,12,1,General Demolition (Sections 012200 and 024113),2024D016
+012200,Pavement Removal and Disposal,12,1,"Pavement Removal and Disposal, 6-inch Depth (Sections 012200 and 024113)",2024D016
+012200,Portland Cement Concrete Pavement,12,1,Portland Cement Concrete Pavement (10-Inch Thick) (Sections 012200 and 321300),2024D016
+012200,Repair Existing ARFF Cap,12,1,Repair Existing ARFF Cap (Sections 012200 and 312300),2024D016
+012200,Seeding,12,1,Seeding (Sections 012200 and 329219),2024D016
+012200,Site Preparation,12,1,Site Preparation (Sections 012200 and 320117),2024D016
+012200,Temporary Erosion and Sediment Control Measures,12,1,Temporary Erosion and Sediment Control Measures (Sections 012200 and 015713),2024D016
+012200,Trench Stabilization,12,1,Trench Stabilization (Sections 012200 and 312300),2024D016
+012200,Unsuitable Excavation and Disposal,12,1,Unsuitable Excavation and Disposal (Sections 012200 and 312300),2024D016
+260500,Electrical Equipment Rack - Panel Connected,12,1,Electrical Equipment Rack - Panel Connected (Section 260500),2023D003
+344300,Install PF Cover Plate on Existing Light Base,12,1,Install PF Cover Plate on Existing Light Base (Section 344300),2015D142
+347115,Bollard - Bolt Down,12,1,Bollard - Bolt Down (Section 347115),2023D003
+D-751,Connect to Existing Catch Basin/Manhole,12,1,Connect to Existing Catch Basin/Manhole (Item D-751),2023D011
+D-751,Underdrain Cleanout,12,1,Underdrain Cleanout (Item D-751),2023D011
+L-108,"No. 6 AWG, Solid, Bare Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations",12,1,"No. 6 AWG, Solid, Bare Counterpoise Wire, Installed in Trench, Above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)",2023D011
+L-110,PVC in Existing Structural AC,12,1,2-Inch PVC in Existing Structural AC (Item L-110),2023D011
+P-101,Cold Milling 3-Inch Depth,12,1,Cold Milling 3-Inch Depth (Item P-101),2023D016
+P-403,Asphalt Mixture Surface and Base,12,1,Asphalt Mixture Surface and Base (Item P-403),2018D027
+P-620,Permanent Pavement Marking,12,1,Permanent Pavement Marking (Item P-620),2023D011
+P-620,Runway Marking,12,1,Runway Marking (Item P-620),2015D142
+P-620,Surface Prep - Marking Removal,12,1,Surface Prep - Marking Removal (Item P-620),2023D003
+P-620,Surface Preparation - New Pavement Surfaces,12,1,Surface Preparation - New Pavement Surfaces (Item P-620),2018D027
+P-620,Temporary Pavement Marking,12,1,Temporary Pavement Marking (Item P-620),2023D011
+UNCLASSIFIED,0,12,1,0,2023D018
+UNCLASSIFIED,Columbia Slough Outfall Structure,12,1,Columbia Slough Outfall Structure,2015D006
+UNCLASSIFIED,Contaminated Soil Sediment Excavation and Disposal,12,1,Contaminated Soil Sediment Excavation and Disposal,2015D006
+UNCLASSIFIED,Guard Rail Removal and Replacement,12,1,Guard Rail Removal and Replacement,2015D006
+UNCLASSIFIED,Inlet (Type PB),12,1,Inlet (Type PB),2015D006
+UNCLASSIFIED,Landscape Restoration,12,1,Landscape Restoration,2015D006
+UNCLASSIFIED,McBride Slough Intake Structure,12,1,McBride Slough Intake Structure,2015D006
+UNCLASSIFIED,Modified Concrete Curb and Gutter,12,1,Modified Concrete Curb and Gutter,2015D006
+UNCLASSIFIED,Offsite Haul and Disposal,12,1,Offsite Haul and Disposal,2015D006
+UNCLASSIFIED,Pipe Zone and Bedding Material,12,1,Pipe Zone and Bedding Material,2015D006
+UNCLASSIFIED,Portland Cement Concrete Pavement,12,1,Portland Cement Concrete Pavement (9-Inch),2015D006
+UNCLASSIFIED,Sewer Pipe,12,1,72-Inch Sewer Pipe,2015D006
+UNCLASSIFIED,Shoring,12,1,Shoring,2015D006
+UNCLASSIFIED,Sidewalk,12,1,Sidewalk,2015D006
+UNCLASSIFIED,Stormwater Flow Through Pollution Reduction Facility,12,1,Stormwater Flow Through Pollution Reduction Facility,2015D006
+UNCLASSIFIED,Subdrains,12,1,Subdrains,2015D006
+UNCLASSIFIED,Trench Excavation and General Native Backfill,12,1,Trench Excavation and General Native Backfill,2015D006
+UNCLASSIFIED,Trench Excavation and Select Backfill,12,1,Trench Excavation and Select Backfill,2015D006
+UNCLASSIFIED,Trench Excavation and Select Native Backfill,12,1,Trench Excavation and Select Native Backfill,2015D006
+344301,Adjust Existing Base Can to New Finish Elevation,11,1,Adjust Existing Base Can to New Finish Elevation (Section 344301),2022D028
+P-209,Separation Geotextile,11,1,Separation Geotextile (Item P-209),2022D028
+P-621,Grooving,11,1,Grooving (Item P-621),2022D028
+UNCLASSIFIED,Traffic Control,10,1,Traffic Control,2021D001
+015713,Trench Protection,9,1,Trench Protection (Section 015713),2017D013
+024113,Remove Bollard - Embedded,9,1,Remove Bollard - Embedded (Section 024113),2023D003
+312300,Existing Electrical Vault (H-20 Rated) Extension to Finish Grade,9,1,Existing Electrical Vault (H-20 Rated) Extension to Finish Grade (Section 312300),2017D013
+312300,Modifications to Existing Pump Station A and Deicing Valve Vault,9,1,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),2017D013
+312300,Sanitary Sewer Wet Well Removal,9,1,Sanitary Sewer Wet Well Removal (Section 312300),2017D013
+344300,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC",9,1,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)",2017D013
+344300,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in Existing AC",9,1,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in Existing AC (Section 344300)",2017D013
+344300,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC",9,1,"Reinstall Elevated Taxiway Edge Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)",2017D013
+344300,"Reinstall LED Taxiway Centerline Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC",9,1,"Reinstall LED Taxiway Centerline Light w/ PF Base Can, PF Extension, PF Flange Ring, and CF Transformer in New AC (Section 344300)",2017D013
+344300,Reinstall Taxiway Centerline Light on Existing Base Can w/ Existing Transformer in Existing AC,9,1,Reinstall Taxiway Centerline Light on Existing Base Can w/ Existing Transformer in Existing AC (Section 344300),2017D013
+344300,"Reinstall Taxiway Centerline Light on Existing Base Can w/ PF Extension, PF Flange Ring, and Existing Transformer in New AC",9,1,"Reinstall Taxiway Centerline Light on Existing Base Can w/ PF Extension, PF Flange Ring, and Existing Transformer in New AC (Section 344300)",2017D013
+344300,Reinstall Taxiway Edge Light on Existing Base Can with Existing Isolation Transformer,9,1,Reinstall Taxiway Edge Light on Existing Base Can with Existing Isolation Transformer (Section 344300),2017D013
+344302,Sign A4-13,9,1,Sign A4-13 (Section 344302),2017D013
+344302,Sign A4-6,9,1,Sign A4-6 (Section 344302),2017D013
+344302,Sign A4-7,9,1,Sign A4-7 (Section 344302),2017D013
+344302,Sign A4-9,9,1,Sign A4-9 (Section 344302),2017D013
+344302,Sign A5-3,9,1,Sign A5-3 (Section 344302),2017D013
+344302,Sign A5-4,9,1,Sign A5-4 (Section 344302),2017D013
+344302,Sign V-2,9,1,Sign V-2 (Section 344302),2017D013
+344302,Sign V-4,9,1,Sign V-4 (Section 344302),2017D013
+344302,Sign V-5,9,1,Sign V-5 (Section 344302),2017D013
+344302,Sign V-6,9,1,Sign V-6 (Section 344302),2017D013
+D-705,Perforated Pipe,9,1,6-Inch Perforated Pipe (Item D-705),2017D013
+L-110,1 1/2-Inch GRSC,9,1,1 1/2-Inch GRSC (Item L-110),2017D013
+L-110,PVC,9,1,2-Inch PVC (Item L-110),2017D013
+P-156,Installation and Removal of Silt Fence,9,1,Installation and Removal of Silt Fence (Item P-156),2017D013
+P-403,HMA Base Course,9,1,HMA Base Course (Item P-403),2017D013
+P-501,Portland Cement Concrete Pavement,9,1,Portland Cement Concrete Pavement (Item P-501),2017D013
+P-604,Compression Joint Seals for Concrete Pavement,9,1,Compression Joint Seals for Concrete Pavement (Item P-604),2017D013
+012200,Abandon Existing Monitoring Well,8,1,Abandon Existing Monitoring Well (Section 012200),2018D029
+024113,Existing Landscape Removal,8,1,Existing Landscape Removal (Section 024113),2018D029
+024113,Removal of Existing or Temporary Fence,8,1,Removal of Existing or Temporary Fence (Section 024113),2018D029
+024113,Removal of Miscellaneous Site Structures,8,1,Removal of Miscellaneous Site Structures (Section 024113),2018D029
+260500,Install Gate Valve and Lighting Controls,8,1,Install Gate Valve and Lighting Controls (Section 260500),2018D029
+260500,Install Handholes for Power and Communications,8,1,Install Handholes for Power and Communications (Section 260500),2018D029
+260500,Install Underground Power Conductors for Apron Lights and Communications,8,1,Install Underground Power Conductors for Apron Lights and Communications (Section 260500),2018D029
+260500,Provide Temporary Power During Construction Inside the 480V Power Center,8,1,Provide Temporary Power During Construction Inside the 480V Power Center (Section 260500),2018D029
+260500,Re-feed Loads Inside 480V Power Center,8,1,Re-feed Loads Inside 480V Power Center (Section 260500),2018D029
+260526,Grounding and Bonding for Electrical Systems,8,1,Grounding and Bonding for Electrical Systems (Section 260526),2018D029
+260543,Underground Ducts and Raceways for Electrical Systems,8,1,Underground Ducts and Raceways for Electrical Systems (Section 260543),2018D029
+262200,Remove and Replace Existing 9KVA Transformer,8,1,Remove and Replace Existing 9KVA Transformer (Section 262200),2018D029
+262400,Remove and Replace Existing 480V Distribution Panel,8,1,Remove and Replace Existing 480V Distribution Panel (Section 262400),2018D029
+265623,Install Apron Lighting,8,1,Install Apron Lighting (Section 265623),2018D029
+270553,Telecommunications Identification,8,1,Telecommunications Identification (Section 270553),2018D029
+271000,Structured Cabling,8,1,Structured Cabling (Section 271000),2018D029
+282300,Video Surveillance,8,1,Video Surveillance (Section 282300),2018D029
+312300,Rotate Existing Manhole Lid,8,1,Rotate Existing Manhole Lid (Section 312300),2018D029
+321613,Cast-in-Place Concrete Curb,8,1,Cast-in-Place Concrete Curb (Section 321613),2018D029
+321613,Concrete Utility Hub Pavement,8,1,Concrete Utility Hub Pavement - 4-Inch (Section 321613),2018D029
+323113,Chain Link Fance with Barbed Wire,8,1,7-Foot Chain Link Fance with Barbed Wire (Section 323113),2018D029
+323113,Chain Link Fence with Slats and Barbed Wire,8,1,10-Foot Chain Link Fence with Slats and Barbed Wire (Section 323113),2018D029
+328400,Irrigation Replacement,8,1,Irrigation Replacement (Section 328400),2018D029
+329300,Ground Cover Planting,8,1,Ground Cover Planting (Section 329300),2018D029
+331116,Fire Water Line,8,1,8-Inch Fire Water Line (Section 331116),2018D029
+331116,Gate Valve,8,1,8-Inch Gate Valve (Section 331116),2018D029
+331116,Underground Fire Hydrant,8,1,Underground Fire Hydrant (Section 331116),2018D029
+347113,Pipe Bollards,8,1,Pipe Bollards (Section 347113),2018D029
+P-153,Controlled Low Strength Material,8,1,Controlled Low Strength Material (Item P-153),2018D029
+P-620,Temporary Marking,8,1,Temporary Marking (Item P-620),2018D029
+UNCLASSIFIED,Adjustment of Existing Structures (H-20 Rated Vaults),8,1,Adjustment of Existing Structures (H-20 Rated Vaults),2016D015
+UNCLASSIFIED,Bollard,8,1,Bollard,2016D015
+UNCLASSIFIED,Concrete Curb Removal,8,1,Concrete Curb Removal,2016D015
+UNCLASSIFIED,Concrete Wall Removal,8,1,Concrete Wall Removal,2016D015
+UNCLASSIFIED,Corrugated Metal Riser,8,1,72-Inch Corrugated Metal Riser,2016D015
+UNCLASSIFIED,Electrical Modifications,8,1,Electrical Modifications,2016D015
+UNCLASSIFIED,Escort,8,1,Escort,2016D015
+UNCLASSIFIED,Hand Rail,8,1,Hand Rail,2016D015
+UNCLASSIFIED,Modifications to Existing Wet Well,8,1,Modifications to Existing Wet Well,2016D015
+UNCLASSIFIED,Removal of Existing Lid from Stormwater Treatment Vault,8,1,Removal of Existing Lid from Stormwater Treatment Vault,2016D015
+UNCLASSIFIED,"Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets",8,1,"Removal of Existing Storm Pipe, Manholes, Pumps, Valves, Hangers, Vaults, and Brackets",2016D015
+UNCLASSIFIED,Security Control Monitoring,8,1,Security Control Monitoring,2016D015
+UNCLASSIFIED,Sediment Fence,8,1,Sediment Fence,2016D015
+UNCLASSIFIED,Stabilized Construction Entrance,8,1,Stabilized Construction Entrance,2016D015
+UNCLASSIFIED,Storm Sewer (Force Main) Pipe,8,1,24-Inch Storm Sewer (Force Main) Pipe,2016D015
+UNCLASSIFIED,Storm Sewer Pipe (RCP),8,1,21-Inch Storm Sewer Pipe (RCP),2016D015
+UNCLASSIFIED,Stormwater Pump Station,8,1,Stormwater Pump Station,2016D015
+UNCLASSIFIED,Stormwater Treatment Vault Cover,8,1,Stormwater Treatment Vault Cover,2016D015
+UNCLASSIFIED,Stormwater Treatment Vaults,8,1,Stormwater Treatment Vaults,2016D015
+012200,"Wildlife Access Road, Asphalt Grindings",7,1,"Wildlife Access Road, Asphalt Grindings (Section 012200)",2015D147
+334213,"Stormwater Pump Station, Electrical Equipment Installation",7,1,"Stormwater Pump Station, Electrical Equipment Installation (Section 334213)",2015D147
+334213,Stormwater Valve Vault,7,1,Stormwater Valve Vault (Section 334213),2015D147
+344300,"Reinstall Taxiway Centerline Light on CF Base Can, CF Extenstion, CF Flange Ring, and CF Transformer",7,1,"Reinstall Taxiway Centerline Light on CF Base Can, CF Extenstion, CF Flange Ring, and CF Transformer (Section 344300)",2020D022
+344300,Reinstall Taxiway Centerline Light on Existing Base Can with CF Transformer,7,1,Reinstall Taxiway Centerline Light on Existing Base Can with CF Transformer (Section 344300),2020D022
+344300,Reinstall Taxiway Edge Light on Existing Base Can with Existing Transformer,7,1,Reinstall Taxiway Edge Light on Existing Base Can with Existing Transformer (Section 344300),2020D022
+344301,Adjust Existing Elevated Runway Threshold Light,7,1,Adjust Existing Elevated Runway Threshold Light (Section 344301),2015D147
+344301,Adjust Existing In-Pavement Stop Bar Light,7,1,Adjust Existing In-Pavement Stop Bar Light (Section 344301),2015D147
+D-705,Perforated Pipe Underdrains,7,1,6-Inch Perforated Pipe Underdrains (Item D-705),2015D147
+L-108,"No. 8 AWG, 5kV, L-824, Type C Cable",7,1,"No. 8 AWG, 5kV, L-824, Type C Cable (Item L-108)",2020D022
+L-110,PVC encased in P-610 in Existing AC,7,1,2-Inch PVC encased in P-610 in Existing AC (Item L-110),2020D022
+P-101,Cold Millling,7,1,Cold Millling - 3-Inch Depth (Item P-101),2020D022
+P-401,Hot Mix Asphalt (HMA) Pavement,7,1,Hot Mix Asphalt (HMA) Pavement (Item P-401),2015D147
+P-501,Portland Cement Concrete (PCC) Pavement,7,1,Portland Cement Concrete (PCC) Pavement (Item P-501),2015D147
+P-604,Compression Joint Sealant,7,1,Compression Joint Sealant (Item P-604),2015D147
+P-605,Joint Sealant,7,1,Joint Sealant (Item P-605),2015D147
+P-620,Pavement Marking,7,1,Pavement Marking (Item P-620),2015D147
+P-620,Surface Preparation - Remarking,7,1,Surface Preparation - Remarking (Item P-620),2020D022
+P-620,Surface Preparation - Remove Existing Marking,7,1,Surface Preparation - Remove Existing Marking (Item P-620),2020D022
+P-620,Temporary Runway and Taxiway Makrings,7,1,Temporary Runway and Taxiway Makrings (Item P-620),2020D022
+P-621,Saw - Cut Grooving,7,1,Saw-Cut Grooving (Item P-621),2015D147
+UNCLASSIFIED,Aircraft - Rated Electrical Vaults,7,1,Aircraft-Rated Electrical Vaults,2020D008
+UNCLASSIFIED,Asphalt Concrerte Surface Course,7,1,Asphalt Concrerte Surface Course,2018D015
+UNCLASSIFIED,Clearing and Seeding,7,1,Clearing and Seeding,2023D028
+UNCLASSIFIED,Cold Plane Pavement Removal and Disposal,7,1,"Cold Plane Pavement Removal and Disposal, 3-Inch Depth",2023D028
+UNCLASSIFIED,Compacted Bedding Material,7,1,Compacted Bedding Material,2018D015
+UNCLASSIFIED,Concrete Curb,7,1,Concrete Curb,2023D028
+UNCLASSIFIED,Concrete Walks,7,1,Concrete Walks,2023D028
+UNCLASSIFIED,Contaminated Soil Excavation and Placement,7,1,Contaminated Soil Excavation and Placement,2018D015
+UNCLASSIFIED,Electrical Feeder Conductor Assembly,7,1,Electrical Feeder Conductor Assembly,2020D008
+UNCLASSIFIED,Electrical Feeder Conductor Termination and Testing,7,1,Electrical Feeder Conductor Termination and Testing,2020D008
+UNCLASSIFIED,Electrical Feeder Installation in Vaults,7,1,Electrical Feeder Installation in Vaults,2020D008
+UNCLASSIFIED,"Fill Material, Topsoil",7,1,"Fill Material, Topsoil",2018D015
+UNCLASSIFIED,General Demolition,7,1,General Demolition,2023D028
+UNCLASSIFIED,Geotextile Fabric,7,1,Geotextile Fabric,2023D028
+UNCLASSIFIED,H-20 Traffic - Rated Electrical Vaults,7,1,H-20 Traffic-Rated Electrical Vaults,2020D008
+UNCLASSIFIED,Kennedy Feeder Pad - Mount Switch,7,1,Kennedy Feeder Pad-Mount Switch,2020D008
+UNCLASSIFIED,Kennedy Feeder Point-of-Service Access Pad,7,1,Kennedy Feeder Point-of-Service Access Pad,2020D008
+UNCLASSIFIED,Lighting,7,1,Lighting,2023D028
+UNCLASSIFIED,Pavement Removal and Disposal,7,1,"Pavement Removal and Disposal, 9-Inch Depth",2023D028
+UNCLASSIFIED,Remove and Reinstall Catch Basin,7,1,Remove and Reinstall Catch Basin,2018D015
+UNCLASSIFIED,Remove and Reinstall Chain Link Fence,7,1,Remove and Reinstall Chain Link Fence,2018D015
+UNCLASSIFIED,Signal Modification,7,1,Signal Modification,2023D028
+UNCLASSIFIED,Site Preparation,7,1,Site Preparation,2023D028
+UNCLASSIFIED,Storm Culvert,7,1,Storm Culvert,2023D028
+UNCLASSIFIED,Subgrade Preparation,7,1,Subgrade Preparation,2023D028
+UNCLASSIFIED,Tack Coat,7,1,Tack Coat,2023D028
+UNCLASSIFIED,Temporary Erosion and Sediment Control,7,1,Temporary Erosion and Sediment Control,2020D008
+UNCLASSIFIED,Temporary Traffic Control,7,1,Temporary Traffic Control,2018D015
+UNCLASSIFIED,Two 6-Inch Conduits by Directional Drilling Method,7,1,Two 6-Inch Conduits by Directional Drilling Method,2020D008
+UNCLASSIFIED,Unclassified Excavation (P-152),7,1,Unclassified Excavation (P-152),2015D147
+UNCLASSIFIED,Valley Gutter,7,1,Valley Gutter,2023D028
+012200,Delineators,6,1,Delineators (Section 012200),2015D142
+012200,Work Zone Traffic Control,6,1,Work Zone Traffic Control (Section 012200),2023D011
+026100,Contaminated Material Excavation and Disposal - Wasco Landfill,6,1,Contaminated Material Excavation and Disposal - Wasco Landfill (Section 026100),2023D016
+260500,Electrical Equipment Rack - Load Share Connected,6,1,Electrical Equipment Rack - Load Share Connected (Section 260500),2023D003
+260500,"Electrical Feeds to Panels (Existing 3.5"" Conduit)",6,1,"Electrical Feeds to Panels (Existing 3.5"" Conduit) (Section 260500)",2023D003
+260500,Install Handholes for Power,6,1,Install Handholes for Power (Section 260500),2022D027
+260500,New Electrical Panels,6,1,"New Electrical Panels, 800A (Section 260500)",2023D003
+265000,General Electrical Removal,6,1,General Electrical Removal (Section 265000),2023D011
+265000,Temporary Circuit Connection,6,1,Temporary Circuit Connection (Section 265000),2023D011
+312300,Adjustment of Existing Structures (229 Kip Rated Vaults),6,1,Adjustment of Existing Structures (229 Kip Rated Vaults) (Section 312300),2015D142
+312300,Adjustment of Existing Structures (H-20 Rated Vaults),6,1,Adjustment of Existing Structures (H-20 Rated Vaults) (Section 312300),2015D142
+312300,Remove Existing Manhole Flat Top and Upgrade to Aircraft Rated Structure,6,1,Remove Existing Manhole Flat Top and Upgrade to Aircraft Rated Structure (Section 312300),2018D027
+312300,Replace Existing Manhole Lid with Open Grated Lid,6,1,Replace Existing Manhole Lid with Open Grated Lid (Section 312300),2018D027
+334213,Pump Station,6,1,Pump Station (Section 334213),2015D142
+334213,Pump Station Electrical Equipment Installation,6,1,Pump Station Electrical Equipment Installation (Section 334213),2015D142
+344300,Install Elevated Red Stop Bar Light on Existing Base Can with CF Transformer,6,1,Install Elevated Red Stop Bar Light on Existing Base Can with CF Transformer (Section 344300),2023D016
+344300,Install Elevated Red Stop Bar Light on Existing Base Can with PF Transformer,6,1,Install Elevated Red Stop Bar Light on Existing Base Can with PF Transformer (Section 344300),2023D011
+344300,"Install Elevated Red Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",6,1,"Install Elevated Red Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",2023D011
+344300,Install Elevated Runway Guard Light on Existing Base Can with CF Transformer,6,1,Install Elevated Runway Guard Light on Existing Base Can with CF Transformer (Section 344300),2023D016
+344300,Install Elevated Runway Guard Light on Existing Base Can with PF Transformer,6,1,Install Elevated Runway Guard Light on Existing Base Can with PF Transformer (Section 344300),2023D011
+344300,"Install Elevated Runway Guard Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",6,1,"Install Elevated Runway Guard Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",2023D011
+344300,Install In-Pavement Runway Guard Light on Existing Base Can with CF Transformer,6,1,Install In-Pavement Runway Guard Light on Existing Base Can with CF Transformer (Section 344300),2023D016
+344300,Install In-Pavement Runway Guard/Stop Bar Light on Existing Base Can with CF Transformer,6,1,Install In-Pavement Runway Guard/Stop Bar Light on Existing Base Can with CF Transformer (Section 344300),2023D016
+344300,"Install In-Pavement Runway Guard/Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer",6,1,"Install In-Pavement Runway Guard/Stop Bar Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)",2023D011
+344300,"Install PF Base Can, PF Extension, PF Flange Ring and PF Cover Plate",6,1,"Install PF Base Can, PF Extension, PF Flange Ring and PF Cover Plate (Section 344300)",2023D011
+344300,"Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer in Existing AC",6,1,"Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer in Existing AC (Section 344300)",2023D016
+344300,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",6,1,"Install PF In-Pavement Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",2018D027
+344300,"Install PF L-867, 12-Inch Diameter Base Can, PF Cover Plate in Existing AC",6,1,"Install PF L-867, 12-Inch Diameter Base Can, PF Cover Plate in Existing AC (Section 344300)",2015D142
+344300,"Install PF L-868, 12-Inch Diameter Base Can, PF Cover Plate in New AC",6,1,"Install PF L-868, 12-Inch Diameter Base Can, PF Cover Plate in New AC (Section 344300)",2015D142
+344300,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer",6,1,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)",2023D016
+344300,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",6,1,"Install Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",2023D011
+344300,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer",6,1,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and CF Transformer (Section 344300)",2023D016
+344300,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",6,1,"Install Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",2023D011
+344300,"Reinstall Elevated LED Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",6,1,"Reinstall Elevated LED Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",2018D027
+344300,"Reinstall LED Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer",6,1,"Reinstall LED Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and CF Transformer (Section 344300)",2018D027
+344301,Adjust Existing Elevated Runway Threshold/Edge Light,6,1,Adjust Existing Elevated Runway Threshold/Edge Light (Section 344301),2015D142
+344301,Adjust Existing In-Pavement Runway Guard/Stop Bar Light to New Finish Elevation,6,1,Adjust Existing In-Pavement Runway Guard/Stop Bar Light to New Finish Elevation (Section 344301),2023D011
+344301,Adjust Existing Taxiway Centerline Light,6,1,Adjust Existing Taxiway Centerline Light (Section 344301),2018D027
+344302,Sign A5-1,6,1,Sign A5-1 (Section 344302),2023D011
+344302,Sign A5-6,6,1,Sign A5-6 (Section 344302),2023D011
+344302,Sign A5-7,6,1,Sign A5-7 (Section 344302),2023D011
+344302,Sign A5-8,6,1,Sign A5-8 (Section 344302),2023D011
+344302,Sign A5-9,6,1,Sign A5-9 (Section 344302),2023D011
+344302,Sign A6-10,6,1,Sign A6-10 (Section 344302),2023D011
+344302,Sign A6-11,6,1,Sign A6-11 (Section 344302),2023D011
+344302,Sign A6-12,6,1,Sign A6-12 (Section 344302),2023D011
+344302,Sign A6-2,6,1,Sign A6-2 (Section 344302),2023D011
+344302,Sign A6-3,6,1,Sign A6-3 (Section 344302),2023D011
+344302,Sign A6-7,6,1,Sign A6-7 (Section 344302),2023D016
+344302,Sign A6-9,6,1,Sign A6-9 (Section 344302),2023D011
+344302,Sign B6-11,6,1,Sign B6-11 (Section 344302),2018D027
+344302,Sign EA-15,6,1,Sign EA-15 (Section 344302),2023D016
+344302,Sign T-5,6,1,Sign T-5 (Section 344302),2023D016
+C-102,Inlet Protection,6,1,Inlet Protection (Item C-102),2023D011
+C-102,Installation and Removal of Silt Fence,6,1,Installation and Removal of Silt Fence (Item C-102),2018D027
+D-705,Non - Perforated Pipe,6,1,6-Inch Non-Perforated Pipe (Item D-705),2023D016
+D-705,Non - Perforated Underdrain Pipe,6,1,Non-Perforated Underdrain Pipe (6-inch) (Item D-705),2023D011
+D-705,Perforated Storm Sewer Pipe,6,1,6-Inch Perforated Storm Sewer Pipe (Item D-705),2023D016
+D-705,Perforated Underdrain Pipe,6,1,Perforated Underdrain Pipe (6-inch) (Item D-705),2023D011
+D-751,Manhole Catch Basin,6,1,60-Inch Manhole Catch Basin (Item D-751),2023D011
+D-751,"Manhole, Ditch Inlet",6,1,"48-Inch Manhole, Ditch Inlet (Item D-751)",2015D142
+L-108,"No. 12 AWG, 600V, Cable, Installed in Conduit",6,1,"No. 12 AWG, 600V, Cable, Installed in Conduit (Item L-108)",2023D011
+L-108,No. 2/0 AWG,6,1,"No. 2/0 AWG, 600-Volt Conductor (Item L-108)",2018D027
+L-108,No. 4 GND Conductor,6,1,No. 4 GND Conductor (Item L-108),2018D027
+L-110,IMC under New AC Shoulder,6,1,1.5-Inch IMC under New AC Shoulder (Item L-110),2023D011
+L-110,PVC Direct Buried in Grass or under New AC Shoulder,6,1,2-Inch PVC Direct Buried in Grass or under New AC Shoulder (Item L-110),2023D016
+L-110,PVC Encased in Concrete in New Structural AC,6,1,2-Inch PVC Encased in Concrete in New Structural AC (Item L-110),2023D016
+L-110,PVC Encased in Concrete in new Structural AC,6,1,2-Inch PVC Encased in Concrete in new Structural AC (Item L-110),2023D011
+L-110,PVC in CLSM,6,1,2-Inch PVC in CLSM (Item L-110),2018D027
+L-110,PVC in New Shoulder and Direct Buried,6,1,2-Inch PVC in New Shoulder and Direct Buried (Item L-110),2018D027
+L-110,PVC under New AC Shoulder,6,1,2-Inch PVC under New AC Shoulder (Item L-110),2023D011
+P-101,Cold Milling Surface Preparation,6,1,Cold Milling Surface Preparation (Item P-101),2023D016
+P-101,Cold Milling Variable to 10-Inch Depth,6,1,Cold Milling Variable to 10-Inch Depth (Item P-101),2023D016
+P-101,Full - Depth Asphalt Pavement Removal,6,1,Full-Depth Asphalt Pavement Removal - 10 to 19 Inches) (Item P-101),2023D016
+P-101,Pavement Removal,6,1,"Pavement Removal (Full Depth Asphalt Concrete, 4-17.5 Inches) (Item P-101)",2023D011
+P-401,Hot Mix Asphalt (HMA) Bituminous Surface Course,6,1,Hot Mix Asphalt (HMA) Bituminous Surface Course (Item P-401),2015D142
+P-403,Hot Mix Asphalt (HMA) Base Course,6,1,Hot Mix Asphalt (HMA) Base Course (Item P-403),2015D142
+P-501,- Thick Concrete Pavement,6,1,19-Inch-Thick Concrete Pavement (Item P-501),2022D027
+P-602,Emulsified Asphalt Prime Coat,6,1,Emulsified Asphalt Prime Coat (Item P-602),2018D027
+P-608,Runway Friction Testing,6,1,Runway Friction Testing (Item P-608),2015D142
+T-905,Topsoil (Furnished from Off the Site),6,1,Topsoil (Furnished from Off the Site) (Item T-905),2023D016
+UNCLASSIFIED,Borrow Excavation (P-152),6,1,Borrow Excavation (P-152),2015D142
+UNCLASSIFIED,One - Year Landscape Maintenance,6,1,One-Year Landscape Maintenance,2021D001
+312300,Existing Manhole Adjustment,5,1,Existing Manhole Adjustment - Cleanout (Section 312300),2022D028
+344300,Reinstall Elevated Runway End Light on Existing Base Can with PF Transformer,5,1,Reinstall Elevated Runway End Light on Existing Base Can with PF Transformer (Section 344300),2022D028
+344300,Reinstall Elevated Taxiway Edge Light on Existing Base Can with PF Transformer,5,1,Reinstall Elevated Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),2022D028
+344300,Reinstall In-Pavement Stop Bar Light on Existing Base Can with Existing Transformer,5,1,Reinstall In-Pavement Stop Bar Light on Existing Base Can with Existing Transformer (Section 344300),2022D028
+344300,Reinstall In-Pavement Taxiway Centerline Light on Existing Base Can with Existing Transformer,5,1,Reinstall In-Pavement Taxiway Centerline Light on Existing Base Can with Existing Transformer (Section 344300),2022D028
+344300,Reinstall In-Pavement Taxiway Edge Light on Existing Base Can with PF Transformer,5,1,Reinstall In-Pavement Taxiway Edge Light on Existing Base Can with PF Transformer (Section 344300),2022D028
+344300,Reinstall Taxiway Centerline Light on Existing Base Can with PF Transformer,5,1,Reinstall Taxiway Centerline Light on Existing Base Can with PF Transformer (Section 344300),2022D028
+344300,"Reinstall Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and PF Transformer",5,1,"Reinstall Taxiway Centerline Light on PF Base Can, PF Extension, PF Flange Ring, and PF Transformer (Section 344300)",2022D028
+344301,Adjust Existing Runway Edge Light to New Finish Elevation,5,1,Adjust Existing Runway Edge Light to New Finish Elevation (Section 344301),2022D028
+344301,Adjust Existing Taxiway Edge Light to New Finish Elevation,5,1,Adjust Existing Taxiway Edge Light to New Finish Elevation (Section 344301),2022D028
+344302,Sign CE-10,5,1,Sign CE-10 (Section 344302),2022D028
+L-108,"No. 10 AWG, 600V, Cable Installed in Conduit",5,1,"No. 10 AWG, 600V, Cable Installed in Conduit (Item L-108)",2022D028
+L-108,"No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed above the Duct Bank or Conduit, Including Connections/Terminations",5,1,"No. 6 AWG, Solid, Bare Copper Counterpoise Wire, Installed above the Duct Bank or Conduit, Including Connections/Terminations (Item L-108)",2022D028
+L-108,"No. 8 AWG, 5kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit",5,1,"No. 8 AWG, 5kV, L-824, Type C Cable Installed in Trench, Duct Bank or Conduit (Item L-108)",2022D028
+L-110,PVC Encased in CLSM in New AC,5,1,2-Inch PVC Encased in CLSM in New AC (Item L-110),2022D028
+L-110,PVC Encased in P-610 in Existing AC,5,1,2-Inch PVC Encased in P-610 in Existing AC (Item L-110),2022D028
+P-403,Asphalt Mixture Base and Surface Course,5,1,Asphalt Mixture Base and Surface Course (Item P-403),2022D028
+P-605,Concrete to Asphalt Joint Seal,5,1,Concrete to Asphalt Joint Seal (Item P-605),2024D045
+P-605,Concrete to Concrete Joint Seal,5,1,Concrete to Concrete Joint Seal (Silicone) (Item P-605),2024D045
+P-620,Surface Preparation - Existing Pavement Surface,5,1,Surface Preparation - Existing Pavement Surface (Item P-620),2022D028
+P-620,Surface Preparation - Marking Removal,5,1,Surface Preparation - Marking Removal (Item P-620),2022D028
+UNCLASSIFIED,"Pavement Marking, Painted",5,1,"Pavement Marking, Painted",2016D18
+UNCLASSIFIED,"Pavement Marking, Temporary",5,1,"Pavement Marking, Temporary",2016D18
+UNCLASSIFIED,"Pavement Marking, Thermoplastic",5,1,"Pavement Marking, Thermoplastic",2016D18
+UNCLASSIFIED,Utility Adjustments to Grade,5,1,Utility Adjustments to Grade,2016D18
+UNCLASSIFIED,Vehicle Detection Loops,5,1,Vehicle Detection Loops,2016D18
+012200,Contaminated Soil Handling and Management,4,1,Contaminated Soil Handling and Management (Section 012200),2023D025
+012200,Dewatering,4,1,Dewatering (Section 012200),2023D025
+012200,Erosion and Sediment Control,4,1,Erosion and Sediment Control (Section 012200),2023D025
+012200,HighBlueReflectiveMarkers,4,1,3'HighBlueReflectiveMarkers (Section012200),2019D031
+012200,"Removal, Haul, and Disposal of Demolition Debris",4,1,"Removal, Haul, and Disposal of Demolition Debris (Section 012200)",2023D025
+012200,SettlementPlates,4,1,SettlementPlates (Section012200),2019D031
+012200,Temporary Sewage Bypassing,4,1,Temporary Sewage Bypassing (Section 012200),2023D025
+012200,Temporary Stream Bypass,4,1,TemporaryStreamBypass(Section012200),2019D031
+012200,Work Zoneand Traffic Control,4,1,WorkZoneandTrafficControl (Section012200),2019D031
+015713,ConstructionEntrance,4,1,ConstructionEntrance (Section015713),2019D031
+015713,InletProtection,4,1,InletProtection (Section015713),2019D031
+015713,JuteMatting,4,1,JuteMatting (Section015713),2019D031
+015713,Plastic Mesh Fence,4,1,PlasticMeshFence (Section015713),2019D031
+026100,Contaminated Material Excavationand Disposal,4,1,ContaminatedMaterialExcavationandDisposal(Section026100),2019D031
+260500,FAAMALSRand Threshold Bar Lights,4,1,FAAMALSRandThresholdBarLights(Section260500),2019D031
+260500,Install PFConstant Current Regulator,4,1,InstallPFConstantCurrentRegulator (Section260500),2019D031
+260500,Temporary Threshold Set Upand Circuit Connection,4,1,TemporaryThresholdSetUpandCircuitConnection (Section260500),2019D031
+330516,CleanoutStructures,4,1,CleanoutStructures (Section330516),2019D031
+344300,Install PFElevated Taxiway Edge Lighton Existing Base Canwith CFTransformer,4,1,InstallPFElevatedTaxiwayEdgeLightonExistingBaseCanwithCFTransformer (Section344300),2019D031
+344300,Install PFLEDElevated Runway End/Threshold Lightwith PFBase Can,4,1,"InstallPFLEDElevatedRunwayEnd/ThresholdLightwithPFBaseCan,CFTransformerinNewACPShoulder (Section344300)",2019D031
+344300,Install PFLEDElevated Runway Guard Lightwith PFBase Can,4,1,"InstallPFLEDElevatedRunwayGuardLightwithPFBaseCan,CFTransformerinNewACPShoulder(Section344300)",2019D031
+344300,Install PFLEDRunway Edge Lightwith PFBase Can,4,1,"InstallPFLEDRunwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder (Section344300)",2019D031
+344300,Install PFTaxiway Edge Lightwith PFBase Can,4,1,"InstallPFTaxiwayEdgeLightwithPFBaseCan,CFTransformerinNewACPShoulder(Section344300)",2019D031
+344300,InstallPF,4,1,"InstallPF12""Diameter,24""DeepBaseCanwithPFCoverinNewACPShoulder (Section344300)",2019D031
+344301,Adjust Existing Runway/Taxiway Elevated Edge Lightwith CFTransformer,4,1,AdjustExistingRunway/TaxiwayElevatedEdgeLightwithCFTransformer (Section344301),2019D031
+344302,Sign,4,1,Sign13R-1 (Section344302),2019D031
+344302,SignA,4,1,SignA-1 (Section344302),2019D031
+354000,Boulders,4,1,Boulders (Section354000),2019D031
+354000,Grade Control Structures,4,1,GradeControlStructures (Section354000),2019D031
+354000,RiprapOutfall,4,1,RiprapOutfall (Section354000),2019D031
+354000,StreambedCobble,4,1,StreambedCobble (Section354000),2019D031
+354000,StreambedSediment,4,1,StreambedSediment (Section354000),2019D031
+C-102,Installationand Removalof Silt Fence,4,1,InstallationandRemovalofSiltFence (ItemC-102),2019D031
+D-701,12-inchSTS,4,1,12-inchSTS (ItemD-701),2019D031
+D-701,14-inch Class50Ductile Iron Pipe Culvert,4,1,14-inchClass50DuctileIronPipeCulvert(ItemD-701),2019D031
+D-701,18-inch Class50Ductile Iron Pipe Culvert,4,1,18-inchClass50DuctileIronPipeCulvert (ItemD-701),2019D031
+D-701,24-inchSTS,4,1,24-inchSTS (ItemD-701),2019D031
+D-701,6-inchSTS,4,1,6-inchSTS (ItemD-701),2019D031
+D-701,Culvert,4,1,8'HX14'WCulvert (ItemD-701),2019D031
+D-705,InchPipeUnderdrains,4,1,6-InchPipeUnderdrains (ItemD-705),2019D031
+D-751,CatchBasins,4,1,CatchBasins (ItemD-751),2019D031
+D-752,ReinforcingSteel,4,1,ReinforcingSteel (ItemD-752),2019D031
+D-752,StructuralConcrete,4,1,StructuralConcrete (ItemD-752),2019D031
+D-752,Unclassified Excavationfor Structures,4,1,UnclassifiedExcavationforStructures (ItemD-752),2019D031
+L-108,Ground Rodfor Counterpoise,4,1,GroundRodforCounterpoise (ItemL-108),2019D031
+L-108,"No.6AWG,Solid,Bare Counterpoise Wire,Installed Abovethe Duct Bankor Conduit",4,1,"No.6AWG,Solid,BareCounterpoiseWire,InstalledAbovetheDuctBankorConduit,IncludingConnections/Terminations(ItemL-108)",2019D031
+L-108,"No.8AWG,5k V,L-824,Type CCable Installedin Trench,Duct Bank",4,1,"No.8AWG,5kV,L-824,TypeCCableInstalledinTrench,DuctBank,orConduit(ItemL-108)",2019D031
+L-110,InchPVCinGrassorinNewACshoulder,4,1,2-InchPVCinGrassorinNewACshoulder(ItemL-110),2019D031
+L-110,InchPVCinNewACStructuralPavement,4,1,2-InchPVCinNewACStructuralPavement(ItemL-110),2019D031
+P-101,Asphalt Pavement Removal - 2.5-InchDepth,4,1,AsphaltPavementRemoval-2.5-InchDepth (ItemP-101),2019D031
+P-101,ColdMilling - 0.5InchDepth,4,1,ColdMilling-0.5InchDepth (ItemP-101),2019D031
+P-101,ColdMilling - VariableDepth(Transitional),4,1,ColdMilling-VariableDepth(Transitional)(ItemP-101),2019D031
+P-101,Removalof Pipeand Other Buried Structures,4,1,RemovalofPipeandOtherBuriedStructures (ItemP-101),2019D031
+P-152,EmbankmentinPlace,4,1,EmbankmentinPlace (ItemP-152),2019D031
+P-152,MechanicalStabilization,4,1,MechanicalStabilization (ItemP-152),2019D031
+P-152,Subgrade Stabilzation,4,1,Subgrade Stabilzation (Item P-152),2023D025
+P-152,UnsuitableExcavation,4,1,UnsuitableExcavation (ItemP-152),2019D031
+P-153,ControlledLow - StrengthMaterial(CLSM),4,1,ControlledLow-StrengthMaterial(CLSM) (ItemP-153),2019D031
+P-154,SubbaseCourse,4,1,SubbaseCourse (ItemP-154),2019D031
+P-209,SeparationGeotextile,4,1,SeparationGeotextile (ItemP-209),2019D031
+P-403,Asphalt Mixture Baseand Surface Course,4,1,AsphaltMixtureBaseandSurfaceCourse(ItemP-403),2019D031
+P-606,AdhesiveCompound,4,1,AdhesiveCompound (ItemP-606),2019D031
+P-608,Runway and High Speed Exit Taxiway Friction Testing,4,1,Runway and High Speed Exit Taxiway Friction Testing (Item P-608),2023D018
+P-620,ReflectiveMedia,4,1,ReflectiveMedia (ItemP-620),2019D031
+P-620,Temporary Runwayand Taxiway Marking,4,1,TemporaryRunwayandTaxiwayMarking (ItemP-620),2019D031
+024113,Relocate Storage Shelter,3,1,Relocate Storage Shelter (Section 024113),2023D003
+024113,Remove Bollard - Bolt Down,3,1,Remove Bollard - Bolt Down (Section 024113),2023D003
+024113,Remove Electrical Chargers,3,1,Remove Electrical Chargers (Section 024113),2023D003
+260500,Training,3,1,Training (Section 260500),2023D003
+260526,Ground Rod for Counterpoise,3,1,Ground Rod for Counterpoise (Section 260526),2017D029
+320117,Asphalt Concrete Surface Course,3,1,Asphalt Concrete Surface Course (Section 320117),2021D017
+320117,Asphalt Pavement Removal,3,1,Asphalt Pavement Removal - 2-3 Inch Depth (Section 320117),2021D017
+320118,Crack Repair,3,1,Crack Repair (Section 320118),2021D017
+344300,Install CF 150-Watt,3,1,"Install CF 150-Watt, 6.6/6.6 Amp Isolation Transformer in Existing Base Can (Section 344300)",2017D029
+344300,Install PF Cover Plate on Existing Base Can,3,1,Install PF Cover Plate on Existing Base Can (Section 344300),2017D029
+344300,Install PF Cover Plate on Existing Base Can with PF Bolts,3,1,Install PF Cover Plate on Existing Base Can with PF Bolts (Section 344300),2021D017
+344300,Install PF Dual Stop Bar Light on Existing Light Base,3,1,Install PF Dual Stop Bar Light on Existing Light Base (Section 344300),2017D029
+344300,Install PF Dual Stop Bar Light with PF Remote and CF Transformer on Existing Light Base,3,1,Install PF Dual Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Dual Stop Bar Light with Two CF Transformers on Existing Light Base,3,1,Install PF Dual Stop Bar Light with Two CF Transformers on Existing Light Base (Section 344300),2017D029
+344300,Install PF Elevated Runway Edge Light with CF Transformer on Existing Light Base,3,1,Install PF Elevated Runway Edge Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Elevated Runway End Light with CF Transformer on Existing Light Base,3,1,Install PF Elevated Runway End Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Elevated Runway Guard Light with CF Transformer on Existing Light Base,3,1,Install PF Elevated Runway Guard Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Elevated Taxiway Edge Light with CF Transformer on Existing Light Base,3,1,Install PF Elevated Taxiway Edge Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF In-Pavement Red Stop Bar Light with PF Remote and CF Transformer on Existing Light Base,3,1,Install PF In-Pavement Red Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF In-Pavement Runway Edge Light with CF Transformer on Existing Light Base,3,1,Install PF In-Pavement Runway Edge Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF In-Pavement Runway Guard Light on Existing Light Base,3,1,Install PF In-Pavement Runway Guard Light on Existing Light Base (Section 344300),2017D029
+344300,Install PF In-Pavement Runway Guard Light with CF Transformer on Existing Light Base,3,1,Install PF In-Pavement Runway Guard Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF In-Pavement Runway Threshold Light with CF Transformer on Existing Light Base,3,1,Install PF In-Pavement Runway Threshold Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF LED Elevated Runway Edge Light on Existing Base Can with PF Transformer,3,1,Install PF LED Elevated Runway Edge Light on Existing Base Can with PF Transformer (Section 344300),2021D017
+344300,Install PF LED Elevated Runway End/Threshold Light on Existing Base Can with PF Transformer,3,1,Install PF LED Elevated Runway End/Threshold Light on Existing Base Can with PF Transformer (Section 344300),2021D017
+344300,Install PF LED In-Pavement Runway Edge Light on Existing Base Can with PF Transformer,3,1,Install PF LED In-Pavement Runway Edge Light on Existing Base Can with PF Transformer (Section 344300),2021D017
+344300,Install PF Microwave Sensor with CF Transformer in Existing Base Can,3,1,Install PF Microwave Sensor with CF Transformer in Existing Base Can (Section 344300),2017D029
+344300,Install PF Red Elevated Stop Bar Light with CF Transformer on Existing Light Base,3,1,Install PF Red Elevated Stop Bar Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Red Elevated Stop Bar Light with PF Remote and CF Transformer on Existing Light Base,3,1,Install PF Red Elevated Stop Bar Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Runway Centerline Light with CF Transformer on Existing Light Base,3,1,Install PF Runway Centerline Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Taxiway Centerline Light on Existing Light Base,3,1,Install PF Taxiway Centerline Light on Existing Light Base (Section 344300),2017D029
+344300,Install PF Taxiway Centerline Light with CF Transformer on Existing Light Base,3,1,Install PF Taxiway Centerline Light with CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Taxiway Centerline Light with PF Remote and CF Transformer on Existing Light Base,3,1,Install PF Taxiway Centerline Light with PF Remote and CF Transformer on Existing Light Base (Section 344300),2017D029
+344300,Install PF Taxiway Edge Reflector,3,1,Install PF Taxiway Edge Reflector (Section 344300),2021D017
+344302,Sign A1-1,3,1,Sign A1-1 (Section 344302),2021D017
+344302,Sign A7-2,3,1,Sign A7-2 (Section 344302),2021D017
+344302,Sign A8-1,3,1,Sign A8-1 (Section 344302),2021D017
+344302,Sign A8-2,3,1,Sign A8-2 (Section 344302),2021D017
+344302,Sign B1-1,3,1,Sign B1-1 (Section 344302),2021D017
+344302,Sign B7-1,3,1,Sign B7-1 (Section 344302),2021D017
+344302,Sign B8-1,3,1,Sign B8-1 (Section 344302),2021D017
+344302,Sign UL-2,3,1,Sign UL-2 (Section 344302),2021D017
+L-108,"#6 AWG, 5kV Cable",3,1,"#6 AWG, 5kV Cable (Item L-108)",2017D029
+L-110,PVC in Existing ACP Shoulder,3,1,2-inch PVC in Existing ACP Shoulder (Item L-110),2017D029
+P-620,Pavement Markings,3,1,Pavement Markings (Item P-620),2021D017
+P-620,Temporary Pavement Markings,3,1,Temporary Pavement Markings (Item P-620),2021D017
+P-626,Slurry Seal,3,1,Slurry Seal (Item P-626),2021D017
+UNCLASSIFIED,Aggregate Removal and Disposal,3,1,Aggregate Removal and Disposal,2021D007
+UNCLASSIFIED,Air Release Valve Assembly,3,1,2-Inch Air Release Valve Assembly,2021D001
+UNCLASSIFIED,Airfield Fire Water Disconnection,3,1,Airfield Fire Water Disconnection,2021D001
+UNCLASSIFIED,Asphalt Grinding Removal and Disposal,3,1,Asphalt Grinding Removal and Disposal,2020D009
+UNCLASSIFIED,Asphalt Sawcut,3,1,Asphalt Sawcut,2020D009
+UNCLASSIFIED,Barge and Access Equipment,3,1,Barge and Access Equipment,2021D025
+UNCLASSIFIED,Bedding and Pipe Zone Material,3,1,Bedding and Pipe Zone Material,2021D001
+UNCLASSIFIED,Blackout and Temporary Pavement Marking,3,1,Blackout and Temporary Pavement Marking,2020D009
+UNCLASSIFIED,Bollards,3,1,Bollards,2020D009
+UNCLASSIFIED,Building Removal and Backfill,3,1,Building Removal and Backfill,2021D007
+UNCLASSIFIED,Butterfly Valve,3,1,16-Inch Butterfly Valve,2021D001
+UNCLASSIFIED,Cast - In-Place Concrete Curb,3,1,Cast-In-Place Concrete Curb,2021D001
+UNCLASSIFIED,Catch Basin,3,1,Catch Basin,2020D009
+UNCLASSIFIED,Central Water Meter Vault and Manifold,3,1,Central Water Meter Vault and Manifold,2021D001
+UNCLASSIFIED,Chain - Link Slatted Fence Fabric,3,1,6-Foot Chain-Link Slatted Fence Fabric,2020D009
+UNCLASSIFIED,Concrete Pad Demolition and Repair,3,1,Concrete Pad Demolition and Repair,2021D025
+UNCLASSIFIED,Concrete Removal and Backfill,3,1,Concrete Removal and Backfill,2021D007
+UNCLASSIFIED,Concrete Sidewalk,3,1,Concrete Sidewalk,2021D001
+UNCLASSIFIED,Concrete Winch House Removal and Backfill,3,1,Concrete Winch House Removal and Backfill,2021D007
+UNCLASSIFIED,Connection to Existing Utility,3,1,Connection to Existing Utility,2020D009
+UNCLASSIFIED,Containment,3,1,Containment,2021D025
+UNCLASSIFIED,Crack Seal,3,1,Crack Seal,2021D001
+UNCLASSIFIED,Curb Removal,3,1,Curb Removal,2020D009
+UNCLASSIFIED,DR9 Pex Water Pipe,3,1,3-Inch DR9 Pex Water Pipe,2021D001
+UNCLASSIFIED,Deck Crack Repair,3,1,Deck Crack Repair,2021D025
+UNCLASSIFIED,Deck Delamination and Spall Repair,3,1,Deck Delamination and Spall Repair,2021D025
+UNCLASSIFIED,Deck Delamination and Spall Repair with Anodes,3,1,Deck Delamination and Spall Repair with Anodes,2021D025
+UNCLASSIFIED,Deck Surface Repair,3,1,Deck Surface Repair,2021D025
+UNCLASSIFIED,Deck Surface Repair with Cathodic Protection,3,1,Deck Surface Repair with Cathodic Protection,2021D025
+UNCLASSIFIED,Deck Topping Repair,3,1,Deck Topping Repair,2021D025
+UNCLASSIFIED,Deck Topping Replacement,3,1,Deck Topping Replacement,2021D025
+UNCLASSIFIED,"Demarcation Panel with Receptacles, Heater, and T-Stat",3,1,"Demarcation Panel with Receptacles, Heater, and T-Stat",2021D001
+UNCLASSIFIED,Ditch Protection,3,1,Ditch Protection,2020D009
+UNCLASSIFIED,Ductile Iron Sewer Pipe,3,1,12-Inch Ductile Iron Sewer Pipe,2020D009
+UNCLASSIFIED,Electric Utility Meter Base - 200A Direct,3,1,Electric Utility Meter Base - 200A Direct,2021D001
+UNCLASSIFIED,Electrical,3,1,Electrical,2020D009
+UNCLASSIFIED,Electrical Bedding Material,3,1,Electrical Bedding Material,2020D009
+UNCLASSIFIED,Electrical Demo (Existing ORANG),3,1,Electrical Demo (Existing ORANG),2021D001
+UNCLASSIFIED,Embankment,3,1,Embankment,2020D009
+UNCLASSIFIED,Encasement Over Existing Waterlin,3,1,Encasement Over Existing Waterlin,2020D009
+UNCLASSIFIED,Fence Fabric Removal,3,1,Fence Fabric Removal,2020D009
+UNCLASSIFIED,Fender Panel Rehabilitation,3,1,Fender Panel Rehabilitation,2021D025
+UNCLASSIFIED,"Fill Material, Top Soil",3,1,"Fill Material, Top Soil",2021D007
+UNCLASSIFIED,Fire Hydrant Assembly,3,1,Fire Hydrant Assembly,2021D001
+UNCLASSIFIED,H-Frame Support,3,1,H-Frame Support,2021D001
+UNCLASSIFIED,"HDPE Interduct (Comm) - 1 1/4""",3,1,"HDPE Interduct (Comm) - 1 1/4""",2021D001
+UNCLASSIFIED,Hollow Core Deck Panel Replacement,3,1,Hollow Core Deck Panel Replacement,2021D025
+UNCLASSIFIED,Irrigation Replacement,3,1,Irrigation Replacement,2021D001
+UNCLASSIFIED,Joint Repair,3,1,Joint Repair,2021D025
+UNCLASSIFIED,Joint Repair at Panel Step,3,1,Joint Repair at Panel Step,2021D025
+UNCLASSIFIED,Landside Utility Disconnections,3,1,Landside Utility Disconnections,2021D001
+UNCLASSIFIED,Lead Paint Chip Removal,3,1,Lead Paint Chip Removal,2021D007
+UNCLASSIFIED,"Loose Riprap, Class 50",3,1,"Loose Riprap, Class 50",2021D007
+UNCLASSIFIED,Manhole and Catch Basin Adjustment,3,1,Manhole and Catch Basin Adjustment,2021D001
+UNCLASSIFIED,Metalizing Repairs,3,1,Metalizing Repairs,2021D025
+UNCLASSIFIED,Metalizing System at Edge Beams,3,1,Metalizing System at Edge Beams,2021D025
+UNCLASSIFIED,Metered Switchgear Installation,3,1,Metered Switchgear Installation,2021D001
+UNCLASSIFIED,Mini - Power Zone,3,1,Mini-Power Zone (10 KVA),2021D001
+UNCLASSIFIED,Miscellaneous Removals and Backfill,3,1,Miscellaneous Removals and Backfill,2021D007
+UNCLASSIFIED,Monolithic Curb and Sidewalk,3,1,Monolithic Curb and Sidewalk,2020D009
+UNCLASSIFIED,Mulch,3,1,Mulch,2021D001
+UNCLASSIFIED,PVC Conduit (Comm),3,1,PVC Conduit (Comm) - 4 Inch,2021D001
+UNCLASSIFIED,"Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R",3,1,"Panelboard - 240/120V, 100A, 1-Phase, NEMA 3R",2021D001
+UNCLASSIFIED,"Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R",3,1,"Panelboard - 480Y/277V, 100A, 3-Phase, NEMA 3R",2021D001
+UNCLASSIFIED,Pile Crack Repair,3,1,Pile Crack Repair,2021D025
+UNCLASSIFIED,Pile Spall Repair,3,1,Pile Spall Repair,2021D025
+UNCLASSIFIED,Project Traffic Control,3,1,Project Traffic Control,2020D009
+UNCLASSIFIED,Reduced Pressure Backflow Assembly and Enclosure,3,1,4-Inch Reduced Pressure Backflow Assembly and Enclosure,2021D001
+UNCLASSIFIED,Reduced Pressure Detector Assembly and Enclosure,3,1,16-Inch Reduced Pressure Detector Assembly and Enclosure,2021D001
+UNCLASSIFIED,Reinforced Concrete Pad,3,1,Reinforced Concrete Pad,2021D001
+UNCLASSIFIED,Remove and Reinstall 12-Inch Ductile Iron Pipe,3,1,Remove and Reinstall 12-Inch Ductile Iron Pipe,2020D009
+UNCLASSIFIED,Remove and Replace Compression Seal,3,1,Remove and Replace Compression Seal,2021D025
+UNCLASSIFIED,Remove and Replace Embedded Anodes,3,1,Remove and Replace Embedded Anodes,2021D025
+UNCLASSIFIED,Septic Tank and Drain Field Removal,3,1,Septic Tank and Drain Field Removal,2021D007
+UNCLASSIFIED,Sign UL-1 Section 344302),3,1,Sign UL-1 Section 344302),2021D017
+UNCLASSIFIED,Soffit and Vertical Crack Repair,3,1,Soffit and Vertical Crack Repair,2021D025
+UNCLASSIFIED,Soffit and Vertical Face Delamination and Spall Repair,3,1,Soffit and Vertical Face Delamination and Spall Repair,2021D025
+UNCLASSIFIED,Soffit and Vertical Face Delamination and Spall Repair with Anodes,3,1,Soffit and Vertical Face Delamination and Spall Repair with Anodes,2021D025
+UNCLASSIFIED,Standard 8-Inch Concrete Curb,3,1,Standard 8-Inch Concrete Curb,2020D009
+UNCLASSIFIED,Surfacings Removal,3,1,Surfacings Removal,2021D001
+UNCLASSIFIED,Sweeper Section,3,1,Sweeper Section (012200),2023D003
+UNCLASSIFIED,Tree and Plant Protection,3,1,Tree and Plant Protection,2021D001
+UNCLASSIFIED,Trench Excavation,3,1,Trench Excavation,2021D001
+UNCLASSIFIED,Trenchless Installation,3,1,Trenchless Installation,2021D001
+UNCLASSIFIED,Trestle Cross - Brace Rehabilitation,3,1,Trestle Cross-Brace Rehabilitation,2021D025
+UNCLASSIFIED,"Utility Removal, Relocation, and Backfill",3,1,"Utility Removal, Relocation, and Backfill",2021D007
+UNCLASSIFIED,Vault (Comm),3,1,Vault (Comm) - 444-LA,2021D001
+UNCLASSIFIED,Vault (Comm) - 444-LA (Traffic Rated),3,1,Vault (Comm) - 444-LA (Traffic Rated),2021D001
+UNCLASSIFIED,Vault (Power),3,1,Vault (Power) - 575-PCORP,2021D001
+UNCLASSIFIED,Vault (Power) - 575-TRANS - PCORP,3,1,Vault (Power) - 575-TRANS-PCORP,2021D001
+UNCLASSIFIED,Vault (Power) - 712-SWITCH - PCORP,3,1,Vault (Power) - 712-SWITCH-PCORP,2021D001
+UNCLASSIFIED,Vault (Power) - 776-TRANS - PCORP,3,1,Vault (Power) - 776-TRANS-PCORP,2021D001
+UNCLASSIFIED,Vault (Power) - 776-TRANS - PCORP (Traffic Rated),3,1,Vault (Power) - 776-TRANS-PCORP (Traffic Rated),2021D001
+UNCLASSIFIED,Water Meter,3,1,2-Inch Water Meter,2021D001
+UNCLASSIFIED,Water Well Decommission,3,1,Water Well Decommission,2021D007
+UNCLASSIFIED,XHHW Conductor - #10 AWG (Power),3,1,XHHW Conductor - #10 AWG (Power),2021D001
+UNCLASSIFIED,XHHW Conductor - #12 AWG (Power),3,1,XHHW Conductor - #12 AWG (Power),2021D001
+UNCLASSIFIED,XHHW Conductor - #3 AWG (Power),3,1,XHHW Conductor - #3 AWG (Power),2021D001
+UNCLASSIFIED,XHHW Conductor - #6 AWG (Power),3,1,XHHW Conductor - #6 AWG (Power),2021D001
+UNCLASSIFIED,XHHW Conductor - #8 AWG (Power),3,1,XHHW Conductor - #8 AWG (Power),2021D001
+012200,B6 Electrical,2,1,B6 Electrical (Section 012200),2023D025
+012200,B6 Replacement of Existing Lids and Hatches,2,1,B6 Replacement of Existing Lids and Hatches (Section 012200),2023D025
+012200,B6 Temporary Airfield Lighting Circuit Connection,2,1,B6 Temporary Airfield Lighting Circuit Connection (Section 012200),2023D025
+012200,B6 Valve Vault (SSVLT 1202) Concrete Repair,2,1,B6 Valve Vault (SSVLT 1202) Concrete Repair (Section 012200),2023D025
+012200,B6 Valve Vault (SSVLT 1202) Mechanical Rehabilitation,2,1,B6 Valve Vault (SSVLT 1202) Mechanical Rehabilitation (Section 012200),2023D025
+012200,B6 Wet Well (SSLS 950) Concrete Repair,2,1,B6 Wet Well (SSLS 950) Concrete Repair (Section 012200),2023D025
+012200,B6 Wet Well (SSLS 950) Mechanical Rehabilitation,2,1,B6 Wet Well (SSLS 950) Mechanical Rehabilitation (Section 012200),2023D025
+012200,D9 Electrical,2,1,D9 Electrical (Section 012200),2023D025
+012200,D9 Replacement of Existing Lids and Hatches,2,1,D9 Replacement of Existing Lids and Hatches (Section 012200),2023D025
+012200,D9 Valve Vault (STSVLT 863) Concrete Repair,2,1,D9 Valve Vault (STSVLT 863) Concrete Repair (Section 012200),2023D025
+012200,D9 Valve Vault (STSVLT 863) Mechanical Rehabilitation,2,1,D9 Valve Vault (STSVLT 863) Mechanical Rehabilitation (Section 012200),2023D025
+012200,D9 Wet Well (SSLS 953) Concrete Repair,2,1,D9 Wet Well (SSLS 953) Concrete Repair (Section 012200),2023D025
+012200,D9 Wet Well (SSLS 953) Mechanical Rehabilitation,2,1,D9 Wet Well (SSLS 953) Mechanical Rehabilitation (Section 012200),2023D025
+P-306,Lean Concrete Base Course,2,1,Lean Concrete Base Course (Item P-306),2023D025
+P-403,Asphalt Mixture Surface Course,2,1,Asphalt Mixture Surface Course (Item P-403),2023D025
+P-501,Concrete Pavement,2,1,Concrete Pavement (Item P-501),2023D025

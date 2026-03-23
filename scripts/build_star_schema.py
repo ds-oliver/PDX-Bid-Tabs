@@ -4,8 +4,12 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 import re
+import sys
 
 import pandas as pd
+
+sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
+from bidtabs.parse_items import parse_item_fields
 
 
 def _read_csv(path: Path) -> pd.DataFrame:
@@ -34,62 +38,23 @@ def _normalize_location_key(value: str) -> str:
     return re.sub(r"[^A-Z0-9]", "", s)
 
 
-def _derive_standard_code(item_code_norm: str, section_code_norm: str) -> str:
-    item = str(item_code_norm or "").strip()
-    section = str(section_code_norm or "").strip()
-    return item if item else section
-
-
 def _derive_standard_cat(code: str) -> str:
     c = str(code or "").strip().upper()
-    if not c:
+    if not c or c == "UNCLASSIFIED":
         return "UNKNOWN"
-    if re.match(r"^[A-Z]-?\d+(?:\.\d+)?$", c):
+    if re.match(r"^[A-Z]{1,2}-\d{3}$", c):
         return "FAA"
     if re.match(r"^\d{4,6}$", c):
         return "PDX"
     return "UNKNOWN"
 
 
-def _extract_alt_code(description: str):
-    if not description:
-        return "", ""
-    desc = str(description)
-    m = re.search(r"Sections?\s*\d{4,6}(?:\s*(?:and|&)\s*\d{4,6})*", desc, re.IGNORECASE)
-    if m:
-        codes = re.findall(r"\d{4,6}", m.group(0))
-        if len(codes) >= 2:
-            return codes[0], codes[1]
-        if len(codes) == 1:
-            return codes[0], ""
-    m = re.search(r"Item\s*([A-Z]-?\d+(?:\.\d+)?)", desc, re.IGNORECASE)
-    if m:
-        return m.group(1).strip(), ""
-    m = re.search(r"Section\s*(\d{4,6})", desc, re.IGNORECASE)
-    if m:
-        return m.group(1).strip(), ""
-    return "", ""
-
-
-def _extract_spec_from_desc(desc: str, item_code_norm: str, section_code_norm: str) -> str:
-    direct = _derive_standard_code(item_code_norm, section_code_norm)
-    if direct:
-        return direct
-    primary, _ = _extract_alt_code(desc)
-    return str(primary or "").strip()
-
-
-def _clean_item_desc(desc: str) -> str:
-    s = _clean_ws(desc)
-    # Remove trailing specification fragment like (Item P-620), (Section 012210), (Sections 012200 and 334100)
-    s = re.sub(r"\s*\((?:Item|Section|Sections)\s*[^)]*\)\s*$", "", s, flags=re.IGNORECASE)
-    return _clean_ws(s)
-
-
 def _is_engineers_estimate(df: pd.DataFrame) -> pd.Series:
     bidder_type = df.get("bidder_type", pd.Series("", index=df.index)).astype(str).str.upper()
     bidder_name = df.get("bidder_name_canonical", pd.Series("", index=df.index)).astype(str).str.upper()
     return bidder_type.eq("ENGINEERS_ESTIMATE") | bidder_name.str.contains("ENGINEER", na=False)
+
+
 
 
 # Backward-compatible helper kept for tests and utilities.
@@ -111,37 +76,28 @@ def build_dim_project(df: pd.DataFrame, location_dict: pd.DataFrame) -> pd.DataF
     return d[["project_id", "ean", "solicitation_no", "project_name", "letting_date", "location_name_raw", "location_code", "source_file", "source_system"]]
 
 
-# Backward-compatible helper kept for tests and utilities.
+def _extract_alt_code(description: str):
+    fields = parse_item_fields(description)
+    if fields["parse_type"] in {"ITEM", "SECTION"}:
+        return fields["spec_code_primary"], fields["spec_code_alternates"]
+    return "", ""
+
+
 def build_dim_pay_item(df: pd.DataFrame) -> pd.DataFrame:
     cols = ["item_code_raw", "item_code_norm", "section_code_raw", "section_code_norm", "item_description_raw", "item_description_clean"]
     d = df[cols].drop_duplicates().copy()
-    d["standard_code"] = d.apply(lambda r: _extract_spec_from_desc(r["item_description_raw"], r["item_code_norm"], r["section_code_norm"]), axis=1)
+    parsed = d["item_description_raw"].astype(str).apply(parse_item_fields)
+    p = pd.DataFrame(parsed.tolist(), index=d.index)
+
+    d["spec_extract"] = p["spec_code_primary"].fillna("")
+    d["standard_code"] = d["spec_extract"]
     d["standard_cat"] = d["standard_code"].apply(_derive_standard_cat)
-    d[["standard_code", "alt_code"]] = d["item_description_raw"].apply(lambda s: _extract_alt_code(s)).apply(pd.Series)
-    d["standard_cat"] = d["standard_code"].apply(_derive_standard_cat)
-    d["spec_extract"] = d["standard_code"].fillna("").astype(str)
+    d["alt_code"] = p["spec_code_alternates"].fillna("")
     d["item_desc_raw"] = d["item_description_raw"].fillna("")
-    d["item_desc_canonical"] = d["item_description_clean"].fillna("").astype(str).str.replace('"', "", regex=False)
+    d["item_desc_canonical"] = p["desc_core"].fillna("").astype(str).str.replace('"', "", regex=False)
     d = d.sort_values(["spec_extract", "item_desc_canonical", "item_desc_raw"], kind="stable").reset_index(drop=True)
     d["pay_item_id"] = range(1001, 1001 + len(d))
     return d[["pay_item_id", "spec_extract", "standard_code", "standard_cat", "item_code_raw", "section_code_raw", "alt_code", "item_desc_raw", "item_desc_canonical"]]
-
-
-def _build_projects(df: pd.DataFrame, location_dict: pd.DataFrame) -> pd.DataFrame:
-    base = build_dim_project(df, location_dict).copy()
-    base["Advertise Date"] = pd.to_datetime(base["letting_date"], errors="coerce").dt.strftime("%Y-%m-%d").fillna("")
-    projects = base.rename(
-        columns={
-            "project_id": "Project_ID",
-            "ean": "EAN",
-            "project_name": "Project Name",
-            "location_code": "Location",
-            "solicitation_no": "Solicitation No",
-            "source_file": "PDF Link",
-        }
-    )
-    projects["Project Name"] = projects["Project Name"].map(_clean_ws)
-    return projects[["Project_ID", "EAN", "Project Name", "Advertise Date", "Location", "Solicitation No", "PDF Link"]]
 
 
 def _project_join_key(df: pd.DataFrame):
@@ -155,120 +111,207 @@ def _project_join_key(df: pd.DataFrame):
     ]
 
 
+def _build_projects(df: pd.DataFrame, location_dict: pd.DataFrame) -> pd.DataFrame:
+    loc_map = {}
+    if not location_dict.empty and {"location_name_raw", "location_code"}.issubset(location_dict.columns):
+        loc_map = {
+            _normalize_location_key(k): str(v).strip().upper()
+            for k, v in zip(location_dict["location_name_raw"], location_dict["location_code"])
+        }
+
+    cols = ["project_ean", "solicitation_no", "project_name_raw", "letting_date", "location_name_raw", "source_file"]
+    d = df[cols].drop_duplicates().copy()
+    d["location_code"] = d["location_name_raw"].astype(str).map(_normalize_location_key).map(loc_map).fillna("")
+    d = d.rename(columns={"project_ean": "ean", "project_name_raw": "project_name", "solicitation_no": "solicitation_no", "source_file": "pdf_link"})
+    d = d.sort_values(["ean", "solicitation_no", "pdf_link", "project_name"], kind="stable").reset_index(drop=True)
+    d["project_id"] = range(1, len(d) + 1)
+    d["advertise_date"] = pd.to_datetime(d["letting_date"], errors="coerce").dt.strftime("%Y-%m-%d").fillna("")
+    d["location"] = d["location_code"]
+    return d[["project_id", "ean", "project_name", "advertise_date", "location", "solicitation_no", "pdf_link"]]
+
+
+def _parsed_item_fields(series: pd.Series) -> pd.DataFrame:
+    parsed = series.astype(str).apply(parse_item_fields)
+    out = pd.DataFrame(parsed.tolist(), index=series.index)
+    out = out.rename(
+        columns={
+            "spec_code_primary": "specification",
+            "spec_code_alternates": "alternate_specification",
+            "item": "pay_item_description",
+            "supplemental_description": "supplemental_description",
+            "item_display": "item",
+        }
+    )
+    return out[["specification", "alternate_specification", "pay_item_description", "supplemental_description", "item", "parse_type", "desc_core"]]
+
+
+
+
+def _ensure_parsed_columns(df: pd.DataFrame) -> pd.DataFrame:
+    needed = [
+        "specification",
+        "alternate_specification",
+        "pay_item_description",
+        "supplemental_description",
+        "item",
+        "parse_type",
+        "desc_core",
+    ]
+    missing = [c for c in needed if c not in df.columns]
+    if not missing:
+        return df
+
+    parsed = _parsed_item_fields(df.get("item_description_raw", pd.Series("", index=df.index)))
+    out = df.copy()
+    for c in missing:
+        out[c] = parsed[c]
+    return out
+
 def _build_items(df: pd.DataFrame, projects: pd.DataFrame) -> pd.DataFrame:
     line = df[~_bool_mask(df["is_totals_row"])].copy()
     line = line[line["line_no"].astype(str).str.strip() != ""]
-    line["spec_extract"] = line.apply(
-        lambda r: _extract_spec_from_desc(r.get("item_description_raw", ""), r.get("item_code_norm", ""), r.get("section_code_norm", "")), axis=1
-    )
-    line["item_desc_cleaned"] = line["item_description_raw"].map(_clean_item_desc)
+
+    line = _ensure_parsed_columns(line)
+
     line["unit_norm"] = line.get("unit_code_norm", pd.Series("", index=line.index)).astype(str).str.upper().str.strip()
     raw_unit = line.get("unit_code_raw", pd.Series("", index=line.index)).astype(str).str.upper().str.strip()
     line.loc[line["unit_norm"] == "", "unit_norm"] = raw_unit
 
-    # Join Project_ID from project natural key.
-    p = projects.rename(
-        columns={
-            "Project_ID": "Project_ID",
-            "EAN": "project_ean",
-            "Project Name": "project_name_raw",
-            "Advertise Date": "letting_date",
-            "Location": "location_code",
-            "Solicitation No": "solicitation_no",
-            "PDF Link": "source_file",
-        }
-    )
-    # Use build_dim_project logic source join columns to avoid relying on transformed project name.
     proj_lookup = df[_project_join_key(df)].drop_duplicates().copy()
     proj_lookup = proj_lookup.sort_values(_project_join_key(df), kind="stable").reset_index(drop=True)
-    proj_lookup["Project_ID"] = projects["Project_ID"].values
-
+    proj_lookup["project_id"] = projects["project_id"].values
     line = line.merge(proj_lookup, on=_project_join_key(df), how="left")
 
+    line["item_description_raw"] = line.get("item_description_raw", "").astype(str)
+
     item_cols = [
-        "Project_ID",
+        "project_id",
         "line_no",
-        "spec_extract",
-        "item_desc_cleaned",
+        "item_description_raw",
+        "specification",
+        "alternate_specification",
+        "pay_item_description",
+        "supplemental_description",
+        "item",
         "quantity",
         "unit_norm",
     ]
     items = line[item_cols].drop_duplicates().copy()
-    items = items.sort_values(["Project_ID", "line_no", "spec_extract", "item_desc_cleaned"], kind="stable").reset_index(drop=True)
-    items["Item_ID"] = range(1, len(items) + 1)
+    items = items.sort_values(["project_id", "line_no", "specification", "item", "item_description_raw"], kind="stable").reset_index(drop=True)
+    items["item_id"] = range(1, len(items) + 1)
 
-    items = items.rename(
-        columns={
-            "line_no": "Item Sequence",
-            "spec_extract": "Specification Code",
-            "item_desc_cleaned": "Item Description",
-            "quantity": "Estimated Quantity",
-            "unit_norm": "Unit",
-        }
-    )
-    return items[["Item_ID", "Project_ID", "Item Sequence", "Specification Code", "Item Description", "Estimated Quantity", "Unit"]]
+    return items[
+        [
+            "item_id",
+            "project_id",
+            "line_no",
+            "item_description_raw",
+            "specification",
+            "alternate_specification",
+            "pay_item_description",
+            "supplemental_description",
+            "item",
+            "quantity",
+            "unit_norm",
+        ]
+    ]
 
 
 def _build_bids(df: pd.DataFrame, projects: pd.DataFrame, items: pd.DataFrame) -> pd.DataFrame:
     line = df[~_bool_mask(df["is_totals_row"])].copy()
     line = line[line["line_no"].astype(str).str.strip() != ""]
 
-    line["spec_extract"] = line.apply(
-        lambda r: _extract_spec_from_desc(r.get("item_description_raw", ""), r.get("item_code_norm", ""), r.get("section_code_norm", "")), axis=1
-    )
-    line["item_desc_cleaned"] = line["item_description_raw"].map(_clean_item_desc)
+    line = _ensure_parsed_columns(line)
 
     proj_lookup = df[_project_join_key(df)].drop_duplicates().copy()
     proj_lookup = proj_lookup.sort_values(_project_join_key(df), kind="stable").reset_index(drop=True)
-    proj_lookup["Project_ID"] = projects["Project_ID"].values
+    proj_lookup["project_id"] = projects["project_id"].values
     line = line.merge(proj_lookup, on=_project_join_key(df), how="left")
 
     item_lookup = items.rename(
         columns={
-            "Item_ID": "Item_ID",
-            "Item Sequence": "line_no",
-            "Specification Code": "spec_extract",
-            "Item Description": "item_desc_cleaned",
-            "Estimated Quantity": "quantity",
-            "Unit": "unit_norm",
+            "item_description_raw": "item_description_raw_join",
+            "specification": "specification_join",
+            "alternate_specification": "alternate_specification_join",
+            "pay_item_description": "pay_item_description_join",
+            "supplemental_description": "supplemental_description_join",
+            "item": "item_join",
         }
     )
-    line = line.merge(item_lookup[["Item_ID", "Project_ID", "line_no", "spec_extract", "item_desc_cleaned"]], on=["Project_ID", "line_no", "spec_extract", "item_desc_cleaned"], how="left")
+    line["item_description_raw_join"] = line.get("item_description_raw", "").astype(str)
+    line["specification_join"] = line["specification"]
+    line["alternate_specification_join"] = line["alternate_specification"]
+    line["pay_item_description_join"] = line["pay_item_description"]
+    line["supplemental_description_join"] = line["supplemental_description"]
+    line["item_join"] = line["item"]
+
+    line = line.merge(
+        item_lookup[
+            [
+                "item_id",
+                "project_id",
+                "line_no",
+                "item_description_raw_join",
+                "specification_join",
+                "alternate_specification_join",
+                "pay_item_description_join",
+                "supplemental_description_join",
+                "item_join",
+            ]
+        ],
+        left_on=[
+            "project_id",
+            "line_no",
+            "item_description_raw_join",
+            "specification_join",
+            "alternate_specification_join",
+            "pay_item_description_join",
+            "supplemental_description_join",
+            "item_join",
+        ],
+        right_on=[
+            "project_id",
+            "line_no",
+            "item_description_raw_join",
+            "specification_join",
+            "alternate_specification_join",
+            "pay_item_description_join",
+            "supplemental_description_join",
+            "item_join",
+        ],
+        how="left",
+    )
 
     line["is_ee"] = _is_engineers_estimate(line)
-    line["Contractor Name"] = line.get("bidder_name_canonical", "").astype(str)
-    line["Unit Price"] = pd.to_numeric(line.get("unit_price", None), errors="coerce")
+    line["contractor_name"] = line.get("bidder_name_canonical", "").astype(str)
+    line["unit_price"] = pd.to_numeric(line.get("unit_price", None), errors="coerce")
     qty = pd.to_numeric(line.get("quantity", None), errors="coerce")
     total = pd.to_numeric(line.get("total_price", None), errors="coerce")
-    line["Total Price"] = total
-    line.loc[line["Total Price"].isna(), "Total Price"] = line["Unit Price"] * qty
+    line["total_price"] = total
+    line.loc[line["total_price"].isna(), "total_price"] = line["unit_price"] * qty
 
-    # Winner by project total (excluding Engineer's Estimate).
     contract_rows = line[~line["is_ee"]].copy()
     totals = (
-        contract_rows.groupby(["Project_ID", "Contractor Name"], dropna=False)["Total Price"]
+        contract_rows.groupby(["project_id", "contractor_name"], dropna=False)["total_price"]
         .sum(min_count=1)
         .reset_index(name="project_total")
     )
-    min_totals = totals.groupby("Project_ID", dropna=False)["project_total"].transform("min")
+    min_totals = totals.groupby("project_id", dropna=False)["project_total"].transform("min")
     totals["is_winner_contract"] = totals["project_total"].notna() & totals["project_total"].eq(min_totals)
-    winner_map = totals[totals["is_winner_contract"]][["Project_ID", "Contractor Name"]].assign(Is_Winner=True)
+    winner_map = totals[totals["is_winner_contract"]][["project_id", "contractor_name"]].assign(is_winner=True)
 
-    line = line.merge(winner_map, on=["Project_ID", "Contractor Name"], how="left")
-    line["Is_Winner"] = line["Is_Winner"].astype(bool)
-    line.loc[line["is_ee"], "Is_Winner"] = False
+    line = line.merge(winner_map, on=["project_id", "contractor_name"], how="left")
+    line["is_winner"] = line["is_winner"].astype(bool)
+    line.loc[line["is_ee"], "is_winner"] = False
 
-    # Rank per item by unit price (excluding Engineer's Estimate from ranking sequence).
-    rank_df = line[~line["is_ee"] & line["Unit Price"].notna()].copy()
-    rank_df["Rank"] = rank_df.groupby("Item_ID")["Unit Price"].rank(method="dense", ascending=True)
-    line = line.merge(rank_df[["Item_ID", "Contractor Name", "Unit Price", "Rank"]], on=["Item_ID", "Contractor Name", "Unit Price"], how="left")
+    rank_df = line[~line["is_ee"] & line["unit_price"].notna()].copy()
+    rank_df["rank"] = rank_df.groupby("item_id")["unit_price"].rank(method="dense", ascending=True)
+    line = line.merge(rank_df[["item_id", "contractor_name", "unit_price", "rank"]], on=["item_id", "contractor_name", "unit_price"], how="left")
 
-    bids = line[["Item_ID", "Contractor Name", "Unit Price", "Total Price", "Is_Winner", "Rank"]].copy()
-    bids = bids.sort_values(["Item_ID", "Contractor Name", "Unit Price"], kind="stable").reset_index(drop=True)
-    bids.insert(0, "Bid_ID", range(1, len(bids) + 1))
-
-    # Integer rank for ranked rows, blank otherwise (EE / missing unit price).
-    bids["Rank"] = bids["Rank"].apply(lambda x: "" if pd.isna(x) else int(x))
+    bids = line[["item_id", "contractor_name", "unit_price", "total_price", "is_winner", "rank"]].copy()
+    bids = bids.sort_values(["item_id", "contractor_name", "unit_price"], kind="stable").reset_index(drop=True)
+    bids.insert(0, "bid_id", range(1, len(bids) + 1))
+    bids["rank"] = bids["rank"].apply(lambda x: "" if pd.isna(x) else int(x))
     return bids
 
 
@@ -277,11 +320,7 @@ def build_analysis_tables(df: pd.DataFrame, location_dict: pd.DataFrame) -> dict
     projects = _build_projects(df, location_dict)
     items = _build_items(df, projects)
     bids = _build_bids(df, projects, items)
-    return {
-        "Projects": projects,
-        "Items": items,
-        "Bids": bids,
-    }
+    return {"Projects": projects, "Items": items, "Bids": bids}
 
 
 def main():

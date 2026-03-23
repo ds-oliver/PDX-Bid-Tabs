@@ -1,0 +1,585 @@
+source_file,source_sheet,source_row_index,project_ean,project_name_raw,bid_schedule_type,line_no,bidder_name_raw,item_description_raw,columns_with_ref
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),97,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),97,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),97,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),97,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),97,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),97,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),97,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),98,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),98,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),98,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),98,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),98,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),98,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),98,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),99,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),99,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),99,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),99,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),99,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),99,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),99,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),100,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),100,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),100,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),100,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),100,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),100,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),100,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),101,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),101,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),101,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),101,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),101,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),101,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),101,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),102,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),102,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),102,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),102,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),102,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),102,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),102,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),103,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),103,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),103,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),103,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),103,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),103,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),103,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),104,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),104,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),104,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),104,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),104,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),104,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),104,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),105,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),105,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),105,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),105,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),105,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),105,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),105,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),106,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),106,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),106,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),106,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),106,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),106,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),106,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),107,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),107,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),107,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),107,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),107,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),107,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),107,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),108,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),108,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),108,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),108,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),108,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),108,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),108,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),109,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),109,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),109,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),109,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),109,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),109,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),109,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),110,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),110,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),110,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),110,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),110,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),110,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),110,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),111,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),111,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),111,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),111,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),111,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),111,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),111,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),112,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),112,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),112,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),112,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),112,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),112,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),112,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),113,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),113,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),113,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),113,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),113,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),113,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),113,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),114,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),114,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),114,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),114,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),114,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),114,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),114,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),115,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),115,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),115,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),115,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),115,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),115,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),115,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),116,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),116,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),116,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),116,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),116,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),116,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),116,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),117,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),117,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),117,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),117,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),117,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),117,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),117,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),118,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),118,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),118,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),118,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),118,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),118,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),118,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),119,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),119,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),119,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),119,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),119,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),119,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),119,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),120,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),120,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),120,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),120,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),120,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),120,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),120,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),121,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),121,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),121,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),121,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),121,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),121,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),121,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),122,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),122,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),122,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),122,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),122,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),122,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),122,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),123,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),123,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),123,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),123,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),123,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),123,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),123,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),124,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),124,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),124,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),124,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),124,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),124,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),124,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),125,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),125,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),125,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),125,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),125,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),125,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),125,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),126,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),126,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),126,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),126,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),126,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),126,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),126,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),127,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),127,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),127,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),127,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),127,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),127,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),127,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),128,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),128,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),128,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),128,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),128,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),128,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),128,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),129,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),129,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),129,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),129,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),129,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),129,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),129,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),130,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),130,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),130,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),130,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),130,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),130,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),130,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),131,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),131,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),131,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),131,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),131,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),131,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),131,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),132,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),132,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),132,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),132,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),132,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),132,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),132,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),133,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),133,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),133,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),133,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),133,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),133,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),133,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),134,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),134,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),134,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),134,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),134,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),134,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),134,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),135,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),135,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),135,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),135,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),135,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),135,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),135,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),136,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),136,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),136,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),136,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),136,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),136,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),136,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),137,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),137,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),137,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),137,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),137,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),137,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),137,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),138,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),138,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),138,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),138,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),138,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),138,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),138,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),139,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),139,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),139,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),139,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),139,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),139,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),139,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),140,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),140,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),140,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),140,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),140,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),140,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),140,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),141,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Engineer's Estimate,Total Amount Bid Schedule A,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),141,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"Goodfella Bros., Inc.",Total Amount Bid Schedule A,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),141,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"K&E Excavating, Inc.",Total Amount Bid Schedule A,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),141,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"Kerr Contractors Oregon, Inc.",Total Amount Bid Schedule A,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),141,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Kodiak Pacific Construction,Total Amount Bid Schedule A,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),141,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Nutter Corp.,Total Amount Bid Schedule A,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab A (FAA),141,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Wildish Standard Paving Co.,Total Amount Bid Schedule A,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),12,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),12,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),12,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),12,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),12,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),12,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),12,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),13,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),13,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),13,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),13,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),13,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),13,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),13,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),14,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),14,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),14,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),14,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),14,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),14,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),14,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),15,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),15,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),15,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),15,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),15,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),15,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),15,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),16,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),16,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),16,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),16,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),16,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),16,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),16,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),17,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),17,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),17,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),17,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),17,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),17,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),17,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),18,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),18,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),18,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),18,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),18,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),18,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),18,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),19,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),19,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),19,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),19,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),19,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),19,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),19,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),20,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),20,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),20,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),20,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),20,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),20,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),20,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),21,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),21,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),21,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),21,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),21,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),21,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),21,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),22,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),22,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),22,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),22,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),22,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),22,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),22,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),23,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Engineer's Estimate,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),23,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Goodfella Bros., Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),23,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"K&E Excavating, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),23,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,"Kerr Contractors Oregon, Inc.",#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),23,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Kodiak Pacific Construction,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),23,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Nutter Corp.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),23,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,#REF!,Wildish Standard Paving Co.,#REF!,"line_no,item_description_raw,quantity_raw,unit_code_raw,total_price_raw"
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),24,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Engineer's Estimate,Total Amount Bid Schedule B,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),24,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"Goodfella Bros., Inc.",Total Amount Bid Schedule B,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),24,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"K&E Excavating, Inc.",Total Amount Bid Schedule B,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),24,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"Kerr Contractors Oregon, Inc.",Total Amount Bid Schedule B,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),24,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Kodiak Pacific Construction,Total Amount Bid Schedule B,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),24,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Nutter Corp.,Total Amount Bid Schedule B,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),24,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Wildish Standard Paving Co.,Total Amount Bid Schedule B,schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),25,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Engineer's Estimate,Total Amount Bid Schedules A and B (Basis of Award),schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),25,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"Goodfella Bros., Inc.",Total Amount Bid Schedules A and B (Basis of Award),schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),25,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"K&E Excavating, Inc.",Total Amount Bid Schedules A and B (Basis of Award),schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),25,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,"Kerr Contractors Oregon, Inc.",Total Amount Bid Schedules A and B (Basis of Award),schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),25,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Kodiak Pacific Construction,Total Amount Bid Schedules A and B (Basis of Award),schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),25,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Nutter Corp.,Total Amount Bid Schedules A and B (Basis of Award),schedule_total_raw
+PDX_15D147BidTab.xlsx,Bid Tab B (Port),25,2015D147,TAXIWAY B CENTER AND EXITS REHABILITATION 0,BASE,,Wildish Standard Paving Co.,Total Amount Bid Schedules A and B (Basis of Award),schedule_total_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Engineer's Estimate,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Name of Contractor 1,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Name of Contractor 2,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Name of Contractor 3,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Name of Contractor 4,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Name of Contractor 5,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Name of Contractor 6,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Name of Contractor 7,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,8,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0001,Name of Contractor 8,"Mobilization, Cleanup, and Demobilization (Section 012200)",project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Engineer's Estimate,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Name of Contractor 1,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Name of Contractor 2,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Name of Contractor 3,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Name of Contractor 4,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Name of Contractor 5,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Name of Contractor 6,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Name of Contractor 7,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,9,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0002,Name of Contractor 8,Sweeper (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Engineer's Estimate,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Name of Contractor 1,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Name of Contractor 2,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Name of Contractor 3,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Name of Contractor 4,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Name of Contractor 5,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Name of Contractor 6,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Name of Contractor 7,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,10,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0003,Name of Contractor 8,Security Control Monitoring (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Engineer's Estimate,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Name of Contractor 1,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Name of Contractor 2,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Name of Contractor 3,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Name of Contractor 4,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Name of Contractor 5,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Name of Contractor 6,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Name of Contractor 7,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,11,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0004,Name of Contractor 8,Work Zone and Traffic Control (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Engineer's Estimate,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Name of Contractor 1,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Name of Contractor 2,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Name of Contractor 3,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Name of Contractor 4,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Name of Contractor 5,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Name of Contractor 6,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Name of Contractor 7,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,12,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0005,Name of Contractor 8,Escort (Section 012200),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Engineer's Estimate,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Name of Contractor 1,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Name of Contractor 2,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Name of Contractor 3,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Name of Contractor 4,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Name of Contractor 5,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Name of Contractor 6,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Name of Contractor 7,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,13,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0006,Name of Contractor 8,Inlet Protection (Section 015713),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Engineer's Estimate,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Name of Contractor 1,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Name of Contractor 2,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Name of Contractor 3,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Name of Contractor 4,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Name of Contractor 5,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Name of Contractor 6,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Name of Contractor 7,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,14,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0007,Name of Contractor 8,Construction Survey (Item GP-50),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Engineer's Estimate,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Name of Contractor 1,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Name of Contractor 2,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Name of Contractor 3,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Name of Contractor 4,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Name of Contractor 5,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Name of Contractor 6,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Name of Contractor 7,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,15,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0008,Name of Contractor 8,Cold Milling - 3-Inch Maximum Depth (Item P-101),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Engineer's Estimate,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Name of Contractor 1,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Name of Contractor 2,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Name of Contractor 3,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Name of Contractor 4,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Name of Contractor 5,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Name of Contractor 6,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Name of Contractor 7,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,16,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0009,Name of Contractor 8,Bituminous Surface Course (Item P-401),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Engineer's Estimate,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Name of Contractor 1,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Name of Contractor 2,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Name of Contractor 3,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Name of Contractor 4,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Name of Contractor 5,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Name of Contractor 6,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Name of Contractor 7,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,17,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0010,Name of Contractor 8,Bituminous Tack Coat (Item P-603),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Engineer's Estimate,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Name of Contractor 1,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Name of Contractor 2,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Name of Contractor 3,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Name of Contractor 4,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Name of Contractor 5,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Name of Contractor 6,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Name of Contractor 7,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,18,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0011,Name of Contractor 8,Runway and Taxiway Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Engineer's Estimate,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Name of Contractor 1,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Name of Contractor 2,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Name of Contractor 3,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Name of Contractor 4,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Name of Contractor 5,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Name of Contractor 6,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Name of Contractor 7,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,19,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0012,Name of Contractor 8,Reflective Media (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Engineer's Estimate,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Name of Contractor 1,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Name of Contractor 2,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Name of Contractor 3,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Name of Contractor 4,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Name of Contractor 5,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Name of Contractor 6,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Name of Contractor 7,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,20,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0013,Name of Contractor 8,Preformed Markings (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Engineer's Estimate,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Name of Contractor 1,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Name of Contractor 2,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Name of Contractor 3,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Name of Contractor 4,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Name of Contractor 5,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Name of Contractor 6,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Name of Contractor 7,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,21,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0014,Name of Contractor 8,Phasing Pavement Marking (Item P-620),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Engineer's Estimate,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Name of Contractor 1,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Name of Contractor 2,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Name of Contractor 3,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Name of Contractor 4,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Name of Contractor 5,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Name of Contractor 6,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Name of Contractor 7,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,22,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0015,Name of Contractor 8,Contaminated Material Excavation and Disposal (Section 026100),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Engineer's Estimate,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Name of Contractor 1,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Name of Contractor 2,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Name of Contractor 3,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Name of Contractor 4,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Name of Contractor 5,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Name of Contractor 6,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Name of Contractor 7,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,23,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0016,Name of Contractor 8,Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Engineer's Estimate,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Name of Contractor 1,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Name of Contractor 2,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Name of Contractor 3,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Name of Contractor 4,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Name of Contractor 5,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Name of Contractor 6,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Name of Contractor 7,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,24,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,0017,Name of Contractor 8,3-Inch Diameter Brass Marker (Section 260553),project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Engineer's Estimate,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 1,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 2,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 3,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 4,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 5,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 6,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 7,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,25,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 8,Total Amount Bid Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Engineer's Estimate,Total Amount Base Bid and Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 1,Total Amount Base Bid and Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 2,Total Amount Base Bid and Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 3,Total Amount Base Bid and Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 4,Total Amount Base Bid and Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 5,Total Amount Base Bid and Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 6,Total Amount Base Bid and Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 7,Total Amount Base Bid and Alternate A,project_name_raw
+PDX_2017D013.xlsx,Bid Tab Alternate A,26,2017D013,TAXIWAY K REHABILITATION #REF!,ALTERNATE,,Name of Contractor 8,Total Amount Base Bid and Alternate A,project_name_raw

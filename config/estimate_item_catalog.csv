@@ -1,0 +1,115 @@
+division,cost_code,estimate_item,unit,needs_slicer,slicer_family,notes
+01 General Requirements,15000,15000 Mobilization & Demobilization,LS,false,,Front-end lump sum.
+01 General Requirements,13500,13500 Security Control Monitoring,LS,false,,Front-end controls.
+01 General Requirements,13501,13501 Escort,LS,false,,Front-end controls.
+01 General Requirements,15001,15001 Work Zone and Traffic Control,LS,false,,Front-end controls.
+01 General Requirements,15002,15002 Sweeping,LS,false,,Front-end controls.
+01 General Requirements,10000,10000 Construction Survey,LS,false,,Front-end controls.
+01 General Requirements,15713,15713 Sediment Fence,LF,false,,Temp erosion.
+01 General Requirements,15713,15713 Inlet Protection,EA,false,,Temp erosion.
+01 General Requirements,15713,15713 Construction Entrance,EA,false,,Temp erosion.
+01 General Requirements,15713,15713 Misc Erosion Control,LS,false,,Temp erosion.
+02 Existing Conditions,24113,24113 Portland Cement Concrete Removal,SY,true,pcc_removal,Group all PCC/concrete pavement removals.
+02 Existing Conditions,24113,24113 Asphalt Concrete Milling,SY,false,,Milling.
+02 Existing Conditions,24113,24113 Fence Removal,LF,false,,Misc removal.
+02 Existing Conditions,24113,24113 Removal of Existing Drainage Structure,LS,false,,Misc removal.
+02 Existing Conditions,24113,24113 Misc Demolition,LS,false,,Misc removal.
+02 Existing Conditions,24113,24113 Sawcutting,LF,false,,Misc removal.
+26 Electrical,260500,260500 Electrical Costs,LS,false,,Electrical tab rollup.
+31 Earthwork,312000,312000 Aggregate Base Removal,CY,false,,Earthwork.
+31 Earthwork,312000,312000 Common Excavation,CY,false,,Earthwork.
+31 Earthwork,312000,312000 Unclassified Excavation,CY,false,,Earthwork.
+31 Earthwork,312000,312000 Unsuitable Excavation,CY,false,,Earthwork.
+31 Earthwork,312000,312000 Subgrade Preparation,SY,true,subgrade_stabilization,Earthwork and stabilization.
+31 Earthwork,312300,312300 Removal of Unstable Trench Material,CY,false,,Trenching.
+31 Earthwork,312300,312300 Trench Stabilization,CY,false,,Trenching.
+31 Earthwork,312319,312319 Dewatering,LS,false,,Earthwork misc.
+31 Earthwork,312000,312000 Site Grading,SY,false,,Earthwork misc.
+32 Exterior Improvements,320500,320500 Borrow,CY,false,,Pavement prep.
+32 Exterior Improvements,320500,320500 Sand Subbase,CY,false,,Pavement prep.
+32 Exterior Improvements,321123,321123 Aggregate Base Course,CY,false,,Pavement prep.
+32 Exterior Improvements,320500,320500 Geotextile,SY,false,,Pavement prep.
+32 Exterior Improvements,321200,321200 Surface Course,TON,false,,AC pavement.
+32 Exterior Improvements,321200,321200 Bituminous Course,TON,false,,AC pavement.
+32 Exterior Improvements,321200,321200 Leveling Course,TON,false,,AC pavement.
+32 Exterior Improvements,321200,321200 Emulsified Asphalt Prime Coat,GAL,false,,AC pavement.
+32 Exterior Improvements,321200,321200 Emulsified Asphalt Tack Coat,GAL,false,,AC pavement.
+32 Exterior Improvements,321200,321200 Pervious AC Course,TON,false,,Pervious AC.
+32 Exterior Improvements,321123,321123 Choker Course,CY,false,,Pervious AC.
+32 Exterior Improvements,321123,321123 Open Course,CY,false,,Pervious AC.
+32 Exterior Improvements,321236,321236 Fog Seal,SY,false,,Seal items.
+32 Exterior Improvements,320500,320500 Slurry Seal,SY,false,,Seal items.
+32 Exterior Improvements,320500,320500 Rubber Chip Seal,SY,false,,Seal items.
+32 Exterior Improvements,321300,321300 Portland Cement Concrete Pavement,SY,true,pcc_pavement,Group all PCC pavement then slice by dimensions.
+32 Exterior Improvements,320118,320118 Crack Sealing,LF,false,,Misc pavement.
+32 Exterior Improvements,321723,321723 Pavement Marking Removal,SF,false,,Markings.
+32 Exterior Improvements,321723,321723 Initial Pavement Marking,SF,false,,Markings.
+32 Exterior Improvements,321723,321723 Permanent Pavement Marking,SF,false,,Markings.
+32 Exterior Improvements,321723,321723 Temporary Pavement Marking,SF,false,,Markings.
+32 Exterior Improvements,321723,321723 Preformed Thermoplastic Marking,SF,false,,Markings.
+32 Exterior Improvements,321723,321723 Reflective Media,LB,false,,Markings.
+32 Exterior Improvements,323113,323113 Chain Link Fence,LF,false,,Fencing.
+32 Exterior Improvements,323113,323113 Gates,EA,false,,Fencing.
+32 Exterior Improvements,323113,323113 Temporary Fencing,LF,false,,Fencing.
+32 Exterior Improvements,329219,329219 Hydroseeding,ACRE,false,,Seeding.
+32 Exterior Improvements,329219,329219 Mulch,SY,false,,Seeding.
+32 Exterior Improvements,329219,329219 Topsoil,SY,false,,Seeding.
+32 Exterior Improvements,328400,328400 Irrigation Line,LF,true,irrigation_line,Can group all irrigation lines then slice by size/material.
+32 Exterior Improvements,328400,328400 Sprinkler Heads,EA,false,,Irrigation.
+33 Utilities,334100,334100 Stormwater Pipe,LF,true,stormwater_pipe,Group all stormwater pipe then slice by dimensions.
+33 Utilities,334100,334100 Stormwater Cleanout,EA,false,,Stormwater.
+33 Utilities,333100,333100 Sanitary Pipe,LF,true,sanitary_pipe,Group all sanitary pipes then slice by dimensions.
+33 Utilities,333100,333100 Sanitary Cleanout,EA,false,,Sanitary.
+33 Utilities,331116,331116 Water Pipe,LF,true,water_pipe,Group all water pipes then slice by dimensions.
+33 Utilities,331116,331116 Valve,EA,false,,Water utility.
+33 Utilities,331116,331116 Water Meter,EA,false,,Water utility.
+33 Utilities,331116,331116 Fire Hydrant,EA,false,,Water utility.
+33 Utilities,331116,331116 Water Service Fee,LS,false,,Water utility.
+33 Utilities,330500,330500 Gas Line,LF,true,gas_line,Gas line family.
+33 Utilities,330500,330500 Trench for New Gas Service,LF,false,,Gas utility.
+33 Utilities,330500,330500 New Gas Service,LS,false,,Gas utility.
+33 Utilities,330500,330500 Gas Meter,EA,false,,Gas utility.
+33 Utilities,330516,330516 48-Inch Manhole Type A,EA,true,manhole,Specific 48-inch manhole.
+33 Utilities,330516,330516 48-Inch Manhole Type B,EA,true,manhole,Specific 48-inch manhole.
+33 Utilities,330000,330000 Other Manhole,EA,true,manhole,All non-48-inch manholes.
+33 Utilities,330516,330516 Connection to Existing Manhole or Inlet,EA,false,,Utility structure.
+33 Utilities,330516,330516 Catch Basin Type A,EA,false,,Utility structure.
+33 Utilities,330516,330516 Catch Basin Type B,EA,false,,Utility structure.
+33 Utilities,330516,330516 Catch Basin (Generic),EA,false,,Utility structure generic catch basin.
+33 Utilities,330516,330516 Catch Basin Frame and Grate Adjustment,EA,false,,Utility structure.
+33 Utilities,330516,330516 Structure Adjustment (Raised),EA,false,,Utility structure.
+33 Utilities,330516,330516 Structure Reconstruction (Lowered),EA,false,,Utility structure.
+33 Utilities,330516,330516 Manhole Frame and Cover Replacement,EA,false,,Utility structure.
+51 Earthwork FAA,510000,510000 PCC Pavement Removal (P-101),SY,true,pcc_removal_faa,Group all FAA PCC removals.
+51 Earthwork FAA,510000,510000 Asphalt Concrete Pavement Milling (P-101),SY,false,,FAA P-101.
+51 Earthwork FAA,510000,510000 Joint and Crack Repair (P-101),LF,false,,FAA P-101.
+51 Earthwork FAA,510000,510000 Saw Cutting (P-101),LF,false,,FAA P-101.
+51 Earthwork FAA,510000,510000 Subbase Course (P-154),CY,false,,FAA earthwork.
+51 Earthwork FAA,510000,510000 Subgrade Stabilization (P-152),SY,true,subgrade_stabilization_faa,FAA subgrade stabilization.
+52 Flexible Base Courses FAA,520000,520000 Crushed Aggregate Base Course (P-209),CY,false,,FAA base.
+54 Flexible Surface Courses FAA,540000,540000 Asphalt Concrete Surface Course (P-401),TON,false,,FAA paving.
+54 Flexible Surface Courses FAA,540000,540000 Bituminous Base Course (P-403),TON,false,,FAA paving.
+54 Flexible Surface Courses FAA,540000,540000 Leveling Course (P-403),TON,false,,FAA paving.
+55 Rigid Pavement FAA,550000,550000 PCC Pavement (P-501),SY,true,pcc_pavement_faa,Group all FAA P-501 PCC paving.
+56 Miscellaneous FAA,560000,560000 Bituminous Prime Coat (P-602),GAL,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 Bituminous Tack Coat (P-603),GAL,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 Compression Joint Seal (P-604),LF,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 PCC/AC Joint Seal (P-605),LF,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 Adhesive Compound (P-606),LF,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 Asphalt Surface Treatment (P-608),SY,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 Bituminous Fog Seal Coat (P-609),SY,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 Chip Seal Coat (P-609),SY,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 Structural Portland Cement Concrete (P-610),CY,false,,FAA misc.
+56 Miscellaneous FAA,560000,560000 Pavement Grooving (P-621),SY,false,,FAA misc.
+57 Fencing FAA,570000,570000 Fence Removal (F-162),LF,false,,FAA fencing.
+57 Fencing FAA,570000,570000 Chain Link Fence (F-162),LF,false,,FAA fencing.
+57 Fencing FAA,570000,570000 Gates (F-162),EA,false,,FAA fencing.
+58 Drainage FAA,580000,580000 Stormwater Pipe (D-701),LF,true,stormwater_pipe_faa,FAA stormwater.
+58 Drainage FAA,580000,580000 Stormwater Cleanout (D-701),EA,false,,FAA stormwater.
+58 Drainage FAA,580000,580000 Underdrain Pipe (D-705),LF,true,underdrain_pipe_faa,FAA underdrain.
+58 Drainage FAA,580000,580000 Underdrain Cleanout (D-705),EA,false,,FAA underdrain.
+58 Drainage FAA,580000,580000 Other Manhole (D-751),EA,true,manhole_faa,FAA manholes.
+59 Turfing FAA,590000,590000 Hydroseeding (T-901),ACRE,false,,FAA turf.
+59 Turfing FAA,590000,590000 Topsoil (T-905),SY,false,,FAA turf.
+59 Turfing FAA,590000,590000 Mulch (T-908),SY,false,,FAA turf.
+60 Lighting Installation FAA,600000,600000 Electrical Costs,LS,false,,FAA electrical rollup.
