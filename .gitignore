@@ -1,0 +1,13 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pycache/
+
+# Test/cache tooling
+.pytest_cache/
+
+# macOS / Finder noise
+.DS_Store
+
+# Temporary Office lock files
+~$*
