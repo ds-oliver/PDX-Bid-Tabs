@@ -1,6 +1,6 @@
 import pandas as pd
 
-from scripts.build_star_schema import _extract_alt_code
+from bidtabs.model import _extract_alt_code
 
 
 def test_extract_alt_code_sections():
@@ -19,7 +19,7 @@ def test_extract_alt_code_item():
 
 def test_dim_pay_item_includes_raw_and_canonical():
     # Basic sanity: canonical should drop embedded quotes if present
-    from scripts.build_star_schema import build_dim_pay_item
+    from bidtabs.model import build_dim_pay_item
 
     df = pd.DataFrame(
         {

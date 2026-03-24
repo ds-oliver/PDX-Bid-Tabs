@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Build estimate_item_crosswalk.xlsx
+"""Build estimate_item_crosswalk artifacts
 
 Maps raw bid tab line item descriptions to standardized Port of Portland
 Hard Cost Estimate Form items using spec-anchored fuzzy matching.
 
-Run as: python build_estimate_item_crosswalk.py
-No CLI arguments required.
+Run as: python build_estimate_item_crosswalk.py --input_csv ... --catalog_xlsx ... --out_dir ... --out_prefix ...
 """
 from __future__ import annotations
 
+import argparse
 import re
 from pathlib import Path
 
@@ -25,7 +25,7 @@ except ImportError:
     rf_process = None
 
 # ================================================================
-# PATHS  (all hardcoded — no CLI args)
+# PATHS  (defaults; may be overridden by CLI or library wrappers)
 # ================================================================
 CSV_PATH = Path("/Users/hogan/BTA 525 Capstone/PDX_BID_TABS_COMPLETE/data_out/compiled_excel_itemized_clean.csv")
 CATALOG_XLSX = Path("/Users/hogan/BTA 525 Capstone/PDX_BID_TABS_COMPLETE/data_in/DRAFT One Port Estimating - Quantities Tool.xlsx")
@@ -903,7 +903,22 @@ def write_xlsx(detail: pd.DataFrame, table: pd.DataFrame) -> None:
 # ================================================================
 
 def main() -> None:
-    print("Loading catalog and bid tabs …")
+    global CSV_PATH, CATALOG_XLSX, OUTPUT_PATH
+
+    parser = argparse.ArgumentParser(description="Build estimate item crosswalk artifacts.")
+    parser.add_argument("--input_csv", default=str(CSV_PATH))
+    parser.add_argument("--catalog_xlsx", default=str(CATALOG_XLSX))
+    parser.add_argument("--out_dir", default=str(OUTPUT_PATH.parent))
+    parser.add_argument("--out_prefix", default=OUTPUT_PATH.stem)
+    args = parser.parse_args()
+
+    CSV_PATH = Path(args.input_csv)
+    CATALOG_XLSX = Path(args.catalog_xlsx)
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH = out_dir / f"{args.out_prefix}.xlsx"
+
+    print("Loading catalog and bid tabs ...")
     detail, table = run_crosswalk()
 
     n_total = len(detail)
@@ -911,8 +926,15 @@ def main() -> None:
     n_unmapped = int((detail["mapping_status"] == "unmapped").sum())
     n_oos = int((detail["mapping_status"] == "out_of_catalog_scope").sum())
 
-    print("\nWriting Excel workbook …")
+    print("\nWriting Excel workbook ...")
     write_xlsx(detail, table)
+    detail.to_csv(out_dir / f"{args.out_prefix}_detail.csv", index=False)
+    table.to_csv(out_dir / f"{args.out_prefix}_table.csv", index=False)
+    detail[detail["mapping_status"] == "unmapped"].to_csv(out_dir / f"{args.out_prefix}_unmapped.csv", index=False)
+    detail[detail["mapping_status"] == "out_of_catalog_scope"].to_csv(
+        out_dir / f"{args.out_prefix}_out_of_catalog_scope.csv",
+        index=False,
+    )
 
     print("\n" + "=" * 60)
     print("SUMMARY")

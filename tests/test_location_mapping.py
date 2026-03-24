@@ -1,6 +1,6 @@
 import pandas as pd
 
-from scripts.build_star_schema import build_dim_project
+from bidtabs.model import build_dim_project
 
 
 def test_location_token_maps_to_expected_code():

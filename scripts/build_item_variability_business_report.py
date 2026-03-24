@@ -334,7 +334,6 @@ def build_report(raw_snapshot_csv: Path, clean_csv: Optional[Path], out_xlsx: Pa
     if missing:
         raise SystemExit(f"Raw snapshot missing required columns: {missing}")
 
-    # Baseline analysis rows only.
     line = raw[~_to_bool(raw["is_totals_row"])].copy()
     line = line[line["line_no"].astype(str).str.strip() != ""].copy()
 
@@ -368,7 +367,6 @@ def build_report(raw_snapshot_csv: Path, clean_csv: Optional[Path], out_xlsx: Pa
     rulebook.to_csv(rule_csv, index=False)
 
     with pd.ExcelWriter(out_xlsx, engine="xlsxwriter") as writer:
-        # README as a 2-col table for business readability.
         readme = pd.DataFrame(
             [
                 ("Purpose", "Business-facing raw-first variability report."),
@@ -410,7 +408,6 @@ def build_report(raw_snapshot_csv: Path, clean_csv: Optional[Path], out_xlsx: Pa
             ws.set_column("A:Z", 28)
             ws.set_column("A:A", 36)
 
-        # Apply conditional formatting using known columns per sheet.
         sheet_cols = {
             "RAW_VARIABILITY_OVERVIEW": "F:F",
             "RAW_SPEC_VARIABILITY": "H:H",

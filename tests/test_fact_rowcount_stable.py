@@ -1,6 +1,6 @@
 import pandas as pd
 
-from scripts.build_star_schema import build_analysis_tables
+from bidtabs.model import build_analysis_tables
 
 
 def test_bids_rowcount_stable_and_item_unique():

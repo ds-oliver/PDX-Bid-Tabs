@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 from openpyxl import load_workbook
 
-from scripts.build_dashboard_field_mapping import HEADERS
+from bidtabs.reporting import DASHBOARD_FIELD_MAPPING_HEADERS as HEADERS
 
 
 def test_dashboard_field_mapping_artifacts_exist_and_headers():
@@ -31,20 +31,18 @@ def test_dashboard_field_mapping_artifacts_exist_and_headers():
 def test_mapping_rows_use_bid_tab_business_sources():
     df = pd.read_excel("docs/dashboard_field_mapping.xlsx", sheet_name="Field_Mapping")
 
-    src_text = " ".join(df["Port Report Field Source"].astype(str).tolist())
-    for forbidden in ["Projects.", "Items.", "Bids."]:
+    src_text = " ".join(df["Port Data Object Source"].astype(str).tolist())
+    for forbidden in ["Projects.", "Items.", "Bids.", "Projects.csv", "Items.csv", "Bids.csv"]:
         assert forbidden not in src_text
 
     expected_rows = {
-        "Letting Date": "Advertise Date",
-        "District & County": "Location",
-        "Specification": "Specification",
-        "Item": "Item",
-        "Prop Line No.": "Item Sequence",
+        "District & County": "location_name_raw",
+        "Specification": "specification",
+        "Item": "item",
     }
     for odot, port_name in expected_rows.items():
-        row = df[df["ODOT Report Field"] == odot]
+        row = df[df["ODOT Report Object"] == odot]
         assert not row.empty
-        assert row.iloc[0]["Port Report Field Name"] == port_name
+        assert row.iloc[0]["Port Data Object"] == port_name
 
     assert "Dev Notes" in df.columns

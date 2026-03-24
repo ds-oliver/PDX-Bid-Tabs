@@ -59,16 +59,28 @@ BASE_PLUS_GLUED_QUAL_PATTERN = re.compile(r"^(?P<base>[A-Za-z]{2,})(?P<qual>\d.+
 GLUED_QUAL_PLUS_BASE_PATTERN = re.compile(r"^(?P<qual>\d(?:[^A-Za-z]|[A-Z0-9'\"/])*)(?P<base>[A-Z][a-z].*)$")
 COMPACT_DESCRIPTOR_PATTERN = re.compile(r"^[A-Za-z0-9'\"/,-]+$")
 
-OVERRIDE_FILE = Path(__file__).resolve().parents[2] / "config" / "pay_item_parse_overrides.csv"
+_DEFAULT_OVERRIDE_FILE = Path(__file__).resolve().parents[2] / "config" / "pay_item_parse_overrides.csv"
+_override_file: Path | None = _DEFAULT_OVERRIDE_FILE
 
 
-@lru_cache(maxsize=1)
-def _load_parse_overrides() -> List[Dict[str, str]]:
-    if not OVERRIDE_FILE.exists():
+def set_parse_override_path(path: str | Path | None) -> None:
+    global _override_file
+    _override_file = Path(path) if path else None
+    _load_parse_overrides.cache_clear()
+
+
+def get_parse_override_path() -> Path | None:
+    return _override_file
+
+
+@lru_cache(maxsize=4)
+def _load_parse_overrides(path: str | None = None) -> List[Dict[str, str]]:
+    override_path = Path(path) if path else _override_file
+    if override_path is None or not override_path.exists():
         return []
 
     out: List[Dict[str, str]] = []
-    with OVERRIDE_FILE.open("r", encoding="utf-8", newline="") as f:
+    with override_path.open("r", encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
             pattern = clean_whitespace(row.get("raw_description_pattern", ""))
@@ -241,7 +253,8 @@ def _split_item_and_supplemental(desc_core: str) -> Tuple[str, str]:
 
 def _apply_parse_overrides(raw_text: str, parsed: Dict[str, str]) -> Dict[str, str]:
     text = clean_whitespace(raw_text)
-    for rule in _load_parse_overrides():
+    override_path = str(_override_file) if _override_file else None
+    for rule in _load_parse_overrides(override_path):
         pattern = rule["raw_description_pattern"]
         try:
             matched = re.search(pattern, text, flags=re.IGNORECASE) is not None

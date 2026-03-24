@@ -1,11 +1,6 @@
-from pathlib import Path
-import sys
-
 import pandas as pd
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-
-from scripts.analyze_pay_item_similarity import build_high_variance_details
+from bidtabs.reporting import build_high_variance_details
 
 
 def test_unclassified_row_gets_expected_top_match():
