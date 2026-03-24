@@ -1,6 +1,27 @@
 # PDX Bid Tabs Pipeline
 
-This repo is organized so the core pipeline can be reused in local scripts today and migrated into Databricks notebooks later with minimal translation.
+This codebase exists to turn raw Port of Portland bid tab workbooks into a dependable analytical dataset for bid history review.
+
+The main goal is to ingest, clean, standardize, and transform raw bid tab data into a canonical enriched fact table with one row per:
+- project
+- base or alternate scope
+- pay item
+- bidder
+
+That fact table is the primary analytical product. Supporting dimension tables are derived from it for project, scope, bidder, and pay item context.
+
+The repo is intentionally being structured so the core pipeline can be reused in local scripts today and migrated into Databricks notebooks later with minimal translation.
+
+## What This Repo Is For
+- building a trustworthy historical bid dataset from messy Excel bid tabs
+- preserving traceability back to source workbook, sheet, and row
+- supporting reviewer-friendly validation of parsing and transformation logic
+- producing a fact-first model that can feed downstream reporting and dashboard work
+
+## What This Repo Is Not For
+- ad hoc one-off analysis as the primary codebase purpose
+- hiding business logic inside many unrelated top-level scripts
+- making report artifacts the main contract instead of the core fact model
 
 ## Core Stages
 - `bidtabs extract`
