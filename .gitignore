@@ -11,3 +11,13 @@ __pycache__/
 
 # Temporary Office lock files
 ~$*
+
+# Local virtual environment
+.venv/
+*.egg-info/
+
+# Client BRD: local reference only, not committed
+docs/BidTab_PDF_Ingestion_BRD.md
+
+# Port inputs, volume snapshots, run exports, golden data: never committed
+local_inputs/
