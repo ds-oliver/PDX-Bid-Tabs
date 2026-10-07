@@ -1,0 +1,23 @@
+Crosswalk table `<DB>`.`int_crosswalk` built with 8 rows.
+
+  spec_type breakdown:
+    spec_type
+    PORT    4
+    FAA     2
+    UNK     1
+
+  catalog_cost_code auto-repair results:
+    Repaired:  3 rows (see Cell 2c for details)
+    Anomalies: 1 rows still don't match FAA or Port pattern (see Cell 2c)
+
+  Distinct catalog_division:        5
+  Distinct catalog_cost_code:       7
+  Distinct catalog_cost_code_desc:  7
+  FAA codes populated:              2
+  Port codes populated:             4
+Cost code QA: 4 rows with repairs or anomalies.
+
+  repair_action = 'repaired' → auto-fixed (typically zero-padded). Verify result is correct.
+  repair_action = 'trimmed'  → whitespace stripped.
+  post_repair_classification = 'ANOMALY' → still doesn't match either pattern. Fix the source CSV.
+

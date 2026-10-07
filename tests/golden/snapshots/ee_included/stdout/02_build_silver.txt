@@ -1,0 +1,6 @@
+Loaded 3 contractor alias mappings.
+Loaded 2 unit mappings from <VOLUMES>/config/unit_mapping.csv
+Loaded 3 awarded bid records.
+Persisted awarded_bids as `<DB>`.`ref_awarded_bids`
+Loaded 2 concat fix patterns from <VOLUMES>/config/concat_fixes.csv
+Loaded 2 text normalization aliases from <VOLUMES>/config/text_normalization.csv

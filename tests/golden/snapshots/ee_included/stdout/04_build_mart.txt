@@ -1,0 +1,7 @@
+Mart table `<DB>`.`mart_bid_analysis` built successfully.
+  INCLUDE_ENG_EST = True
+  Engineer's Estimate rows INCLUDED from this mart build.
+Unmapped resolution view `<DB>`.`crosswalk_unmapped_items` built successfully.
+Logged run <RUN_ID>
+  → pipeline_run_log:  1 row (run summary)
+  → pipeline_file_log: N rows (one per source file)

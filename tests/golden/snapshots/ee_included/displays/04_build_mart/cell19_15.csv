@@ -1,0 +1,2 @@
+bronze_rows,silver_rows,silver_contractor_rows,crosswalk_rows,mart_rows,silver_to_mart_check,catalog_mapped_pct,unmapped_descriptions,projects_in_mart,projects_with_awarded
+32,26,20,8,26,✅ PASS (EE included),80.8,2,2,2

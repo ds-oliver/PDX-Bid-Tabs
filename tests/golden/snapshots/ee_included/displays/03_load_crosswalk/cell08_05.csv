@@ -1,0 +1,11 @@
+col_name,data_type,comment
+catalog_cost_code,string,<null>
+catalog_cost_code_desc,string,<null>
+catalog_cost_code_original,string,<null>
+catalog_division,string,<null>
+faa_item_code,string,<null>
+item_description_normalized,string,<null>
+item_description_raw,string,<null>
+port_section_code,string,<null>
+raw_join_key,string,<null>
+spec_type,string,<null>

@@ -1,0 +1,4 @@
+source_file,ean,project_name,status,rows_now,rows_prior,awarded_now,unmapped_now
+SYN_A Bid Tab.xlsx,2099D001,SYNTHETIC TAXIWAY REHAB,✅ unchanged,12,12,ACME PAVING INC,2
+SYN_B.xlsx,2099D002,SYNTHETIC APRON LIGHTING,"❌ REMOVED — was in prior run, not in this run",<null>,8,<null>,<null>
+SYN_C.xlsx,2099D003,SYNTHETIC HANGAR ACCESS ROAD,🆕 NEW — first time in pipeline,2,<null>,<null>,1

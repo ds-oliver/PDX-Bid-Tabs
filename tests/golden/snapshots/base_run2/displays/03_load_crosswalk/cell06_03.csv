@@ -1,0 +1,2 @@
+check_name,total_silver_rows,matched_rows,unmatched_rows,match_rate_pct,status
+silver_to_crosswalk_coverage,22,17,5,77.3,FAIL — see cell 6 for unmatched descriptions
