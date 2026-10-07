@@ -1,0 +1,50 @@
+# DRAFT for Port IT review. Never deployed from this repo (handoff Section 2.6).
+#
+# Databricks Asset Bundle job definition for the refactored xlsx pipeline.
+# It replaces bidtab_pipeline_full_refresh only at cutover, after Gate 2b
+# (local, production inputs) and Gate 2c (Databricks, isolated schema) pass.
+#
+# Open items, pending the current job JSON from Port IT:
+# - TODO: task count. The README notebook says four tasks (01 to 04); the
+#   2026-05-28 run also ran 05. Keep 05 only if it is a task in the current job.
+# - TODO: notebook paths. Production runs from /Workspace/Shared/Bidtab/Src/.
+#   These paths assume a Git folder with notebooks/ and src/ side by side
+#   (docs/refactor_notes.md); a different layout changes them.
+# - TODO: compute and environment (README notebook: Serverless, Python 3.10,
+#   requirements.txt pinning openpyxl==3.1.5 and pandas==2.3.3).
+#
+# bidtab_allow_production_write is true only here. It lets the package write to
+# `pop-poc`.`bidtab` and /Volumes/pop-poc/bidtab/exports. Staff still click this
+# one job; nothing in the Maintenance Guide changes.
+
+resources:
+  jobs:
+    bidtab_pipeline_full_refresh:
+      name: bidtab_pipeline_full_refresh
+      parameters:
+        - name: bidtab_allow_production_write
+          default: "true"
+      tasks:
+        - task_key: 01_parse_single_bidtab
+          notebook_task:
+            notebook_path: ../notebooks/01_parse_single_bidtab.py
+        - task_key: 02_build_silver
+          depends_on:
+            - task_key: 01_parse_single_bidtab
+          notebook_task:
+            notebook_path: ../notebooks/02_build_silver.py
+        - task_key: 03_load_crosswalk
+          depends_on:
+            - task_key: 02_build_silver
+          notebook_task:
+            notebook_path: ../notebooks/03_load_crosswalk.py
+        - task_key: 04_build_mart
+          depends_on:
+            - task_key: 03_load_crosswalk
+          notebook_task:
+            notebook_path: ../notebooks/04_build_mart.py
+        - task_key: 05_export_csvs  # TODO: confirm this is a task in the current job
+          depends_on:
+            - task_key: 04_build_mart
+          notebook_task:
+            notebook_path: ../notebooks/05_export_csvs.py
