@@ -87,7 +87,9 @@ def capture(harness: ReferenceHarness, runs: dict[str, NotebookRun]) -> dict[str
     display_schemas = {}
     for name, run in runs.items():
         for d in run.displays:
-            key = f"{name}/cell{d.cell_index:02d}_{d.ordinal:02d}"
+            # Keyed by display order, not cell index: a port may regroup cells but
+            # must show the same results in the same order.
+            key = f"{name}/display{d.ordinal:02d}"
             display_schemas[key] = [list(c) for c in d.columns]
             files[f"displays/{key}.csv"] = normalize_rows([c for c, _ in d.columns], d.rows)
         files[f"stdout/{name}.txt"] = mask_stdout(run.stdout, harness)
@@ -101,24 +103,34 @@ def mask_stdout(text: str, harness: ReferenceHarness) -> str:
     return re.sub(r"Logged run [0-9a-f]{8}", "Logged run <RUN_ID>", text)
 
 
-def run_reference_scenarios(spark, workdir: Path) -> dict[str, ScenarioOutput]:
+def run_scenarios(
+    spark, workdir: Path, db_prefix: str = "ref", refactored: frozenset[str] = frozenset()
+) -> dict[str, ScenarioOutput]:
+    """Run every scenario. `refactored` names the notebooks to take from notebooks/."""
     out: dict[str, ScenarioOutput] = {}
 
+    def run(harness, patches=None):
+        return harness.run_pipeline(PIPELINE_NOTEBOOKS, patches=patches, refactored=refactored)
+
     vol1 = build_volumes(workdir / "base_run1", exclude=RUN1_EXCLUDE)
-    h1 = ReferenceHarness(spark, vol1, "ref_base")
+    h1 = ReferenceHarness(spark, vol1, f"{db_prefix}_base")
     h1.reset_database()
-    runs = h1.run_pipeline(PIPELINE_NOTEBOOKS)
+    runs = run(h1)
     out["base_run1"] = ScenarioOutput("base_run1", h1, runs, capture(h1, runs))
 
     vol2 = build_volumes(workdir / "base_run2", exclude=RUN2_EXCLUDE)
-    h2 = ReferenceHarness(spark, vol2, "ref_base")  # same database: audit logs accumulate
-    runs = h2.run_pipeline(PIPELINE_NOTEBOOKS)
+    h2 = ReferenceHarness(spark, vol2, f"{db_prefix}_base")  # same database: audit logs accumulate
+    runs = run(h2)
     out["base_run2"] = ScenarioOutput("base_run2", h2, runs, capture(h2, runs))
     out["base_run1"].live = False
 
     vol3 = build_volumes(workdir / "ee_included", exclude=RUN1_EXCLUDE)
-    h3 = ReferenceHarness(spark, vol3, "ref_ee_included")
+    h3 = ReferenceHarness(spark, vol3, f"{db_prefix}_ee_included")
     h3.reset_database()
-    runs = h3.run_pipeline(PIPELINE_NOTEBOOKS, patches=EE_INCLUDED_PATCH)
+    runs = run(h3, patches=EE_INCLUDED_PATCH)
     out["ee_included"] = ScenarioOutput("ee_included", h3, runs, capture(h3, runs))
     return out
+
+
+def run_reference_scenarios(spark, workdir: Path) -> dict[str, ScenarioOutput]:
+    return run_scenarios(spark, workdir, "ref")

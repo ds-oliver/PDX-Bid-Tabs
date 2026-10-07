@@ -14,12 +14,19 @@ disk are never modified; these rewrites happen in memory only:
   result, as Databricks does. ``%md`` cells are skipped.
 
 This produces reference outputs for any input set with no Databricks access.
+
+The same harness runs the refactored thin notebooks in `notebooks/`. Those get
+no rewrite: they read their table prefix and volume root from
+`bidtab_pipeline.settings.Settings.from_environment()`, and the harness sets
+the environment variables while they run. A pipeline may mix the two, which is
+how each notebook is proven equivalent as it is ported.
 """
 
 from __future__ import annotations
 
 import contextlib
 import io
+import os
 import re
 import time
 from dataclasses import dataclass, field
@@ -30,6 +37,7 @@ from pyspark.sql import DataFrame, SparkSession
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 REFERENCE_DIR = REPO_ROOT / "reference" / "databricks_2026-05-28" / "notebooks"
+REFACTORED_DIR = REPO_ROOT / "notebooks"
 
 PIPELINE_NOTEBOOKS = (
     "01_parse_single_bidtab",
@@ -179,11 +187,13 @@ class ReferenceHarness:
         volumes_root: Path,
         db: str,
         reference_dir: Path = REFERENCE_DIR,
+        refactored_dir: Path = REFACTORED_DIR,
     ) -> None:
         self.spark = spark
         self.volumes_root = Path(volumes_root).resolve()
         self.db = db
         self.reference_dir = reference_dir
+        self.refactored_dir = refactored_dir
         self.dbutils = DbutilsShim()
 
     # --- setup -------------------------------------------------------------
@@ -194,14 +204,22 @@ class ReferenceHarness:
 
     # --- source loading and in-memory rewrite -------------------------------
 
-    def load_source(self, notebook: str, patches: list[tuple[str, str]] | None = None) -> str:
-        text = (self.reference_dir / f"{notebook}.py").read_text(encoding="utf-8")
+    def load_source(self, notebook: str, patches: list[tuple[str, str]] | None = None, refactored: bool = False) -> str:
+        directory = self.refactored_dir if refactored else self.reference_dir
+        text = (directory / f"{notebook}.py").read_text(encoding="utf-8")
         for old, new in patches or []:
             count = text.count(old)
             if count != 1:
                 raise ValueError(f"Patch for {notebook} must match exactly once, matched {count}: {old!r}")
             text = text.replace(old, new)
-        return self.rewrite(notebook, text)
+        return text if refactored else self.rewrite(notebook, text)
+
+    def settings_environment(self) -> dict[str, str]:
+        """Environment that points refactored notebooks at this harness's database and volumes."""
+        return {
+            "BIDTAB_TABLE_PREFIX": f"`{self.db}`",
+            "BIDTAB_VOLUME_ROOT": self.volumes_root.as_posix(),
+        }
 
     def rewrite(self, notebook: str, text: str) -> str:
         text = text.replace(PROD_TABLE_PREFIX, f"`{self.db}`.")
@@ -219,9 +237,11 @@ class ReferenceHarness:
 
     # --- execution -----------------------------------------------------------
 
-    def run_notebook(self, notebook: str, patches: list[tuple[str, str]] | None = None) -> NotebookRun:
+    def run_notebook(
+        self, notebook: str, patches: list[tuple[str, str]] | None = None, refactored: bool = False
+    ) -> NotebookRun:
         run = NotebookRun(name=notebook)
-        cells = parse_cells(self.load_source(notebook, patches))
+        cells = parse_cells(self.load_source(notebook, patches, refactored))
         current_cell = {"index": -1}
         ordinal = {"n": 0}
 
@@ -236,6 +256,21 @@ class ReferenceHarness:
             "display": display,
         }
         buffer = io.StringIO()
+        saved_env = {k: os.environ.get(k) for k in self.settings_environment()}
+        if refactored:
+            os.environ.update(self.settings_environment())
+        try:
+            self._run_cells(notebook, cells, namespace, display, current_cell, buffer, run)
+        finally:
+            for key, value in saved_env.items():
+                if value is None:
+                    os.environ.pop(key, None)
+                else:
+                    os.environ[key] = value
+        run.stdout = buffer.getvalue()
+        return run
+
+    def _run_cells(self, notebook, cells, namespace, display, current_cell, buffer, run) -> None:
         for cell in cells:
             current_cell["index"] = cell.index
             try:
@@ -252,17 +287,17 @@ class ReferenceHarness:
             except Exception as exc:
                 run.stdout = buffer.getvalue()
                 raise NotebookError(notebook, cell.index, cell.source, run.stdout, exc) from exc
-        run.stdout = buffer.getvalue()
-        return run
 
     def run_pipeline(
         self,
         notebooks: tuple[str, ...] = PIPELINE_NOTEBOOKS,
         patches: dict[str, list[tuple[str, str]]] | None = None,
+        refactored: frozenset[str] = frozenset(),
     ) -> dict[str, NotebookRun]:
+        """Run notebooks in order. Names in `refactored` run from notebooks/, the rest from reference/."""
         runs = {}
         for notebook in notebooks:
-            runs[notebook] = self.run_notebook(notebook, (patches or {}).get(notebook))
+            runs[notebook] = self.run_notebook(notebook, (patches or {}).get(notebook), notebook in refactored)
             # current_timestamp() must advance between runs for 04's Delta report,
             # which orders runs by run_timestamp.
             time.sleep(0.01)

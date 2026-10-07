@@ -1,11 +1,11 @@
 {
-  "02_build_silver/cell07_00": [
+  "02_build_silver/display00": [
     [
       "total_rows",
       "bigint"
     ]
   ],
-  "02_build_silver/cell08_01": [
+  "02_build_silver/display01": [
     [
       "ean",
       "string"
@@ -39,7 +39,7 @@
       "bigint"
     ]
   ],
-  "02_build_silver/cell09_02": [
+  "02_build_silver/display02": [
     [
       "ean",
       "string"
@@ -61,7 +61,7 @@
       "string"
     ]
   ],
-  "02_build_silver/cell10_03": [
+  "02_build_silver/display03": [
     [
       "ean",
       "string"
@@ -87,7 +87,7 @@
       "bigint"
     ]
   ],
-  "02_build_silver/cell11_04": [
+  "02_build_silver/display04": [
     [
       "total_projects",
       "bigint"
@@ -109,7 +109,7 @@
       "decimal(26,1)"
     ]
   ],
-  "02_build_silver/cell12_05": [
+  "02_build_silver/display05": [
     [
       "total_rows",
       "bigint"
@@ -127,7 +127,7 @@
       "bigint"
     ]
   ],
-  "02_build_silver/cell13_06": [
+  "02_build_silver/display06": [
     [
       "total_rows",
       "bigint"
@@ -145,7 +145,7 @@
       "bigint"
     ]
   ],
-  "02_build_silver/cell14_07": [
+  "02_build_silver/display07": [
     [
       "unit_raw",
       "string"
@@ -159,7 +159,7 @@
       "bigint"
     ]
   ],
-  "02_build_silver/cell15_08": [
+  "02_build_silver/display08": [
     [
       "awarded_bidder_canonical",
       "string"
@@ -181,7 +181,7 @@
       "array<string>"
     ]
   ],
-  "02_build_silver/cell16_09": [
+  "02_build_silver/display09": [
     [
       "contractor_name_clean",
       "string"
@@ -195,7 +195,7 @@
       "bigint"
     ]
   ],
-  "02_build_silver/cell17_10": [
+  "02_build_silver/display10": [
     [
       "source_file",
       "string"
@@ -241,7 +241,7 @@
       "boolean"
     ]
   ],
-  "02_build_silver/cell18_11": [
+  "02_build_silver/display11": [
     [
       "airport_name",
       "string"
@@ -255,7 +255,7 @@
       "bigint"
     ]
   ],
-  "02_build_silver/cell19_12": [
+  "02_build_silver/display12": [
     [
       "is_engineers_estimate",
       "boolean"
@@ -277,7 +277,7 @@
       "bigint"
     ]
   ],
-  "03_load_crosswalk/cell03_00": [
+  "03_load_crosswalk/display00": [
     [
       "item_description_raw",
       "string"
@@ -307,13 +307,13 @@
       "string"
     ]
   ],
-  "03_load_crosswalk/cell04_01": [
+  "03_load_crosswalk/display01": [
     [
       "total_rows",
       "bigint"
     ]
   ],
-  "03_load_crosswalk/cell05_02": [
+  "03_load_crosswalk/display02": [
     [
       "spec_type",
       "string"
@@ -339,7 +339,7 @@
       "bigint"
     ]
   ],
-  "03_load_crosswalk/cell06_03": [
+  "03_load_crosswalk/display03": [
     [
       "check_name",
       "string"
@@ -365,7 +365,7 @@
       "string"
     ]
   ],
-  "03_load_crosswalk/cell07_04": [
+  "03_load_crosswalk/display04": [
     [
       "item_description_raw",
       "string"
@@ -383,7 +383,7 @@
       "bigint"
     ]
   ],
-  "03_load_crosswalk/cell08_05": [
+  "03_load_crosswalk/display05": [
     [
       "col_name",
       "string"
@@ -397,7 +397,7 @@
       "string"
     ]
   ],
-  "03_load_crosswalk/cell09_06": [
+  "03_load_crosswalk/display06": [
     [
       "ean",
       "string"
@@ -459,7 +459,7 @@
       "boolean"
     ]
   ],
-  "04_build_mart/cell03_00": [
+  "04_build_mart/display00": [
     [
       "total_mart_rows",
       "bigint"
@@ -477,7 +477,7 @@
       "string"
     ]
   ],
-  "04_build_mart/cell05_01": [
+  "04_build_mart/display01": [
     [
       "item_description_raw",
       "string"
@@ -503,7 +503,7 @@
       "date"
     ]
   ],
-  "04_build_mart/cell06_02": [
+  "04_build_mart/display02": [
     [
       "check_name",
       "string"
@@ -521,7 +521,7 @@
       "string"
     ]
   ],
-  "04_build_mart/cell07_03": [
+  "04_build_mart/display03": [
     [
       "total_rows",
       "bigint"
@@ -575,7 +575,7 @@
       "bigint"
     ]
   ],
-  "04_build_mart/cell08_04": [
+  "04_build_mart/display04": [
     [
       "ean",
       "string"
@@ -605,7 +605,7 @@
       "bigint"
     ]
   ],
-  "04_build_mart/cell09_05": [
+  "04_build_mart/display05": [
     [
       "item_description_standardized",
       "string"
@@ -651,7 +651,7 @@
       "double"
     ]
   ],
-  "04_build_mart/cell10_06": [
+  "04_build_mart/display06": [
     [
       "bid_year",
       "int"
@@ -677,7 +677,7 @@
       "double"
     ]
   ],
-  "04_build_mart/cell11_07": [
+  "04_build_mart/display07": [
     [
       "total_rows",
       "bigint"
@@ -703,7 +703,7 @@
       "decimal(26,1)"
     ]
   ],
-  "04_build_mart/cell12_08": [
+  "04_build_mart/display08": [
     [
       "bid_item_sk",
       "string"
@@ -873,7 +873,7 @@
       "timestamp"
     ]
   ],
-  "04_build_mart/cell13_09": [
+  "04_build_mart/display09": [
     [
       "item_description_raw",
       "string"
@@ -895,7 +895,7 @@
       "array<string>"
     ]
   ],
-  "04_build_mart/cell14_10": [
+  "04_build_mart/display10": [
     [
       "spec_type",
       "string"
@@ -909,7 +909,7 @@
       "bigint"
     ]
   ],
-  "04_build_mart/cell15_11": [
+  "04_build_mart/display11": [
     [
       "airport_name",
       "string"
@@ -923,7 +923,7 @@
       "bigint"
     ]
   ],
-  "04_build_mart/cell16_12": [
+  "04_build_mart/display12": [
     [
       "source_file",
       "string"
@@ -937,7 +937,7 @@
       "bigint"
     ]
   ],
-  "04_build_mart/cell17_13": [
+  "04_build_mart/display13": [
     [
       "item_no",
       "string"
@@ -947,7 +947,7 @@
       "double"
     ]
   ],
-  "04_build_mart/cell18_14": [
+  "04_build_mart/display14": [
     [
       "null_unit_price_rows",
       "bigint"
@@ -961,7 +961,7 @@
       "bigint"
     ]
   ],
-  "04_build_mart/cell19_15": [
+  "04_build_mart/display15": [
     [
       "bronze_rows",
       "bigint"
@@ -1007,7 +1007,7 @@
       "timestamp"
     ]
   ],
-  "04_build_mart/cell20_16": [
+  "04_build_mart/display16": [
     [
       "run_id",
       "string"
@@ -1057,7 +1057,7 @@
       "string"
     ]
   ],
-  "04_build_mart/cell21_17": [
+  "04_build_mart/display17": [
     [
       "source_file",
       "string"
