@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install
-        run: pip install -e ".[local,dev]"
+        run: pip install -e ".[local,dev,pdf]"
       - name: Ruff
         run: |
           ruff check .
