@@ -1,0 +1,3 @@
+pattern,replacement
+"^ASPHALT PAVEMENT, 4-INCH THICK$",ASPHALT PAVEMENT 4-INCH
+^N/A$,
