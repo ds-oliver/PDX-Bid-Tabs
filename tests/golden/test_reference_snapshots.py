@@ -42,13 +42,15 @@ def test_reference_matches_snapshot(scenario, reference_outputs, request):
         ("bad_spec_type.csv", "Unrecognized spec_type values: {'STATE'}"),
     ],
 )
-def test_crosswalk_guardrail_halts(variant, message, spark, tmp_path):
-    """03 hard-fails on each crosswalk defect it checks for (FR-30 guardrails)."""
+@pytest.mark.parametrize("refactored", [False, True], ids=["reference", "refactored"])
+def test_crosswalk_guardrail_halts(variant, message, refactored, spark, tmp_path):
+    """03 hard-fails on each crosswalk defect it checks for (FR-30 guardrails), before and after the port."""
     volumes = build_volumes(tmp_path / "volumes", exclude=RUN1_EXCLUDE, crosswalk=GUARDRAIL_VARIANTS / variant)
-    harness = ReferenceHarness(spark, volumes, f"ref_guardrail_{Path(variant).stem}")
+    prefix = "rf" if refactored else "ref"
+    harness = ReferenceHarness(spark, volumes, f"{prefix}_guardrail_{Path(variant).stem}")
     harness.reset_database()
     with pytest.raises(NotebookError) as info:
-        harness.run_notebook("03_load_crosswalk")
+        harness.run_notebook("03_load_crosswalk", refactored=refactored)
     assert isinstance(info.value.cause, AssertionError)
     assert message in str(info.value.cause)
     assert not spark.catalog.tableExists(f"{harness.db}.int_crosswalk"), "03 must halt before writing int_crosswalk"
