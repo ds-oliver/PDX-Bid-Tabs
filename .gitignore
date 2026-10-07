@@ -29,3 +29,8 @@ local_inputs/
 spark-warehouse/
 metastore_db/
 derby.log
+
+# Coverage data
+.coverage
+coverage.json
+htmlcov/
