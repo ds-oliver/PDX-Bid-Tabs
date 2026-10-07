@@ -1,6 +1,6 @@
 # Refactor notes: xlsx path (Phases 1 and 2)
 
-**Status 2026-10-07:** Gate 2a passed. Gate 2b blocked on Port inputs.
+**Status 2026-10-07:** Gate 2a passed. Gate 2b test smoke-tested on synthetic inputs; awaiting production inputs. Gate 2c (Databricks, isolated schema) planned.
 
 ## Notebook to package map
 
@@ -16,14 +16,20 @@ order, tables, config files, and printed output are unchanged.
 | `05_export_csvs` | `io/exports.py` | `/Volumes/pop-poc/bidtab/exports/*.csv` |
 
 `INCLUDE_ENG_EST` stays a literal at the top of notebook 04, where analysts flip it.
-`settings.py` holds the table prefix and volume root; on Databricks the defaults
-are the production values, so the job needs no parameters.
+`settings.py` holds the table prefix, volume root, exports location, PDF target
+prefix, and the production write guard. On Databricks, overrides come from job
+parameters or notebook widgets; locally, from environment variables. Writing to
+`pop-poc`.`bidtab` or `/Volumes/pop-poc/bidtab/` is refused unless
+`bidtab_allow_production_write=true`, which only the production job definition
+(`resources/bidtab_job.yml`, draft) sets. Engine split: `docs/decisions/0002-engine-split.md`.
 
 ## How equivalence is proven
 
 - `tests/golden/test_refactored_equivalence.py`: the refactored notebooks
   reproduce the reference snapshots exactly in three scenarios (first run;
-  second run with a file added and one removed; `INCLUDE_ENG_EST = True`).
+  second run where the Delta report shows every status; `INCLUDE_ENG_EST = True`).
+- `tests/golden/test_path_coverage.py`: each config-driven rule in 02 and each
+  quality path in 04 is pinned to evidence in the snapshots.
 - `tests/golden/test_reference_snapshots.py`: the unchanged reference notebooks
   reproduce the same snapshots, and both versions of 03 halt on each crosswalk defect.
 - `tests/unit/test_verbatim_ports.py`: copied parser and guardrail code is byte-identical to the reference.
@@ -44,14 +50,26 @@ Then run `pytest tests/golden/test_production_parity.py -rs`. If the inputs are
 the 2026-05-28 inputs, add `BIDTAB_INPUTS_MATCH_GOLDEN=1` to assert the golden
 counts; otherwise the differences are listed in the skip message.
 
+## Gate 2c: Databricks, isolated schema (planned)
+
+Before any cutover, Carrie runs both pipelines on Databricks, each in its own
+isolated schema, on the same frozen copy of the inputs, and compares them with
+each other and with production. Steps: `docs/databricks_test_runbook.md`.
+Nothing in Gate 2c writes to production.
+
 ## For Port IT (Carrie)
 
-- **Importing the package.** Each notebook adds `../src` to `sys.path`, which
-  works when the repo is a Databricks Git folder with `notebooks/` and `src/`
-  side by side. If Port IT prefers a wheel in the job environment, the bootstrap
-  cell is harmless and can be removed. Decision needed before deployment.
-- **Job definition.** `resources/bidtab_job.yml` is not written yet: it needs the
-  job JSON. The README notebook says the job has four tasks (01 to 04), but the
-  2026-05-28 run includes a 05 export. The JSON will settle whether 05 is a job task.
+- **Deployment layout (assumption, not a decision).** Production runs from
+  `/Workspace/Shared/Bidtab/Src/`. The thin notebooks assume a Databricks Git
+  folder with `notebooks/` and `src/` side by side: each notebook adds `../src`
+  to `sys.path`. Moving to a Git folder changes the job's task paths, so the
+  layout is Port IT's call. Alternatives: keep `/Workspace/Shared/Bidtab/Src/`
+  and install the package as a wheel in the job environment (the bootstrap cell
+  is then harmless), or copy `src/` next to the notebooks.
+- **Job definition.** `resources/bidtab_job.yml` is a draft. It needs the job
+  JSON: the README notebook says the job has four tasks (01 to 04), but the
+  2026-05-28 run includes a 05 export. The JSON will settle whether 05 is a task.
 - **Runtime.** The README notebook says Serverless, Python 3.10. Local
   development uses 3.11 (handoff Section 2.9) until the runtime is confirmed.
+- **Dependencies.** The PDF path needs `pdfplumber`, which is not in the
+  production environment; PyPI access on the Port workspace needs confirmation.
