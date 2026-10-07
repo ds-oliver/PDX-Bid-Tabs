@@ -1,0 +1,57 @@
+{
+  "file": "2024-10766 Bid Tab.pdf",
+  "pages": 5,
+  "hand_checked": false,
+  "ean": "2024D009",
+  "solicitation_no": "2024-10766",
+  "bid_date_raw": "12/19/2024",
+  "summary_bidders": [
+    "Fulcrum Construction",
+    "3 Kings E nvironmental, Inc.",
+    "Stellar J Corporation",
+    "James W. Fowler Co.",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      1443569.58
+    ],
+    [
+      1745747.6
+    ],
+    [
+      1961379.0
+    ],
+    [
+      2586998.0
+    ],
+    [
+      1869201.92
+    ]
+  ],
+  "starred": [
+    [
+      "Fulcrum Construction",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "item_count": 19
+    },
+    {
+      "pages": [
+        4,
+        5
+      ],
+      "item_count": 19
+    }
+  ]
+}

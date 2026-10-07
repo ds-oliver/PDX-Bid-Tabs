@@ -1,0 +1,284 @@
+{
+  "file": "2024-10564 Bid Tab.pdf",
+  "pages": 3,
+  "hand_checked": true,
+  "ean": "2024D003",
+  "solicitation_no": "2024-10564",
+  "bid_date_raw": "6/11/2024",
+  "summary_bidders": [
+    "AERO Bridgeworks, Inc.",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      11248426.0,
+      1523994.0
+    ],
+    [
+      12050000.0,
+      1400000.0
+    ]
+  ],
+  "starred": [],
+  "footnotes": [],
+  "segments": [
+    {
+      "pages": [
+        2
+      ],
+      "item_count": 5
+    },
+    {
+      "pages": [
+        3
+      ],
+      "item_count": 2
+    }
+  ],
+  "hand_check_note": "Every value on all 3 rendered pages transcribed by hand on 2026-10-07; item sums equal the summary totals.",
+  "location_raw": "PORTLAND INTERNATIONAL AIRPORT",
+  "project_name_raw": "PASSENGER BOARDING BRIDGE REPLACEMENT - PHASE 2",
+  "bidder_groups": [
+    [
+      "AERO Bridgeworks, Inc.",
+      "Engineer's Estimate"
+    ]
+  ],
+  "schedules": [
+    {
+      "label": "Bid (Basis of Award)",
+      "kind": "base",
+      "item_count": 5
+    },
+    {
+      "label": "Additive Alternate A",
+      "kind": "alternate",
+      "item_count": 2
+    }
+  ],
+  "rollups": [],
+  "all_rows": [
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0001",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "contractor_position": 1,
+      "description": "Mobilization, Cleanup, and Demobilization",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 1106611.0,
+      "total_price": 1106611.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0001",
+      "bidder": "Engineer's Estimate",
+      "contractor_position": 2,
+      "description": "Mobilization, Cleanup, and Demobilization",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 680000.0,
+      "total_price": 680000.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0002",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "contractor_position": 1,
+      "description": "Procurement and Delivery of PBBs for Gates C4, C23, D4, and D15",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 3649827.0,
+      "total_price": 3649827.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0002",
+      "bidder": "Engineer's Estimate",
+      "contractor_position": 2,
+      "description": "Procurement and Delivery of PBBs for Gates C4, C23, D4, and D15",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 3860000.0,
+      "total_price": 3860000.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0003",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "contractor_position": 1,
+      "description": "Procurement and Delivery of PBBs for Gates B1, C3, D3, and E1",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 3216673.0,
+      "total_price": 3216673.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0003",
+      "bidder": "Engineer's Estimate",
+      "contractor_position": 2,
+      "description": "Procurement and Delivery of PBBs for Gates B1, C3, D3, and E1",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 4085000.0,
+      "total_price": 4085000.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0004",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "contractor_position": 1,
+      "description": "Removal of Exisitng PBBs and Installation of New PBBs at Gates C4, C23, D4, and D15",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 2730315.0,
+      "total_price": 2730315.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0004",
+      "bidder": "Engineer's Estimate",
+      "contractor_position": 2,
+      "description": "Removal of Exisitng PBBs and Installation of New PBBs at Gates C4, C23, D4, and D15",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 2865000.0,
+      "total_price": 2865000.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0005",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "contractor_position": 1,
+      "description": "Removal and Disposal of Existing PBBs from Southwest Apron Storage Location",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 545000.0,
+      "total_price": 545000.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Bid (Basis of Award)",
+      "item_no": "0005",
+      "bidder": "Engineer's Estimate",
+      "contractor_position": 2,
+      "description": "Removal and Disposal of Existing PBBs from Southwest Apron Storage Location",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 560000.0,
+      "total_price": 560000.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Additive Alternate A",
+      "item_no": "0001",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "contractor_position": 1,
+      "description": "Procurement and Delivery of PBB for Gate C18",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 908970.0,
+      "total_price": 908970.0,
+      "page_no": 3
+    },
+    {
+      "schedule": "Additive Alternate A",
+      "item_no": "0001",
+      "bidder": "Engineer's Estimate",
+      "contractor_position": 2,
+      "description": "Procurement and Delivery of PBB for Gate C18",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 910000.0,
+      "total_price": 910000.0,
+      "page_no": 3
+    },
+    {
+      "schedule": "Additive Alternate A",
+      "item_no": "0002",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "contractor_position": 1,
+      "description": "Removal of Existing PBB and Installation of New PBB at Gate C18",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 615024.0,
+      "total_price": 615024.0,
+      "page_no": 3
+    },
+    {
+      "schedule": "Additive Alternate A",
+      "item_no": "0002",
+      "bidder": "Engineer's Estimate",
+      "contractor_position": 2,
+      "description": "Removal of Existing PBB and Installation of New PBB at Gate C18",
+      "spec_ref_raw": null,
+      "spec_ref_type": null,
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 490000.0,
+      "total_price": 490000.0,
+      "page_no": 3
+    }
+  ],
+  "detail_totals": [
+    {
+      "label": "Bid (Basis of Award)",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "amount": 11248426.0,
+      "page_no": 2
+    },
+    {
+      "label": "Bid (Basis of Award)",
+      "bidder": "Engineer's Estimate",
+      "amount": 12050000.0,
+      "page_no": 2
+    },
+    {
+      "label": "Additive Alternate A",
+      "bidder": "AERO Bridgeworks, Inc.",
+      "amount": 1523994.0,
+      "page_no": 3
+    },
+    {
+      "label": "Additive Alternate A",
+      "bidder": "Engineer's Estimate",
+      "amount": 1400000.0,
+      "page_no": 3
+    }
+  ]
+}

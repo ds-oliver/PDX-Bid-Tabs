@@ -1,0 +1,80 @@
+{
+  "file": "2025-12566 Bid Tab.pdf",
+  "pages": 15,
+  "hand_checked": false,
+  "ean": "2023D016",
+  "solicitation_no": "2025-12566",
+  "bid_date_raw": "12/19/2025",
+  "summary_bidders": [
+    "Kerr Contractors O regon, LLC",
+    "Western United Civil Group LLC",
+    "Kodiak Pacific Construction",
+    "Tapani Inc.",
+    "K&E Excavating, Inc.",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      6129171.0,
+      168668.55
+    ],
+    [
+      6537599.0,
+      237385.25
+    ],
+    [
+      6588047.0,
+      211109.0
+    ],
+    [
+      6624793.0,
+      332136.25
+    ],
+    [
+      7448777.0,
+      218040.4
+    ],
+    [
+      7614265.5,
+      268712.5
+    ]
+  ],
+  "starred": [],
+  "footnotes": [],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "item_count": 61
+    },
+    {
+      "pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "item_count": 61
+    },
+    {
+      "pages": [
+        14
+      ],
+      "item_count": 9
+    },
+    {
+      "pages": [
+        15
+      ],
+      "item_count": 9
+    }
+  ]
+}

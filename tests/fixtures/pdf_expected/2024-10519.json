@@ -1,0 +1,60 @@
+{
+  "file": "2024-10519 Bid Tab.pdf",
+  "pages": 5,
+  "hand_checked": false,
+  "ean": "2023D018",
+  "solicitation_no": "2024-10519",
+  "bid_date_raw": "4/4/2024",
+  "summary_bidders": [
+    "American Road Maintenance",
+    "C.R. Contracting, LLC",
+    "Specialized Pavement Marking, LLC",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      911020.0,
+      34490.0
+    ],
+    [
+      1236869.0,
+      39806.0
+    ],
+    [
+      1314785.0,
+      52801.2
+    ],
+    [
+      1490473.0,
+      59873.0
+    ]
+  ],
+  "starred": [],
+  "footnotes": [],
+  "segments": [
+    {
+      "pages": [
+        2
+      ],
+      "item_count": 9
+    },
+    {
+      "pages": [
+        3
+      ],
+      "item_count": 9
+    },
+    {
+      "pages": [
+        4
+      ],
+      "item_count": 6
+    },
+    {
+      "pages": [
+        5
+      ],
+      "item_count": 6
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "file": "2025-12044 Bid Tab.pdf",
+  "pages": 3,
+  "hand_checked": false,
+  "ean": "2025D012",
+  "solicitation_no": "2025-12044",
+  "bid_date_raw": "8/26/2025",
+  "summary_bidders": [
+    "Jeffries Construction LLC",
+    "Nutter Corporation",
+    "Conway Construction Company",
+    "Kodiak Pacific Construction",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      119700.0
+    ],
+    [
+      148500.0
+    ],
+    [
+      152953.0
+    ],
+    [
+      161200.0
+    ],
+    [
+      164600.0
+    ]
+  ],
+  "starred": [],
+  "footnotes": [],
+  "segments": [
+    {
+      "pages": [
+        2
+      ],
+      "item_count": 7
+    },
+    {
+      "pages": [
+        3
+      ],
+      "item_count": 7
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "file": "2025-11969 Bid Tab.pdf",
+  "pages": 7,
+  "hand_checked": false,
+  "ean": "2024D031",
+  "solicitation_no": "2025-11969",
+  "bid_date_raw": "8/7/2025",
+  "summary_bidders": [
+    "Gallant Construction",
+    "Premier Property Development, LLC",
+    "Kerr Contractors O regon, LLC",
+    "Conway Construction Company",
+    "Angelo Underground, LLC",
+    "Kodiak Pacific Construction",
+    "Nutter Corporation",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      81652.64
+    ],
+    [
+      86839.05
+    ],
+    [
+      91136.7
+    ],
+    [
+      108687.25
+    ],
+    [
+      113577.5
+    ],
+    [
+      119343.4
+    ],
+    [
+      123235.0
+    ],
+    [
+      73367.5
+    ]
+  ],
+  "starred": [
+    [
+      "Gallant Construction",
+      0
+    ],
+    [
+      "Kodiak Pacific Construction",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "item_count": 12
+    },
+    {
+      "pages": [
+        4,
+        5
+      ],
+      "item_count": 12
+    },
+    {
+      "pages": [
+        6,
+        7
+      ],
+      "item_count": 12
+    }
+  ]
+}

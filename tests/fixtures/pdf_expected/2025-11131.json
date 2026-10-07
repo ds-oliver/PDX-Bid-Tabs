@@ -1,0 +1,83 @@
+{
+  "file": "2025-11131 Bid Tab.pdf",
+  "pages": 10,
+  "hand_checked": false,
+  "ean": "2023D004",
+  "solicitation_no": "2025-11131",
+  "bid_date_raw": "3/20/2025",
+  "summary_bidders": [
+    "Kerr Contractors O regon, LLC",
+    "Northeast Electric, LLC",
+    "Mill Plain Electric, Inc.",
+    "Fulcrum Construction and Building Services LLC",
+    "Granite Construction Company",
+    "MJ Hughes Construction",
+    "Lakeside Industries, Inc.",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      15430725.0
+    ],
+    [
+      15449950.0
+    ],
+    [
+      15772123.0
+    ],
+    [
+      16096448.88
+    ],
+    [
+      16165510.0
+    ],
+    [
+      16656302.5
+    ],
+    [
+      16999999.0
+    ],
+    [
+      16294600.0
+    ]
+  ],
+  "starred": [
+    [
+      "Fulcrum Construction and Building Services LLC",
+      0
+    ],
+    [
+      "MJ Hughes Construction",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "item_count": 29
+    },
+    {
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "item_count": 29
+    },
+    {
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "item_count": 29
+    }
+  ]
+}
