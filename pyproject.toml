@@ -51,7 +51,7 @@ target-version = "py310"
 extend-exclude = ["reference", "legacy", "tools", "decode_databricks_html.py"]
 
 [tool.ruff.format]
-exclude = ["src/bidtab_pipeline/sources/xlsx/parser.py"]
+exclude = ["src/bidtab_pipeline/sources/xlsx/parser.py", "src/bidtab_pipeline/config_loader/crosswalk.py"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
@@ -61,6 +61,7 @@ select = ["E", "F", "I", "B", "UP"]
 "notebooks/*.py" = ["F821", "E402", "I001", "E501"]
 # Copied verbatim from the reference notebooks; kept byte-identical so a diff against reference/ stays empty.
 "src/bidtab_pipeline/sources/xlsx/parser.py" = ["E501", "UP038"]
+"src/bidtab_pipeline/config_loader/crosswalk.py" = ["E501", "UP038"]
 
 [tool.ruff.lint.isort]
 # Test helper modules imported by name via tests/conftest.py.

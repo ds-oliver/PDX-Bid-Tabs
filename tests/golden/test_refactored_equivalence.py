@@ -15,7 +15,7 @@ from scenarios import run_scenarios
 from snapshot import compare_trees, read_tree
 
 SNAPSHOTS = Path(__file__).resolve().parent / "snapshots"
-PORTED = frozenset({"01_parse_single_bidtab"})
+PORTED = frozenset({"01_parse_single_bidtab", "03_load_crosswalk"})
 
 pytestmark = pytest.mark.spark
 
