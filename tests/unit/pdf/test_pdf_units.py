@@ -136,7 +136,14 @@ def test_spec_ref_capture_and_type(description, raw, kind):
 
 @pytest.mark.parametrize(
     ("text", "value"),
-    [("$1,595,000.00", 1595000.0), ("$0.00", 0.0), ("1,740.0", 1740.0), ("", None), (None, None)],
+    [
+        ("$1,595,000.00", 1595000.0),
+        ("$0.00", 0.0),
+        ("1,740.0", 1740.0),
+        ("", None),
+        (None, None),
+        ("Not provided", None),  # explicit no-value marker (2024-10691)
+    ],
 )
 def test_amounts(text, value):
     assert parse_amount(text, field="x", page_no=1) == value
