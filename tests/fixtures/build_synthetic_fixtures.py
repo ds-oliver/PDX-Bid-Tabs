@@ -6,9 +6,16 @@ All names, numbers, and projects are invented. Each workbook targets parser
 paths in reference notebook 01; the comments name the path.
 
 Outputs:
-- tests/fixtures/xlsx_synthetic/source_files/   the source_files volume
+- tests/fixtures/xlsx_synthetic/source_files/        the source_files volume (first run)
+- tests/fixtures/xlsx_synthetic/source_files_run2/   replacements copied over it for the second run
 - tests/fixtures/config_synthetic/AwardedBidsSearchList.xlsx
-The CSV configs in config_synthetic/ are hand-written, not generated.
+- tests/fixtures/config_synthetic_run2/AwardedBidsSearchList.xlsx
+The CSV configs are hand-written, not generated.
+
+The second run exercises every status of 04's post-run Delta report:
+SYN_A and SYN_D unchanged, SYN_B removed, SYN_C new, SYN_E rows changed,
+SYN_F bidders changed (same row count), SYN_G awarded bidder changed (award
+list), SYN_H unmapped count changed (crosswalk row added).
 """
 
 from __future__ import annotations
@@ -20,7 +27,9 @@ from openpyxl import Workbook
 
 HERE = Path(__file__).resolve().parent
 SOURCE = HERE / "xlsx_synthetic" / "source_files"
+SOURCE_RUN2 = HERE / "xlsx_synthetic" / "source_files_run2"
 CONFIG = HERE / "config_synthetic"
+CONFIG_RUN2 = HERE / "config_synthetic_run2"
 FIXED_TIME = datetime(2026, 1, 1)
 
 HEADER = ["Item No.", "Item Description", "Estimated Quantity", "Units"]
@@ -166,6 +175,107 @@ def build_syn_c() -> None:
     wb.save(SOURCE / "SYN_C.xlsx")
 
 
+def build_syn_d() -> None:
+    """Alternate-only workbook. Text prices and quantities, an unpaired Unit Price column, a stray row after a gap."""
+    wb = _new_workbook()
+    alt = wb.active
+    alt.title = "Alternate Bid Tab"  # no Base Bid Tab sheet
+    _bid_sheet(
+        alt,
+        [
+            ["PORTLAND INTERNATIONAL AIRPORT"],
+            ["SYNTHETIC CANOPY ALTERNATE"],
+            ["EAN 2099D004"],
+            ["Solicitation No. 2099-00004"],
+            ["Bid Opening: 2025-01-15"],
+        ],
+        {5: "Delta Paving Co", 6: "Delta Paving Co", 7: "Beta Builders LLC", 8: "Beta Builders LLC"},
+        # Third Unit Price has no Total Price partner: 01 warns bidder_pair_count_mismatch and ignores it.
+        HEADER + ["Unit Price", "Total Price", "Unit Price", "Total Price", "Unit Price"],
+        [
+            [1, "Mobilization", 1, "LS", "$1,250.00", "$1,250.00", "1,300", "1,300", 5],
+            [2, "Canopy Steel", "1,200", "LB", "-", 6000, "TBD", "TBD", 5],  # dash and text prices: null
+            [3, "Credit For Salvage", 1, "LS", "(100)", "(100)", "(150.50)", "(150.50)", 5],  # negatives
+            *[[None] * 9 for _ in range(10)],  # ten blank rows end the table
+            [99, "Stray Row After Gap", 1, "EA", 1, 1, 1, 1, 1],  # never read
+        ],
+    )
+    wb.save(SOURCE / "SYN_D.xlsx")
+
+
+def _two_bidder_book(path: Path, ean: str, sol: str, project: str, bidders: list[str], items: list[list]) -> None:
+    wb = _new_workbook()
+    ws = wb.active
+    ws.title = "Base Bid Tab"
+    names = {}
+    for i, name in enumerate(bidders):
+        names[5 + 2 * i] = name
+        names[6 + 2 * i] = name
+    _bid_sheet(
+        ws,
+        [["PORTLAND INTERNATIONAL AIRPORT"], [project], [f"EAN {ean}"], [f"Solicitation No. {sol}"], ["06/01/2025"]],
+        names,
+        HEADER + ["Unit Price", "Total Price"] * len(bidders),
+        items,
+    )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    wb.save(path)
+
+
+def build_delta_report_books() -> None:
+    """Workbooks that persist into the second run with one controlled change each."""
+    e_items = [
+        [1, "Mobilization", 1, "LS", 3000, 3000, 3100, 3100],
+        [2, "Traffic Control", 4, "LS", 0, 0, 900, 3600],  # contractor total 0 with quantity 4: suspicious
+    ]
+    _two_bidder_book(
+        SOURCE / "SYN_E.xlsx", "2099D005", "2099-00005", "SYNTHETIC E ROWS", ["Echo Co", "Foxtrot Co"], e_items
+    )
+    _two_bidder_book(
+        SOURCE_RUN2 / "SYN_E.xlsx",
+        "2099D005",
+        "2099-00005",
+        "SYNTHETIC E ROWS",
+        ["Echo Co", "Foxtrot Co"],
+        e_items + [[3, "Light Fixture, Type A", 2, "EA", 500, 1000, 450, 900]],  # one more item: rows change
+    )
+    # 01 needs at least two bidders to detect a table, so the bidder count changes 3 -> 2
+    # while rows stay at 6 (3 bidders x 2 items, then 2 bidders x 3 items).
+    f_mapped = ["Mobilization", "Traffic Control", "Light Fixture, Type A"]
+    _two_bidder_book(
+        SOURCE / "SYN_F.xlsx",
+        "2099D006",
+        "2099-00006",
+        "SYNTHETIC F BIDDERS",
+        ["Golf Co", "Hotel Co", "Lima Co"],
+        [[i + 1, d, 1, "LS", 100, 100, 110, 110, 120, 120] for i, d in enumerate(f_mapped[:2])],
+    )
+    _two_bidder_book(
+        SOURCE_RUN2 / "SYN_F.xlsx",
+        "2099D006",
+        "2099-00006",
+        "SYNTHETIC F BIDDERS",
+        ["Golf Co", "Hotel Co"],
+        [[i + 1, d, 1, "LS", 100, 100, 110, 110] for i, d in enumerate(f_mapped)],
+    )
+    _two_bidder_book(
+        SOURCE / "SYN_G.xlsx",
+        "2099D007",
+        "2099-00007",
+        "SYNTHETIC G AWARD",
+        ["India Co", "Juliet Co"],
+        [[1, "Mobilization", 1, "LS", 700, 700, 650, 650]],
+    )
+    _two_bidder_book(
+        SOURCE / "SYN_H.xlsx",
+        "2099D008",
+        "2099-00008",
+        "SYNTHETIC H UNMAPPED",
+        ["Kilo Co", "Mike Co"],
+        [[1, "Hangar Door Seal", 10, "LF", 20, 200, 22, 220], [2, "Mobilization", 1, "LS", 900, 900, 950, 950]],
+    )
+
+
 def build_simple(path: Path, sheet_title: str) -> None:
     """A minimal valid workbook, used where the file must be skipped by name or location."""
     wb = _new_workbook()
@@ -182,7 +292,7 @@ def build_simple(path: Path, sheet_title: str) -> None:
     wb.save(path)
 
 
-def build_awarded_bids() -> None:
+def build_awarded_bids(folder: Path, syn_g_awardee: str) -> None:
     """02 reads this with header=4: four junk rows, then the header on row 5."""
     wb = _new_workbook()
     ws = wb.active
@@ -197,12 +307,14 @@ def build_awarded_bids() -> None:
         ["2099-00002", "Synthetic Apron", "GAMMA CONSTRUCTION", 99000.0],
         ["2099-00002", "Synthetic Apron", "Gamma Construction", 99000.0],  # duplicate after cleaning
         ["2099-77777", "Other Project", "Nobody Inc", 5.0],  # matches no bid tab
+        ["2099-00007", "Synthetic G", syn_g_awardee, 700.0],  # changes between runs
     ]
     for r, row in enumerate(rows, start=6):
         for c, v in enumerate(row, start=1):
             if v is not None:
                 ws.cell(row=r, column=c, value=v)
-    wb.save(CONFIG / "AwardedBidsSearchList.xlsx")
+    folder.mkdir(parents=True, exist_ok=True)
+    wb.save(folder / "AwardedBidsSearchList.xlsx")
 
 
 def main() -> None:
@@ -210,6 +322,8 @@ def main() -> None:
     build_syn_a()
     build_syn_b()
     build_syn_c()
+    build_syn_d()
+    build_delta_report_books()
     build_simple(SOURCE / "PDX_2017D013.xlsx", "Base Bid Tab")  # in 01 SKIP_FILES
     build_simple(SOURCE / "archive" / "SYN_OLD.xlsx", "Base Bid Tab")  # subfolder: not listed
     wb = _new_workbook()
@@ -218,7 +332,8 @@ def main() -> None:
     (SOURCE / "SYN_CORRUPT.xlsx").write_bytes(b"not a zip archive\n")  # openpyxl raises: errored file
     (SOURCE / "~$SYN_A Bid Tab.xlsx").write_bytes(b"\x00office lock file\n")  # skipped by name
     (SOURCE / "notes.txt").write_text("Not a workbook.\n")
-    build_awarded_bids()
+    build_awarded_bids(CONFIG, "India Co")
+    build_awarded_bids(CONFIG_RUN2, "Juliet Co")
 
 
 if __name__ == "__main__":

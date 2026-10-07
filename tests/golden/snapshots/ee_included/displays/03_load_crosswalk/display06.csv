@@ -15,3 +15,19 @@ ean,bid_year,item_no,item_description_raw,item_description_normalized,catalog_di
 2099D002,2024,1,MOBILIZATION,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,GAMMA CONSTRUCTION,8000.0,8000.0,true
 2099D002,2024,3,"Light Fixture, Type A",Light Fixture Type A,26 Electrical,260000,Lighting,<null>,260000,PORT,ACME PAVING INC,950.0,11400.0,false
 2099D002,2024,3,"Light Fixture, Type A",Light Fixture Type A,26 Electrical,260000,Lighting,<null>,260000,PORT,GAMMA CONSTRUCTION,900.0,10800.0,true
+2099D004,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,BETA BUILDERS,1300.0,1300.0,false
+2099D004,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,DELTA PAVING CO,1250.0,1250.0,false
+2099D005,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,ECHO CO,3000.0,3000.0,false
+2099D005,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,FOXTROT CO,3100.0,3100.0,false
+2099D005,2025,2,Traffic Control,Traffic Control,99 Uncategorized / Not Listed,024113,Traffic Control,<null>,024113,PORT,ECHO CO,0.0,0.0,false
+2099D005,2025,2,Traffic Control,Traffic Control,99 Uncategorized / Not Listed,024113,Traffic Control,<null>,024113,PORT,FOXTROT CO,900.0,3600.0,false
+2099D006,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,GOLF CO,100.0,100.0,false
+2099D006,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,HOTEL CO,110.0,110.0,false
+2099D006,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,LIMA CO,120.0,120.0,false
+2099D006,2025,2,Traffic Control,Traffic Control,99 Uncategorized / Not Listed,024113,Traffic Control,<null>,024113,PORT,GOLF CO,100.0,100.0,false
+2099D006,2025,2,Traffic Control,Traffic Control,99 Uncategorized / Not Listed,024113,Traffic Control,<null>,024113,PORT,HOTEL CO,110.0,110.0,false
+2099D006,2025,2,Traffic Control,Traffic Control,99 Uncategorized / Not Listed,024113,Traffic Control,<null>,024113,PORT,LIMA CO,120.0,120.0,false
+2099D007,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,INDIA CO,700.0,700.0,true
+2099D007,2025,1,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,JULIET CO,650.0,650.0,false
+2099D008,2025,2,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,KILO CO,900.0,900.0,false
+2099D008,2025,2,Mobilization,Mobilization,01 General Requirements,017113,Mobilization,<null>,017113,PORT,MIKE CO,950.0,950.0,false

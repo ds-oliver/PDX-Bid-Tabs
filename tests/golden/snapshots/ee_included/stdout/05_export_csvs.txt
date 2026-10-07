@@ -1,6 +1,6 @@
-bronze_raw_rows: 32 rows → <VOLUMES>/exports/bronze_raw_rows.csv
-silver_bid_items: 26 rows → <VOLUMES>/exports/silver_bid_items.csv
-mart_bid_analysis: 26 rows → <VOLUMES>/exports/mart_bid_analysis.csv
-ref_awarded_bids: 3 rows → <VOLUMES>/exports/ref_awarded_bids.csv
+bronze_raw_rows: 54 rows → <VOLUMES>/exports/bronze_raw_rows.csv
+silver_bid_items: 48 rows → <VOLUMES>/exports/silver_bid_items.csv
+mart_bid_analysis: 48 rows → <VOLUMES>/exports/mart_bid_analysis.csv
+ref_awarded_bids: 4 rows → <VOLUMES>/exports/ref_awarded_bids.csv
 int_crosswalk: 8 rows → <VOLUMES>/exports/int_crosswalk.csv
-crosswalk_unmapped_items: 2 rows → <VOLUMES>/exports/crosswalk_unmapped_items.csv
+crosswalk_unmapped_items: 5 rows → <VOLUMES>/exports/crosswalk_unmapped_items.csv

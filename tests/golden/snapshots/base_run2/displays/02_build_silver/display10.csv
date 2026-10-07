@@ -1,2 +1,3 @@
 source_file,ean,item_no,item_description_raw,contractor_name_clean,estimated_quantity,unit_price,total_price,unit_price_null_flag,total_price_zero_flag,price_suspicious_flag
 SYN_A Bid Tab.xlsx,2099D001,6,Traffic Control,ENGINEER'S ESTIMATE,1.0,0.0,0.0,false,true,true
+SYN_E.xlsx,2099D005,2,Traffic Control,ECHO CO,4.0,0.0,0.0,false,true,true

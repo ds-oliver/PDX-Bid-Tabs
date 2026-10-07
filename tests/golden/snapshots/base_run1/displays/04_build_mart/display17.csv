@@ -1,3 +1,8 @@
 source_file,ean,project_name,status,rows_now,rows_prior,awarded_now,unmapped_now
 SYN_A Bid Tab.xlsx,2099D001,SYNTHETIC TAXIWAY REHAB,🆕 NEW — first time in pipeline,12,<null>,ACME PAVING INC,2
 SYN_B.xlsx,2099D002,SYNTHETIC APRON LIGHTING,🆕 NEW — first time in pipeline,8,<null>,GAMMA CONSTRUCTION,2
+SYN_D.xlsx,2099D004,SYNTHETIC CANOPY ALTERNATE,🆕 NEW — first time in pipeline,6,<null>,<null>,4
+SYN_E.xlsx,2099D005,SYNTHETIC E ROWS,🆕 NEW — first time in pipeline,4,<null>,<null>,0
+SYN_F.xlsx,2099D006,SYNTHETIC F BIDDERS,🆕 NEW — first time in pipeline,6,<null>,<null>,0
+SYN_G.xlsx,2099D007,SYNTHETIC G AWARD,🆕 NEW — first time in pipeline,2,<null>,INDIA CO,0
+SYN_H.xlsx,2099D008,SYNTHETIC H UNMAPPED,🆕 NEW — first time in pipeline,4,<null>,<null>,2

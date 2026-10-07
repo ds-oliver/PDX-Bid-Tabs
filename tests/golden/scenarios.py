@@ -2,9 +2,11 @@
 
 base_run1     First run on SYN_A and SYN_B, plus files 01 must skip, ignore, or
               report as errors.
-base_run2     Second run in the same database: SYN_B removed, SYN_C added. The
-              audit logs now hold two runs, so 04's Delta report shows NEW,
-              REMOVED, and unchanged files.
+base_run2     Second run in the same database: SYN_B removed, SYN_C added,
+              SYN_E and SYN_F replaced (rows and bidders change), and the award
+              list and crosswalk replaced (SYN_G award and SYN_H unmapped count
+              change). 04's Delta report shows every status: NEW, REMOVED,
+              CHANGED rows, CHANGED bidders, AWARDED, UNMAPPED, unchanged.
 ee_included   base_run1 inputs with 04's INCLUDE_ENG_EST toggle set to True
               (patched in memory), so Engineer's Estimate rows reach the mart.
 """
@@ -29,7 +31,9 @@ from snapshot import (
 
 FIXTURES = Path(__file__).resolve().parents[1] / "fixtures"
 SOURCE_FIXTURES = FIXTURES / "xlsx_synthetic" / "source_files"
+SOURCE_RUN2_OVERRIDES = FIXTURES / "xlsx_synthetic" / "source_files_run2"
 CONFIG_FIXTURES = FIXTURES / "config_synthetic"
+CONFIG_RUN2_OVERRIDES = FIXTURES / "config_synthetic_run2"
 GUARDRAIL_VARIANTS = CONFIG_FIXTURES / "guardrail_variants"
 
 RUN1_EXCLUDE = ("SYN_C.xlsx",)
@@ -37,8 +41,17 @@ RUN2_EXCLUDE = ("SYN_B.xlsx",)
 EE_INCLUDED_PATCH = {"04_build_mart": [("INCLUDE_ENG_EST = False\n", "INCLUDE_ENG_EST = True\n")]}
 
 
-def build_volumes(dest: Path, exclude: tuple[str, ...] = (), crosswalk: Path | None = None) -> Path:
-    """Lay out source_files/ and config/ as the job's volumes; return the volumes root."""
+def build_volumes(
+    dest: Path,
+    exclude: tuple[str, ...] = (),
+    crosswalk: Path | None = None,
+    source_overrides: Path | None = None,
+    config_overrides: Path | None = None,
+) -> Path:
+    """Lay out source_files/ and config/ as the job's volumes; return the volumes root.
+
+    Files in source_overrides and config_overrides replace same-named files.
+    """
     source = dest / "source_files"
     source.mkdir(parents=True)
     for entry in SOURCE_FIXTURES.iterdir():
@@ -51,6 +64,10 @@ def build_volumes(dest: Path, exclude: tuple[str, ...] = (), crosswalk: Path | N
     shutil.copytree(CONFIG_FIXTURES, dest / "config", ignore=shutil.ignore_patterns("guardrail_variants"))
     if crosswalk is not None:
         shutil.copy2(crosswalk, dest / "config" / "Final_Recommended_Line_Item_List.csv")
+    for overrides, target in ((source_overrides, source), (config_overrides, dest / "config")):
+        if overrides is not None:
+            for entry in overrides.iterdir():
+                shutil.copy2(entry, target / entry.name)
     return dest
 
 
@@ -118,7 +135,12 @@ def run_scenarios(
     runs = run(h1)
     out["base_run1"] = ScenarioOutput("base_run1", h1, runs, capture(h1, runs))
 
-    vol2 = build_volumes(workdir / "base_run2", exclude=RUN2_EXCLUDE)
+    vol2 = build_volumes(
+        workdir / "base_run2",
+        exclude=RUN2_EXCLUDE,
+        source_overrides=SOURCE_RUN2_OVERRIDES,
+        config_overrides=CONFIG_RUN2_OVERRIDES,
+    )
     h2 = ReferenceHarness(spark, vol2, f"{db_prefix}_base")  # same database: audit logs accumulate
     runs = run(h2)
     out["base_run2"] = ScenarioOutput("base_run2", h2, runs, capture(h2, runs))

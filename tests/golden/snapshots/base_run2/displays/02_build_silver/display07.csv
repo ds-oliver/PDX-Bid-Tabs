@@ -1,7 +1,8 @@
 unit_raw,unit_clean,row_count
 C.Y.,CY,3
-EA,EA,5
-LF,LF,3
-LS,LS,5
+EA,EA,7
+LB,LB,2
+LF,LF,5
+LS,LS,23
 Lump Sum,LS,3
 SY,SY,3

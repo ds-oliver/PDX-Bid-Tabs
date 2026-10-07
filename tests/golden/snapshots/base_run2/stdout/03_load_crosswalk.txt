@@ -1,8 +1,8 @@
-Crosswalk table `<DB>`.`int_crosswalk` built with 8 rows.
+Crosswalk table `<DB>`.`int_crosswalk` built with 9 rows.
 
   spec_type breakdown:
     spec_type
-    PORT    4
+    PORT    5
     FAA     2
     UNK     1
 
@@ -10,11 +10,11 @@ Crosswalk table `<DB>`.`int_crosswalk` built with 8 rows.
     Repaired:  3 rows (see Cell 2c for details)
     Anomalies: 1 rows still don't match FAA or Port pattern (see Cell 2c)
 
-  Distinct catalog_division:        5
-  Distinct catalog_cost_code:       7
-  Distinct catalog_cost_code_desc:  7
+  Distinct catalog_division:        6
+  Distinct catalog_cost_code:       8
+  Distinct catalog_cost_code_desc:  8
   FAA codes populated:              2
-  Port codes populated:             4
+  Port codes populated:             5
 Cost code QA: 4 rows with repairs or anomalies.
 
   repair_action = 'repaired' → auto-fixed (typically zero-padded). Verify result is correct.
