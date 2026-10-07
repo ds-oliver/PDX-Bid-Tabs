@@ -21,3 +21,11 @@ docs/BidTab_PDF_Ingestion_BRD.md
 
 # Port inputs, volume snapshots, run exports, golden data: never committed
 local_inputs/
+
+# The synthetic lock-file fixture must be tracked (01 skips ~$ files by name)
+!tests/fixtures/xlsx_synthetic/source_files/~$*
+
+# Local Spark and Delta artifacts
+spark-warehouse/
+metastore_db/
+derby.log
