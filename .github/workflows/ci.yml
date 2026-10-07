@@ -1,0 +1,42 @@
+# Lint and test on push. No Databricks steps: tests run the pipeline on local
+# Spark (Delta jars come from Maven Central on first run).
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install -e ".[local,dev]"
+      - name: Ruff
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Pytest
+        run: pytest tests
+
+  legacy:
+    # The March 2026 local pandas package, kept for reference. Runs from a
+    # scratch copy of data_in/, data_out/, reports/, so tracked files are untouched.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install -e ".[dev,legacy]"
+      - name: Pytest (legacy)
+        run: pytest legacy/local_pandas_v0/tests
