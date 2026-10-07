@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bidtab-pipeline"
+version = "0.1.0"
+description = "Port of Portland bid tab pipeline: xlsx and PDF sources to mart_bid_analysis"
+readme = "README.md"
+# The job runs on Databricks Serverless (README notebook: Python 3.10). Local
+# development uses 3.11 until Port IT confirms the runtime (handoff Section 2.9).
+requires-python = ">=3.10"
+# Pinned to the job's requirements.txt as stated in the README notebook.
+dependencies = [
+  "pandas==2.3.3",
+  "openpyxl==3.1.5",
+]
+
+[project.optional-dependencies]
+# Databricks supplies Spark and Delta at runtime; these are for local runs and tests.
+local = [
+  "pyspark==3.5.3",
+  "delta-spark==3.2.1",
+  "pyarrow==17.0.0",
+  "numpy==1.26.4",
+]
+dev = [
+  "pytest==8.3.3",
+  "ruff==0.7.4",
+]
+# Extra dependencies of legacy/local_pandas_v0 tests.
+legacy = [
+  "xlsxwriter==3.2.0",
+  "rapidfuzz==3.10.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+  "spark: needs a local Spark session (JDK 17)",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+# Reference notebooks and the supplied decoder are kept as received; legacy code keeps its own style.
+extend-exclude = ["reference", "legacy", "tools", "decode_databricks_html.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.isort]
+# Test helper modules imported by name via tests/conftest.py.
+known-local-folder = ["harness", "snapshot", "scenarios"]
