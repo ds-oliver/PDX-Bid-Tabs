@@ -32,7 +32,7 @@ if os.path.isdir(_src) and _src not in sys.path:
 from bidtab_pipeline.settings import Settings
 from bidtab_pipeline.transforms.crosswalk import build_int_crosswalk, cost_code_qa, crosswalk_checks
 
-settings = Settings.from_environment()
+settings = Settings.resolve(dbutils)
 crosswalk_df = build_int_crosswalk(spark, settings)
 
 # COMMAND ----------

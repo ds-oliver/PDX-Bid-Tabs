@@ -37,7 +37,7 @@ if os.path.isdir(_src) and _src not in sys.path:
 from bidtab_pipeline.settings import Settings
 from bidtab_pipeline.transforms.silver import build_silver, silver_checks
 
-settings = Settings.from_environment()
+settings = Settings.resolve(dbutils)
 build_silver(spark, settings)
 
 # COMMAND ----------

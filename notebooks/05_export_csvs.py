@@ -28,4 +28,4 @@ if os.path.isdir(_src) and _src not in sys.path:
 from bidtab_pipeline.io.exports import export_csvs
 from bidtab_pipeline.settings import Settings
 
-export_csvs(spark, Settings.from_environment(), dbutils=dbutils)
+export_csvs(spark, Settings.resolve(dbutils), dbutils=dbutils)

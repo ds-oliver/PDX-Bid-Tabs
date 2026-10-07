@@ -32,4 +32,4 @@ if os.path.isdir(_src) and _src not in sys.path:
 from bidtab_pipeline.settings import Settings
 from bidtab_pipeline.sources.xlsx.bronze import build_bronze
 
-build_bronze(spark, Settings.from_environment(), dbutils=dbutils)
+build_bronze(spark, Settings.resolve(dbutils), dbutils=dbutils)

@@ -23,6 +23,7 @@ def build_mart(spark: SparkSession, settings: Settings, INCLUDE_ENG_EST: bool) -
     INCLUDE_ENG_EST=False (the default in notebook 04) keeps only contractor
     bids; True keeps Engineer's Estimate rows too. Bronze and Silver always keep them.
     """
+    settings.require_table_write()
     SILVER_TABLE = settings.table(SILVER_TABLE_NAME)
     CROSSWALK_TABLE = settings.table(CROSSWALK_TABLE_NAME)
     MART_TABLE = settings.table(MART_TABLE_NAME)
@@ -159,6 +160,7 @@ def ee_toggle_check(spark: SparkSession, settings: Settings, INCLUDE_ENG_EST: bo
 
 def build_unmapped_view(spark: SparkSession, settings: Settings) -> None:
     """crosswalk_unmapped_items: raw descriptions with no crosswalk row, for staff to resolve."""
+    settings.require_table_write()
     MART_TABLE = settings.table(MART_TABLE_NAME)
     UNMAPPED_VIEW = settings.table(UNMAPPED_VIEW_NAME)
 

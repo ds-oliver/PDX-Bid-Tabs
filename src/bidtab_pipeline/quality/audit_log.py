@@ -15,6 +15,7 @@ from bidtab_pipeline.settings import Settings
 
 
 def log_run(spark: SparkSession, settings: Settings, INCLUDE_ENG_EST: bool) -> DataFrame:  # noqa: N803
+    settings.require_table_write()
     BRONZE_TABLE = settings.table("bronze_raw_rows")
     SILVER_TABLE = settings.table("silver_bid_items")
     CROSSWALK_TABLE = settings.table("int_crosswalk")

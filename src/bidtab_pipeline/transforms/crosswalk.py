@@ -33,6 +33,7 @@ def build_int_crosswalk(spark: SparkSession, settings: Settings) -> pd.DataFrame
 
     Returns the working DataFrame (with QA columns) for cost_code_qa().
     """
+    settings.require_table_write()
     CROSSWALK_TABLE = settings.table(CROSSWALK_TABLE_NAME)
     crosswalk_df = load_crosswalk(settings.config_file(CROSSWALK_FILE))
 

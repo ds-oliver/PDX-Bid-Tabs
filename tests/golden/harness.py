@@ -17,7 +17,7 @@ This produces reference outputs for any input set with no Databricks access.
 
 The same harness runs the refactored thin notebooks in `notebooks/`. Those get
 no rewrite: they read their table prefix and volume root from
-`bidtab_pipeline.settings.Settings.from_environment()`, and the harness sets
+`bidtab_pipeline.settings.Settings.resolve()`, and the harness sets
 the environment variables while they run. A pipeline may mix the two, which is
 how each notebook is proven equivalent as it is ported.
 """

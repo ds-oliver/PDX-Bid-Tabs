@@ -127,6 +127,7 @@ WHERE b.is_section_header = FALSE
 
 def build_silver(spark: SparkSession, settings: Settings) -> None:
     """Load Silver config, write ref_awarded_bids, and rebuild silver_bid_items."""
+    settings.require_table_write()
     CONTRACTOR_MAPPING_PATH = settings.config_file(CONTRACTOR_MAPPING_FILE)
     AWARDED_BIDS_PATH = settings.config_file(AWARDED_BIDS_FILE)
     CONCAT_FIXES_PATH = settings.config_file(CONCAT_FIXES_FILE)

@@ -16,7 +16,8 @@ from bidtab_pipeline.transforms import silver
 
 REFERENCE = Path(__file__).resolve().parents[2] / "reference" / "databricks_2026-05-28" / "notebooks"
 SEPARATOR = "\n\n# COMMAND ----------\n\n"
-PROD = Settings()
+# The SQL comparison runs against a recording stand-in, so allowing production writes touches nothing.
+PROD = Settings(allow_production_write=True)
 
 
 class RecordingSpark:

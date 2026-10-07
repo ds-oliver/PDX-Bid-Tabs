@@ -48,7 +48,7 @@ from bidtab_pipeline.quality.run_health import run_health
 from bidtab_pipeline.settings import Settings
 from bidtab_pipeline.transforms.mart import build_mart, build_unmapped_view, ee_toggle_check, mart_checks
 
-settings = Settings.from_environment()
+settings = Settings.resolve(dbutils)
 build_mart(spark, settings, INCLUDE_ENG_EST)
 display(ee_toggle_check(spark, settings, INCLUDE_ENG_EST))
 

@@ -118,6 +118,7 @@ def build_bronze(spark: SparkSession, settings: Settings, dbutils: Any = None) -
 
     Returns the run summary (files seen, skipped, errored, rows written).
     """
+    settings.require_table_write()
     volume_path = settings.volume(SOURCE_VOLUME)
     target_table = settings.table(TARGET_TABLE_NAME)
 
