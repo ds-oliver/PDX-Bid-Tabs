@@ -62,6 +62,9 @@ select = ["E", "F", "I", "B", "UP"]
 # Copied verbatim from the reference notebooks; kept byte-identical so a diff against reference/ stays empty.
 "src/bidtab_pipeline/sources/xlsx/parser.py" = ["E501", "UP038"]
 "src/bidtab_pipeline/config_loader/crosswalk.py" = ["E501", "UP038"]
+# SQL copied from the reference notebooks keeps its original line lengths.
+"src/bidtab_pipeline/transforms/*.py" = ["E501"]
+"src/bidtab_pipeline/quality/*.py" = ["E501"]
 
 [tool.ruff.lint.isort]
 # Test helper modules imported by name via tests/conftest.py.
