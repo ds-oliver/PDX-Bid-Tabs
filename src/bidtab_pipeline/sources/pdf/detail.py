@@ -26,7 +26,9 @@ PRICE_COLUMNS = ["Unit Price", "Total Price"]
 _ITEM_NO = re.compile(r"\d{4}")
 _AMOUNT = re.compile(r"\$?(\d{1,3}(?:,\d{3})*|\d+)(\.\d+)?")
 _SPEC_LINE = re.compile(r"\(((?:Section|Item)\s+[^()]+)\)")
-_SPEC_FAA = re.compile(r"Item [A-Z]-\d{3}")
+# FR-14 as amended 2026-10-07 (docs/brd_deviations.md D-02): one or two letters, two or three digits,
+# so "Item GP-50" is FAA. The BRD text was Item [A-Z]-\d{3}.
+_SPEC_FAA = re.compile(r"Item [A-Z]{1,2}-\d{2,3}")
 _SPEC_PORT = re.compile(r"Section \d{6}")
 _TOTAL_PREFIX = "Total Amount "
 # Text the bid tab uses to say a value is absent. Read as null, and counted as a
@@ -58,7 +60,7 @@ def split_spec_ref(cell: str | None) -> tuple[str, str | None]:
 
 
 def spec_ref_type(spec_ref_raw: str | None) -> str | None:
-    """FR-14: FAA for 'Item X-999', PORT for 'Section 999999', otherwise UNK; None when absent."""
+    """FR-14 (amended): FAA for 'Item X-999' or 'Item XX-99', PORT for 'Section 999999', otherwise UNK."""
     if spec_ref_raw is None:
         return None
     if _SPEC_FAA.fullmatch(spec_ref_raw):

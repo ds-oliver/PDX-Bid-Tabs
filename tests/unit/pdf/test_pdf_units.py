@@ -124,7 +124,10 @@ def test_detail_rows_wrap_merge_and_spec_ref():
     [
         ("Sweeper\n(Section 012200)", "Section 012200", "PORT"),
         ("PCC Removal\n(Item P-101)", "Item P-101", "FAA"),
-        ("Construction Survey\n(Item GP-50)", "Item GP-50", "UNK"),
+        ("Construction Survey\n(Item GP-50)", "Item GP-50", "FAA"),  # FR-14 amended (D-02)
+        ("Paving\n(Item P-1001)", "Item P-1001", "UNK"),  # four digits: outside the FAA pattern
+        ("Fence\n(Item ABC-10)", "Item ABC-10", "UNK"),  # three letters
+        ("Survey\n(Section 01220)", "Section 01220", "UNK"),  # five digits
         ("Mobilization, Cleanup, and Demobilization", None, None),
     ],
 )

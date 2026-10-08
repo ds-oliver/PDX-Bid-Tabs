@@ -174,7 +174,7 @@
       "bidder": "Kodiak Pacific Construction",
       "description": "Construction Survey (Item GP-50)",
       "spec_ref_raw": "Item GP-50",
-      "spec_ref_type": "UNK",
+      "spec_ref_type": "FAA",
       "quantity": 1.0,
       "unit": "LS",
       "unit_price": 140000.0,

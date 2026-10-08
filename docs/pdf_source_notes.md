@@ -1,7 +1,9 @@
 # PDF source notes (Phase 3)
 
-**Status 2026-10-07:** Phase 3 gate met on the 17 fixtures. Holdout (solicitation
-2026-13405) not yet supplied; it runs once, at the gate, when it arrives.
+**Status 2026-10-07:** Phase 3 gate accepted on the 17 fixtures. No unseen PDF
+exists yet (2026-13405 turned out to be a workbook), so there is no holdout
+result. If an unseen PDF is supplied under `local_inputs/holdout/`, it is run
+once and the result is appended below.
 
 ## Results on the 17 fixtures
 
@@ -45,7 +47,7 @@ Anything else raises a flag with a reason code (`table_count`,
 | 2024-10691 | `*` means "Non-responsive to the bid submission requirements", not "Corrected Bid Total"; that bidder's 13 unit prices read "Not provided" | `is_corrected_total` false with the footnote kept; "Not provided" read as null, counted as a warning |
 | 11 files | Starred totals marked "*Corrected Bid Total" | `is_corrected_total` true; detail item totals already reflect the correction (all reconcile) |
 | Several | Kerning gaps in the text layer ("Acme Concrete P aving, Inc.") | Bidders matched on a key without spaces or punctuation; raw text kept |
-| 2018-7876 | Spec references like "Item GP-50" | FR-14 types them UNK (pattern is `Item [A-Z]-\d{3}`) |
+| 2018-7876 | Spec references like "Item GP-50" | FAA under the amended FR-14 pattern `Item [A-Z]{1,2}-\d{2,3}` (docs/brd_deviations.md D-02). Across the 17 fixtures every spec reference is now FAA or PORT; none is UNK |
 
 ## Provisional choices for Phase 4
 
