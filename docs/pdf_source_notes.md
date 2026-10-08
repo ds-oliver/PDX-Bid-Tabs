@@ -58,6 +58,62 @@ Anything else raises a flag with a reason code (`table_count`,
   <schedule>` when a project has several base schedules (2023-10383). Whether
   production's renamed workbooks use these names is unknown; the parity report
   must check it, since `natural_key` includes `bid_type`.
+
+### bid_type for several base schedules: check against the xlsx (Phase 4a follow-up)
+
+Sources: the May 14 v4 exports in `local_inputs/provisional/databricks_v4_2026-05-14`
+(Bronze, Silver, mart) and reference `01_parse_single_bidtab.py`. The two workbooks
+themselves were not opened.
+
+| Workbook | EAN | Solicitation | Distinct `bid_type` in the May 14 mart | Item numbers |
+|---|---|---|---|---|
+| Taxiway T Bid Tab.xlsx | 2018D027 | 2019-8247 | `Base Bid Tab` (66 items, 330 rows), `Alternate Bid Tab` (43 items, 215 rows) | `0001`-`0066` and `0001`-`0043`, one run per sheet |
+| PDX_2021D007 Bid Tab.xlsx | 2021D007 | 2022-9477 | `Base Bid Tab` (18 items, 36 rows), `Alternate Bid Tab` (1 item, 2 rows) | `1-001`-`1-018` and `2-001`: a prefix per sheet (`1-` base, `2-` alternate), the only prefixed numbering in the mart |
+
+Neither workbook has a schedule marker in Bronze (`is_section_header` is FALSE on every
+row, see B-08), and neither EAN is among the 17 PDFs.
+
+Across the whole May 14 mart `bid_type` takes six values only: `Base Bid Tab`,
+`Alternate Bid Tab`, `Alternate Bid Tab 1` to `4`. That is by construction: `01` reads only
+the sheets in `CANONICAL_SHEETS` (lines 35-42), and `CANONICAL_BID_TYPE_RE` (line 54) is
+`^(Base Bid Tab|Alternate Bid Tab(?: \d+)?)$`. A workbook with several base schedules has
+them on the one `Base Bid Tab` sheet, kept apart by item numbering.
+
+Multiple-base-schedule form among the 17 PDFs: one file only.
+
+| PDF | EAN | Schedule | Current PDF `bid_type` |
+|---|---|---|---|
+| 2023-10383 | 2022D024 | Bid Schedule A (79 items) | `Base Bid Tab - Bid Schedule A` |
+| | | Bid Schedule B (60 items) | `Base Bid Tab - Bid Schedule B` |
+| | | Additive Alternate 1 (5 items) | `Alternate Bid Tab 1` |
+| | | Additive Alternate 2 (5 items) | `Alternate Bid Tab 2` |
+
+**The base naming does not match the xlsx pattern.** `Base Bid Tab - <schedule>` is
+outside the six values `01` can produce. Silver would still class it `BASE` (`LIKE
+'%Alternate%'` is false), but anything that filters on `bid_type = 'Base Bid Tab'` would
+miss it, and the value is new to `natural_key`. The alternate naming (`Alternate Bid Tab
+<n>`, and `Alternate Bid Tab` for a single one) does match.
+
+Item numbers in 2023-10383 restart in each schedule: A is `0001`-`0079`, B is
+`0001`-`0060`, so 60 item numbers occur in both. Mapping both schedules to `Base Bid Tab`
+with the printed item numbers would give 60 colliding `natural_key` values
+(`bid_type~ean~item_no`).
+
+**Proposed mapping (not implemented; it feeds `natural_key`, so it waits for approval).**
+Follow the prefixed numbering 2021D007 uses:
+
+- every base schedule gets `bid_type = 'Base Bid Tab'`;
+- when a file has more than one base schedule, prefix `item_no` with the schedule's letter
+  or number from its label (`Bid Schedule A` item `0001` becomes `A-0001`); with one base
+  schedule, `item_no` stays as printed;
+- alternates unchanged;
+- `source_sheet` keeps the PDF schedule label, so the original schedule and item number
+  can still be recovered.
+
+Trade-off: `A-0001` is a number the PDF does not print, and nobody can check yet whether
+production's workbook for 2022D024 numbers the schedules this way; the May 14 mart does not
+contain 2022D024. The alternative, keeping a distinct `bid_type` per base schedule, leaves
+`item_no` as printed but adds `bid_type` values the xlsx path never produces.
 - **source_sheet** holds the PDF schedule label (PDFs have no sheets).
 - **Descriptions** join wrapped lines with single spaces and keep the spec
   reference, as 01's cleanup does to a workbook cell. A line break after a
