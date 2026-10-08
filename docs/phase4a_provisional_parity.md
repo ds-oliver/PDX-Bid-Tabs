@@ -12,7 +12,7 @@ bidder and total comparisons and counted separately.
 ## Findings
 
 - **Totals:** 59 of 59 bidder x schedule totals match within $1.00 across the 8 EANs.
-- **Schedules:** the PDF's provisional `bid_type` names equal the xlsx `bid_type` values for every overlap EAN. No overlap EAN has several base schedules, so the `Base Bid Tab - <schedule>` form (2023-10383) is not exercised here.
+- **Schedules:** the PDF's provisional `bid_type` names equal the xlsx `bid_type` values for every overlap EAN. No overlap EAN has several base schedules, so the prefixed item numbers of D-03 (2023-10383) are not exercised here.
 - **Item and bidder counts per schedule:** equal (PDF Engineer's Estimate excluded).
 - **Bidder names:** all matched; 1 by closest name rather than the exact key: 2025-12724: MJ Hughes Construction -> MJ HUGHES CONSTRUCTION INC (close, ratio 0.93).
 - **Crosswalk coverage:** PDF 100.0% of rows vs xlsx 100.0%. This dry run found one parser defect, now fixed: a description line clipped on the page but present in the text layer (2025-12566 items 0056 and 0057; see docs/pdf_source_notes.md). 100% is expected: the PDFs are printed from the same compiled workbooks the crosswalk was built from, so this validates the FR-13 wrap-merge, not coverage of new solicitations. New-solicitation coverage is measured by FR-31 in Phase 4b.

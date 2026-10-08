@@ -215,7 +215,7 @@ def main() -> int:
         f"- **Totals:** {ok_cells} of {all_cells} bidder x schedule totals match within $1.00 across the 8 EANs.",
         f"- **Schedules:** the PDF's provisional `bid_type` names {'equal' if schedule_sets_equal else 'differ from'} "
         "the xlsx `bid_type` values for every overlap EAN. No overlap EAN has several base schedules, so the "
-        "`Base Bid Tab - <schedule>` form (2023-10383) is not exercised here.",
+        "prefixed item numbers of D-03 (2023-10383) are not exercised here.",
         f"- **Item and bidder counts per schedule:** {'equal' if items_equal and bidders_equal else 'not all equal'} "
         "(PDF Engineer's Estimate excluded).",
         f"- **Bidder names:** all matched; {len(close_matches)} by closest name rather than the exact key"

@@ -54,10 +54,11 @@ Anything else raises a flag with a reason code (`table_count`,
 
 - **bid_type.** Mapped to the workbook sheet names so the shared Silver SQL
   classifies tabs the same way: `Base Bid Tab`, `Alternate Bid Tab`, or
-  `Alternate Bid Tab <n>` when there are several alternates; `Base Bid Tab -
-  <schedule>` when a project has several base schedules (2023-10383). Whether
-  production's renamed workbooks use these names is unknown; the parity report
-  must check it, since `natural_key` includes `bid_type`.
+  `Alternate Bid Tab <n>` when there are several alternates. Every base
+  schedule is `Base Bid Tab`; when a file has several (2023-10383), `item_no`
+  takes the printed schedule letter as a prefix (D-03, approved; see below).
+  Whether production's renamed workbooks use these names is unknown; the parity
+  report must check it, since `natural_key` includes `bid_type`.
 
 ### bid_type for several base schedules: check against the xlsx (Phase 4a follow-up)
 
@@ -81,14 +82,14 @@ them on the one `Base Bid Tab` sheet, kept apart by item numbering.
 
 Multiple-base-schedule form among the 17 PDFs: one file only.
 
-| PDF | EAN | Schedule | Current PDF `bid_type` |
-|---|---|---|---|
-| 2023-10383 | 2022D024 | Bid Schedule A (79 items) | `Base Bid Tab - Bid Schedule A` |
-| | | Bid Schedule B (60 items) | `Base Bid Tab - Bid Schedule B` |
-| | | Additive Alternate 1 (5 items) | `Alternate Bid Tab 1` |
-| | | Additive Alternate 2 (5 items) | `Alternate Bid Tab 2` |
+| PDF | EAN | Schedule | PDF `bid_type` before D-03 | After D-03 (`bid_type`, `item_no`) |
+|---|---|---|---|---|
+| 2023-10383 | 2022D024 | Bid Schedule A (79 items) | `Base Bid Tab - Bid Schedule A` | `Base Bid Tab`, `A-0001`-`A-0079` |
+| | | Bid Schedule B (60 items) | `Base Bid Tab - Bid Schedule B` | `Base Bid Tab`, `B-0001`-`B-0060` |
+| | | Additive Alternate 1 (5 items) | `Alternate Bid Tab 1` | unchanged |
+| | | Additive Alternate 2 (5 items) | `Alternate Bid Tab 2` | unchanged |
 
-**The base naming does not match the xlsx pattern.** `Base Bid Tab - <schedule>` is
+**The earlier base naming did not match the xlsx pattern.** `Base Bid Tab - <schedule>` is
 outside the six values `01` can produce. Silver would still class it `BASE` (`LIKE
 '%Alternate%'` is false), but anything that filters on `bid_type = 'Base Bid Tab'` would
 miss it, and the value is new to `natural_key`. The alternate naming (`Alternate Bid Tab
@@ -99,18 +100,28 @@ Item numbers in 2023-10383 restart in each schedule: A is `0001`-`0079`, B is
 with the printed item numbers would give 60 colliding `natural_key` values
 (`bid_type~ean~item_no`).
 
-**Proposed mapping (not implemented; it feeds `natural_key`, so it waits for approval).**
-Follow the prefixed numbering 2021D007 uses:
+**Mapping, approved by Hogan 2026-10-07 as D-03 (docs/brd_deviations.md) and implemented
+in `bronze.py`.** It follows the prefixed numbering 2021D007 uses:
 
 - every base schedule gets `bid_type = 'Base Bid Tab'`;
-- when a file has more than one base schedule, prefix `item_no` with the schedule's letter
-  or number from its label (`Bid Schedule A` item `0001` becomes `A-0001`); with one base
+- only when a file has more than one base schedule, prefix `item_no` with the printed
+  schedule letter (`Bid Schedule A` item `0001` becomes `A-0001`); a base label without a
+  letter, or two with the same letter, is flagged (`base_schedule_letter`); with one base
   schedule, `item_no` stays as printed;
 - alternates unchanged;
-- `source_sheet` keeps the PDF schedule label, so the original schedule and item number
-  can still be recovered.
+- `source_sheet` keeps the printed schedule label, so the original schedule and item number
+  can still be recovered;
+- one warning per affected file in the manifest: `base_schedules_prefixed`.
 
-Trade-off: `A-0001` is a number the PDF does not print, and nobody can check yet whether
+Downstream effects, both the same as for 2021D007 today:
+
+- `item_no_sort` is NULL for these rows. Silver sets it with `TRY_CAST(item_no AS DOUBLE)`
+  (`02` line 158), which is NULL for `A-0001`. In the May 14 Silver the only NULLs are
+  2021D007's 38 rows.
+- These rows appear in `04`'s hyphenated `item_no` audit (the display that lists source
+  files with `item_no_sort IS NULL`), next to 2021D007.
+
+Trade-off kept on record: `A-0001` is a number the PDF does not print, and nobody can check yet whether
 production's workbook for 2022D024 numbers the schedules this way; the May 14 mart does not
 contain 2022D024. The alternative, keeping a distinct `bid_type` per base schedule, leaves
 `item_no` as printed but adds `bid_type` values the xlsx path never produces.

@@ -104,13 +104,45 @@ def test_bid_types_classify_like_the_workbooks(result):
         return sorted({r["bid_type"] for r in result.items if r["solicitation_no"] == sol})
 
     assert types("2024-10564") == ["Alternate Bid Tab", "Base Bid Tab"]
-    assert types("2023-10383") == [
-        "Alternate Bid Tab 1",
-        "Alternate Bid Tab 2",
-        "Base Bid Tab - Bid Schedule A",
-        "Base Bid Tab - Bid Schedule B",
-    ]
+    assert types("2023-10383") == ["Alternate Bid Tab 1", "Alternate Bid Tab 2", "Base Bid Tab"]
     assert types("2024-10691") == ["Base Bid Tab"]
+
+
+XLSX_BID_TYPES = {
+    "Base Bid Tab",
+    "Alternate Bid Tab",
+    "Alternate Bid Tab 1",
+    "Alternate Bid Tab 2",
+    "Alternate Bid Tab 3",
+    "Alternate Bid Tab 4",
+}
+
+
+def test_bid_types_stay_within_the_six_xlsx_values(result):
+    assert {r["bid_type"] for r in result.items} <= XLSX_BID_TYPES
+
+
+def test_several_base_schedules_get_prefixed_item_numbers(result):
+    """D-03: 2023-10383 has Bid Schedules A and B, whose item numbers both start at 0001."""
+    rows = [r for r in result.items if r["solicitation_no"] == "2023-10383"]
+    natural_key = ["~".join((r["bid_type"], r["ean"], r["item_no"])) for r in rows]
+    per_bidder = list(zip(natural_key, (r["contractor_name"] for r in rows), strict=True))
+    assert len(per_bidder) == len(set(per_bidder))
+    assert len(set(natural_key)) == 79 + 60 + 5 + 5
+    assert {r["bid_type"] for r in rows} <= XLSX_BID_TYPES
+    base = [r for r in rows if r["bid_type"] == "Base Bid Tab"]
+    assert {r["source_sheet"] for r in base} == {"Bid Schedule A", "Bid Schedule B"}
+    assert all(r["source_sheet"] == r["schedule_label"] for r in rows)
+    for r in base:
+        assert r["item_no"].startswith(r["source_sheet"][-1] + "-")
+    first = {(r["source_sheet"], r["item_no"]) for r in base if r["item_no"].endswith("-0001")}
+    assert first == {("Bid Schedule A", "A-0001"), ("Bid Schedule B", "B-0001")}
+    alternates = {r["item_no"] for r in rows if r["bid_type"] != "Base Bid Tab"}
+    assert alternates == {"0001", "0002", "0003", "0004", "0005"}
+    (manifest,) = (m for m in result.manifest if m["solicitation_no"] == "2023-10383")
+    assert manifest["error_text"].count("base_schedules_prefixed") == 1
+    others = [m for m in result.manifest if m["solicitation_no"] != "2023-10383"]
+    assert not [m for m in others if "base_schedules_prefixed" in (m["error_text"] or "")]
 
 
 def test_corrected_and_non_responsive_stars(result):

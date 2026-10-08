@@ -5,17 +5,21 @@ file in the landing volume and returns rows shaped like the contracts.
 build_pdf_bronze() writes them to the isolated PDF target with Spark. It never
 writes to the production schema (Settings.pdf_table refuses it, NFR-05).
 
-bid_type follows the workbook sheet names the xlsx path uses, so the shared
-Silver SQL classifies tabs the same way ('%Alternate%' -> ALT):
-- one base schedule: "Base Bid Tab"; several (2023-10383 Schedules A and B):
-  "Base Bid Tab - <schedule label>", which keeps natural keys distinct.
+bid_type follows the workbook sheet names the xlsx path uses, so it stays
+within the six values 01 can produce and the shared Silver SQL classifies tabs
+the same way ('%Alternate%' -> ALT):
+- every base schedule: "Base Bid Tab".
 - one alternate: "Alternate Bid Tab"; several: "Alternate Bid Tab <n>" by order.
-This mapping is provisional until the Phase 4 parity check against the xlsx
-mart for the overlap set; schedule_label keeps the PDF's own wording.
+When a file has more than one base schedule (2023-10383 Schedules A and B),
+their item numbers restart, so item_no takes the printed schedule letter as a
+prefix ("A-0001") to keep natural_key distinct, as 2021D007's workbook numbers
+its items ("1-001"). Approved deviation D-03 (docs/brd_deviations.md). Each
+such file gets one warning; source_sheet keeps the printed schedule label.
 """
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
@@ -31,18 +35,38 @@ ITEMS_TABLE = "bronze_pdf_bid_items"
 CONTROL_TOTALS_TABLE = "bronze_pdf_control_totals"
 
 
+_SCHEDULE_LETTER = re.compile(r"\bSchedule ([A-Z])$")
+
+
 def bid_type(schedule: Schedule, schedules: list[Schedule]) -> str:
-    same_kind = [s for s in schedules if s.kind == schedule.kind]
     if schedule.kind == "base":
-        return "Base Bid Tab" if len(same_kind) == 1 else f"Base Bid Tab - {schedule.label}"
+        return "Base Bid Tab"
+    same_kind = [s for s in schedules if s.kind == "alternate"]
     if len(same_kind) == 1:
         return "Alternate Bid Tab"
     return f"Alternate Bid Tab {same_kind.index(schedule) + 1}"
 
 
+def base_item_prefixes(schedules: list[Schedule]) -> dict[int, str]:
+    """Schedule order -> printed schedule letter, only when there is more than one base schedule (D-03)."""
+    bases = [s for s in schedules if s.kind == "base"]
+    if len(bases) < 2:
+        return {}
+    prefixes = {}
+    for s in bases:
+        m = _SCHEDULE_LETTER.search(s.label)
+        if m is None:
+            raise LayoutFlag("base_schedule_letter", f"base schedule {s.label!r} has no printed schedule letter")
+        prefixes[s.order] = m.group(1)
+    if len(set(prefixes.values())) != len(prefixes):
+        raise LayoutFlag("base_schedule_letter", f"base schedule letters repeat: {[s.label for s in bases]}")
+    return prefixes
+
+
 def item_rows(parsed: ParsedBidTab, file_sha256: str) -> list[dict[str, Any]]:
     header = parsed.detail_header or parsed.header
     by_order = {s.order: s for s in parsed.schedules}
+    prefixes = base_item_prefixes(parsed.schedules)
     rows = []
     for item in parsed.items:
         schedule = by_order[item.schedule_order]
@@ -56,7 +80,9 @@ def item_rows(parsed: ParsedBidTab, file_sha256: str) -> list[dict[str, Any]]:
                 "airport_name": header.location_raw,
                 "solicitation_no": header.solicitation_no,
                 "bid_date": header.bid_date,
-                "item_no": item.item_no,
+                "item_no": f"{prefixes[item.schedule_order]}-{item.item_no}"
+                if item.schedule_order in prefixes
+                else item.item_no,
                 "item_description_raw": item.description,
                 "estimated_quantity": item.quantity,
                 "unit": item.unit or None,
@@ -169,12 +195,19 @@ def ingest_landing(
         seen[check.file_sha256] = name
         try:
             parsed = parse_bid_tab(check.file_path)
+            prefixes = base_item_prefixes(parsed.schedules)
         except LayoutFlag as flag:
             result.manifest.append(manifest_row(check, when, now, "flagged", flag.code, str(flag)))
             continue
         except Exception as exc:
             result.manifest.append(manifest_row(check, when, now, "error", type(exc).__name__, str(exc)))
             continue
+        if prefixes:
+            labels = {s.order: s.label for s in parsed.schedules}
+            parsed.warnings.append(
+                "base_schedules_prefixed: bid_type 'Base Bid Tab' for "
+                + ", ".join(f"{labels[o]!r} (item_no {p}-)" for o, p in prefixes.items())
+            )
         items = item_rows(parsed, check.file_sha256)
         totals = control_total_rows(parsed, check.file_sha256)
         result.items.extend(items)
