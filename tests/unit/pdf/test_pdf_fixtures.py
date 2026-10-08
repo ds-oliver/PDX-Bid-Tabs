@@ -151,16 +151,35 @@ def test_hand_checked_detail_totals(sol):
         assert by_key[(t["label"], t["bidder"], t["page_no"])] == t["amount"]
 
 
-def test_overflow_line_is_returned_to_its_own_row():
-    """2025-12566 item 0056's fourth line is clipped on the page but sits in the text layer on 0057's first line."""
-    got = parsed("2025-12566")
-    descriptions = {i.item_no: i.description for i in got.items if i.schedule_order == 1}
-    assert descriptions["0056"] == (
+# Regression pin for the overflow repair (tables.py). Expected strings were read from
+# pages 6 and 12 rendered at 300 dpi twice: as printed, where 0056 shows three lines
+# because its fourth is clipped, and with every clipping operator removed from the
+# content stream, where "(Section 344300)" appears printed over 0057's first line.
+# They were typed from those images, not copied from parser output.
+OVERFLOW_PIN = {
+    "0056": (
         "Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and "
-        "CF Transformer in Existing AC (Section 344300)"
-    )
-    assert descriptions["0057"] == "Adjust Existing Taxiway Centerline Light to New Finish Elevation (Section 344301)"
-    repairs = [w for w in got.warnings if w.startswith("overflow_text_reassigned")]
-    assert len(repairs) == 2  # once per bidder-group page set (pages 6 and 12)
+        "CF Transformer in Existing AC (Section 344300)",
+        "Section 344300",
+    ),
+    "0057": ("Adjust Existing Taxiway Centerline Light to New Finish Elevation (Section 344301)", "Section 344301"),
+}
+
+
+@pytest.mark.parametrize("item_no", sorted(OVERFLOW_PIN))
+def test_overflow_repair_pins_rebuilt_descriptions(item_no):
+    """Every bidder row for 0056 and 0057, on both bidder-group pages, carries the rendered text."""
+    description, spec_ref = OVERFLOW_PIN[item_no]
+    rows = [i for i in parsed("2025-12566").items if i.schedule_order == 1 and i.item_no == item_no]
+    assert {i.page_no for i in rows} == {6, 12}
+    assert {(i.description, i.spec_ref_raw, i.spec_ref_type) for i in rows} == {(description, spec_ref, "PORT")}
+
+
+def test_overflow_repair_emits_one_warning_per_repair():
+    got = parsed("2025-12566")
+    assert [w for w in got.warnings if w.startswith("overflow_text_reassigned")] == [
+        "overflow_text_reassigned: page 6, '(Section 344300)' moved to the row above",
+        "overflow_text_reassigned: page 12, '(Section 344300)' moved to the row above",
+    ]
     others = [s for s in SOLICITATIONS if s != "2025-12566"]
     assert not [w for s in others for w in parsed(s).warnings if w.startswith("overflow")]
