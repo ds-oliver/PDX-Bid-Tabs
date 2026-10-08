@@ -149,3 +149,18 @@ def test_hand_checked_detail_totals(sol):
     by_key = {(t.label, t.bidder, t.page_no): t.amount for t in got.detail_totals}
     for t in expected(sol)["detail_totals"]:
         assert by_key[(t["label"], t["bidder"], t["page_no"])] == t["amount"]
+
+
+def test_overflow_line_is_returned_to_its_own_row():
+    """2025-12566 item 0056's fourth line is clipped on the page but sits in the text layer on 0057's first line."""
+    got = parsed("2025-12566")
+    descriptions = {i.item_no: i.description for i in got.items if i.schedule_order == 1}
+    assert descriptions["0056"] == (
+        "Install PF Elevated Taxiway Edge Light on PF Base Can, PF Extension, PF Flange Ring and "
+        "CF Transformer in Existing AC (Section 344300)"
+    )
+    assert descriptions["0057"] == "Adjust Existing Taxiway Centerline Light to New Finish Elevation (Section 344301)"
+    repairs = [w for w in got.warnings if w.startswith("overflow_text_reassigned")]
+    assert len(repairs) == 2  # once per bidder-group page set (pages 6 and 12)
+    others = [s for s in SOLICITATIONS if s != "2025-12566"]
+    assert not [w for s in others for w in parsed(s).warnings if w.startswith("overflow")]

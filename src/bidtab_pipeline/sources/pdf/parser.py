@@ -78,12 +78,17 @@ def parse_bid_tab(path: str | Path) -> ParsedBidTab:
         if page_count < 2:
             raise LayoutFlag("page_count", f"{page_count} page(s); expected a summary page and detail pages")
         summary_page = pdf.pages[0]
-        header, labels, summary_totals = parse_summary_table(page_table(summary_page, 1), page_no=1)
+        summary_table, table_warnings = page_table(summary_page, 1)
+        header, labels, summary_totals = parse_summary_table(summary_table, page_no=1)
         footnote = summary_footnote(summary_page.extract_text() or "")
-        detail_pages = [
-            parse_detail_table(page_table(page, number), number) for number, page in enumerate(pdf.pages[1:], start=2)
-        ]
-    return assemble(path.name, page_count, producer, header, labels, summary_totals, footnote, detail_pages)
+        detail_pages = []
+        for number, page in enumerate(pdf.pages[1:], start=2):
+            table, warnings = page_table(page, number)
+            table_warnings.extend(warnings)
+            detail_pages.append(parse_detail_table(table, number))
+    parsed = assemble(path.name, page_count, producer, header, labels, summary_totals, footnote, detail_pages)
+    parsed.warnings.extend(table_warnings)
+    return parsed
 
 
 def assemble(
