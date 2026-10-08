@@ -15,7 +15,7 @@ bidder and total comparisons and counted separately.
 - **Schedules:** the PDF's provisional `bid_type` names equal the xlsx `bid_type` values for every overlap EAN. No overlap EAN has several base schedules, so the `Base Bid Tab - <schedule>` form (2023-10383) is not exercised here.
 - **Item and bidder counts per schedule:** equal (PDF Engineer's Estimate excluded).
 - **Bidder names:** all matched; 1 by closest name rather than the exact key: 2025-12724: MJ Hughes Construction -> MJ HUGHES CONSTRUCTION INC (close, ratio 0.93).
-- **Crosswalk coverage:** PDF 100.0% of rows vs xlsx 100.0%. This dry run found one parser defect, now fixed: a description line clipped on the page but present in the text layer (2025-12566 items 0056 and 0057; see docs/pdf_source_notes.md).
+- **Crosswalk coverage:** PDF 100.0% of rows vs xlsx 100.0%. This dry run found one parser defect, now fixed: a description line clipped on the page but present in the text layer (2025-12566 items 0056 and 0057; see docs/pdf_source_notes.md). 100% is expected: the PDFs are printed from the same compiled workbooks the crosswalk was built from, so this validates the FR-13 wrap-merge, not coverage of new solicitations. New-solicitation coverage is measured by FR-31 in Phase 4b.
 - **Pullman SST (non-responsive, 2024-10691)** and the **single-bidder schedules** appear the same way on both sides; details below.
 
 ## Summary by solicitation
@@ -37,6 +37,7 @@ Items are distinct item numbers summed over schedules.
 
 Share of rows whose `lower(trim(item_description_raw))` is in `int_crosswalk.raw_join_key` (May 14 export).
 PDF descriptions are rebuilt per FR-13 (wrapped lines joined with single spaces, spec reference kept).
+100% is expected because the PDFs are printed from the same compiled workbooks the crosswalk was built from. It validates the FR-13 wrap-merge, not coverage of new solicitations; that is measured by FR-31 in Phase 4b.
 
 | Solicitation | EAN | PDF rows covered | PDF rows | xlsx rows covered | xlsx rows | PDF distinct descriptions covered |
 |---|---|---|---|---|---|---|

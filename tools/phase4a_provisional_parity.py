@@ -223,7 +223,9 @@ def main() -> int:
         + ".",
         f"- **Crosswalk coverage:** PDF {100 * tp_hit / tp_rows:.1f}% of rows vs xlsx {100 * tx_hit / tx_rows:.1f}%. "
         "This dry run found one parser defect, now fixed: a description line clipped on the page but present in the "
-        "text layer (2025-12566 items 0056 and 0057; see docs/pdf_source_notes.md).",
+        "text layer (2025-12566 items 0056 and 0057; see docs/pdf_source_notes.md). 100% is expected: the PDFs are "
+        "printed from the same compiled workbooks the crosswalk was built from, so this validates the FR-13 wrap-merge, "
+        "not coverage of new solicitations. New-solicitation coverage is measured by FR-31 in Phase 4b.",
         "- **Pullman SST (non-responsive, 2024-10691)** and the **single-bidder schedules** appear the same way on "
         "both sides; details below.",
         "",
@@ -246,6 +248,11 @@ def main() -> int:
     w("")
     w("Share of rows whose `lower(trim(item_description_raw))` is in `int_crosswalk.raw_join_key` (May 14 export).")
     w("PDF descriptions are rebuilt per FR-13 (wrapped lines joined with single spaces, spec reference kept).")
+    w(
+        "100% is expected because the PDFs are printed from the same compiled workbooks the crosswalk was built "
+        "from. It validates the FR-13 wrap-merge, not coverage of new solicitations; that is measured by FR-31 "
+        "in Phase 4b."
+    )
     w("")
     w(
         "| Solicitation | EAN | PDF rows covered | PDF rows | xlsx rows covered | xlsx rows | PDF distinct descriptions covered |"
