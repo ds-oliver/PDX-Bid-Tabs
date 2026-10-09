@@ -1,6 +1,16 @@
 # Refactor notes: xlsx path (Phases 1 and 2)
 
-**Status 2026-10-07:** Gate 2a passed. Gate 2b test smoke-tested on synthetic inputs; awaiting production inputs. Gate 2c (Databricks, isolated schema) planned.
+**Status 2026-10-09:** Gate 2a passed. Gate 2b passed on rebuilt inputs verified against the 2026-05-28 golden run (see Gate 2b below); the fresh-export comparison is still open. Gate 2c (Databricks, isolated schema) planned.
+
+## Requirements (BRD v0.2)
+
+The refactor is Track A groundwork. It traces to NFR-08 (reproduce the as-built output on
+identical inputs), NFR-05 (isolation and the production write guard), NFR-01 (notebook
+headers), FR-40 (mart contract unchanged) and FR-22, which v0.2 now states as the as-built
+key (`bid_type`, EAN, item number, contractor canonical name; see backlog B-13). As-built
+findings B-10 to B-13 appear in v0.2 Appendix B and deviations D-01 to D-04 in Appendix A
+(`docs/brd_deviations.md`). FR-04, FR-05 and FR-17 are now MVP-B (Track B, bidder PDFs and
+SharePoint intake): requirements only, no code until bidder PDF samples arrive.
 
 ## Notebook to package map
 
@@ -49,6 +59,23 @@ local_inputs/fresh_run/exports/      the six 05 CSVs from a fresh job run on tho
 Then run `pytest tests/golden/test_production_parity.py -rs`. If the inputs are
 the 2026-05-28 inputs, add `BIDTAB_INPUTS_MATCH_GOLDEN=1` to assert the golden
 counts; otherwise the differences are listed in the skip message.
+
+**Result, 2026-10-09: passed on rebuilt inputs verified against the 2026-05-28 golden run.**
+The Port's `source_files` volume was not available, so the 28 workbooks were rebuilt
+from local originals (repo `data_in/`, capstone drive, SharePoint `Port Provided`) by
+applying `bidtab_sheet_standardization_report.xlsx` (the copy that maps to canonical
+names): only sheet `name` attributes in `xl/workbook.xml` were changed; every other zip
+entry is byte-identical. All three source sets reproduce every golden count and, for all
+27 files, mart rows, awarded bidder and 0 unmapped; the two standardized copies found in
+Downloads (`PDX_2015D006`, `PDX_2020D008`) give identical mart rows as a control. The sets
+differ only in `bid_date` (the workbooks' `=TODAY()` cell, backlog B-14) and sub-cent
+float noise in 15 `total_price` values, which the golden counts cannot see; per file, the
+copy whose `bid_date` matches the May 14 production mart was used, else the repo copy.
+With `BIDTAB_INPUTS_MATCH_GOLDEN=1`: reference and refactored outputs identical, golden
+counts asserted. Open: (1) the crosswalk CSV choice (two 780-row candidates differing in
+264 `catalog_division` values) is unconfirmed until production table exports are
+compared; (2) the Port volumes may have changed since 2026-05-28; (3) no fresh 05 export,
+so `test_matches_fresh_job_export` is skipped. Details: `local_inputs/candidate/MANIFEST.md`.
 
 ## Gate 2c: Databricks, isolated schema (planned)
 
