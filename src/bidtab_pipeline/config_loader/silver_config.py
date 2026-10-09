@@ -3,6 +3,10 @@
 Logic is unchanged from 02, statement for statement. Note that unit_mapping.csv
 is loaded but no query reads it (docs/backlog.md B-05); it is still loaded so a
 missing or unreadable file fails the job exactly as before.
+
+One deliberate change from 02 (backlog B-14, branch fix/b14-bid-date, pending Port
+sign-off): load_due_dates reads the Due Date column of AwardedBidsSearchList.xlsx so
+Silver can replace the workbook bid date, which is a cached =TODAY().
 """
 
 from __future__ import annotations
@@ -62,6 +66,29 @@ def load_awarded_bids(awarded_bids_path: str, contractor_mapping_path: str) -> p
     return _awarded_pdf[["invitation_no", "awarded_bidder_canonical", "award_amount"]].drop_duplicates(
         subset=["invitation_no", "awarded_bidder_canonical"]
     )
+
+
+DUE_DATE_FORMAT = "%m/%d/%Y %I:%M:%S %p"  # PlanetBids export, e.g. "08/09/2024 3:00:00 PM"
+
+
+def load_due_dates(awarded_bids_path: str) -> pd.DataFrame:
+    """One bid due date per solicitation from AwardedBidsSearchList.xlsx (B-14).
+
+    The export repeats the Due Date on every bidder row. Every row counts, not only
+    awarded ones. Unparseable or blank values are dropped. Where a solicitation has
+    more than one Due Date (2 of 700 in the 2026-05-23 export, both re-bid or extended),
+    the latest is used. A file without a Due Date column yields no rows, so Silver keeps
+    the workbook date.
+    """
+    df = pd.read_excel(awarded_bids_path, header=4)
+    if "Due Date" not in df.columns or "Invitation #" not in df.columns:
+        return pd.DataFrame({"invitation_no": pd.Series(dtype=str), "due_date": pd.Series(dtype=object)})
+    df = df[df["Invitation #"].notna()].copy()
+    due = pd.to_datetime(df["Due Date"].astype(str).str.strip(), format=DUE_DATE_FORMAT, errors="coerce")
+    out = pd.DataFrame({"invitation_no": df["Invitation #"].astype(str).str.strip(), "due_date": due})
+    out = out.dropna(subset=["due_date"]).groupby("invitation_no", as_index=False)["due_date"].max()
+    out["due_date"] = out["due_date"].dt.date
+    return out
 
 
 def load_concat_fixes(path: str) -> list[tuple[str, str]]:

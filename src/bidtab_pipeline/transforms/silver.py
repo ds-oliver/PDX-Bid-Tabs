@@ -2,16 +2,19 @@
 
 Loads the Silver config through config_loader, registers the temp views and
 the normalize_description UDF, writes ref_awarded_bids, and builds
-silver_bid_items with 02's SQL. The SQL text is extracted unchanged from the
-reference; only the table names come from Settings (checked by
-tests/unit/test_verbatim_ports.py). Printed output and the check queries match
-the reference exactly.
+silver_bid_items with 02's SQL. The SQL text is extracted from the reference;
+only the table names come from Settings (checked by tests/unit/test_sql_ports.py).
+Printed output and the check queries match the reference exactly.
+
+One deliberate change (backlog B-14, pending Port sign-off): bid_date and
+bid_year come from the AwardedBidsSearchList Due Date for the solicitation,
+joined like awarded_bids; where none matches, the workbook value is kept.
 """
 
 from __future__ import annotations
 
 from pyspark.sql import DataFrame, SparkSession
-from pyspark.sql.types import StringType
+from pyspark.sql.types import DateType, StringType, StructField, StructType
 
 from bidtab_pipeline.config_loader.silver_config import (
     AWARDED_BIDS_FILE,
@@ -22,6 +25,7 @@ from bidtab_pipeline.config_loader.silver_config import (
     load_awarded_bids,
     load_concat_fixes,
     load_contractor_aliases,
+    load_due_dates,
     load_text_normalizations,
     load_unit_mapping,
     make_normalize_description,
@@ -63,9 +67,9 @@ SELECT
   b.solicitation_no AS solicitation_no_raw,
   TRIM(REGEXP_REPLACE(b.solicitation_no, '\\\\|.*$', '')) AS solicitation_no,
 
-  -- Dates
-  b.bid_date,
-  YEAR(b.bid_date) AS bid_year,
+  -- Dates (B-14: bid due date from AwardedBidsSearchList; workbook value only where none matches)
+  COALESCE(dd.due_date, b.bid_date) AS bid_date,
+  YEAR(COALESCE(dd.due_date, b.bid_date)) AS bid_year,
 
   -- Pay item
   b.item_no,
@@ -118,6 +122,8 @@ LEFT JOIN awarded_bids aw
   ON TRIM(REGEXP_REPLACE(b.solicitation_no, '\\\\|.*$', '')) = aw.invitation_no
  AND COALESCE(a.contractor_name_canonical, UPPER(TRIM(b.contractor_name))) = aw.awarded_bidder_canonical
  AND aw.award_amount IS NOT NULL
+LEFT JOIN awarded_due_dates dd
+  ON TRIM(REGEXP_REPLACE(b.solicitation_no, '\\\\|.*$', '')) = dd.invitation_no
 WHERE b.is_section_header = FALSE
   AND b.item_no IS NOT NULL
   AND b.item_description_raw != '#REF!'
@@ -152,6 +158,11 @@ def build_silver(spark: SparkSession, settings: Settings) -> None:
 
     _awarded_df.write.format("delta").mode("overwrite").option("overwriteSchema", "true").saveAsTable(AWARDED_TABLE)
     print(f"Persisted awarded_bids as {AWARDED_TABLE}")
+
+    # Bid due dates per solicitation (B-14); no rows if the export has no Due Date column
+    _due_schema = StructType([StructField("invitation_no", StringType()), StructField("due_date", DateType())])
+    _due_rows = load_due_dates(AWARDED_BIDS_PATH).itertuples(index=False, name=None)
+    spark.createDataFrame(list(_due_rows), _due_schema).createOrReplaceTempView("awarded_due_dates")
 
     # Concat fixes and text normalization aliases from config CSVs
     CONCAT_FIXES = load_concat_fixes(CONCAT_FIXES_PATH)

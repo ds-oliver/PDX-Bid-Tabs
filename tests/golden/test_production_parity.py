@@ -11,7 +11,9 @@ committed). Expected layout:
 The volumes are copied to a temp dir first, so the run never writes into
 local_inputs/. Checks:
 1. Reference and refactored outputs are identical (every table, export,
-   display, and printed line).
+   display, and printed line), except B-14 on branch fix/b14-bid-date: tables
+   and exports may differ only in bid_date and bid_year, and displays only if
+   they carry bid_date or bid_year (aggregates grouped by year change shape).
 2. Both match the fresh 05 export, row for row, excluding load timestamps.
 3. If BIDTAB_INPUTS_MATCH_GOLDEN=1 (the inputs are the 2026-05-28 inputs),
    table counts and per-file mart rows match golden_run_2026-05-28.json.
@@ -67,11 +69,37 @@ def production_runs(spark, tmp_path_factory):
     }
 
 
+B14_DATE_COLUMNS = ("bid_date", "bid_year")
+
+
+def _rows(text: str) -> list[dict[str, str]]:
+    return list(csv.DictReader(io.StringIO(text)))
+
+
+def _without(rows: list[dict[str, str]], columns: list[str]) -> list[str]:
+    return sorted(json.dumps({k: v for k, v in r.items() if k not in columns}, sort_keys=True) for r in rows)
+
+
 def test_refactored_equals_reference(production_runs):
+    """Identical except for B-14 (fix/b14-bid-date): bid_date and bid_year, and displays aggregated on them."""
     _, reference = production_runs["reference"]
     _, refactored = production_runs["refactored"]
-    problems = compare_trees(reference, refactored)
-    assert not problems, "\n\n".join(problems)
+    problems = []
+    for path in sorted(set(reference) | set(refactored)):
+        a, b = reference.get(path), refactored.get(path)
+        if a == b:
+            continue
+        if a is None or b is None or not path.endswith(".csv"):
+            problems.append(f"{path}: differs outside B-14")
+            continue
+        ra, rb = _rows(a), _rows(b)
+        dates = [c for c in (ra[0] if ra else {}) if c in B14_DATE_COLUMNS]
+        if not dates:
+            problems.append(f"{path}: differs and has no bid_date/bid_year column")
+        elif path.startswith(("tables/", "exports/")):
+            if _without(ra, dates) != _without(rb, dates):
+                problems.append(f"{path}: rows differ beyond {dates}")
+    assert not problems, "\n".join(problems)
 
 
 @pytest.mark.skipif(not FRESH_EXPORTS.is_dir(), reason="no fresh 05 export in local_inputs/fresh_run/exports/")

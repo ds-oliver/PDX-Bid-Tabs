@@ -48,12 +48,31 @@ def reference_statements(notebook: str, cells: range) -> list[str]:
     return spark.statements
 
 
-def test_silver_build_sql_is_unchanged():
-    expected = reference_statements("02_build_silver.py", range(6, 7))
+# B-14 (fix/b14-bid-date, pending Port sign-off): the only change to 02's Silver SQL.
+B14_SILVER_CHANGES = [
+    (
+        "  -- Dates\n  b.bid_date,\n  YEAR(b.bid_date) AS bid_year,\n",
+        "  -- Dates (B-14: bid due date from AwardedBidsSearchList; workbook value only where none matches)\n"
+        "  COALESCE(dd.due_date, b.bid_date) AS bid_date,\n"
+        "  YEAR(COALESCE(dd.due_date, b.bid_date)) AS bid_year,\n",
+    ),
+    (
+        " AND aw.award_amount IS NOT NULL\nWHERE",
+        " AND aw.award_amount IS NOT NULL\nLEFT JOIN awarded_due_dates dd\n"
+        "  ON TRIM(REGEXP_REPLACE(b.solicitation_no, '\\\\|.*$', '')) = dd.invitation_no\nWHERE",
+    ),
+]
+
+
+def test_silver_build_sql_differs_from_02_only_by_b14():
+    (expected,) = reference_statements("02_build_silver.py", range(6, 7))
+    for old, new in B14_SILVER_CHANGES:
+        assert expected.count(old) == 1
+        expected = expected.replace(old, new)
     got = silver.SILVER_SQL_TEMPLATE.format(
         BRONZE_TABLE=PROD.table("bronze_raw_rows"), SILVER_TABLE=PROD.table("silver_bid_items")
     )
-    assert expected == [got]
+    assert got == expected
 
 
 def test_silver_check_sql_is_unchanged():
