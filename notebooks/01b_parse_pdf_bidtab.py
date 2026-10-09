@@ -45,7 +45,7 @@ result = build_pdf_bronze(spark, settings, dbutils=dbutils)
 
 # COMMAND ----------
 
-# Files that were not parsed, with the reason.
+# Files that were not parsed, with the reason, and parsed files with warnings.
 display(
-    spark.table(settings.pdf_table("ref_file_manifest")).where("parse_status != 'parsed' OR error_text IS NOT NULL")
+    spark.table(settings.pdf_table("ref_file_manifest")).where("parse_status != 'parsed' OR warning_text IS NOT NULL")
 )

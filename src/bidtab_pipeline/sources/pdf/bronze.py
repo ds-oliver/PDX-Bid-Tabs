@@ -213,19 +213,17 @@ def ingest_landing(
         result.items.extend(items)
         result.control_totals.extend(totals)
         result.checks.extend(reconcile(parsed))
-        warnings = "; ".join(f"warning: {w}" for w in parsed.warnings) or None
         result.manifest.append(
             manifest_row(
                 check,
                 when,
                 now,
                 "parsed",
-                None,
-                warnings,
-                parsed.header.ean,
-                parsed.header.solicitation_no,
-                len(items),
-                len(totals),
+                warning_text="; ".join(parsed.warnings) or None,
+                ean=parsed.header.ean,
+                solicitation_no=parsed.header.solicitation_no,
+                item_rows=len(items),
+                control_total_rows=len(totals),
             )
         )
     return result

@@ -8,8 +8,9 @@
   with a reason.
 
 parse_status values: parsed, flagged (unknown layout, no rows emitted),
-rejected (FR-03), duplicate, error (unexpected exception). Parse warnings on a
-parsed file go in error_text, prefixed "warning:".
+rejected (FR-03), duplicate, error (unexpected exception). error_text says why
+a file was not parsed and is NULL on a parsed file; parse warnings on a parsed
+file go in warning_text (D-04).
 """
 
 from __future__ import annotations
@@ -74,6 +75,7 @@ def manifest_row(
     parse_status: str,
     status_reason: str | None = None,
     error_text: str | None = None,
+    warning_text: str | None = None,
     ean: str | None = None,
     solicitation_no: str | None = None,
     item_rows: int = 0,
@@ -91,6 +93,7 @@ def manifest_row(
         "parse_status": parse_status,
         "status_reason": status_reason,
         "error_text": error_text,
+        "warning_text": warning_text,
         "ean": ean,
         "solicitation_no": solicitation_no,
         "item_rows": item_rows,

@@ -210,7 +210,8 @@ REF_FILE_MANIFEST: tuple[Column, ...] = (
     ("first_seen_at", "timestamp"),
     ("parse_status", "string"),  # parsed | flagged | rejected | duplicate | error
     ("status_reason", "string"),  # flag or rejection code
-    ("error_text", "string"),
+    ("error_text", "string"),  # why a file was not parsed; NULL on a parsed file
+    ("warning_text", "string"),  # parse warnings on a parsed file, "; "-separated (D-04)
     ("ean", "string"),
     ("solicitation_no", "string"),
     ("item_rows", "int"),

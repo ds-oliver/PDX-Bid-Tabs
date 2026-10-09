@@ -82,8 +82,22 @@ def test_rejections_duplicates_and_ignored_files(result):
 
 
 def test_warnings_are_recorded_on_parsed_files(result):
-    assert "summary_date_differs" in status(result, "2024-10569 Bid Tab.pdf")["error_text"]
-    assert "price_not_provided" in status(result, "2024-10691 Bid Tab.pdf")["error_text"]
+    """D-04: a clean parse with warnings has warning_text and a NULL error_text."""
+    for name, code in [
+        ("2023-10383 Bid Tab.pdf", "base_schedules_prefixed"),
+        ("2024-10569 Bid Tab.pdf", "summary_date_differs"),
+        ("2024-10691 Bid Tab.pdf", "price_not_provided"),
+        ("2025-12566 Bid Tab.pdf", "overflow_text_reassigned"),
+    ]:
+        row = status(result, name)
+        assert row["parse_status"] == "parsed"
+        assert row["error_text"] is None
+        assert code in row["warning_text"]
+
+
+def test_error_text_only_on_files_not_parsed(result):
+    assert all(m["error_text"] is None for m in result.manifest if m["parse_status"] == "parsed")
+    assert all(m["warning_text"] is None for m in result.manifest if m["parse_status"] != "parsed")
 
 
 def test_first_seen_kept_for_known_hashes(landing):
@@ -140,9 +154,9 @@ def test_several_base_schedules_get_prefixed_item_numbers(result):
     alternates = {r["item_no"] for r in rows if r["bid_type"] != "Base Bid Tab"}
     assert alternates == {"0001", "0002", "0003", "0004", "0005"}
     (manifest,) = (m for m in result.manifest if m["solicitation_no"] == "2023-10383")
-    assert manifest["error_text"].count("base_schedules_prefixed") == 1
+    assert manifest["warning_text"].count("base_schedules_prefixed") == 1
     others = [m for m in result.manifest if m["solicitation_no"] != "2023-10383"]
-    assert not [m for m in others if "base_schedules_prefixed" in (m["error_text"] or "")]
+    assert not [m for m in others if "base_schedules_prefixed" in (m["warning_text"] or "")]
 
 
 def test_corrected_and_non_responsive_stars(result):
