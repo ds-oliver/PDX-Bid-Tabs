@@ -1,0 +1,107 @@
+{
+  "file": "2025-12724 Bid Tab.pdf",
+  "pages": 13,
+  "hand_checked": false,
+  "ean": "2024D016",
+  "solicitation_no": "2025-12724",
+  "bid_date_raw": "1/7/2026",
+  "summary_bidders": [
+    "Nutter Corporation",
+    "Tapani Inc.",
+    "Moore Excavation, Inc.",
+    "K&E Excavating, Inc.",
+    "Coffman Excavation",
+    "Interlaken, Inc.",
+    "Apex Mechanical LLC",
+    "Landis+Landis Construction, LLC",
+    "Goodfellow Bros. LLC",
+    "MJ Hughes Construction",
+    "Kerr Contractors O regon, LLC",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      2940525.0
+    ],
+    [
+      3079845.8
+    ],
+    [
+      3317066.0
+    ],
+    [
+      3389211.5
+    ],
+    [
+      3725047.1
+    ],
+    [
+      4186136.0
+    ],
+    [
+      4249540.76
+    ],
+    [
+      4444240.2
+    ],
+    [
+      4508106.5
+    ],
+    [
+      4826299.0
+    ],
+    [
+      4894385.3
+    ],
+    [
+      3750841.7
+    ]
+  ],
+  "starred": [
+    [
+      "Apex Mechanical LLC",
+      0
+    ],
+    [
+      "Goodfellow Bros. LLC",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "item_count": 34
+    },
+    {
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "item_count": 34
+    },
+    {
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "item_count": 34
+    },
+    {
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "item_count": 34
+    }
+  ]
+}

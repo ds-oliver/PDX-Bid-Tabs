@@ -1,0 +1,53 @@
+{
+  "file": "2024-10566 Bid Tab.pdf",
+  "pages": 7,
+  "hand_checked": false,
+  "ean": "2023D025",
+  "solicitation_no": "2024-10566",
+  "bid_date_raw": "3/10/2025",
+  "summary_bidders": [
+    "MJ Hughes C onstruction, Inc.",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      837232.5,
+      924860.0
+    ],
+    [
+      802978.5,
+      868647.5
+    ]
+  ],
+  "starred": [
+    [
+      "MJ Hughes C onstruction, Inc.",
+      0
+    ],
+    [
+      "MJ Hughes C onstruction, Inc.",
+      1
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "item_count": 25
+    },
+    {
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "item_count": 25
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "file": "2024-10571 Bid Tab.pdf",
+  "pages": 10,
+  "hand_checked": false,
+  "ean": "2020D017",
+  "solicitation_no": "2024-10571",
+  "bid_date_raw": "6/20/2024",
+  "summary_bidders": [
+    "Nutter Corporation",
+    "Coffman Excavation",
+    "Kerr Contractors O regon, LLC",
+    "Kodiak Pacific Construction",
+    "Granite Construction Company",
+    "Moore Excavation, Inc.",
+    "K&E Excavating, Inc.",
+    "Knife River Corporation - Northwest",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      8572720.0
+    ],
+    [
+      9219751.0
+    ],
+    [
+      9445202.0
+    ],
+    [
+      9694765.0
+    ],
+    [
+      9902364.0
+    ],
+    [
+      10117240.0
+    ],
+    [
+      10497715.0
+    ],
+    [
+      14690640.5
+    ],
+    [
+      14993730.0
+    ]
+  ],
+  "starred": [
+    [
+      "Knife River Corporation - Northwest",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "item_count": 33
+    },
+    {
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "item_count": 33
+    },
+    {
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "item_count": 33
+    }
+  ]
+}

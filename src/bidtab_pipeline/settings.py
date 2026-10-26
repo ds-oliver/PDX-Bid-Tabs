@@ -12,6 +12,7 @@ Resolution order for each setting:
 | exports_root | bidtab_exports_root | BIDTAB_EXPORTS_ROOT | <volume_root>/exports |
 | allow_production_write | bidtab_allow_production_write | BIDTAB_ALLOW_PRODUCTION_WRITE | false |
 | pdf_target_prefix | bidtab_pdf_target_prefix | BIDTAB_PDF_TARGET_PREFIX | none (pending Port IT) |
+| pdf_landing_root | bidtab_pdf_landing_root | BIDTAB_PDF_LANDING_ROOT | none (FR-01; pending Port IT) |
 
 Write guard: code that writes a table or an export calls require_table_write()
 or require_export_write(). Writing to the production schema `pop-poc`.`bidtab`
@@ -64,6 +65,7 @@ class Settings:
     exports_root: str | None = None
     allow_production_write: bool = False
     pdf_target_prefix: str | None = None
+    pdf_landing_root: str | None = None
 
     # --- resolution ----------------------------------------------------------
 
@@ -115,6 +117,18 @@ class Settings:
         if _normalize_prefix(self.pdf_target_prefix) == _normalize_prefix(PROD_TABLE_PREFIX):
             raise ProductionWriteRefused("pdf_target_prefix must not be the production schema (NFR-05).")
         return f"{self.pdf_target_prefix}.`{name}`"
+
+    @property
+    def pdf_landing(self) -> str:
+        """The PDF landing volume (FR-01), separate from source_files."""
+        if not self.pdf_landing_root:
+            raise SettingMissing(
+                "pdf_landing_root is not set. PDFs land in their own volume, separate from source_files (FR-01). "
+                "Set bidtab_pdf_landing_root."
+            )
+        if self.pdf_landing_root.rstrip("/") == self.volume("source_files"):
+            raise ValueError("pdf_landing_root must not be the xlsx source_files volume (FR-01).")
+        return self.pdf_landing_root.rstrip("/")
 
     # --- write guard ---------------------------------------------------------
 

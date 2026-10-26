@@ -1,0 +1,87 @@
+{
+  "file": "2023-10218 Bid Tab.pdf",
+  "pages": 15,
+  "hand_checked": false,
+  "ean": "2023D011",
+  "solicitation_no": "2023-10218",
+  "bid_date_raw": "1/14/2025",
+  "summary_bidders": [
+    "Tapani, Inc.",
+    "Kerr Contractors O regon, LLC",
+    "K&E Excavating, Inc.",
+    "Coffman Excavation",
+    "Granite Construction Company",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      8991000.0,
+      428765.0
+    ],
+    [
+      9285859.15,
+      364091.75
+    ],
+    [
+      9569824.55,
+      445607.5
+    ],
+    [
+      9624346.25,
+      402928.0
+    ],
+    [
+      10277995.68,
+      417263.04
+    ],
+    [
+      11210044.25,
+      483561.5
+    ]
+  ],
+  "starred": [
+    [
+      "Granite Construction Company",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "item_count": 69
+    },
+    {
+      "pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "item_count": 69
+    },
+    {
+      "pages": [
+        14
+      ],
+      "item_count": 11
+    },
+    {
+      "pages": [
+        15
+      ],
+      "item_count": 11
+    }
+  ]
+}

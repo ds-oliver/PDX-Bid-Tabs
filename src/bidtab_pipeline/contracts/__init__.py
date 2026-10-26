@@ -196,6 +196,71 @@ XLSX_PATH_TABLES: dict[str, tuple[Column, ...]] = {
     "pipeline_file_log": PIPELINE_FILE_LOG,
 }
 
+# --- PDF source (BRD DR-01 to DR-03). Written only to the isolated PDF target (NFR-05). ---
+
+# DR-01: one row per file seen in the PDF landing volume (FR-01 to FR-03).
+REF_FILE_MANIFEST: tuple[Column, ...] = (
+    ("file_name", "string"),
+    ("file_path", "string"),
+    ("file_sha256", "string"),
+    ("file_size_bytes", "bigint"),
+    ("page_count", "int"),
+    ("producer", "string"),
+    ("has_text_layer", "boolean"),
+    ("first_seen_at", "timestamp"),
+    ("parse_status", "string"),  # parsed | flagged | rejected | duplicate | error
+    ("status_reason", "string"),  # flag or rejection code
+    ("error_text", "string"),  # why a file was not parsed; NULL on a parsed file
+    ("warning_text", "string"),  # parse warnings on a parsed file, "; "-separated (D-04)
+    ("ean", "string"),
+    ("solicitation_no", "string"),
+    ("item_rows", "int"),
+    ("control_total_rows", "int"),
+    ("parsed_at", "timestamp"),
+)
+
+# DR-02: item x bidder x schedule x file. Every bronze_raw_rows column, so the
+# shared Silver SQL reads it unchanged, plus PDF lineage columns.
+BRONZE_PDF_BID_ITEMS: tuple[Column, ...] = BRONZE_RAW_ROWS[:-1] + (
+    ("page_no", "int"),
+    ("spec_ref_raw", "string"),
+    ("spec_ref_type", "string"),  # FAA | PORT | UNK, or null when there is no spec reference (FR-14)
+    ("schedule_label", "string"),
+    ("schedule_kind", "string"),  # base | alternate
+    ("schedule_order", "int"),
+    ("file_sha256", "string"),
+    ("bronze_loaded_at", "timestamp"),
+)
+
+# DR-03: bidder x schedule x file control totals, from the summary page and from
+# the detail total rows (FR-11, FR-15).
+BRONZE_PDF_CONTROL_TOTALS: tuple[Column, ...] = (
+    ("source_file", "string"),
+    ("file_sha256", "string"),
+    ("ean", "string"),
+    ("solicitation_no", "string"),
+    ("total_source", "string"),  # summary | detail
+    ("schedule_label", "string"),
+    ("schedule_kind", "string"),  # base | alternate | rollup
+    ("schedule_order", "int"),
+    ("bidder_name_raw", "string"),
+    ("contractor_name", "string"),
+    ("contractor_position", "int"),
+    ("is_engineers_estimate", "boolean"),
+    ("total_amount", "double"),
+    ("is_starred", "boolean"),
+    ("footnote_text", "string"),
+    ("is_corrected_total", "boolean"),
+    ("page_no", "int"),
+    ("bronze_loaded_at", "timestamp"),
+)
+
+PDF_PATH_TABLES: dict[str, tuple[Column, ...]] = {
+    "ref_file_manifest": REF_FILE_MANIFEST,
+    "bronze_pdf_bid_items": BRONZE_PDF_BID_ITEMS,
+    "bronze_pdf_control_totals": BRONZE_PDF_CONTROL_TOTALS,
+}
+
 # 05 writes these six to /Volumes/pop-poc/bidtab/exports/<name>.csv.
 EXPORTED_TABLES = (
     "bronze_raw_rows",

@@ -1,0 +1,76 @@
+{
+  "file": "2024-10569 Bid Tab.pdf",
+  "pages": 7,
+  "hand_checked": false,
+  "ean": "2023D028",
+  "solicitation_no": "2024-10569",
+  "bid_date_raw": "2/9/2025",
+  "summary_bidders": [
+    "Kodiak Pacific Construction",
+    "Knife River Corporation - Northwest",
+    "Brix Paving N orthwest, Inc.",
+    "Kerr Contractors O regon, LLC",
+    "Pacific Excavation, Inc.",
+    "Dirt & Aggregate Interchange",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      790790.0
+    ],
+    [
+      837843.5
+    ],
+    [
+      883359.0
+    ],
+    [
+      924030.0
+    ],
+    [
+      997000.0
+    ],
+    [
+      1036363.0
+    ],
+    [
+      1061560.0
+    ]
+  ],
+  "starred": [
+    [
+      "Knife River Corporation - Northwest",
+      0
+    ],
+    [
+      "Brix Paving N orthwest, Inc.",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "item_count": 22
+    },
+    {
+      "pages": [
+        4,
+        5
+      ],
+      "item_count": 22
+    },
+    {
+      "pages": [
+        6,
+        7
+      ],
+      "item_count": 22
+    }
+  ]
+}

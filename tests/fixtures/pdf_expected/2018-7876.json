@@ -1,0 +1,250 @@
+{
+  "file": "2018-7876 Bid Tab.pdf",
+  "pages": 31,
+  "hand_checked": true,
+  "ean": "2017D013",
+  "solicitation_no": "2018-7876",
+  "bid_date_raw": "1/22/2019",
+  "summary_bidders": [
+    "Tapani, Inc.",
+    "Kodiak Pacific Construction",
+    "Nutter Corporation",
+    "Rotschy, Inc.",
+    "Kerr Contractors Oregon, Inc.",
+    "K&E Excavating, Inc.",
+    "Wildish Standard Paving Co.",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      14665272.25,
+      1057372.5
+    ],
+    [
+      15899152.3,
+      1042580.0
+    ],
+    [
+      16049594.22,
+      933805.0
+    ],
+    [
+      16070543.25,
+      1107281.0
+    ],
+    [
+      16645301.04,
+      885512.96
+    ],
+    [
+      16658241.0,
+      1013615.0
+    ],
+    [
+      18520949.0,
+      1251975.0
+    ],
+    [
+      14546664.5,
+      862700.0
+    ]
+  ],
+  "starred": [
+    [
+      "Wildish Standard Paving Co.",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Corrected Bid Total"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "item_count": 84
+    },
+    {
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "item_count": 84
+    },
+    {
+      "pages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "item_count": 84
+    },
+    {
+      "pages": [
+        26,
+        27
+      ],
+      "item_count": 17
+    },
+    {
+      "pages": [
+        28,
+        29
+      ],
+      "item_count": 17
+    },
+    {
+      "pages": [
+        30,
+        31
+      ],
+      "item_count": 17
+    }
+  ],
+  "hand_check_note": "Summary, footnote, bidder groups, schedule pages, and last-page totals compared with rendered pages 1, 2, 9, 10, 18, 26, 27, 28, 30, 31 on 2026-10-07.",
+  "location_raw": "PORTLAND INTERNATIONAL AIRPORT",
+  "project_name_raw": "TAXIWAY K REHABILITATION",
+  "bidder_groups": [
+    [
+      "K&E Excavating, Inc.",
+      "Kerr Contractors Oregon, Inc.",
+      "Kodiak Pacific Construction"
+    ],
+    [
+      "Nutter Corporation",
+      "Rotschy, Inc.",
+      "Tapani, Inc."
+    ],
+    [
+      "Wildish Standard Paving Co.",
+      "Engineer's Estimate"
+    ]
+  ],
+  "schedules": [
+    {
+      "label": "Base Bid (Basis of Award)",
+      "kind": "base",
+      "item_count": 84
+    },
+    {
+      "label": "Additive Alternate A",
+      "kind": "alternate",
+      "item_count": 17
+    }
+  ],
+  "rollups": [
+    "Base Bid and Additive Alternate A"
+  ],
+  "spot_rows": [
+    {
+      "schedule": "Base Bid (Basis of Award)",
+      "item_no": "0001",
+      "bidder": "K&E Excavating, Inc.",
+      "description": "Mobilization, Cleanup, and Demobilization (Section 012200)",
+      "spec_ref_raw": "Section 012200",
+      "spec_ref_type": "PORT",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 1595000.0,
+      "total_price": 1595000.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Base Bid (Basis of Award)",
+      "item_no": "0009",
+      "bidder": "Kodiak Pacific Construction",
+      "description": "Construction Survey (Item GP-50)",
+      "spec_ref_raw": "Item GP-50",
+      "spec_ref_type": "FAA",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 140000.0,
+      "total_price": 140000.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Base Bid (Basis of Award)",
+      "item_no": "0012",
+      "bidder": "Kerr Contractors Oregon, Inc.",
+      "description": "PCC Pavement Removal - 16-Inch Depth (Item P-101)",
+      "spec_ref_raw": "Item P-101",
+      "spec_ref_type": "FAA",
+      "quantity": 9400.0,
+      "unit": "SY",
+      "unit_price": 18.0,
+      "total_price": 169200.0,
+      "page_no": 2
+    },
+    {
+      "schedule": "Additive Alternate A",
+      "item_no": "0016",
+      "bidder": "Wildish Standard Paving Co.",
+      "description": "Modifications to Existing Pump Station A and Deicing Valve Vault (Section 312300)",
+      "spec_ref_raw": "Section 312300",
+      "spec_ref_type": "PORT",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_price": 60000.0,
+      "total_price": 60000.0,
+      "page_no": 31
+    },
+    {
+      "schedule": "Additive Alternate A",
+      "item_no": "0017",
+      "bidder": "Engineer's Estimate",
+      "description": "3-Inch Diameter Brass Marker (Section 260553)",
+      "spec_ref_raw": "Section 260553",
+      "spec_ref_type": "PORT",
+      "quantity": 18.0,
+      "unit": "Each",
+      "unit_price": 125.0,
+      "total_price": 2250.0,
+      "page_no": 31
+    }
+  ],
+  "detail_totals": [
+    {
+      "label": "Additive Alternate A",
+      "bidder": "Wildish Standard Paving Co.",
+      "amount": 1251975.0,
+      "page_no": 31
+    },
+    {
+      "label": "Additive Alternate A",
+      "bidder": "Engineer's Estimate",
+      "amount": 862700.0,
+      "page_no": 31
+    },
+    {
+      "label": "Base Bid and Additive Alternate A",
+      "bidder": "Wildish Standard Paving Co.",
+      "amount": 19772924.0,
+      "page_no": 31
+    },
+    {
+      "label": "Base Bid and Additive Alternate A",
+      "bidder": "Engineer's Estimate",
+      "amount": 15409364.5,
+      "page_no": 31
+    }
+  ]
+}

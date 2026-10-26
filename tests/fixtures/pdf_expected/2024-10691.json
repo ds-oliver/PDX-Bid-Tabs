@@ -1,0 +1,57 @@
+{
+  "file": "2024-10691 Bid Tab.pdf",
+  "pages": 5,
+  "hand_checked": false,
+  "ean": "2024D045",
+  "solicitation_no": "2024-10691",
+  "bid_date_raw": "3/19/2025",
+  "summary_bidders": [
+    "C.R. Contracting, LLC",
+    "Roger Langeliers Construction Co.",
+    "Pullman SST, Inc.",
+    "Acme Concrete P aving, Inc.",
+    "Engineer's Estimate"
+  ],
+  "summary_totals": [
+    [
+      681107.1
+    ],
+    [
+      697331.8
+    ],
+    [
+      945062.7
+    ],
+    [
+      1347131.5
+    ],
+    [
+      991760.0
+    ]
+  ],
+  "starred": [
+    [
+      "Pullman SST, Inc.",
+      0
+    ]
+  ],
+  "footnotes": [
+    "*Non-responsive to the bid submission requirements of this solicitation"
+  ],
+  "segments": [
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "item_count": 13
+    },
+    {
+      "pages": [
+        4,
+        5
+      ],
+      "item_count": 13
+    }
+  ]
+}

@@ -24,6 +24,10 @@ local = [
   "pyarrow==17.0.0",
   "numpy==1.26.4",
 ]
+# PDF source only (not in the production environment; see docs/databricks_test_runbook.md).
+pdf = [
+  "pdfplumber==0.11.4",
+]
 dev = [
   "pytest==8.3.3",
   "ruff==0.7.4",
