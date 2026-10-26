@@ -1,0 +1,8 @@
+item_description_standardized,catalog_division,catalog_cost_code,catalog_cost_code_desc,spec_type,row_count,project_count,avg_unit_price,min_unit_price,max_unit_price,avg_total_price
+Asphalt Pavement 4 Inch,32 Exterior Improvements,P-401,Asphalt Pavement,FAA,1,1,24.0,24.0,24.0,28800.0
+Crushed Aggregate Base Course,56 Miscellaneous FAA,P-209,Crushed Aggregate Base,FAA,2,1,39.88,38.75,41.0,11962.5
+Electrical Conduit 2 Inch,26 Electrical,ABC-1,Conduit,<null>,2,1,12.0,11.0,13.0,6000.0
+Light Fixture Type A,26 Electrical,260000,Lighting,PORT,2,1,925.0,900.0,950.0,11100.0
+Mobilization,01 General Requirements,017113,Mobilization,PORT,15,7,8612.0,100.0,52000.0,8612.0
+Traffic Control,99 Uncategorized / Not Listed,024113,Traffic Control,PORT,5,3,1246.0,100.0,5000.0,1786.0
+Work Zone Traffic Control,01 General Requirements,<null>,<null>,UNK,2,1,1450.0,1400.0,1500.0,1450.0

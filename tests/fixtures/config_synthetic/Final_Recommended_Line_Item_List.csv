@@ -1,0 +1,9 @@
+item_description_raw,item_description_normalized,catalog_cost_code_original,catalog_cost_code,spec_type,catalog_division,catalog_cost_code_desc
+mobilization,Mobilization,01 71 13,017113,PORT,01 General Requirements,Mobilization
+"Asphalt Pavement, 4"" Thick",Asphalt Pavement 4 Inch,P-401,p-401,faa,32 Exterior Improvements,Asphalt Pavement
+Crushed Aggregate Base Course,Crushed Aggregate Base Course,P-209,  P-209 ,FAA,56 Miscell`aneous FAA,Crushed Aggregate Base
+Traffic Control,Traffic Control,24113,24113,Port,,Traffic Control
+"Electrical Conduit 2""",Electrical Conduit 2 Inch,ABC-1,ABC-1,,26 Electrical,Conduit
+WORKZONE TRAFFICCONTROL,Work Zone Traffic Control,,,UNK,01 General Requirements,
+"Light Fixture, Type A",Light Fixture Type A,260000,260000,PORT,26 Electrical,Lighting
+Item Not In Any Bid Tab,Item Not In Any Bid Tab,999999,999999,PORT,99 Uncategorized / Not Listed,Unused row

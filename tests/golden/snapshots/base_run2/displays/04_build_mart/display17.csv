@@ -1,0 +1,9 @@
+source_file,ean,project_name,status,rows_now,rows_prior,awarded_now,unmapped_now
+SYN_A Bid Tab.xlsx,2099D001,SYNTHETIC TAXIWAY REHAB,✅ unchanged,12,12,ACME PAVING INC,2
+SYN_B.xlsx,2099D002,SYNTHETIC APRON LIGHTING,"❌ REMOVED — was in prior run, not in this run",<null>,8,<null>,<null>
+SYN_C.xlsx,2099D003,SYNTHETIC HANGAR ACCESS ROAD,🆕 NEW — first time in pipeline,2,<null>,<null>,1
+SYN_D.xlsx,2099D004,SYNTHETIC CANOPY ALTERNATE,✅ unchanged,6,6,<null>,4
+SYN_E.xlsx,2099D005,SYNTHETIC E ROWS,🔄 CHANGED — rows 4 → 6,6,4,<null>,0
+SYN_F.xlsx,2099D006,SYNTHETIC F BIDDERS,🔄 CHANGED — bidders 3 → 2,6,6,<null>,0
+SYN_G.xlsx,2099D007,SYNTHETIC G AWARD,🔄 AWARDED — INDIA CO → JULIET CO,2,2,JULIET CO,0
+SYN_H.xlsx,2099D008,SYNTHETIC H UNMAPPED,🔄 UNMAPPED 2 → 0,4,4,<null>,0

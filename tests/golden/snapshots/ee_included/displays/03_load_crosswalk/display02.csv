@@ -1,0 +1,5 @@
+spec_type,row_count,distinct_standards,distinct_divisions,distinct_sections,distinct_section_descs
+<null>,1,1,1,1,1
+FAA,2,2,2,2,2
+PORT,4,4,3,4,4
+UNK,1,1,1,0,0

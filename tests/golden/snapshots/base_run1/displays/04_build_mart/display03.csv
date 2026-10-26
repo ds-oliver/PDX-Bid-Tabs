@@ -1,0 +1,2 @@
+total_rows,catalog_mapped_rows,unmapped_rows,unmapped_division_rows,uncategorized_division_rows,unk_spec_type_rows,mapped_pct,distinct_raw,distinct_normalized,distinct_standardized,distinct_divisions,distinct_sections,distinct_section_descs
+42,32,10,10,7,2,76.2,13,12,8,6,7,6

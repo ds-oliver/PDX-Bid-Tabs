@@ -1,0 +1,21 @@
+WARNING: parse warnings for sheet 'Alternate Bid Tab': bidder_pair_count_mismatch
+filename | sheets_parsed | rows_emitted | warnings
+SYN_A Bid Tab.xlsx | 2 | 24 | 
+SYN_C.xlsx | 1 | 4 | 
+SYN_CORRUPT.xlsx | 0 | 0 | error:File is not a zip file
+SYN_D.xlsx | 1 | 6 | 
+SYN_E.xlsx | 1 | 6 | 
+SYN_F.xlsx | 1 | 6 | 
+SYN_G.xlsx | 1 | 2 | 
+SYN_H.xlsx | 1 | 4 | 
+SYN_NOSHEETS.xlsx | 0 | 0 | no_canonical_sheets_found:available=['Summary']
+
+FINAL SUMMARY
+total_files_seen=10
+total_files_processed=9
+total_files_skipped=1
+total_files_errored=1
+total_rows_written=52
+skipped_files=['PDX_2017D013.xlsx']
+errored_files:
+  - SYN_CORRUPT.xlsx: File is not a zip file

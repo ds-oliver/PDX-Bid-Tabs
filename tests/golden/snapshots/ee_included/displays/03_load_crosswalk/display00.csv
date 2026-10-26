@@ -1,0 +1,5 @@
+item_description_raw,catalog_cost_code_original,catalog_cost_code,post_repair_classification,repair_action,spec_type,catalog_division
+"Asphalt Pavement, 4"" Thick",P-401,P-401,FAA,repaired,FAA,32 Exterior Improvements
+Crushed Aggregate Base Course,P-209,P-209,FAA,trimmed,FAA,56 Miscellaneous FAA
+"Electrical Conduit 2""",ABC-1,ABC-1,ANOMALY,,<null>,26 Electrical
+Traffic Control,24113,024113,PORT,repaired,PORT,99 Uncategorized / Not Listed

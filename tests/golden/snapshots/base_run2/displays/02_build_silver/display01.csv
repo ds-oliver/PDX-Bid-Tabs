@@ -1,0 +1,9 @@
+ean,bid_type,tab_type,bid_year,row_count,bidder_count,item_count,suspicious_price_rows
+2099D001,Alternate Bid Tab 1,ALT,2024,6,3,2,0
+2099D001,Base Bid Tab,BASE,2024,12,3,4,1
+2099D003,Base Bid Tab,BASE,2025,4,2,2,0
+2099D004,Alternate Bid Tab,ALT,2025,6,2,3,0
+2099D005,Base Bid Tab,BASE,2025,6,2,3,1
+2099D006,Base Bid Tab,BASE,2025,6,2,3,0
+2099D007,Base Bid Tab,BASE,2025,2,2,1,0
+2099D008,Base Bid Tab,BASE,2025,4,2,2,0
